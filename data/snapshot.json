@@ -1,7 +1,7 @@
 {
   "meta": {
     "schemaVersion": "3.0",
-    "webVersion": "3.10.0",
+    "webVersion": "3.11.0",
     "strategyVersion": "1.1.0",
     "generatedAt": "2026-08-24T07:35:17+00:00",
     "configFingerprint": "a46ba9e47f5bee89",
@@ -156,6 +156,8 @@
     "confirmedTrendBreadth": 0.7647058823529412,
     "confirmedVolScore": 0.7968786718339431,
     "confirmedDDScore": 0.8675167515604917,
+    "confirmedForecastVol": 0.15058754141810698,
+    "confirmedDrawdown": -0.026496649687901663,
     "confirmedEquityTarget": 0.7981147757907645,
     "provisionalEquityTarget": 0.7959360655173829
   },
@@ -189,7 +191,8 @@
         "finalGroupShare": 0.4,
         "floor": 0.4,
         "cap": 0.55,
-        "boundScope": "EQUITY_INTERNAL"
+        "boundScope": "EQUITY_INTERNAL",
+        "boundStatus": "FLOOR"
       },
       "confirmedTarget": 0.31924591031630584,
       "provisionalTarget": 0.3183744262069532
@@ -223,7 +226,8 @@
         "finalGroupShare": 0.4417415548304618,
         "floor": 0.25,
         "cap": 0.45,
-        "boundScope": "EQUITY_INTERNAL"
+        "boundScope": "EQUITY_INTERNAL",
+        "boundStatus": "NONE"
       },
       "confirmedTarget": 0.35256046199097774,
       "provisionalTarget": 0.345048037769747
@@ -257,7 +261,8 @@
         "finalGroupShare": 0.15825844516954568,
         "floor": 0.1,
         "cap": 0.25,
-        "boundScope": "EQUITY_INTERNAL"
+        "boundScope": "EQUITY_INTERNAL",
+        "boundStatus": "NONE"
       },
       "confirmedTarget": 0.12630840348348696,
       "provisionalTarget": 0.13251360154067868
@@ -291,7 +296,8 @@
         "finalGroupShare": 0.27,
         "floor": 0.04,
         "cap": 0.15,
-        "boundScope": "PORTFOLIO"
+        "boundScope": "PORTFOLIO",
+        "boundStatus": "NONE"
       },
       "confirmedTarget": 0.05450901053649359,
       "provisionalTarget": 0.06489233116547223
@@ -325,7 +331,8 @@
         "finalGroupShare": 0.73,
         "floor": 0.08,
         "cap": 0.35,
-        "boundScope": "PORTFOLIO"
+        "boundScope": "PORTFOLIO",
+        "boundStatus": "NONE"
       },
       "confirmedTarget": 0.1473762136727419,
       "provisionalTarget": 0.13917160331714484
@@ -1253,8 +1260,8 @@
       {
         "code": "512890",
         "weight": 0.31924591031630584,
-        "componentVolatility": 0.0015251436701932905,
-        "share": 0.01006542336528703
+        "componentVolatility": 0.0015251436701932911,
+        "share": 0.010065423365287034
       },
       {
         "code": "513100",
@@ -1265,8 +1272,8 @@
       {
         "code": "588000",
         "weight": 0.12630840348348696,
-        "componentVolatility": 0.04991750508296492,
-        "share": 0.3294383550995113
+        "componentVolatility": 0.049917505082964914,
+        "share": 0.32943835509951125
       },
       {
         "code": "518880",
@@ -1277,8 +1284,8 @@
       {
         "code": "511010",
         "weight": 0.1473762136727419,
-        "componentVolatility": 0.0001322347140106543,
-        "share": 0.0008727036056453637
+        "componentVolatility": 0.0001322347140106542,
+        "share": 0.0008727036056453631
       }
     ],
     "correlation": {
@@ -1320,6 +1327,166 @@
     },
     "averagePairCorrelation": 0.09007084558728287,
     "averageEquityCorrelation": -0.06086458572039116,
+    "comparisonWindow": {
+      "windowDays": 120,
+      "portfolioAnnualVolatility": 0.15450317412903508,
+      "averagePairCorrelation": 0.13507803883579214,
+      "averageEquityCorrelation": 0.07671822841069842
+    },
+    "riskAttribution": {
+      "factors": [
+        {
+          "key": "trend",
+          "label": "趋势广度",
+          "weight": 0.45,
+          "score": 0.7647058823529412,
+          "contribution": 0.3441176470588236,
+          "previousScore": 0.5294117647058824,
+          "deltaContribution": 0.1058823529411765,
+          "equityTargetImpact": 0.027000000000000007
+        },
+        {
+          "key": "volatility",
+          "label": "波动评分",
+          "weight": 0.35,
+          "score": 0.7968786718339431,
+          "contribution": 0.27890753514188005,
+          "previousScore": 0.7782625283181307,
+          "deltaContribution": 0.006515650230534347,
+          "equityTargetImpact": 0.0016614908087862585
+        },
+        {
+          "key": "drawdown",
+          "label": "回撤评分",
+          "weight": 0.2,
+          "score": 0.8675167515604917,
+          "contribution": 0.17350335031209835,
+          "previousScore": 0.8949213840621875,
+          "deltaContribution": -0.005480926500339156,
+          "equityTargetImpact": -0.0013976362575864848
+        }
+      ],
+      "confirmedScore": 0.796528532512802,
+      "contributionSum": 0.796528532512802,
+      "scoreDelta": 0.10691707667137162,
+      "equityTargetDelta": 0.02726385455119984,
+      "factorImpliedEquityDelta": 0.027263854551199763,
+      "boundaryAdjustment": 7.632783294297951e-17
+    },
+    "riskBudget": {
+      "forecastVolatility": 0.15058754141810698,
+      "volatilityReference": 0.12,
+      "strategicReferenceDrawdown": -0.026496649687901663,
+      "equityBoundStatus": "NONE",
+      "equityMin": 0.595,
+      "equityMax": 0.85
+    },
+    "trendStability": [
+      {
+        "code": "512890",
+        "trendScore": 0.0,
+        "horizons": [
+          {
+            "days": 63,
+            "return": 0.007531380753138084,
+            "distanceToZero": 0.007531380753138084
+          },
+          {
+            "days": 126,
+            "return": 0.04604691572545616,
+            "distanceToZero": 0.04604691572545616
+          },
+          {
+            "days": 252,
+            "return": -0.0033112582781457123,
+            "distanceToZero": 0.0033112582781457123
+          }
+        ],
+        "closestHorizonDays": 252,
+        "closestDistanceToZero": 0.0033112582781457123,
+        "transitionsInWindow": 12,
+        "transitionWindowDays": 60,
+        "lastTransitionDate": "2026-07-30"
+      },
+      {
+        "code": "513100",
+        "trendScore": 1.0,
+        "horizons": [
+          {
+            "days": 63,
+            "return": 0.07645259938837934,
+            "distanceToZero": 0.07645259938837934
+          },
+          {
+            "days": 126,
+            "return": 0.12640000000000007,
+            "distanceToZero": 0.12640000000000007
+          },
+          {
+            "days": 252,
+            "return": 0.28,
+            "distanceToZero": 0.28
+          }
+        ],
+        "closestHorizonDays": 63,
+        "closestDistanceToZero": 0.07645259938837934,
+        "transitionsInWindow": 0,
+        "transitionWindowDays": 60,
+        "lastTransitionDate": null
+      },
+      {
+        "code": "588000",
+        "trendScore": 1.0,
+        "horizons": [
+          {
+            "days": 63,
+            "return": 0.0971428571428572,
+            "distanceToZero": 0.0971428571428572
+          },
+          {
+            "days": 126,
+            "return": 0.06930693069306915,
+            "distanceToZero": 0.06930693069306915
+          },
+          {
+            "days": 252,
+            "return": 0.6348155156102178,
+            "distanceToZero": 0.6348155156102178
+          }
+        ],
+        "closestHorizonDays": 126,
+        "closestDistanceToZero": 0.06930693069306915,
+        "transitionsInWindow": 0,
+        "transitionWindowDays": 60,
+        "lastTransitionDate": null
+      }
+    ],
+    "relativeStrength": {
+      "leaderCode": "513100",
+      "rawSpread": 0.3134710325991647,
+      "leaderGap": 0.13281683942522143,
+      "ranking": [
+        {
+          "code": "513100",
+          "rank": 1,
+          "raw": 0.42471880376520893,
+          "score": 1.0
+        },
+        {
+          "code": "512890",
+          "rank": 2,
+          "raw": 0.2919019643399875,
+          "score": 0.15260534076171384
+        },
+        {
+          "code": "588000",
+          "rank": 3,
+          "raw": 0.11124777116604424,
+          "score": -1.0
+        }
+      ],
+      "method": "126日收益 ÷ 60日波动率；三只权益ETF横截面最小—最大标准化"
+    },
     "changeSincePreviousConfirmation": {
       "previousDate": "2026-06-30",
       "riskScore": 0.10691707667137162,
@@ -1373,8 +1540,8 @@
       "equityTarget": 0.8271000107310331,
       "targetWeights": {
         "512890": 0.38449516490201985,
-        "513100": 0.33520216052986057,
-        "588000": 0.10740268529915824,
+        "513100": 0.3352021605298605,
+        "588000": 0.10740268529915821,
         "518880": 0.04668299710262106,
         "511010": 0.12621699216634583
       },
@@ -1474,7 +1641,7 @@
       "riskRegime": "YELLOW",
       "equityTarget": 0.7441929197946097,
       "targetWeights": {
-        "512890": 0.4027745487163294,
+        "512890": 0.40277454871632945,
         "513100": 0.26610891331821057,
         "588000": 0.07530945776006234,
         "518880": 0.09976476128010224,
@@ -1612,7 +1779,7 @@
       "targetWeights": {
         "512890": 0.4192687322522495,
         "513100": 0.24119983678643267,
-        "588000": 0.10183821687449757,
+        "588000": 0.10183821687449755,
         "518880": 0.08129107921769217,
         "511010": 0.15640213486912702
       },
@@ -1815,8 +1982,8 @@
       "equityTarget": 0.7744436298422553,
       "targetWeights": {
         "512890": 0.4259439964132405,
-        "513100": 0.23223157547552756,
-        "588000": 0.11626805795349085,
+        "513100": 0.23223157547552753,
+        "588000": 0.11626805795349084,
         "518880": 0.0933803372453063,
         "511010": 0.13217603291243835
       },
@@ -1917,7 +2084,7 @@
       "equityTarget": 0.85,
       "targetWeights": {
         "512890": 0.46622613729125134,
-        "513100": 0.2610457436623725,
+        "513100": 0.26104574366237254,
         "588000": 0.12272811904637854,
         "518880": 0.05850000000000001,
         "511010": 0.09150000000000001
@@ -2086,7 +2253,7 @@
       "riskRegime": "GREEN",
       "equityTarget": 0.8121449607794516,
       "targetWeights": {
-        "512890": 0.4249478369869342,
+        "512890": 0.4249478369869341,
         "513100": 0.3059826277145689,
         "588000": 0.08121449607794518,
         "518880": 0.07326346529601387,
@@ -2256,8 +2423,8 @@
       "riskRegime": "GREEN",
       "equityTarget": 0.8289152756793378,
       "targetWeights": {
-        "512890": 0.3984162904247654,
-        "513100": 0.3476074576866318,
+        "512890": 0.3984162904247655,
+        "513100": 0.34760745768663176,
         "588000": 0.08289152756793378,
         "518880": 0.06672304248505828,
         "511010": 0.10436168183560396
@@ -2461,7 +2628,7 @@
       "equityTarget": 0.7942449283982368,
       "targetWeights": {
         "512890": 0.37827128367690366,
-        "513100": 0.3365491518815105,
+        "513100": 0.3365491518815104,
         "588000": 0.07942449283982368,
         "518880": 0.08024447792468765,
         "511010": 0.12551059367707557
@@ -2494,7 +2661,7 @@
       "riskRegime": "GREEN",
       "equityTarget": 0.8060956958481198,
       "targetWeights": {
-        "512890": 0.4370771563102097,
+        "512890": 0.43707715631020966,
         "513100": 0.23175262299759547,
         "588000": 0.1372659165403145,
         "518880": 0.07562267861923329,
@@ -2732,7 +2899,7 @@
       "riskRegime": "YELLOW",
       "equityTarget": 0.7792950366205281,
       "targetWeights": {
-        "512890": 0.42521544457454025,
+        "512890": 0.4252154445745402,
         "513100": 0.19482375915513203,
         "588000": 0.15925583289085576,
         "518880": 0.09137185483910136,
@@ -2836,7 +3003,7 @@
       "targetWeights": {
         "512890": 0.4547441044803166,
         "513100": 0.2558192783690145,
-        "588000": 0.13854468325250469,
+        "588000": 0.1385446832525047,
         "518880": 0.0516050413931743,
         "511010": 0.09928689250499616
       },
@@ -2937,7 +3104,7 @@
       "equityTarget": 0.8368710267161165,
       "targetWeights": {
         "512890": 0.3347484106864466,
-        "513100": 0.35601295135762934,
+        "513100": 0.3560129513576292,
         "588000": 0.1461096646720373,
         "518880": 0.06362029958071458,
         "511010": 0.09950867370316896
