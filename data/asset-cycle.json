@@ -1,7 +1,8 @@
 {
-  "schemaVersion": "1.2",
-  "algorithmVersion": "weekly-asof-v3",
-  "generatedAt": "2026-08-22T15:19:38.159Z",
+  "schemaVersion": "1.3",
+  "algorithmVersion": "weekly-asof-v4",
+  "stateModelVersion": "self-percentile-v1",
+  "generatedAt": "2026-08-24T07:39:48.806Z",
   "snapshotRule": "观察周后的周一08:00 Asia/Shanghai与供应商可得时间取较晚者；只发布已到可用时点的完整周观测；基金和LOF优先使用前复权序列并逐项披露复权状态",
   "assets": [
     {
@@ -15,6 +16,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.sse.com.cn/market/sseindex/indexlist/s/i000002/",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -1727,6 +1729,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 4094.63,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -1741,6 +1751,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.szse.cn/market/trend/index.html",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -3453,6 +3464,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 3545.58,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -3467,6 +3486,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.hsi.com.hk/eng/indexes/all-indexes/hsi",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W25",
@@ -5203,6 +5223,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 26009.46,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -5217,6 +5245,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W30",
@@ -6913,6 +6942,14 @@
           "providerAvailableAt": "2026-08-14T23:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 7674.37,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T23:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -6927,6 +6964,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000932",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -8639,6 +8677,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 12376.78,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -8653,6 +8699,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000998",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -10365,6 +10412,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 3648.25,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -10379,6 +10434,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000934",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -12091,6 +12147,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 5615.18,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -12105,6 +12169,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000937",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -13817,6 +13882,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 2464.07,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -13831,6 +13904,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://bond.sse.com.cn/market/indexv/indicies/",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -15543,6 +15617,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 309.18,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -15557,6 +15639,7 @@
       "provider": "腾讯财经公开行情接口",
       "sourceUrl": "https://www.csindex.com.cn/#/indices/family/detail?indexCode=000832",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -17269,6 +17352,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 491.33,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -17285,6 +17376,7 @@
       "proxyReason": "以资源上游上市公司代表广义周期股，不覆盖中游制造、运输与资本品等全部周期行业。",
       "knownBasisRisk": "行业覆盖不完整，且会同时受到权益估值与商品价格影响。",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -18997,6 +19089,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 5305.05,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -19013,6 +19113,7 @@
       "proxyReason": "以钢铁产业链上市公司ETF近似黑色商品周期，不等同于螺纹钢、铁矿石等期货或现货价格。",
       "knownBasisRisk": "含股票估值、企业盈利、基金费用和跟踪误差。",
       "adjustmentMethod": "QFQ",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2023-W52",
@@ -20101,6 +20202,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 1.161,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -20117,6 +20226,7 @@
       "proxyReason": "以有色金属上市公司指数近似有色商品景气，不等同于铜、铝等现货或期货价格。",
       "knownBasisRisk": "同时包含权益估值、成本、汇率和公司经营差异。",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -21829,6 +21939,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 11307.67,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -21845,6 +21963,7 @@
       "proxyReason": "以境内黄金ETF复权价格代表贵金属方向，主要暴露黄金，不覆盖白银、铂金等全部贵金属。",
       "knownBasisRisk": "含基金费用、跟踪误差、交易溢折价和黄金品种集中度。",
       "adjustmentMethod": "QFQ",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2023-W52",
@@ -22933,6 +23052,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 9.388,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -22949,6 +23076,7 @@
       "proxyReason": "以农业上市公司指数近似农产品景气，不等同于粮食、油脂、软商品等期货价格。",
       "knownBasisRisk": "含权益估值、企业利润率和细分行业权重差异。",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -24661,6 +24789,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 4965.97,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -24677,6 +24813,7 @@
       "proxyReason": "以能源化工期货ETF价格代表能化方向，比股票行业指数更接近期货组合，但仍不是单一商品现货。",
       "knownBasisRisk": "公开通道未返回复权字段；另含期货展期、基差、管理费、跟踪误差和品种权重差异。",
       "adjustmentMethod": "NONE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -26389,6 +26526,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 1.583,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -26405,6 +26550,7 @@
       "proxyReason": "公开标的是全球美元债基金，仅作为中资美元债环境的宽口径代理，不代表纯中资美元债指数。",
       "knownBasisRisk": "公开通道未返回复权字段；另含非中资发行人、汇率、久期、信用、基金费用和交易溢折价。",
       "adjustmentMethod": "NONE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -28117,6 +28263,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 0.929,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -28133,6 +28287,7 @@
       "proxyReason": "以短融ETF复权价格代表高等级短期信用债，不等同于完整短融市场收益率曲线。",
       "knownBasisRisk": "含基金费用、跟踪误差、久期和信用结构差异。",
       "adjustmentMethod": "QFQ",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2023-W52",
@@ -29221,6 +29376,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 113.835,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -29237,6 +29400,7 @@
       "proxyReason": "以10年地方政府债ETF复权价格代表地方债，不覆盖全部地区与期限。",
       "knownBasisRisk": "含久期集中、基金费用、跟踪误差与流动性差异。",
       "adjustmentMethod": "QFQ",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2023-W52",
@@ -30325,6 +30489,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 121.236,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -30341,6 +30513,7 @@
       "proxyReason": "以10年国债ETF复权价格代表国债及政策金融债板块；实际主要是国债久期暴露。",
       "knownBasisRisk": "不覆盖政策金融债全谱系，并含基金费用、跟踪误差、流动性和久期偏差。",
       "adjustmentMethod": "QFQ",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2023-W52",
@@ -31429,6 +31602,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 135.765,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -31445,6 +31626,7 @@
       "proxyReason": "以房地产上市公司指数近似房地产周期，不等同于住宅价格、租金或直接物业回报。",
       "knownBasisRisk": "含权益估值、融资条件、开发商经营与地区结构差异。",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -33157,6 +33339,14 @@
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 2064.77,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -33173,6 +33363,7 @@
       "proxyReason": "以酒类上市公司指数近似酒类资产景气，不等同于名酒批价、库存或拍卖成交价。",
       "knownBasisRisk": "含股票估值、企业盈利和品牌权重集中。",
       "adjustmentMethod": "NOT_APPLICABLE",
+      "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
           "weekId": "2022-W23",
@@ -34884,6 +35075,14 @@
           "sourceObservationDate": "2026-08-14",
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W34",
+          "value": 3800.85,
+          "sourceObservationDate": "2026-08-21",
+          "providerAvailableAt": "2026-08-21T09:00:00Z",
+          "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
           "status": "OK"
         }
       ]
