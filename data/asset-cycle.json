@@ -2,7 +2,7 @@
   "schemaVersion": "1.3",
   "algorithmVersion": "weekly-asof-v4",
   "stateModelVersion": "self-percentile-v1",
-  "generatedAt": "2026-08-24T11:49:03.628Z",
+  "generatedAt": "2026-08-25T10:18:30.966Z",
   "snapshotRule": "观察周后的周一08:00 Asia/Shanghai与供应商可得时间取较晚者；只发布已到可用时点的完整周观测；基金和LOF优先使用前复权序列并逐项披露复权状态",
   "assets": [
     {
@@ -19108,14 +19108,6 @@
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
-          "weekId": "2023-W52",
-          "value": 1.072,
-          "sourceObservationDate": "2023-12-29",
-          "providerAvailableAt": "2023-12-29T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-01T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
           "weekId": "2024-W01",
           "value": 1.085,
           "sourceObservationDate": "2024-01-05",
@@ -21957,14 +21949,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2023-W52",
-          "value": 4.648,
-          "sourceObservationDate": "2023-12-29",
-          "providerAvailableAt": "2023-12-29T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-01T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W01",
           "value": 4.664,
@@ -30491,14 +30475,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2023-W52",
-          "value": 120.369,
-          "sourceObservationDate": "2023-12-29",
-          "providerAvailableAt": "2023-12-29T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-01T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W01",
           "value": 120.884,
