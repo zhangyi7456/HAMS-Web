@@ -1,9 +1,9 @@
 {
   "meta": {
     "schemaVersion": "4.0",
-    "webVersion": "4.0.0",
+    "webVersion": "4.1.0",
     "strategyVersion": "1.2.0",
-    "generatedAt": "2026-08-25T10:08:56+00:00",
+    "generatedAt": "2026-08-25T11:28:54+00:00",
     "configFingerprint": "54d1871822fa4cf5",
     "priceConvention": "前复权日收盘价（QFQ adjusted close）",
     "valuationPriceConvention": "未复权日收盘价（raw close），仅用于家庭资产估值",
@@ -31,9 +31,9 @@
   },
   "provenance": {
     "510300": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:49+00:00",
-      "durationMs": 14911,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-08-25T11:28:38+00:00",
+      "durationMs": 4427,
       "firstDate": "2012-05-28",
       "lastDate": "2026-08-25",
       "observations": "3463",
@@ -41,9 +41,9 @@
       "calendarFilledDates": []
     },
     "512890": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:42+00:00",
-      "durationMs": 8117,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-08-25T11:28:37+00:00",
+      "durationMs": 3476,
       "firstDate": "2019-01-18",
       "lastDate": "2026-08-25",
       "observations": "1842",
@@ -53,9 +53,9 @@
       ]
     },
     "513500": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:46+00:00",
-      "durationMs": 12068,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-08-25T11:28:37+00:00",
+      "durationMs": 3984,
       "firstDate": "2014-01-15",
       "lastDate": "2026-08-25",
       "observations": "3065",
@@ -65,9 +65,9 @@
       ]
     },
     "513100": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:48+00:00",
-      "durationMs": 14636,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-08-25T11:28:38+00:00",
+      "durationMs": 4205,
       "firstDate": "2013-05-15",
       "lastDate": "2026-08-25",
       "observations": "3229",
@@ -77,9 +77,9 @@
       ]
     },
     "588000": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:42+00:00",
-      "durationMs": 8446,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-08-25T11:28:37+00:00",
+      "durationMs": 3344,
       "firstDate": "2020-11-16",
       "lastDate": "2026-08-25",
       "observations": "1402",
@@ -88,8 +88,8 @@
     },
     "518880": {
       "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:53+00:00",
-      "durationMs": 11104,
+      "fetchedAt": "2026-08-25T11:28:50+00:00",
+      "durationMs": 13719,
       "firstDate": "2013-07-29",
       "lastDate": "2026-08-25",
       "observations": "3180",
@@ -98,8 +98,8 @@
     },
     "511010": {
       "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-08-25T10:08:56+00:00",
-      "durationMs": 14287,
+      "fetchedAt": "2026-08-25T11:28:54+00:00",
+      "durationMs": 16876,
       "firstDate": "2013-03-25",
       "lastDate": "2026-08-25",
       "observations": "3262",
@@ -196,13 +196,13 @@
     "cashFlowFirst": true
   },
   "risk": {
-    "score": 0.8222140944127367,
+    "score": 0.8211196418444318,
     "regime": "GREEN",
     "trendBreadth": 0.7,
-    "forecastVol": 0.13069053915519754,
-    "volScore": 0.9181995940616456,
-    "drawdown": -0.014155763508839181,
-    "ddScore": 0.9292211824558041,
+    "forecastVol": 0.13052729039683875,
+    "volScore": 0.9193479741682149,
+    "drawdown": -0.01565214911444357,
+    "ddScore": 0.9217392544277822,
     "confirmedScore": 0.7900396787357216,
     "confirmedTrendBreadth": 0.75,
     "confirmedVolScore": 0.8174267239819645,
@@ -210,7 +210,7 @@
     "confirmedForecastVol": 0.14680214932959257,
     "confirmedDrawdown": -0.03355967465796594,
     "confirmedEquityTarget": 0.7496095228965732,
-    "provisionalEquityTarget": 0.7573313826590569
+    "provisionalEquityTarget": 0.7570687140426636
   },
   "assets": [
     {
@@ -220,19 +220,19 @@
       "role": "中国大盘宽基核心",
       "allocationGroup": "CORE",
       "qdii": false,
-      "latestPrice": 4.62,
-      "strategyAdjustedClose": 4.62,
+      "latestPrice": 4.616,
+      "strategyAdjustedClose": 4.616,
       "valuationClose": 4.616,
       "valuationPriceDate": "2026-08-25",
       "lotSize": 100,
       "strategicWeight": 0.2,
-      "return63": -0.06326034063260344,
-      "return126": -0.010918432883750828,
-      "return252": 0.1326305467026232,
+      "return63": -0.06407137064071389,
+      "return126": -0.01177478056090786,
+      "return252": 0.13164991419465544,
       "trendScore": 0.0,
-      "vol20": 0.16602058756522667,
-      "vol60": 0.2389287924014836,
-      "forecastVol": 0.20976551046698083,
+      "vol20": 0.1661517569393265,
+      "vol60": 0.23894700677076836,
+      "forecastVol": 0.2098289068381916,
       "relativeStrength": -1.0,
       "volPenalty": 0.0,
       "confirmedSignals": {
@@ -254,7 +254,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.1492065981385683,
-      "provisionalTarget": 0.16482109939953796
+      "provisionalTarget": 0.16550072278220224
     },
     {
       "code": "512890",
@@ -263,20 +263,20 @@
       "role": "权益核心与低波动底仓",
       "allocationGroup": "CORE",
       "qdii": false,
-      "latestPrice": 1.19,
-      "strategyAdjustedClose": 1.19,
+      "latestPrice": 1.185,
+      "strategyAdjustedClose": 1.185,
       "valuationClose": 1.185,
       "valuationPriceDate": "2026-08-25",
       "lotSize": 100,
       "strategicWeight": 0.2,
-      "return63": 0.034782608695652195,
-      "return126": 0.019708654670094194,
-      "return252": -0.008333333333333304,
+      "return63": 0.0304347826086957,
+      "return126": 0.015424164524421524,
+      "return252": -0.012499999999999956,
       "trendScore": 0.0,
-      "vol20": 0.13761535672382222,
-      "vol60": 0.16087470847770885,
-      "forecastVol": 0.1515709677761542,
-      "relativeStrength": -0.5633434856490864,
+      "vol20": 0.13833655635640144,
+      "vol60": 0.16103134276108574,
+      "forecastVol": 0.15195342819921204,
+      "relativeStrength": -0.6210694133728151,
       "volPenalty": 0.0,
       "confirmedSignals": {
         "trendScore": 0.0,
@@ -297,7 +297,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.1881176871648876,
-      "provisionalTarget": 0.17597802279704083
+      "provisionalTarget": 0.17518019853699818
     },
     {
       "code": "513500",
@@ -306,21 +306,21 @@
       "role": "美国宽基核心",
       "allocationGroup": "CORE",
       "qdii": true,
-      "latestPrice": 2.7,
-      "strategyAdjustedClose": 2.7,
+      "latestPrice": 2.695,
+      "strategyAdjustedClose": 2.695,
       "valuationClose": 2.695,
       "valuationPriceDate": "2026-08-25",
       "lotSize": 100,
       "strategicWeight": 0.2,
-      "return63": 0.06257378984651729,
-      "return126": 0.1335012594458438,
-      "return252": 0.23175182481751833,
+      "return63": 0.06060606060606055,
+      "return126": 0.1314021830394625,
+      "return252": 0.2294708029197079,
       "trendScore": 1.0,
-      "vol20": 0.218982506114959,
-      "vol60": 0.18784570636926046,
-      "forecastVol": 0.20030042626753988,
-      "relativeStrength": 0.9635610632168521,
-      "volPenalty": 0.16575731406120586,
+      "vol20": 0.21837844698687614,
+      "vol60": 0.18746150562058342,
+      "forecastVol": 0.19982828216710052,
+      "relativeStrength": 0.9597656215689181,
+      "volPenalty": 0.16492421344821429,
       "confirmedSignals": {
         "trendScore": 1.0,
         "relativeStrength": 0.07502622939907022,
@@ -340,7 +340,7 @@
         "boundStatus": "CAP"
       },
       "confirmedTarget": 0.224882856868972,
-      "provisionalTarget": 0.2271994147977171
+      "provisionalTarget": 0.2271206142127991
     },
     {
       "code": "513100",
@@ -349,19 +349,19 @@
       "role": "海外成长与科技卫星仓",
       "allocationGroup": "SATELLITE",
       "qdii": true,
-      "latestPrice": 2.2,
-      "strategyAdjustedClose": 2.2,
+      "latestPrice": 2.195,
+      "strategyAdjustedClose": 2.195,
       "valuationClose": 2.195,
       "valuationPriceDate": "2026-08-25",
       "lotSize": 100,
       "strategicWeight": 0.12,
-      "return63": -0.010346378767431275,
-      "return126": 0.20218579234972678,
-      "return252": 0.28805620608899307,
+      "return63": -0.012595591542959972,
+      "return126": 0.1994535519125682,
+      "return252": 0.28512880562060894,
       "trendScore": 0.6,
-      "vol20": 0.2681453575269862,
-      "vol60": 0.2789796214516897,
-      "forecastVol": 0.2746459158818083,
+      "vol20": 0.26684424591392947,
+      "vol60": 0.27842720306759167,
+      "forecastVol": 0.27379402020612675,
       "relativeStrength": 1.0,
       "volPenalty": 0.0,
       "confirmedSignals": {
@@ -383,7 +383,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.12225431918194705,
-      "provisionalTarget": 0.12351002104726576
+      "provisionalTarget": 0.12333323696059585
     },
     {
       "code": "588000",
@@ -392,20 +392,20 @@
       "role": "境内科技卫星仓",
       "allocationGroup": "SATELLITE",
       "qdii": false,
-      "latestPrice": 1.69,
-      "strategyAdjustedClose": 1.69,
+      "latestPrice": 1.693,
+      "strategyAdjustedClose": 1.693,
       "valuationClose": 1.693,
       "valuationPriceDate": "2026-08-25",
       "lotSize": 100,
       "strategicWeight": 0.08,
-      "return63": -0.11564625850340138,
-      "return126": 0.09173126614987082,
-      "return252": 0.5321849501359928,
+      "return63": -0.11407639979068551,
+      "return126": 0.09366925064599485,
+      "return252": 0.5349048050770626,
       "trendScore": 0.6,
-      "vol20": 0.5176285390010344,
-      "vol60": 0.6125240373325976,
-      "forecastVol": 0.5745658379999723,
-      "relativeStrength": -0.49260353255332556,
+      "vol20": 0.5177408522171013,
+      "vol60": 0.6125261416440406,
+      "forecastVol": 0.5746120258732649,
+      "relativeStrength": -0.4718098150676391,
       "volPenalty": 0.0,
       "confirmedSignals": {
         "trendScore": 1.0,
@@ -426,7 +426,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.06514806154219657,
-      "provisionalTarget": 0.06582282461749812
+      "provisionalTarget": 0.06593394155007086
     },
     {
       "code": "518880",
@@ -469,7 +469,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.07261323835999375,
-      "provisionalTarget": 0.08202199266123877
+      "provisionalTarget": 0.08211077465357969
     },
     {
       "code": "511010",
@@ -512,7 +512,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.177777238743433,
-      "provisionalTarget": 0.16064662467970436
+      "provisionalTarget": 0.16082051130375669
     }
   ],
   "history": [
@@ -1424,9 +1424,9 @@
     },
     {
       "date": "2026-08-25",
-      "riskScore": 0.8222140944127367,
-      "targetEquity": 0.7573313826590569,
-      "drawdown": -0.014155763508839181
+      "riskScore": 0.8211196418444318,
+      "targetEquity": 0.7570687140426636,
+      "drawdown": -0.01565214911444357
     }
   ],
   "diagnostics": {
@@ -4073,12 +4073,12 @@
         "key": "A_FIXED_ANNUAL",
         "label": "A 固定配置·年度再平衡",
         "metrics": {
-          "cagr": 0.09980433555898771,
-          "annualVolatility": 0.11613317573392035,
+          "cagr": 0.09945514715398796,
+          "annualVolatility": 0.11612570913701512,
           "maxDrawdown": -0.1298682605891196,
-          "sharpe": 0.9086304728746353,
-          "sortino": 1.2664699135459785,
-          "calmar": 0.7685044452451021,
+          "sharpe": 0.905842009899154,
+          "sortino": 1.2625021143652413,
+          "calmar": 0.7658156558256108,
           "worstMonth": -0.06336410372303125,
           "worstYear": -0.10962860206400038,
           "rolling3YCagrMin": 0.06274825872565337,
@@ -5014,12 +5014,12 @@
         "key": "B_FIXED_5_25",
         "label": "B 固定配置·5/25阈值",
         "metrics": {
-          "cagr": 0.10710848834716202,
-          "annualVolatility": 0.11632697893483274,
+          "cagr": 0.10675927481708603,
+          "annualVolatility": 0.1163202386523947,
           "maxDrawdown": -0.12978613495116043,
-          "sharpe": 0.9663689486067968,
-          "sortino": 1.3597395677658695,
-          "calmar": 0.8252691120470442,
+          "sharpe": 0.963601956010996,
+          "sortino": 1.3557676806079615,
+          "calmar": 0.8225784276360523,
           "worstMonth": -0.0628458421386292,
           "worstYear": -0.10810129565345328,
           "rolling3YCagrMin": 0.06368653465334129,
@@ -5955,12 +5955,12 @@
         "key": "C_MA200",
         "label": "C 200日均线过滤",
         "metrics": {
-          "cagr": 0.07078587933222424,
-          "annualVolatility": 0.0834036947255751,
+          "cagr": 0.07048628466927864,
+          "annualVolatility": 0.08339343395922828,
           "maxDrawdown": -0.08433804165405112,
-          "sharpe": 0.8930307751052259,
-          "sortino": 1.2267654069637093,
-          "calmar": 0.839311394288512,
+          "sharpe": 0.8896466132720101,
+          "sortino": 1.221966198348196,
+          "calmar": 0.8357590867287216,
           "worstMonth": -0.05833559924217402,
           "worstYear": -0.03659236691523937,
           "rolling3YCagrMin": 0.04430657262791149,
@@ -6896,12 +6896,12 @@
         "key": "D_FRAIS_V1",
         "label": "D FRAIS V1.1",
         "metrics": {
-          "cagr": 0.1032432184244454,
-          "annualVolatility": 0.11060517881997728,
+          "cagr": 0.1029222200547868,
+          "annualVolatility": 0.11059892606476565,
           "maxDrawdown": -0.11625063201530106,
-          "sharpe": 0.9777172882992402,
-          "sortino": 1.3455791178064844,
-          "calmar": 0.8881088785036144,
+          "sharpe": 0.9750342286585555,
+          "sortino": 1.3418107089631872,
+          "calmar": 0.8853476172175996,
           "worstMonth": -0.06092454513237955,
           "worstYear": -0.09757669827789472,
           "rolling3YCagrMin": 0.06488317209556471,
@@ -7852,21 +7852,21 @@
         {
           "costBp": 5,
           "cases": 27,
-          "medianCagr": 0.11762794503170637,
+          "medianCagr": 0.11728216211294273,
           "medianMaxDrawdown": -0.09641641912116938,
           "medianTurnover": 0.09554935615006206
         },
         {
           "costBp": 10,
           "cases": 27,
-          "medianCagr": 0.11751889772666191,
+          "medianCagr": 0.11717314854604477,
           "medianMaxDrawdown": -0.09644691916048764,
           "medianTurnover": 0.09554935615006206
         },
         {
           "costBp": 20,
           "cases": 27,
-          "medianCagr": 0.11730082736199798,
+          "medianCagr": 0.11695514565017273,
           "medianMaxDrawdown": -0.09650791730156771,
           "medianTurnover": 0.09554935615006206
         }
