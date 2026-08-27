@@ -1,6 +1,6 @@
 {
   "schemaVersion": "4.0",
-  "generatedAt": "2026-08-26T11:43:50+00:00",
+  "generatedAt": "2026-08-27T12:58:00+00:00",
   "files": [
     "snapshot.json",
     "health.json",
@@ -19,16 +19,16 @@
       "data": {
         "path": "asset-cycle.json",
         "schemaVersion": "1.3",
-        "generatedAt": "2026-08-26T11:55:32.306Z",
-        "bytes": 1192378,
-        "sha256": "7266cf57172b9453993ec05e6202f73a81ef0719c121fd0685a9a0e99dbf0110"
+        "generatedAt": "2026-08-27T17:06:02.281Z",
+        "bytes": 1192106,
+        "sha256": "706f66b3df7d5f013ada31ce94cfd2777e752704a3d52a05b3587b45636509ff"
       },
       "health": {
         "path": "asset-cycle-health.json",
         "schemaVersion": "1.0",
-        "generatedAt": "2026-08-26T11:55:32.306Z",
+        "generatedAt": "2026-08-27T17:06:02.281Z",
         "bytes": 458,
-        "sha256": "db107d999fab32839d9b6390f518f7dd4ba776a5f81b537bf766a9b894be4b43"
+        "sha256": "995e44899088fd8f3e67d50bd6e83e4214b85f3eaa71baf7f33ee41756cbfcaa"
       }
     }
   }
