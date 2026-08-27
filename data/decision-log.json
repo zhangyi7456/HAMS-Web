@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "entries": [
     {
       "date": "2021-11-30",
@@ -39,7 +39,17 @@
       "drawdown": -0.025299391236314528,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2021-11-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2021-11-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2021-11-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "GENESIS",
+      "recordHash": "ea933e2d20692916beed025784f5cabf46aaf71734a7c827ab790c50ec7b8207"
     },
     {
       "date": "2021-12-31",
@@ -79,7 +89,17 @@
       "drawdown": -0.004229697330187632,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2021-12-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2021-12-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2021-12-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "ea933e2d20692916beed025784f5cabf46aaf71734a7c827ab790c50ec7b8207",
+      "recordHash": "af0aa187b781df5b98c3db7fb7befce4f7ea35c8774f3f15f3fca63bbefb2e02"
     },
     {
       "date": "2022-01-28",
@@ -119,7 +139,17 @@
       "drawdown": -0.06825014549966169,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-01-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-01-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-01-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "af0aa187b781df5b98c3db7fb7befce4f7ea35c8774f3f15f3fca63bbefb2e02",
+      "recordHash": "70167e00060536ef6cf0970bbdd26e281dcee4195cf2acb9639b608e5c2a2e4f"
     },
     {
       "date": "2022-02-28",
@@ -159,7 +189,17 @@
       "drawdown": -0.06246370797129086,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-02-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-02-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-02-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "70167e00060536ef6cf0970bbdd26e281dcee4195cf2acb9639b608e5c2a2e4f",
+      "recordHash": "c50a765491af73f216d0e04f97fee28319d7332402194c5270b8e739a08da355"
     },
     {
       "date": "2022-03-31",
@@ -199,7 +239,17 @@
       "drawdown": -0.05504385264383027,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-03-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-03-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-03-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "c50a765491af73f216d0e04f97fee28319d7332402194c5270b8e739a08da355",
+      "recordHash": "1906b91cb63ad921cf44b1dcbe039bb0bb37fa96c320e3c5788aa19d7cc4bcd3"
     },
     {
       "date": "2022-04-29",
@@ -239,7 +289,17 @@
       "drawdown": -0.08960348607369328,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-04-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-04-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-04-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "1906b91cb63ad921cf44b1dcbe039bb0bb37fa96c320e3c5788aa19d7cc4bcd3",
+      "recordHash": "88a9f8973266d97f26785645126a13711aa96eb7f74930f075740d2b4c46a8ec"
     },
     {
       "date": "2022-05-31",
@@ -279,7 +339,17 @@
       "drawdown": -0.08625620667427558,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-05-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-05-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-05-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "88a9f8973266d97f26785645126a13711aa96eb7f74930f075740d2b4c46a8ec",
+      "recordHash": "9474b99fe96874580c13c772c40f7bf6b25f8f29329229cb4c1a08ca606fe117"
     },
     {
       "date": "2022-06-30",
@@ -319,7 +389,17 @@
       "drawdown": -0.08589966309841268,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-06-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-06-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-06-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "9474b99fe96874580c13c772c40f7bf6b25f8f29329229cb4c1a08ca606fe117",
+      "recordHash": "b945c59fa878e5e26c3aa919fdb1a4b5480fd88e09515b868edda728705a651e"
     },
     {
       "date": "2022-07-29",
@@ -359,7 +439,17 @@
       "drawdown": -0.07931599193407057,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-07-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-07-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-07-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "b945c59fa878e5e26c3aa919fdb1a4b5480fd88e09515b868edda728705a651e",
+      "recordHash": "ceeb6f5e311d32b985a99a4633b186f7f8bb85fedd0fded6e34b8285cdd1356f"
     },
     {
       "date": "2022-08-31",
@@ -399,7 +489,17 @@
       "drawdown": -0.08023224043060428,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-08-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-08-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-08-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "ceeb6f5e311d32b985a99a4633b186f7f8bb85fedd0fded6e34b8285cdd1356f",
+      "recordHash": "c940747927abe69c440a663c53ce628f0339eedd8555ac896ce11f9849961d6b"
     },
     {
       "date": "2022-09-30",
@@ -439,7 +539,17 @@
       "drawdown": -0.12183159036106272,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-09-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-09-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-09-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "c940747927abe69c440a663c53ce628f0339eedd8555ac896ce11f9849961d6b",
+      "recordHash": "7f8469dc54578b3d4a8a3d575aed29bbaa0a4238b20f1e24604877465784cddb"
     },
     {
       "date": "2022-10-31",
@@ -479,7 +589,17 @@
       "drawdown": -0.12437805318236106,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-10-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-10-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-10-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "7f8469dc54578b3d4a8a3d575aed29bbaa0a4238b20f1e24604877465784cddb",
+      "recordHash": "ec7698f890cbdfed7ceb562e8c12798381e2d51d800b255bdbe7b5eec4d09023"
     },
     {
       "date": "2022-11-30",
@@ -519,7 +639,17 @@
       "drawdown": -0.08374932153976844,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-11-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-11-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-11-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "ec7698f890cbdfed7ceb562e8c12798381e2d51d800b255bdbe7b5eec4d09023",
+      "recordHash": "1be42b3d6f23fb0608498cfb6788ad1deb19ab33aa2f9f3fe482217ad25c6d29"
     },
     {
       "date": "2022-12-30",
@@ -559,7 +689,17 @@
       "drawdown": -0.11028915707885822,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2022-12-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2022-12-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2022-12-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "1be42b3d6f23fb0608498cfb6788ad1deb19ab33aa2f9f3fe482217ad25c6d29",
+      "recordHash": "dd82d34a9726520af708dabe9da172ec0bf21e05e6a70fea7f9cd5b03eae07a7"
     },
     {
       "date": "2023-01-31",
@@ -599,7 +739,17 @@
       "drawdown": -0.06916466469784688,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-01-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-01-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-01-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "dd82d34a9726520af708dabe9da172ec0bf21e05e6a70fea7f9cd5b03eae07a7",
+      "recordHash": "ded8e0906016456ec8bc6a93e11e8d13b9d704e692b31923fc49dfa39868495a"
     },
     {
       "date": "2023-02-28",
@@ -639,7 +789,17 @@
       "drawdown": -0.02841290618148551,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-02-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-02-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-02-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "ded8e0906016456ec8bc6a93e11e8d13b9d704e692b31923fc49dfa39868495a",
+      "recordHash": "43870a12b6a116f6d4872e6fb933a4ee46a4c113cbea3a51cebe5bdd0c73f770"
     },
     {
       "date": "2023-03-31",
@@ -679,7 +839,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-03-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-03-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-03-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "43870a12b6a116f6d4872e6fb933a4ee46a4c113cbea3a51cebe5bdd0c73f770",
+      "recordHash": "10af465c7eac079bd432aa8a0722a032d8dcc6be7b00d7ad9e45817576816924"
     },
     {
       "date": "2023-04-28",
@@ -719,7 +889,17 @@
       "drawdown": -0.00320650376119358,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-04-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-04-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-04-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "10af465c7eac079bd432aa8a0722a032d8dcc6be7b00d7ad9e45817576816924",
+      "recordHash": "f419945885033b3775ff558a70546c6cc2e383e6866bac38af6fa74413b048db"
     },
     {
       "date": "2023-05-31",
@@ -759,7 +939,17 @@
       "drawdown": -0.010216009078980903,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-05-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-05-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-05-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "f419945885033b3775ff558a70546c6cc2e383e6866bac38af6fa74413b048db",
+      "recordHash": "5d95ba6a439349a3d79fae660af650b815028f92736ea28d99f239e6972f8331"
     },
     {
       "date": "2023-06-30",
@@ -799,7 +989,17 @@
       "drawdown": -0.010505742483595926,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-06-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-06-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-06-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "5d95ba6a439349a3d79fae660af650b815028f92736ea28d99f239e6972f8331",
+      "recordHash": "7c5290a7841521f5651e1e9d2fa5a10046f4740c06e2dfe388aa0592ab8e9b77"
     },
     {
       "date": "2023-07-31",
@@ -839,7 +1039,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-07-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-07-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-07-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "7c5290a7841521f5651e1e9d2fa5a10046f4740c06e2dfe388aa0592ab8e9b77",
+      "recordHash": "d95d4833b79a22c130f85d6a95e5fd5328814533dff6c83d950a6303e342a08f"
     },
     {
       "date": "2023-08-31",
@@ -879,7 +1089,17 @@
       "drawdown": -0.020729722114056437,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-08-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-08-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-08-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "d95d4833b79a22c130f85d6a95e5fd5328814533dff6c83d950a6303e342a08f",
+      "recordHash": "d2273aa78edc70ca77e82974cc63acf1cd54ef4f5b2b9a4dce26c2d052d58c58"
     },
     {
       "date": "2023-09-28",
@@ -919,7 +1139,17 @@
       "drawdown": -0.042946979521983675,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-09-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-09-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-09-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "d2273aa78edc70ca77e82974cc63acf1cd54ef4f5b2b9a4dce26c2d052d58c58",
+      "recordHash": "62e4e6b0abdf8d947efc11a27d355ee01e1f1ff358d7bf1a106cc2694c8e6098"
     },
     {
       "date": "2023-10-31",
@@ -959,7 +1189,17 @@
       "drawdown": -0.061616267943946035,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-10-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-10-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-10-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "62e4e6b0abdf8d947efc11a27d355ee01e1f1ff358d7bf1a106cc2694c8e6098",
+      "recordHash": "e7981262f7e9ec48b27c7b531486d78a08b100d8a41d88975fb5746750f97609"
     },
     {
       "date": "2023-11-30",
@@ -999,7 +1239,17 @@
       "drawdown": -0.04445735287771413,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-11-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-11-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-11-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "e7981262f7e9ec48b27c7b531486d78a08b100d8a41d88975fb5746750f97609",
+      "recordHash": "56b47cd8283ef24b381b982cc2d1704a720737f2878e2f574f96287034b93007"
     },
     {
       "date": "2023-12-29",
@@ -1039,7 +1289,17 @@
       "drawdown": -0.03336312877508951,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2023-12-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2023-12-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2023-12-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "56b47cd8283ef24b381b982cc2d1704a720737f2878e2f574f96287034b93007",
+      "recordHash": "1065a35b14594682da5b2c6436101a80179460fbd188f5bf39c76dceb6eea463"
     },
     {
       "date": "2024-01-31",
@@ -1079,7 +1339,17 @@
       "drawdown": -0.03933788567949459,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-01-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-01-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-01-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "1065a35b14594682da5b2c6436101a80179460fbd188f5bf39c76dceb6eea463",
+      "recordHash": "7073f0c437f6fa908acd911dd168c4af667bccf72fcac36153d82b13588d6513"
     },
     {
       "date": "2024-02-29",
@@ -1119,7 +1389,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-02-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-02-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-02-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "7073f0c437f6fa908acd911dd168c4af667bccf72fcac36153d82b13588d6513",
+      "recordHash": "a2d8b071082cf13549adcc1005d2ef7400ad0ed8d10bdc9fecc625a5370452bf"
     },
     {
       "date": "2024-03-29",
@@ -1159,7 +1439,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-03-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-03-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-03-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "a2d8b071082cf13549adcc1005d2ef7400ad0ed8d10bdc9fecc625a5370452bf",
+      "recordHash": "be6103c55a8ad422a00ad27b0d042dc5e2561c92dc8471967058c628082cd833"
     },
     {
       "date": "2024-04-30",
@@ -1199,7 +1489,17 @@
       "drawdown": -0.0063475934661865185,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-04-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-04-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-04-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "be6103c55a8ad422a00ad27b0d042dc5e2561c92dc8471967058c628082cd833",
+      "recordHash": "c36fbb85387944be462778d1f466e7922474c2c48d142880d5d1f1c4031be8b3"
     },
     {
       "date": "2024-05-31",
@@ -1239,7 +1539,17 @@
       "drawdown": -0.014332238298484401,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-05-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-05-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-05-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "c36fbb85387944be462778d1f466e7922474c2c48d142880d5d1f1c4031be8b3",
+      "recordHash": "6771b18b940aa2d4fded5501092344854ef3b213fad1078bdd1e1a43d78e1b18"
     },
     {
       "date": "2024-06-28",
@@ -1279,7 +1589,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-06-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-06-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-06-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "6771b18b940aa2d4fded5501092344854ef3b213fad1078bdd1e1a43d78e1b18",
+      "recordHash": "731531b9d2f46bb7ad43ac448df7a02570d5b677a7d1f309a274857bbdbc899e"
     },
     {
       "date": "2024-07-31",
@@ -1319,7 +1639,17 @@
       "drawdown": -0.023976976531055127,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-07-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-07-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-07-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "731531b9d2f46bb7ad43ac448df7a02570d5b677a7d1f309a274857bbdbc899e",
+      "recordHash": "ffd2659bb4d64c57c4f5cda206787acd8bcaf723b2ba15c41031d4c208b48eb9"
     },
     {
       "date": "2024-08-30",
@@ -1359,7 +1689,17 @@
       "drawdown": -0.0357119429508983,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-08-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-08-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-08-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "ffd2659bb4d64c57c4f5cda206787acd8bcaf723b2ba15c41031d4c208b48eb9",
+      "recordHash": "17bbe072ca99e9758a8b046a57adb0c43a2f1629276e16c1fba751f988a6040e"
     },
     {
       "date": "2024-09-30",
@@ -1399,7 +1739,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-09-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-09-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-09-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "17bbe072ca99e9758a8b046a57adb0c43a2f1629276e16c1fba751f988a6040e",
+      "recordHash": "5d837f0adec66f1be4601dfc20748623eafea78b18d22306654f9ddcbf911c93"
     },
     {
       "date": "2024-10-31",
@@ -1439,7 +1789,17 @@
       "drawdown": -0.021697131002967773,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-10-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-10-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-10-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "5d837f0adec66f1be4601dfc20748623eafea78b18d22306654f9ddcbf911c93",
+      "recordHash": "e9acb15d380d4422ea405f28134452d8d903df78606d725f8fba16ab5f96bf6e"
     },
     {
       "date": "2024-11-29",
@@ -1479,7 +1839,17 @@
       "drawdown": -0.006779748483835557,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-11-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-11-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-11-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "e9acb15d380d4422ea405f28134452d8d903df78606d725f8fba16ab5f96bf6e",
+      "recordHash": "680af2cc6982c23cb14d8d3b4c0e2630252a06c55698d37f787538dda1811a5c"
     },
     {
       "date": "2024-12-31",
@@ -1519,7 +1889,17 @@
       "drawdown": -0.011811161943245718,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2024-12-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2024-12-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2024-12-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "680af2cc6982c23cb14d8d3b4c0e2630252a06c55698d37f787538dda1811a5c",
+      "recordHash": "021a871bd216f9ff1b0fbc96fbdf701431f4e3ad5f2cd5bbead58439b17749d9"
     },
     {
       "date": "2025-01-27",
@@ -1559,7 +1939,17 @@
       "drawdown": -0.01933766807594428,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-01-27",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-01-27",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-01-27T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "021a871bd216f9ff1b0fbc96fbdf701431f4e3ad5f2cd5bbead58439b17749d9",
+      "recordHash": "66964790378a32784267306975da91ef4077e60530351298d32838cd0b068204"
     },
     {
       "date": "2025-02-28",
@@ -1599,7 +1989,17 @@
       "drawdown": -0.02884335442155206,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-02-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-02-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-02-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "66964790378a32784267306975da91ef4077e60530351298d32838cd0b068204",
+      "recordHash": "55abd4206b734d4109a2294b7966e6a13bc139c51abe064a41732e0e91f67f8b"
     },
     {
       "date": "2025-03-31",
@@ -1639,7 +2039,17 @@
       "drawdown": -0.042277831517764985,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-03-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-03-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-03-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "55abd4206b734d4109a2294b7966e6a13bc139c51abe064a41732e0e91f67f8b",
+      "recordHash": "8bba1a75d28d7660e48ecae84f54e742e29dcb49d39e92ed283c7b35c06b39a9"
     },
     {
       "date": "2025-04-30",
@@ -1679,7 +2089,17 @@
       "drawdown": -0.03999508156028708,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-04-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-04-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-04-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "8bba1a75d28d7660e48ecae84f54e742e29dcb49d39e92ed283c7b35c06b39a9",
+      "recordHash": "f8a7efc04565735e4afff5c5e1164aeee24ad729cc332e7f0fd2a6d9a8df05e7"
     },
     {
       "date": "2025-05-30",
@@ -1719,7 +2139,17 @@
       "drawdown": -0.010651668095030487,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-05-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-05-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-05-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "f8a7efc04565735e4afff5c5e1164aeee24ad729cc332e7f0fd2a6d9a8df05e7",
+      "recordHash": "11532875e3656939d19ed63ad2e9de8c3cf514ea69aea82fc12ab4b2b8dd2f38"
     },
     {
       "date": "2025-06-30",
@@ -1759,7 +2189,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-06-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-06-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-06-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "11532875e3656939d19ed63ad2e9de8c3cf514ea69aea82fc12ab4b2b8dd2f38",
+      "recordHash": "eb479b9f17659d05af5d54db24282c3d4c76a6592674e8f4e306d4217dea8dd7"
     },
     {
       "date": "2025-07-31",
@@ -1799,7 +2239,17 @@
       "drawdown": -0.0038472979900694426,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-07-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-07-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-07-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "eb479b9f17659d05af5d54db24282c3d4c76a6592674e8f4e306d4217dea8dd7",
+      "recordHash": "18f4a3dc20bcc7e3d4e656f62f0663e4cb3bf2f9efbf4b320bbd96e556cc8ab5"
     },
     {
       "date": "2025-08-29",
@@ -1839,7 +2289,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-08-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-08-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-08-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "18f4a3dc20bcc7e3d4e656f62f0663e4cb3bf2f9efbf4b320bbd96e556cc8ab5",
+      "recordHash": "a736accc0a23bdcc735e1552b6a51b5a93593a698ae38cdbd1d8577913f44fc8"
     },
     {
       "date": "2025-09-30",
@@ -1879,7 +2339,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-09-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-09-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-09-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "a736accc0a23bdcc735e1552b6a51b5a93593a698ae38cdbd1d8577913f44fc8",
+      "recordHash": "33f6dadc03ac6fb0f5bb8cc97e91eb5f496179dc519a5800cbaec7f35f706ca9"
     },
     {
       "date": "2025-10-31",
@@ -1919,7 +2389,17 @@
       "drawdown": -0.009562344384971944,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-10-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-10-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-10-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "33f6dadc03ac6fb0f5bb8cc97e91eb5f496179dc519a5800cbaec7f35f706ca9",
+      "recordHash": "d0ab997271254d7c71e38ac585a1e3d1416f65013e24ad14ce96d12ac4f1c000"
     },
     {
       "date": "2025-11-28",
@@ -1959,7 +2439,17 @@
       "drawdown": -0.021872450804214183,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-11-28",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-11-28",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-11-28T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "d0ab997271254d7c71e38ac585a1e3d1416f65013e24ad14ce96d12ac4f1c000",
+      "recordHash": "84d6bd852892b4dbd02794b13f7f285c89f0d0e887b965ac899c5807fd385d9f"
     },
     {
       "date": "2025-12-31",
@@ -1999,7 +2489,17 @@
       "drawdown": -0.02265634112881798,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2025-12-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2025-12-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2025-12-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "84d6bd852892b4dbd02794b13f7f285c89f0d0e887b965ac899c5807fd385d9f",
+      "recordHash": "5ce27e4e23bbd4ed712b93d4b4485d3653019b8304f0cbb98c65c98744759409"
     },
     {
       "date": "2026-01-30",
@@ -2039,7 +2539,17 @@
       "drawdown": -0.007368342812107853,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-01-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-01-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-01-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "5ce27e4e23bbd4ed712b93d4b4485d3653019b8304f0cbb98c65c98744759409",
+      "recordHash": "448dbed61e4e37e7941a1ae0e5964255648329ffaa805ff9dc8e89153e80f8a8"
     },
     {
       "date": "2026-02-27",
@@ -2079,7 +2589,17 @@
       "drawdown": -0.014973173179770316,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-02-27",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-02-27",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-02-27T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "448dbed61e4e37e7941a1ae0e5964255648329ffaa805ff9dc8e89153e80f8a8",
+      "recordHash": "be6bb8118cdebd346d9a54f866001aa3618f631773baefefdfea234d248759b3"
     },
     {
       "date": "2026-03-31",
@@ -2119,7 +2639,17 @@
       "drawdown": -0.06961022700160324,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-03-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-03-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-03-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "be6bb8118cdebd346d9a54f866001aa3618f631773baefefdfea234d248759b3",
+      "recordHash": "7985ac72d4309b262529b461b1ad68dbf37a65d9d27634e73a6f2888a02f459d"
     },
     {
       "date": "2026-04-30",
@@ -2159,7 +2689,17 @@
       "drawdown": 0.0,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-04-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-04-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-04-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "7985ac72d4309b262529b461b1ad68dbf37a65d9d27634e73a6f2888a02f459d",
+      "recordHash": "4a45adfc605204b12ab36fcc9ac4495ff5bfada46e2fd343d4220033c719cabb"
     },
     {
       "date": "2026-05-29",
@@ -2199,7 +2739,17 @@
       "drawdown": -0.0015046396234589254,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-05-29",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-05-29",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-05-29T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "4a45adfc605204b12ab36fcc9ac4495ff5bfada46e2fd343d4220033c719cabb",
+      "recordHash": "a7d026045685c3bcc57310cb0b9707b7d0e8ab3c8842828c69496678152e937d"
     },
     {
       "date": "2026-06-30",
@@ -2239,7 +2789,17 @@
       "drawdown": -0.018758136317435725,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-06-30",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-06-30",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-06-30T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "a7d026045685c3bcc57310cb0b9707b7d0e8ab3c8842828c69496678152e937d",
+      "recordHash": "a105faa2ddc09b8f02f8cd0ed7f03e931beee2532ebf3ffb45ba30f39419fcb3"
     },
     {
       "date": "2026-07-31",
@@ -2279,7 +2839,71 @@
       "drawdown": -0.03355967465796594,
       "premium": null,
       "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
-      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额"
+      "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
+      "decisionId": "LEGACY-1.2.0-2026-07-31",
+      "decisionType": "LEGACY_UNVERIFIED",
+      "signalDate": "2026-07-31",
+      "effectiveDate": "历史记录未保存",
+      "recordedAt": "2026-07-31T15:00:00+08:00",
+      "configVersion": null,
+      "inputFingerprint": null,
+      "inputRange": null,
+      "previousHash": "a105faa2ddc09b8f02f8cd0ed7f03e931beee2532ebf3ffb45ba30f39419fcb3",
+      "recordHash": "359aab776b0937c2bbebbb10e9a414fb11230bafdb72cdb1e1e74d303c70cfe6"
+    },
+    {
+      "decisionId": "ASSET-V5-MIGRATION-1.2.0-3-2026-07-31",
+      "decisionType": "LIVE_CONFIRMED",
+      "date": "2026-07-31",
+      "signalDate": "2026-07-31",
+      "effectiveDate": "下一交易日待定",
+      "recordedAt": "2026-08-27T17:24:10+00:00",
+      "strategyVersion": "1.2.0",
+      "configVersion": 3,
+      "configFingerprint": "54d1871822fa4cf5",
+      "inputFingerprint": "e26d3b01c83a5ae7ae490b5d3d5104946c72cf23ff25022121fb2491f77231d7",
+      "inputRange": {
+        "firstDate": "2020-11-16",
+        "lastDate": "2026-07-31",
+        "observations": 1385
+      },
+      "effectiveRule": "收盘后确认，最早下一交易日人工使用",
+      "riskScore": 0.7900396787357216,
+      "riskRegime": "GREEN",
+      "equityTarget": 0.7496095228965732,
+      "targetWeights": {
+        "510300": 0.1492065981385683,
+        "512890": 0.18811768716488758,
+        "513500": 0.224882856868972,
+        "513100": 0.12225431918194705,
+        "588000": 0.06514806154219657,
+        "518880": 0.07261323835999375,
+        "511010": 0.177777238743433
+      },
+      "trendScores": {
+        "510300": 0.0,
+        "512890": 0.0,
+        "513500": 1.0,
+        "513100": 1.0,
+        "588000": 1.0,
+        "518880": 0.0,
+        "511010": 1.0
+      },
+      "relativeStrength": {
+        "510300": -1.0,
+        "512890": 0.4615444925155612,
+        "513500": 0.07502622939907022,
+        "513100": 1.0,
+        "588000": -0.2708494244427988
+      },
+      "volScore": 0.8174267239819645,
+      "ddScore": 0.8322016267101703,
+      "drawdown": -0.03355967465796594,
+      "premium": null,
+      "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
+      "reason": "V5审计迁移确认：保留旧版未验证历史，并以当前配置独立确认最近月末信号",
+      "previousHash": "359aab776b0937c2bbebbb10e9a414fb11230bafdb72cdb1e1e74d303c70cfe6",
+      "recordHash": "2006fbaa181c6e20fa9b9b8722488a6ee83fde5ad89b7da66dc8d506c6f634ed"
     }
   ]
 }
