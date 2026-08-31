@@ -1,9 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "buildId": "20260831-050959Z-d94ea6b9bcdc-54d1871822fa",
   "generatedAt": "2026-08-31T05:09:59+00:00",
   "status": "OK",
   "blocking": false,
   "summary": "7只ETF的复权价格、日期完整性与时效性检查均通过",
-  "issues": []
+  "issues": [],
+  "buildId": "20260831-050959Z-d94ea6b9bcdc-54d1871822fa",
+  "lastCompleteBuildId": "20260831-050959Z-d94ea6b9bcdc-54d1871822fa"
 }
