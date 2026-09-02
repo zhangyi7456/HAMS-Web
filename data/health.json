@@ -1,16 +1,9 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-02T08:51:56+00:00",
-  "status": "DATA ERROR",
-  "blocking": true,
-  "summary": "决策审计链校验失败，已暂停新的人工投资建议",
-  "issues": [
-    {
-      "type": "DECISION_INTEGRITY",
-      "label": "决策链错误",
-      "severity": "ERROR",
-      "code": "PORTFOLIO",
-      "details": "Previously published decision differs at 2026-07-31; explicit correction required"
-    }
-  ]
+  "buildId": "20260902-090711Z-f644f9780f8e-54d1871822fa",
+  "generatedAt": "2026-09-02T09:07:11+00:00",
+  "status": "OK",
+  "blocking": false,
+  "summary": "7只ETF的复权价格、日期完整性与时效性检查均通过",
+  "issues": []
 }
