@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.1",
-  "buildId": "20260902-063229Z-5d4fa89624b9-54d1871822fa",
+  "buildId": "20260902-173245Z-28b39269381a-54d1871822fa",
   "entries": [
     {
       "date": "2021-11-30",
@@ -3071,6 +3071,80 @@
       "reason": "月末风险评分确定权益总量，趋势/强弱/波动惩罚确定内部份额",
       "previousHash": "7fee8c90641dbb46aa8767085316f74d9b8d8cae1ef26fd89d5a7a54319d4f60",
       "recordHash": "6cb47b37510e46cb3a624d3700519e53890eb11d9fefbb1118198886861b58c6"
+    },
+    {
+      "decisionId": "ASSET-V5.1-AUDIT-1.2.0-3-2026-08-31-f644f9780f8e",
+      "decisionType": "CORRECTION",
+      "date": "2026-08-31",
+      "signalDate": "2026-08-31",
+      "effectiveDate": "2026-09-01",
+      "recordedAt": "2026-08-31T15:00:00+08:00",
+      "strategyVersion": "1.2.0",
+      "productVersion": "5.2.0",
+      "buildId": "20260902-090711Z-f644f9780f8e-54d1871822fa",
+      "sourceCommit": "f644f9780f8ec9675ea21449fcf0c6ea175cf375",
+      "configVersion": 3,
+      "configFingerprint": "54d1871822fa4cf5",
+      "inputFingerprint": "38c0c00cf8c177b5b02d9b043d7370f1a55f22997738efb1597018d6e779d609",
+      "providerFingerprint": "2f96fcd2597cd05bbb774921f245cc748def5070bcff1bfa066caf747b943703",
+      "inputRange": {
+        "firstDate": "2020-11-16",
+        "lastDate": "2026-08-31",
+        "observations": 1406
+      },
+      "effectiveRule": "收盘后确认，最早下一交易日人工使用",
+      "riskScore": 0.8457600886325978,
+      "riskRegime": "GREEN",
+      "trendBreadth": 0.7,
+      "equityTarget": 0.7629824212718236,
+      "targetWeights": {
+        "510300": 0.1673825680804866,
+        "512890": 0.1759595214918347,
+        "513500": 0.22889472638154712,
+        "513100": 0.12385394187182683,
+        "588000": 0.06689166344612756,
+        "518880": 0.06873509783117115,
+        "511010": 0.16828248089700526
+      },
+      "trendScores": {
+        "510300": 0.0,
+        "512890": 0.0,
+        "513500": 1.0,
+        "513100": 0.6,
+        "588000": 0.6,
+        "518880": 0.0,
+        "511010": 1.0
+      },
+      "relativeStrength": {
+        "510300": -1.0,
+        "512890": -0.6668536149354529,
+        "513500": 0.7975664464731911,
+        "513100": 1.0,
+        "588000": -0.4037568527137455
+      },
+      "volScore": 0.9676672929739952,
+      "ddScore": 0.9603826804584966,
+      "drawdown": -0.007923463908300676,
+      "healthAudit": {
+        "status": "PASS",
+        "blocking": false
+      },
+      "timingAudit": {
+        "status": "PASS",
+        "signalAtClose": true,
+        "positionShiftTradingDays": 1,
+        "monthEndOnly": true
+      },
+      "modelAudit": {
+        "status": "PASS",
+        "strategyFrozen": true
+      },
+      "premium": null,
+      "tradeSuggestion": "需结合本机持仓、输入时效与溢价门控另行计算",
+      "reason": "V5.1发布审计更正：保留预发布记录，并追加正式源码提交与构建来源",
+      "previousHash": "6cb47b37510e46cb3a624d3700519e53890eb11d9fefbb1118198886861b58c6",
+      "recordHash": "b32ce43af6179bd33a614121107660738e6ba265429f0a8dda87c73677339e73",
+      "correctsDecisionId": "FRAIS-1.2.0-2026-08-31"
     }
   ]
 }

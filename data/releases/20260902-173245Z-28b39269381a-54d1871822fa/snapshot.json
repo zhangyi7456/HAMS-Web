@@ -1,11 +1,11 @@
 {
   "meta": {
     "schemaVersion": "4.0",
-    "webVersion": "5.2.0",
-    "buildId": "20260902-090711Z-f644f9780f8e-54d1871822fa",
-    "sourceCommit": "f644f9780f8ec9675ea21449fcf0c6ea175cf375",
+    "webVersion": "5.3.0",
+    "buildId": "20260902-173245Z-28b39269381a-54d1871822fa",
+    "sourceCommit": "28b39269381a6b11c4a99e762a7d622b2f2d3847",
     "strategyVersion": "1.2.0",
-    "generatedAt": "2026-09-02T09:07:11+00:00",
+    "generatedAt": "2026-09-02T17:32:45+00:00",
     "configFingerprint": "54d1871822fa4cf5",
     "priceConvention": "前复权日收盘价（QFQ adjusted close）",
     "valuationPriceConvention": "未复权日收盘价（raw close），仅用于家庭资产估值",
@@ -34,8 +34,8 @@
   "provenance": {
     "510300": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-02T09:06:59+00:00",
-      "durationMs": 4229,
+      "fetchedAt": "2026-09-02T17:32:43+00:00",
+      "durationMs": 4376,
       "firstDate": "2012-05-28",
       "lastDate": "2026-09-02",
       "observations": "3469",
@@ -44,8 +44,8 @@
     },
     "512890": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-02T09:06:58+00:00",
-      "durationMs": 3345,
+      "fetchedAt": "2026-09-02T17:32:42+00:00",
+      "durationMs": 3299,
       "firstDate": "2019-01-18",
       "lastDate": "2026-09-02",
       "observations": "1848",
@@ -56,8 +56,8 @@
     },
     "513500": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-02T09:06:59+00:00",
-      "durationMs": 3944,
+      "fetchedAt": "2026-09-02T17:32:42+00:00",
+      "durationMs": 3899,
       "firstDate": "2014-01-15",
       "lastDate": "2026-09-02",
       "observations": "3071",
@@ -68,8 +68,8 @@
     },
     "513100": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-02T09:06:59+00:00",
-      "durationMs": 3902,
+      "fetchedAt": "2026-09-02T17:32:42+00:00",
+      "durationMs": 3856,
       "firstDate": "2013-05-15",
       "lastDate": "2026-09-02",
       "observations": "3235",
@@ -80,8 +80,8 @@
     },
     "588000": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-02T09:06:58+00:00",
-      "durationMs": 3298,
+      "fetchedAt": "2026-09-02T17:32:42+00:00",
+      "durationMs": 3345,
       "firstDate": "2020-11-16",
       "lastDate": "2026-09-02",
       "observations": "1408",
@@ -89,9 +89,9 @@
       "calendarFilledDates": []
     },
     "518880": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-09-02T09:07:11+00:00",
-      "durationMs": 13190,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-09-02T17:32:45+00:00",
+      "durationMs": 3575,
       "firstDate": "2013-07-29",
       "lastDate": "2026-09-02",
       "observations": "3186",
@@ -100,8 +100,8 @@
     },
     "511010": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-02T09:07:02+00:00",
-      "durationMs": 3805,
+      "fetchedAt": "2026-09-02T17:32:45+00:00",
+      "durationMs": 3719,
       "firstDate": "2013-03-25",
       "lastDate": "2026-09-02",
       "observations": "3268",
@@ -199,13 +199,13 @@
     "cashFlowFirst": true
   },
   "risk": {
-    "score": 0.9007498661994984,
+    "score": 0.9007651254104554,
     "regime": "GREEN",
     "trendBreadth": 0.825,
-    "forecastVol": 0.11800951312934513,
+    "forecastVol": 0.11799295649932617,
     "volScore": 1.0,
-    "drawdown": -0.02050013380050153,
-    "ddScore": 0.8974993309974924,
+    "drawdown": -0.02048487458954462,
+    "ddScore": 0.8975756270522769,
     "confirmedScore": 0.8457600886325978,
     "confirmedTrendBreadth": 0.7,
     "confirmedVolScore": 0.9676672929739952,
@@ -213,7 +213,7 @@
     "confirmedForecastVol": 0.12400956493134757,
     "confirmedDrawdown": -0.007923463908300676,
     "confirmedEquityTarget": 0.7629824212718236,
-    "provisionalEquityTarget": 0.7761799678878797
+    "provisionalEquityTarget": 0.7761836300985094
   },
   "assets": [
     {
@@ -257,7 +257,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.1673825680804866,
-      "provisionalTarget": 0.14657656318406656
+      "provisionalTarget": 0.14657725476884068
     },
     {
       "code": "512890",
@@ -300,7 +300,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.1759595214918347,
-      "provisionalTarget": 0.20270442236547717
+      "provisionalTarget": 0.20270537877548644
     },
     {
       "code": "513500",
@@ -343,7 +343,7 @@
         "boundStatus": "CAP"
       },
       "confirmedTarget": 0.22889472638154712,
-      "provisionalTarget": 0.23285399036636395
+      "provisionalTarget": 0.23285508902955288
     },
     {
       "code": "513100",
@@ -386,7 +386,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.12385394187182683,
-      "provisionalTarget": 0.12551399445047692
+      "provisionalTarget": 0.12551458665679976
     },
     {
       "code": "588000",
@@ -429,7 +429,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.06689166344612756,
-      "provisionalTarget": 0.06853099752149272
+      "provisionalTarget": 0.0685313208678273
     },
     {
       "code": "518880",
@@ -438,19 +438,19 @@
       "role": "危机与货币风险缓冲",
       "allocationGroup": "DEFENSE",
       "qdii": false,
-      "latestPrice": 8.9,
-      "strategyAdjustedClose": 8.9,
+      "latestPrice": 8.902,
+      "strategyAdjustedClose": 8.902,
       "valuationClose": 8.902,
       "valuationPriceDate": "2026-09-02",
       "lotSize": 100,
       "strategicWeight": 0.07,
-      "return63": -0.041980624327233484,
-      "return126": -0.2095212718713918,
-      "return252": 0.2041672304153701,
+      "return63": -0.04176533907427338,
+      "return126": -0.20934363620214946,
+      "return252": 0.2044378297929914,
       "trendScore": 0.0,
-      "vol20": 0.245635774046724,
-      "vol60": 0.23658274370127322,
-      "forecastVol": 0.24020395583945353,
+      "vol20": 0.2453347336075467,
+      "vol60": 0.236488814435696,
+      "forecastVol": 0.2400271821044363,
       "relativeStrength": null,
       "volPenalty": null,
       "confirmedSignals": {
@@ -472,7 +472,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.06873509783117115,
-      "provisionalTarget": 0.06490780931251489
+      "provisionalTarget": 0.06490674727143225
     },
     {
       "code": "511010",
@@ -515,7 +515,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.16828248089700526,
-      "provisionalTarget": 0.15891222279960543
+      "provisionalTarget": 0.1589096226300583
     }
   ],
   "history": [
@@ -1427,9 +1427,9 @@
     },
     {
       "date": "2026-09-02",
-      "riskScore": 0.9007498661994984,
-      "targetEquity": 0.7761799678878797,
-      "drawdown": -0.02050013380050153
+      "riskScore": 0.9007651254104554,
+      "targetEquity": 0.7761836300985094,
+      "drawdown": -0.02048487458954462
     }
   ],
   "diagnostics": {
@@ -4940,12 +4940,12 @@
         "key": "A_FIXED_ANNUAL",
         "label": "A 固定配置·年度再平衡",
         "metrics": {
-          "cagr": 0.09782723037019436,
-          "annualVolatility": 0.11607920088252514,
+          "cagr": 0.09783049601914473,
+          "annualVolatility": 0.11607880688477322,
           "maxDrawdown": -0.1298682605891196,
-          "sharpe": 0.8924122587956369,
-          "sortino": 1.2423069822462371,
-          "calmar": 0.7532805161663215,
+          "sharpe": 0.892441481607749,
+          "sortino": 1.2423513871513368,
+          "calmar": 0.7533056620251753,
           "worstMonth": -0.06336410372303125,
           "worstYear": -0.10962860206400038,
           "rolling3YCagrMin": 0.06274825872565337,
@@ -5881,7 +5881,7 @@
           },
           {
             "date": "2026-09-02",
-            "value": 1.5591227867192532
+            "value": 1.55914485592535
           }
         ]
       },
@@ -5889,12 +5889,12 @@
         "key": "B_FIXED_5_25",
         "label": "B 固定配置·5/25阈值",
         "metrics": {
-          "cagr": 0.10492134926724539,
-          "annualVolatility": 0.11627122051990528,
+          "cagr": 0.10492513232150458,
+          "annualVolatility": 0.1162707664154638,
           "maxDrawdown": -0.12978613495116043,
-          "sharpe": 0.9485916891531265,
-          "sortino": 1.3329303442408418,
-          "calmar": 0.8084172420014522,
+          "sharpe": 0.9486254926400016,
+          "sortino": 1.332982610018696,
+          "calmar": 0.8084463903712731,
           "worstMonth": -0.0628458421386292,
           "worstYear": -0.10810129565345328,
           "rolling3YCagrMin": 0.06368653465334129,
@@ -6830,7 +6830,7 @@
           },
           {
             "date": "2026-09-02",
-            "value": 1.6076501196561694
+            "value": 1.6076763119782238
           }
         ]
       },
@@ -6838,12 +6838,12 @@
         "key": "C_MA200",
         "label": "C 200日均线过滤",
         "metrics": {
-          "cagr": 0.06886343652679838,
-          "annualVolatility": 0.08339314795457935,
+          "cagr": 0.06886692623718771,
+          "annualVolatility": 0.08339266681120275,
           "maxDrawdown": -0.08433804165405112,
-          "sharpe": 0.8702729902376518,
-          "sortino": 1.1934985090494967,
-          "calmar": 0.8165169024112688,
+          "sharpe": 0.8703181482262381,
+          "sortino": 1.19356618195569,
+          "calmar": 0.8165582800662498,
           "worstMonth": -0.05833559924217402,
           "worstYear": -0.03659236691523937,
           "rolling3YCagrMin": 0.04430657262791149,
@@ -7779,7 +7779,7 @@
           },
           {
             "date": "2026-09-02",
-            "value": 1.3728588233491235
+            "value": 1.372880152038756
           }
         ]
       },
@@ -7787,12 +7787,12 @@
         "key": "D_FRAIS_V1",
         "label": "D FRAIS 1.2",
         "metrics": {
-          "cagr": 0.10077926229610168,
-          "annualVolatility": 0.110573917363865,
+          "cagr": 0.10078374833072701,
+          "annualVolatility": 0.11057335172919658,
           "maxDrawdown": -0.11625063201530106,
-          "sharpe": 0.9564350146435642,
-          "sortino": 1.3144813884808948,
-          "calmar": 0.8669136722012573,
+          "sharpe": 0.9564775813693447,
+          "sortino": 1.3145455013772231,
+          "calmar": 0.8669522615366231,
           "worstMonth": -0.06092454513237955,
           "worstYear": -0.09757669827789472,
           "rolling3YCagrMin": 0.06488317209556471,
@@ -8728,7 +8728,7 @@
           },
           {
             "date": "2026-09-02",
-            "value": 1.5791735221645602
+            "value": 1.5792041463134179
           }
         ]
       }
@@ -8751,21 +8751,21 @@
         {
           "costBp": 5,
           "cases": 27,
-          "medianCagr": 0.11505196504955006,
+          "medianCagr": 0.11505642076480638,
           "medianMaxDrawdown": -0.09641641912116938,
           "medianTurnover": 0.09509381690739192
         },
         {
           "costBp": 10,
           "cases": 27,
-          "medianCagr": 0.11494593164172073,
+          "medianCagr": 0.11495038693327064,
           "medianMaxDrawdown": -0.09644691916048764,
           "medianTurnover": 0.09509381690739192
         },
         {
           "costBp": 20,
           "cases": 27,
-          "medianCagr": 0.11473388727115963,
+          "medianCagr": 0.11473834171538622,
           "medianMaxDrawdown": -0.09650791730156771,
           "medianTurnover": 0.09509381690739192
         }
