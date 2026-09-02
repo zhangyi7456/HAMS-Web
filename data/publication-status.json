@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-01T15:27:58+00:00",
+  "generatedAt": "2026-09-02T07:42:20+00:00",
   "status": "DATA ERROR",
   "blocking": true,
   "summary": "决策审计链校验失败，已暂停新的人工投资建议",
@@ -14,5 +14,5 @@
     }
   ],
   "buildId": null,
-  "lastCompleteBuildId": "20260831-045843Z-c4e6469d6746-54d1871822fa"
+  "lastCompleteBuildId": "20260902-063229Z-5d4fa89624b9-54d1871822fa"
 }

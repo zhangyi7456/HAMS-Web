@@ -19,16 +19,16 @@
       "data": {
         "path": "asset-cycle.json",
         "schemaVersion": "1.3",
-        "generatedAt": "2026-09-02T07:54:15.127Z",
-        "bytes": 1196194,
-        "sha256": "05ad3d63dc28679fc78f60f93a23beaf89981d99811ca6f2793f66b531e9f4ee"
+        "generatedAt": "2026-08-24T07:09:34.160Z",
+        "bytes": 1197828,
+        "sha256": "bcd1cf97ff7a21ffd34cb031fa669198110315642292c21f16951be3f39397e5"
       },
       "health": {
         "path": "asset-cycle-health.json",
         "schemaVersion": "1.0",
-        "generatedAt": "2026-09-02T07:54:15.127Z",
+        "generatedAt": "2026-08-24T07:09:34.160Z",
         "bytes": 458,
-        "sha256": "bb74facf798f4effc904480d84a968e31da5b5208027e8d5652e6b435ff4217e"
+        "sha256": "00cb8bf5dbc90cefb35a9671db1d20417bb93f33ffaec93416550e7b232eb6ec"
       }
     }
   }
