@@ -1,30 +1,30 @@
 {
   "schemaVersion": "1.0",
-  "buildId": "20260903-105528Z-796070a039e8-54d1871822fa",
-  "productVersion": "5.4.0",
+  "buildId": "20260903-170520Z-e64d59416bbb-54d1871822fa",
+  "productVersion": "5.4.1",
   "strategyVersion": "1.2.0",
-  "sourceCommit": "796070a039e81c9dc57d869d2a379c6acf71899d",
-  "generatedAt": "2026-09-03T10:55:28+00:00",
+  "sourceCommit": "e64d59416bbb4bcd6e58673164adcf0c00d91092",
+  "generatedAt": "2026-09-03T17:05:20+00:00",
   "files": [
     {
       "path": "snapshot.json",
-      "sha256": "e9ab6c2b9f7aa6abe7f72a278c91514d1457e15a203e5576ad85e1601b50292f",
-      "bytes": 259602
+      "sha256": "9787cde98ee39b19145b80232007325fe245f85b10da230aa6a1a429f6fb96c6",
+      "bytes": 259605
     },
     {
       "path": "health.json",
-      "sha256": "ac6bb69d98c8e7c03ae9635af29f9bb79c7da1e19529c830eb94474cfe7b0d8a",
+      "sha256": "45011cc391803fc1d7a8b06d016ce9e9bc3f008908cabb45e1c923bde997f1b0",
       "bytes": 273
     },
     {
       "path": "decision-log.json",
-      "sha256": "25eb91a1f343e02f8a7c9f05d0457a25899d66e2ddee7e0e9350223206c4210a",
+      "sha256": "8e2cb4a6763414fbafc42da4f95ae600def50459d6026e23b8c86a1f1822b2df",
       "bytes": 113497
     },
     {
       "path": "market-series.json",
-      "sha256": "c6aa6878d581fc64bd8590ca823dc2dd105830a2e8df8a1cdb93d8cf86d66777",
-      "bytes": 1304639
+      "sha256": "239f9498e6b422862c87f1fc9e7748ca8c5a23546629179a2901c0a7cd234585",
+      "bytes": 1265171
     },
     {
       "path": "adjusted-prices.csv",
@@ -38,13 +38,13 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "1899da396f6f531d3f8bae470a743ba5549a9671f36668834601917a02a7610e",
+      "sha256": "de9beef6f028cab387ba828a8acfdf27fd61e2f04094b14eb399c5b72ffa2fe6",
       "bytes": 964
     },
     {
       "path": "risk-control-models.md",
-      "sha256": "ba1f8366f25e7c3a1f457d8e4dd042078811ab382908004ba453e3268ce98f53",
-      "bytes": 9037
+      "sha256": "c80502aa84fe18cf8aa4c707d2da41729eaf3362f4dee1ede6369ddc9371b45e",
+      "bytes": 9663
     }
   ],
   "containsPrivatePortfolioData": false

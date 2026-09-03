@@ -1,11 +1,11 @@
 {
   "meta": {
     "schemaVersion": "4.0",
-    "webVersion": "5.4.0",
-    "buildId": "20260903-105528Z-796070a039e8-54d1871822fa",
-    "sourceCommit": "796070a039e81c9dc57d869d2a379c6acf71899d",
+    "webVersion": "5.4.1",
+    "buildId": "20260903-163159Z-dc534adfe980-54d1871822fa",
+    "sourceCommit": "dc534adfe980ae4f38848e50676b30ccf9b9e401",
     "strategyVersion": "1.2.0",
-    "generatedAt": "2026-09-03T10:55:28+00:00",
+    "generatedAt": "2026-09-03T16:31:59+00:00",
     "configFingerprint": "54d1871822fa4cf5",
     "priceConvention": "前复权日收盘价（QFQ adjusted close）",
     "valuationPriceConvention": "未复权日收盘价（raw close），仅用于家庭资产估值",
@@ -34,8 +34,8 @@
   "provenance": {
     "510300": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:28+00:00",
-      "durationMs": 3429,
+      "fetchedAt": "2026-09-03T16:31:59+00:00",
+      "durationMs": 1000,
       "firstDate": "2012-05-28",
       "lastDate": "2026-09-03",
       "observations": "3470",
@@ -44,8 +44,8 @@
     },
     "512890": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:28+00:00",
-      "durationMs": 3397,
+      "fetchedAt": "2026-09-03T16:31:58+00:00",
+      "durationMs": 852,
       "firstDate": "2019-01-18",
       "lastDate": "2026-09-03",
       "observations": "1849",
@@ -56,8 +56,8 @@
     },
     "513500": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:28+00:00",
-      "durationMs": 3485,
+      "fetchedAt": "2026-09-03T16:31:59+00:00",
+      "durationMs": 962,
       "firstDate": "2014-01-15",
       "lastDate": "2026-09-03",
       "observations": "3072",
@@ -68,8 +68,8 @@
     },
     "513100": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:26+00:00",
-      "durationMs": 1133,
+      "fetchedAt": "2026-09-03T16:31:59+00:00",
+      "durationMs": 950,
       "firstDate": "2013-05-15",
       "lastDate": "2026-09-03",
       "observations": "3236",
@@ -80,8 +80,8 @@
     },
     "588000": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:28+00:00",
-      "durationMs": 3398,
+      "fetchedAt": "2026-09-03T16:31:58+00:00",
+      "durationMs": 782,
       "firstDate": "2020-11-16",
       "lastDate": "2026-09-03",
       "observations": "1409",
@@ -90,8 +90,8 @@
     },
     "518880": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:27+00:00",
-      "durationMs": 794,
+      "fetchedAt": "2026-09-03T16:31:59+00:00",
+      "durationMs": 959,
       "firstDate": "2013-07-29",
       "lastDate": "2026-09-03",
       "observations": "3187",
@@ -100,8 +100,8 @@
     },
     "511010": {
       "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
-      "fetchedAt": "2026-09-03T10:55:28+00:00",
-      "durationMs": 853,
+      "fetchedAt": "2026-09-03T16:31:59+00:00",
+      "durationMs": 877,
       "firstDate": "2013-03-25",
       "lastDate": "2026-09-03",
       "observations": "3269",
