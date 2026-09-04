@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "buildId": "20260903-145936Z-66a57bd031a6-54d1871822fa",
-  "generatedAt": "2026-09-03T14:59:36+00:00",
+  "buildId": "20260904-145706Z-e64d59416bbb-54d1871822fa",
+  "generatedAt": "2026-09-04T14:57:06+00:00",
   "historyTradingDays": 756,
   "assets": {
     "510300": {
@@ -11,16 +11,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 3.64,
-          "high": 3.706,
-          "low": 3.64,
-          "close": 3.705,
-          "rawClose": 3.985,
-          "volume": 11409824.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 3.7,
@@ -7563,12 +7553,22 @@
         },
         {
           "date": "2026-09-03",
-          "open": 4.63,
+          "open": 4.631,
           "high": 4.65,
-          "low": 4.61,
-          "close": 4.62,
+          "low": 4.605,
+          "close": 4.621,
           "rawClose": 4.621,
           "volume": 4981830.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 4.64,
+          "high": 4.67,
+          "low": 4.6,
+          "close": 4.62,
+          "rawClose": 4.616,
+          "volume": 8414655.0,
           "amount": null
         }
       ]
@@ -7580,16 +7580,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 0.935,
-          "high": 0.949,
-          "low": 0.934,
-          "close": 0.947,
-          "rawClose": 0.947,
-          "volume": 566480.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 0.947,
@@ -15132,12 +15122,22 @@
         },
         {
           "date": "2026-09-03",
-          "open": 1.2,
-          "high": 1.22,
-          "low": 1.2,
+          "open": 1.199,
+          "high": 1.216,
+          "low": 1.199,
           "close": 1.2,
           "rawClose": 1.2,
           "volume": 10515005.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 1.2,
+          "high": 1.21,
+          "low": 1.2,
+          "close": 1.21,
+          "rawClose": 1.207,
+          "volume": 5701368.0,
           "amount": null
         }
       ]
@@ -15149,16 +15149,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 1.54,
-          "high": 1.54,
-          "low": 1.535,
-          "close": 1.538,
-          "rawClose": 1.538,
-          "volume": 1532622.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 1.541,
@@ -22701,12 +22691,22 @@
         },
         {
           "date": "2026-09-03",
-          "open": 2.65,
-          "high": 2.67,
+          "open": 2.654,
+          "high": 2.665,
           "low": 2.65,
           "close": 2.66,
           "rawClose": 2.66,
           "volume": 1217488.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 2.68,
+          "high": 2.71,
+          "low": 2.68,
+          "close": 2.7,
+          "rawClose": 2.698,
+          "volume": 889342.0,
           "amount": null
         }
       ]
@@ -22718,16 +22718,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 1.131,
-          "high": 1.131,
-          "low": 1.124,
-          "close": 1.128,
-          "rawClose": 1.128,
-          "volume": 4803584.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 1.13,
@@ -30270,12 +30260,22 @@
         },
         {
           "date": "2026-09-03",
-          "open": 2.2,
-          "high": 2.21,
-          "low": 2.19,
-          "close": 2.2,
+          "open": 2.201,
+          "high": 2.208,
+          "low": 2.193,
+          "close": 2.196,
           "rawClose": 2.196,
           "volume": 1165465.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 2.23,
+          "high": 2.23,
+          "low": 2.22,
+          "close": 2.22,
+          "rawClose": 2.222,
+          "volume": 1280837.0,
           "amount": null
         }
       ]
@@ -30287,16 +30287,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 1.004,
-          "high": 1.01,
-          "low": 1.001,
-          "close": 1.009,
-          "rawClose": 1.009,
-          "volume": 25386482.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 1.009,
@@ -37839,12 +37829,22 @@
         },
         {
           "date": "2026-09-03",
-          "open": 1.72,
-          "high": 1.73,
-          "low": 1.69,
-          "close": 1.7,
+          "open": 1.723,
+          "high": 1.727,
+          "low": 1.686,
+          "close": 1.703,
           "rawClose": 1.703,
           "volume": 27561006.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 1.72,
+          "high": 1.73,
+          "low": 1.66,
+          "close": 1.67,
+          "rawClose": 1.668,
+          "volume": 43886303.0,
           "amount": null
         }
       ]
@@ -37856,16 +37856,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 4.426,
-          "high": 4.43,
-          "low": 4.418,
-          "close": 4.42,
-          "rawClose": 4.42,
-          "volume": 870437.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 4.425,
@@ -45408,12 +45398,22 @@
         },
         {
           "date": "2026-09-03",
-          "open": 9.05,
-          "high": 9.14,
-          "low": 9.05,
-          "close": 9.11,
+          "open": 9.045,
+          "high": 9.135,
+          "low": 9.045,
+          "close": 9.105,
           "rawClose": 9.105,
           "volume": 6510650.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 9.21,
+          "high": 9.22,
+          "low": 9.16,
+          "close": 9.16,
+          "rawClose": 9.164,
+          "volume": 4615570.0,
           "amount": null
         }
       ]
@@ -45425,16 +45425,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-07-25",
-          "open": 128.492,
-          "high": 128.492,
-          "low": 128.31,
-          "close": 128.311,
-          "rawClose": 131.801,
-          "volume": 32774.0,
-          "amount": null
-        },
         {
           "date": "2023-07-26",
           "open": 128.31,
@@ -52978,11 +52968,21 @@
         {
           "date": "2026-09-03",
           "open": 141.2,
-          "high": 141.23,
-          "low": 141.19,
+          "high": 141.233,
+          "low": 141.185,
           "close": 141.23,
           "rawClose": 141.23,
           "volume": 287152.0,
+          "amount": null
+        },
+        {
+          "date": "2026-09-04",
+          "open": 141.23,
+          "high": 141.24,
+          "low": 141.22,
+          "close": 141.22,
+          "rawClose": 141.221,
+          "volume": 336476.0,
           "amount": null
         }
       ]
