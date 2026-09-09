@@ -1,44 +1,44 @@
 {
   "schemaVersion": "1.0",
-  "buildId": "20260907-132319Z-7df485318863-54d1871822fa",
+  "buildId": "20260909-150620Z-7df485318863-54d1871822fa",
   "productVersion": "5.5.0",
   "strategyVersion": "1.2.0",
   "sourceCommit": "7df4853188634572d8a06018d45fc74a9b5d929f",
-  "generatedAt": "2026-09-07T13:23:19+00:00",
+  "generatedAt": "2026-09-09T15:06:20+00:00",
   "files": [
     {
       "path": "snapshot.json",
-      "sha256": "9a21164434de0da0a4f0ea23f26808789a83ef152b07704e2c3ba186db849b30",
-      "bytes": 259592
+      "sha256": "d43b2c51ca8cee0576dab4c1b89cabc261392fb734dc870f6bbc14497ae68e2c",
+      "bytes": 259918
     },
     {
       "path": "health.json",
-      "sha256": "98a085a868dbf849b58e36288dcc158a8a794503c48c130d6b591a48c00bcf7f",
+      "sha256": "d2a55acaada831b76669edde12dc8dafae2a309f7d8825ad8d454422ae0ff9a1",
       "bytes": 273
     },
     {
       "path": "decision-log.json",
-      "sha256": "04a3d6456069074315988b30ee22124ec72e54d025a4aa0d2458ed45dbe1fd6a",
+      "sha256": "9b7caf6b8425a2dc16c8954b6e04c33d61827639b87c668a6209cd0b13754987",
       "bytes": 113497
     },
     {
       "path": "market-series.json",
-      "sha256": "1e219ee559c0093fdc11ba32d1bf31fcde3188c8331ce2b27edf39d8147ed753",
-      "bytes": 1304657
+      "sha256": "34af2b0ed54e1ebad00fceef298045c7713115d417091f10e408c951677d2264",
+      "bytes": 1265150
     },
     {
       "path": "adjusted-prices.csv",
-      "sha256": "340171afe377f2bbb1359d62a802e5a6353da9a785ca9ab6e29e557f7de081e6",
-      "bytes": 107342
+      "sha256": "cc5ebcafacff24453893c3f5c197fcea7f80b3e04449834e8181017245cadb04",
+      "bytes": 107494
     },
     {
       "path": "parameter-sensitivity.csv",
-      "sha256": "ee1800525cab03f0860de5a44f148f0cf9b2e4b36ff89c266ae31a3431907aec",
+      "sha256": "8c645c22dd796f641e4cf7efd14e4936815cae6fc169e8d9d43365f72cb31b27",
       "bytes": 18813
     },
     {
       "path": "manifest.json",
-      "sha256": "1b422e4dc587d7a6ed043c2b3e91e0c72823705c657a90bb2afc4def3584b63f",
+      "sha256": "f1a3b1f7b58cf5c8cfafb2ffac0b829b66b1a738f6d2c71576c3a927d4e602ce",
       "bytes": 964
     },
     {
