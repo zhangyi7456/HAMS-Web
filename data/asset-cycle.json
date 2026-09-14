@@ -2,7 +2,7 @@
   "schemaVersion": "1.3",
   "algorithmVersion": "weekly-asof-v4",
   "stateModelVersion": "self-percentile-v1",
-  "generatedAt": "2026-09-11T15:11:43.023Z",
+  "generatedAt": "2026-09-14T17:06:33.427Z",
   "snapshotRule": "观察周后的周一08:00 Asia/Shanghai与供应商可得时间取较晚者；只发布已到可用时点的完整周观测；基金和LOF优先使用前复权序列并逐项披露复权状态",
   "assets": [
     {
@@ -1728,6 +1728,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 4076.79,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -3455,6 +3463,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 3322.04,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -5199,6 +5215,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 24805.63,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -5215,14 +5239,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W32",
-          "value": 4280.15,
-          "sourceObservationDate": "2022-08-12",
-          "providerAvailableAt": "2022-08-12T23:00:00Z",
-          "snapshotAvailableAt": "2022-08-15T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W33",
           "value": 4228.48,
@@ -6917,6 +6933,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T23:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 7656.98,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T23:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -8645,6 +8669,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 12349.57,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -10371,6 +10403,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 3524.59,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -12099,6 +12139,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 5748.35,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -13825,6 +13873,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 2535.12,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -15553,6 +15609,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 309.69,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -17279,6 +17343,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 477.63,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -19009,6 +19081,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 5069.65,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -19027,14 +19107,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W03",
-          "value": 1.001,
-          "sourceObservationDate": "2024-01-19",
-          "providerAvailableAt": "2024-01-19T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-22T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W04",
           "value": 1.044,
@@ -20113,6 +20185,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 1.146,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -21843,6 +21923,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 10624.51,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -21861,14 +21949,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W03",
-          "value": 4.643,
-          "sourceObservationDate": "2024-01-19",
-          "providerAvailableAt": "2024-01-19T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-22T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W04",
           "value": 4.625,
@@ -22947,6 +23027,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 8.943,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -24677,6 +24765,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 5156.01,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -26405,6 +26501,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 1.759,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -28135,6 +28239,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 0.92,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -28153,14 +28265,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W03",
-          "value": 108.844,
-          "sourceObservationDate": "2024-01-19",
-          "providerAvailableAt": "2024-01-19T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-22T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W04",
           "value": 108.882,
@@ -29239,6 +29343,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 113.912,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -30337,6 +30449,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 121.283,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -30355,14 +30475,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W03",
-          "value": 120.883,
-          "sourceObservationDate": "2024-01-19",
-          "providerAvailableAt": "2024-01-19T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-22T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W04",
           "value": 121.047,
@@ -31441,6 +31553,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 135.852,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
@@ -33171,6 +33291,14 @@
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 1992.74,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -34899,6 +35027,14 @@
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W37",
+          "value": 3702.75,
+          "sourceObservationDate": "2026-09-11",
+          "providerAvailableAt": "2026-09-11T09:00:00Z",
+          "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
           "status": "OK"
         }
       ]
