@@ -1,26 +1,16 @@
 {
   "schemaVersion": "2.0",
-  "buildId": "20260914-165707Z-7df485318863-54d1871822fa",
-  "generatedAt": "2026-09-14T16:57:07+00:00",
+  "buildId": "20260915-153334Z-7df485318863-54d1871822fa",
+  "generatedAt": "2026-09-15T15:33:34+00:00",
   "historyTradingDays": 756,
   "assets": {
     "510300": {
-      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "source": "EASTMONEY_QFQ+TENCENT_RAW",
       "priceConvention": "前复权日线",
       "valuationPriceConvention": "未复权日收盘价，仅用于家庭份额估值",
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 3.751,
-          "high": 3.795,
-          "low": 3.751,
-          "close": 3.793,
-          "rawClose": 4.073,
-          "volume": 7379311.0,
-          "amount": 2990984772.0
-        },
         {
           "date": "2023-08-04",
           "open": 3.835,
@@ -7570,6 +7560,16 @@
           "rawClose": 4.552,
           "volume": 6291774.0,
           "amount": 2863784490.0
+        },
+        {
+          "date": "2026-09-15",
+          "open": 4.541,
+          "high": 4.568,
+          "low": 4.515,
+          "close": 4.523,
+          "rawClose": 4.523,
+          "volume": 6973418.0,
+          "amount": 3164632673.0
         }
       ]
     },
@@ -7580,16 +7580,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 0.958,
-          "high": 0.964,
-          "low": 0.952,
-          "close": 0.961,
-          "rawClose": 0.961,
-          "volume": 596197.0,
-          "amount": 57174595.0
-        },
         {
           "date": "2023-08-04",
           "open": 0.968,
@@ -15139,6 +15129,16 @@
           "rawClose": 1.208,
           "volume": 4337644.0,
           "amount": 523589949.0
+        },
+        {
+          "date": "2026-09-15",
+          "open": 1.208,
+          "high": 1.208,
+          "low": 1.195,
+          "close": 1.196,
+          "rawClose": 1.196,
+          "volume": 5419889.0,
+          "amount": 650094298.0
         }
       ]
     },
@@ -15149,16 +15149,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 1.525,
-          "high": 1.529,
-          "low": 1.523,
-          "close": 1.523,
-          "rawClose": 1.523,
-          "volume": 1695616.0,
-          "amount": 258874100.0
-        },
         {
           "date": "2023-08-04",
           "open": 1.52,
@@ -22708,6 +22698,16 @@
           "rawClose": 2.656,
           "volume": 517181.0,
           "amount": 137566759.0
+        },
+        {
+          "date": "2026-09-15",
+          "open": 2.658,
+          "high": 2.663,
+          "low": 2.639,
+          "close": 2.64,
+          "rawClose": 2.64,
+          "volume": 842919.0,
+          "amount": 223574140.0
         }
       ]
     },
@@ -22718,16 +22718,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 1.121,
-          "high": 1.124,
-          "low": 1.118,
-          "close": 1.118,
-          "rawClose": 1.118,
-          "volume": 5788835.0,
-          "amount": 649167637.0
-        },
         {
           "date": "2023-08-04",
           "open": 1.121,
@@ -30277,6 +30267,16 @@
           "rawClose": 2.191,
           "volume": 1083063.0,
           "amount": 237192700.0
+        },
+        {
+          "date": "2026-09-15",
+          "open": 2.195,
+          "high": 2.202,
+          "low": 2.185,
+          "close": 2.196,
+          "rawClose": 2.196,
+          "volume": 1403048.0,
+          "amount": 307702843.0
         }
       ]
     },
@@ -30287,16 +30287,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 1.009,
-          "high": 1.016,
-          "low": 1.007,
-          "close": 1.015,
-          "rawClose": 1.015,
-          "volume": 17410297.0,
-          "amount": 1763532834.0
-        },
         {
           "date": "2023-08-04",
           "open": 1.019,
@@ -37846,26 +37836,26 @@
           "rawClose": 1.613,
           "volume": 28895186.0,
           "amount": 4663730402.0
+        },
+        {
+          "date": "2026-09-15",
+          "open": 1.608,
+          "high": 1.666,
+          "low": 1.608,
+          "close": 1.638,
+          "rawClose": 1.638,
+          "volume": 36841169.0,
+          "amount": 6044013886.0
         }
       ]
     },
     "518880": {
-      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "source": "EASTMONEY_QFQ+TENCENT_RAW",
       "priceConvention": "前复权日线",
       "valuationPriceConvention": "未复权日收盘价，仅用于家庭份额估值",
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 4.41,
-          "high": 4.41,
-          "low": 4.404,
-          "close": 4.406,
-          "rawClose": 4.406,
-          "volume": 1192692.0,
-          "amount": 525594065.0
-        },
         {
           "date": "2023-08-04",
           "open": 4.389,
@@ -45415,26 +45405,26 @@
           "rawClose": 8.875,
           "volume": 4548250.0,
           "amount": 4054072492.0
+        },
+        {
+          "date": "2026-09-15",
+          "open": 8.849,
+          "high": 8.879,
+          "low": 8.814,
+          "close": 8.829,
+          "rawClose": 8.829,
+          "volume": 4113994.0,
+          "amount": 3637561796.0
         }
       ]
     },
     "511010": {
-      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "source": "TENCENT_QFQ+EASTMONEY_RAW",
       "priceConvention": "前复权日线",
       "valuationPriceConvention": "未复权日收盘价，仅用于家庭份额估值",
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-03",
-          "open": 128.34,
-          "high": 128.409,
-          "low": 128.34,
-          "close": 128.393,
-          "rawClose": 131.883,
-          "volume": 28023.0,
-          "amount": 369558033.0
-        },
         {
           "date": "2023-08-04",
           "open": 128.393,
@@ -45443,7 +45433,7 @@
           "close": 128.437,
           "rawClose": 131.927,
           "volume": 8637.0,
-          "amount": 113936478.0
+          "amount": null
         },
         {
           "date": "2023-08-07",
@@ -45453,7 +45443,7 @@
           "close": 128.493,
           "rawClose": 131.983,
           "volume": 31109.0,
-          "amount": 410608196.0
+          "amount": null
         },
         {
           "date": "2023-08-08",
@@ -45463,7 +45453,7 @@
           "close": 128.52,
           "rawClose": 132.01,
           "volume": 23325.0,
-          "amount": 307883107.0
+          "amount": null
         },
         {
           "date": "2023-08-09",
@@ -45473,7 +45463,7 @@
           "close": 128.545,
           "rawClose": 132.035,
           "volume": 25941.0,
-          "amount": 342502890.0
+          "amount": null
         },
         {
           "date": "2023-08-10",
@@ -45483,7 +45473,7 @@
           "close": 128.494,
           "rawClose": 131.984,
           "volume": 28507.0,
-          "amount": 376273673.0
+          "amount": null
         },
         {
           "date": "2023-08-11",
@@ -45493,7 +45483,7 @@
           "close": 128.532,
           "rawClose": 132.022,
           "volume": 32870.0,
-          "amount": 433937190.0
+          "amount": null
         },
         {
           "date": "2023-08-14",
@@ -45503,7 +45493,7 @@
           "close": 128.598,
           "rawClose": 132.088,
           "volume": 32210.0,
-          "amount": 425453103.0
+          "amount": null
         },
         {
           "date": "2023-08-15",
@@ -45513,7 +45503,7 @@
           "close": 128.871,
           "rawClose": 132.361,
           "volume": 18317.0,
-          "amount": 242331532.0
+          "amount": null
         },
         {
           "date": "2023-08-16",
@@ -45523,7 +45513,7 @@
           "close": 128.942,
           "rawClose": 132.432,
           "volume": 40170.0,
-          "amount": 532053169.0
+          "amount": null
         },
         {
           "date": "2023-08-17",
@@ -45533,7 +45523,7 @@
           "close": 128.9,
           "rawClose": 132.39,
           "volume": 50072.0,
-          "amount": 662992562.0
+          "amount": null
         },
         {
           "date": "2023-08-18",
@@ -45543,7 +45533,7 @@
           "close": 128.967,
           "rawClose": 132.457,
           "volume": 33130.0,
-          "amount": 438689398.0
+          "amount": null
         },
         {
           "date": "2023-08-21",
@@ -45553,7 +45543,7 @@
           "close": 129.088,
           "rawClose": 132.578,
           "volume": 32990.0,
-          "amount": 437185078.0
+          "amount": null
         },
         {
           "date": "2023-08-22",
@@ -45563,7 +45553,7 @@
           "close": 129.014,
           "rawClose": 132.504,
           "volume": 35735.0,
-          "amount": 473578700.0
+          "amount": null
         },
         {
           "date": "2023-08-23",
@@ -45573,7 +45563,7 @@
           "close": 129.001,
           "rawClose": 132.491,
           "volume": 32232.0,
-          "amount": 427080198.0
+          "amount": null
         },
         {
           "date": "2023-08-24",
@@ -45583,7 +45573,7 @@
           "close": 128.97,
           "rawClose": 132.46,
           "volume": 34923.0,
-          "amount": 462600724.0
+          "amount": null
         },
         {
           "date": "2023-08-25",
@@ -45593,7 +45583,7 @@
           "close": 128.907,
           "rawClose": 132.397,
           "volume": 26396.0,
-          "amount": 349582933.0
+          "amount": null
         },
         {
           "date": "2023-08-28",
@@ -45603,7 +45593,7 @@
           "close": 128.742,
           "rawClose": 132.232,
           "volume": 36151.0,
-          "amount": 477962129.0
+          "amount": null
         },
         {
           "date": "2023-08-29",
@@ -45613,7 +45603,7 @@
           "close": 128.58,
           "rawClose": 132.07,
           "volume": 27171.0,
-          "amount": 358904360.0
+          "amount": null
         },
         {
           "date": "2023-08-30",
@@ -45623,7 +45613,7 @@
           "close": 128.833,
           "rawClose": 132.323,
           "volume": 37123.0,
-          "amount": 491143561.0
+          "amount": null
         },
         {
           "date": "2023-08-31",
@@ -45633,7 +45623,7 @@
           "close": 128.859,
           "rawClose": 132.349,
           "volume": 29511.0,
-          "amount": 390606086.0
+          "amount": null
         },
         {
           "date": "2023-09-01",
@@ -45643,7 +45633,7 @@
           "close": 128.718,
           "rawClose": 132.208,
           "volume": 29137.0,
-          "amount": 385365357.0
+          "amount": null
         },
         {
           "date": "2023-09-04",
@@ -45653,7 +45643,7 @@
           "close": 128.398,
           "rawClose": 131.888,
           "volume": 26614.0,
-          "amount": 351146844.0
+          "amount": null
         },
         {
           "date": "2023-09-05",
@@ -45663,7 +45653,7 @@
           "close": 128.493,
           "rawClose": 131.983,
           "volume": 34148.0,
-          "amount": 450689636.0
+          "amount": null
         },
         {
           "date": "2023-09-06",
@@ -45673,7 +45663,7 @@
           "close": 128.393,
           "rawClose": 131.883,
           "volume": 45076.0,
-          "amount": 594859280.0
+          "amount": null
         },
         {
           "date": "2023-09-07",
@@ -45683,7 +45673,7 @@
           "close": 128.232,
           "rawClose": 131.722,
           "volume": 27480.0,
-          "amount": 362147293.0
+          "amount": null
         },
         {
           "date": "2023-09-08",
@@ -45693,7 +45683,7 @@
           "close": 128.337,
           "rawClose": 131.827,
           "volume": 29664.0,
-          "amount": 391031766.0
+          "amount": null
         },
         {
           "date": "2023-09-11",
@@ -45703,7 +45693,7 @@
           "close": 128.337,
           "rawClose": 131.827,
           "volume": 28002.0,
-          "amount": 369167353.0
+          "amount": null
         },
         {
           "date": "2023-09-12",
@@ -45713,7 +45703,7 @@
           "close": 128.36,
           "rawClose": 131.85,
           "volume": 17140.0,
-          "amount": 226038468.0
+          "amount": null
         },
         {
           "date": "2023-09-13",
@@ -45723,7 +45713,7 @@
           "close": 128.494,
           "rawClose": 131.984,
           "volume": 35354.0,
-          "amount": 466676446.0
+          "amount": null
         },
         {
           "date": "2023-09-14",
@@ -45733,7 +45723,7 @@
           "close": 128.561,
           "rawClose": 132.051,
           "volume": 38508.0,
-          "amount": 508389498.0
+          "amount": null
         },
         {
           "date": "2023-09-15",
@@ -45743,7 +45733,7 @@
           "close": 128.495,
           "rawClose": 131.985,
           "volume": 25571.0,
-          "amount": 337515666.0
+          "amount": null
         },
         {
           "date": "2023-09-18",
@@ -45753,7 +45743,7 @@
           "close": 128.353,
           "rawClose": 131.843,
           "volume": 29555.0,
-          "amount": 389654351.0
+          "amount": null
         },
         {
           "date": "2023-09-19",
@@ -45763,7 +45753,7 @@
           "close": 128.338,
           "rawClose": 131.828,
           "volume": 25879.0,
-          "amount": 341219746.0
+          "amount": null
         },
         {
           "date": "2023-09-20",
@@ -45773,7 +45763,7 @@
           "close": 128.286,
           "rawClose": 131.776,
           "volume": 22783.0,
-          "amount": 300281036.0
+          "amount": null
         },
         {
           "date": "2023-09-21",
@@ -45783,7 +45773,7 @@
           "close": 128.383,
           "rawClose": 131.873,
           "volume": 26749.0,
-          "amount": 352695114.0
+          "amount": null
         },
         {
           "date": "2023-09-22",
@@ -45793,7 +45783,7 @@
           "close": 128.288,
           "rawClose": 131.778,
           "volume": 26261.0,
-          "amount": 346221592.0
+          "amount": null
         },
         {
           "date": "2023-09-25",
@@ -45803,7 +45793,7 @@
           "close": 128.261,
           "rawClose": 131.751,
           "volume": 31232.0,
-          "amount": 411669555.0
+          "amount": null
         },
         {
           "date": "2023-09-26",
@@ -45813,7 +45803,7 @@
           "close": 128.112,
           "rawClose": 131.602,
           "volume": 33886.0,
-          "amount": 446313628.0
+          "amount": null
         },
         {
           "date": "2023-09-27",
@@ -45823,7 +45813,7 @@
           "close": 127.814,
           "rawClose": 131.304,
           "volume": 3745.0,
-          "amount": 49205761.0
+          "amount": null
         },
         {
           "date": "2023-09-28",
@@ -45833,7 +45823,7 @@
           "close": 128.392,
           "rawClose": 131.882,
           "volume": 27356.0,
-          "amount": 360752444.0
+          "amount": null
         },
         {
           "date": "2023-10-09",
@@ -45843,7 +45833,7 @@
           "close": 128.503,
           "rawClose": 131.993,
           "volume": 23688.0,
-          "amount": 312652565.0
+          "amount": null
         },
         {
           "date": "2023-10-10",
@@ -45853,7 +45843,7 @@
           "close": 128.409,
           "rawClose": 131.899,
           "volume": 27877.0,
-          "amount": 367859102.0
+          "amount": null
         },
         {
           "date": "2023-10-11",
@@ -45863,7 +45853,7 @@
           "close": 128.169,
           "rawClose": 131.659,
           "volume": 23312.0,
-          "amount": 307138057.0
+          "amount": null
         },
         {
           "date": "2023-10-12",
@@ -45873,7 +45863,7 @@
           "close": 128.15,
           "rawClose": 131.64,
           "volume": 34944.0,
-          "amount": 459807435.0
+          "amount": null
         },
         {
           "date": "2023-10-13",
@@ -45883,7 +45873,7 @@
           "close": 128.259,
           "rawClose": 131.749,
           "volume": 25687.0,
-          "amount": 338376288.0
+          "amount": null
         },
         {
           "date": "2023-10-16",
@@ -45893,7 +45883,7 @@
           "close": 128.273,
           "rawClose": 131.763,
           "volume": 47490.0,
-          "amount": 625810972.0
+          "amount": null
         },
         {
           "date": "2023-10-17",
@@ -45903,7 +45893,7 @@
           "close": 128.208,
           "rawClose": 131.698,
           "volume": 40160.0,
-          "amount": 528878663.0
+          "amount": null
         },
         {
           "date": "2023-10-18",
@@ -45913,7 +45903,7 @@
           "close": 128.183,
           "rawClose": 131.673,
           "volume": 28848.0,
-          "amount": 379928341.0
+          "amount": null
         },
         {
           "date": "2023-10-19",
@@ -45923,7 +45913,7 @@
           "close": 127.948,
           "rawClose": 131.438,
           "volume": 42310.0,
-          "amount": 556641030.0
+          "amount": null
         },
         {
           "date": "2023-10-20",
@@ -45933,7 +45923,7 @@
           "close": 128.05,
           "rawClose": 131.54,
           "volume": 29304.0,
-          "amount": 385371929.0
+          "amount": null
         },
         {
           "date": "2023-10-23",
@@ -45943,7 +45933,7 @@
           "close": 128.172,
           "rawClose": 131.662,
           "volume": 35683.0,
-          "amount": 469834574.0
+          "amount": null
         },
         {
           "date": "2023-10-24",
@@ -45953,7 +45943,7 @@
           "close": 128.11,
           "rawClose": 131.6,
           "volume": 27500.0,
-          "amount": 361975223.0
+          "amount": null
         },
         {
           "date": "2023-10-25",
@@ -45963,7 +45953,7 @@
           "close": 128.264,
           "rawClose": 131.754,
           "volume": 19847.0,
-          "amount": 261317852.0
+          "amount": null
         },
         {
           "date": "2023-10-26",
@@ -45973,7 +45963,7 @@
           "close": 128.42,
           "rawClose": 131.91,
           "volume": 28836.0,
-          "amount": 380318363.0
+          "amount": null
         },
         {
           "date": "2023-10-27",
@@ -45983,7 +45973,7 @@
           "close": 128.36,
           "rawClose": 131.85,
           "volume": 27313.0,
-          "amount": 360238494.0
+          "amount": null
         },
         {
           "date": "2023-10-30",
@@ -45993,7 +45983,7 @@
           "close": 128.536,
           "rawClose": 132.026,
           "volume": 26887.0,
-          "amount": 354822534.0
+          "amount": null
         },
         {
           "date": "2023-10-31",
@@ -46003,7 +45993,7 @@
           "close": 128.576,
           "rawClose": 132.066,
           "volume": 27278.0,
-          "amount": 360303314.0
+          "amount": null
         },
         {
           "date": "2023-11-01",
@@ -46013,7 +46003,7 @@
           "close": 128.603,
           "rawClose": 132.093,
           "volume": 27528.0,
-          "amount": 363597904.0
+          "amount": null
         },
         {
           "date": "2023-11-02",
@@ -46023,7 +46013,7 @@
           "close": 128.701,
           "rawClose": 132.191,
           "volume": 27548.0,
-          "amount": 364126128.0
+          "amount": null
         },
         {
           "date": "2023-11-03",
@@ -46033,7 +46023,7 @@
           "close": 128.692,
           "rawClose": 132.182,
           "volume": 29496.0,
-          "amount": 389886213.0
+          "amount": null
         },
         {
           "date": "2023-11-06",
@@ -46043,7 +46033,7 @@
           "close": 128.655,
           "rawClose": 132.145,
           "volume": 29974.0,
-          "amount": 396096233.0
+          "amount": null
         },
         {
           "date": "2023-11-07",
@@ -46053,7 +46043,7 @@
           "close": 128.69,
           "rawClose": 132.18,
           "volume": 29705.0,
-          "amount": 392697354.0
+          "amount": null
         },
         {
           "date": "2023-11-08",
@@ -46063,7 +46053,7 @@
           "close": 128.703,
           "rawClose": 132.193,
           "volume": 28572.0,
-          "amount": 377615800.0
+          "amount": null
         },
         {
           "date": "2023-11-09",
@@ -46073,7 +46063,7 @@
           "close": 128.71,
           "rawClose": 132.2,
           "volume": 39085.0,
-          "amount": 516764697.0
+          "amount": null
         },
         {
           "date": "2023-11-10",
@@ -46083,7 +46073,7 @@
           "close": 128.715,
           "rawClose": 132.205,
           "volume": 28517.0,
-          "amount": 376994077.0
+          "amount": null
         },
         {
           "date": "2023-11-13",
@@ -46093,7 +46083,7 @@
           "close": 128.873,
           "rawClose": 132.363,
           "volume": 46505.0,
-          "amount": 615227094.0
+          "amount": null
         },
         {
           "date": "2023-11-14",
@@ -46103,7 +46093,7 @@
           "close": 128.862,
           "rawClose": 132.352,
           "volume": 29665.0,
-          "amount": 392512751.0
+          "amount": null
         },
         {
           "date": "2023-11-15",
@@ -46113,7 +46103,7 @@
           "close": 128.859,
           "rawClose": 132.349,
           "volume": 31885.0,
-          "amount": 421971382.0
+          "amount": null
         },
         {
           "date": "2023-11-16",
@@ -46123,7 +46113,7 @@
           "close": 128.935,
           "rawClose": 132.425,
           "volume": 27902.0,
-          "amount": 369450386.0
+          "amount": null
         },
         {
           "date": "2023-11-17",
@@ -46133,7 +46123,7 @@
           "close": 128.947,
           "rawClose": 132.437,
           "volume": 28266.0,
-          "amount": 374291714.0
+          "amount": null
         },
         {
           "date": "2023-11-20",
@@ -46143,7 +46133,7 @@
           "close": 128.877,
           "rawClose": 132.367,
           "volume": 33507.0,
-          "amount": 443597853.0
+          "amount": null
         },
         {
           "date": "2023-11-21",
@@ -46153,7 +46143,7 @@
           "close": 128.816,
           "rawClose": 132.306,
           "volume": 27321.0,
-          "amount": 361522071.0
+          "amount": null
         },
         {
           "date": "2023-11-22",
@@ -46163,7 +46153,7 @@
           "close": 128.665,
           "rawClose": 132.155,
           "volume": 28070.0,
-          "amount": 371105577.0
+          "amount": null
         },
         {
           "date": "2023-11-23",
@@ -46173,7 +46163,7 @@
           "close": 128.5,
           "rawClose": 131.99,
           "volume": 27811.0,
-          "amount": 367208779.0
+          "amount": null
         },
         {
           "date": "2023-11-24",
@@ -46183,7 +46173,7 @@
           "close": 128.596,
           "rawClose": 132.086,
           "volume": 26883.0,
-          "amount": 355049262.0
+          "amount": null
         },
         {
           "date": "2023-11-27",
@@ -46193,7 +46183,7 @@
           "close": 128.577,
           "rawClose": 132.067,
           "volume": 30525.0,
-          "amount": 403162654.0
+          "amount": null
         },
         {
           "date": "2023-11-28",
@@ -46203,7 +46193,7 @@
           "close": 128.565,
           "rawClose": 132.055,
           "volume": 36535.0,
-          "amount": 482504162.0
+          "amount": null
         },
         {
           "date": "2023-11-29",
@@ -46213,7 +46203,7 @@
           "close": 128.517,
           "rawClose": 132.007,
           "volume": 43993.0,
-          "amount": 580900954.0
+          "amount": null
         },
         {
           "date": "2023-11-30",
@@ -46223,7 +46213,7 @@
           "close": 128.611,
           "rawClose": 132.101,
           "volume": 31820.0,
-          "amount": 420419477.0
+          "amount": null
         },
         {
           "date": "2023-12-01",
@@ -46233,7 +46223,7 @@
           "close": 128.71,
           "rawClose": 132.2,
           "volume": 46148.0,
-          "amount": 610146584.0
+          "amount": null
         },
         {
           "date": "2023-12-04",
@@ -46243,7 +46233,7 @@
           "close": 128.615,
           "rawClose": 132.105,
           "volume": 44993.0,
-          "amount": 594621236.0
+          "amount": null
         },
         {
           "date": "2023-12-05",
@@ -46253,7 +46243,7 @@
           "close": 128.601,
           "rawClose": 132.091,
           "volume": 22145.0,
-          "amount": 292521389.0
+          "amount": null
         },
         {
           "date": "2023-12-06",
@@ -46263,7 +46253,7 @@
           "close": 128.583,
           "rawClose": 132.073,
           "volume": 34370.0,
-          "amount": 454050433.0
+          "amount": null
         },
         {
           "date": "2023-12-07",
@@ -46273,7 +46263,7 @@
           "close": 128.654,
           "rawClose": 132.144,
           "volume": 34286.0,
-          "amount": 453052722.0
+          "amount": null
         },
         {
           "date": "2023-12-08",
@@ -46283,7 +46273,7 @@
           "close": 128.72,
           "rawClose": 132.21,
           "volume": 32707.0,
-          "amount": 432516448.0
+          "amount": null
         },
         {
           "date": "2023-12-11",
@@ -46293,7 +46283,7 @@
           "close": 128.905,
           "rawClose": 132.395,
           "volume": 30451.0,
-          "amount": 403067643.0
+          "amount": null
         },
         {
           "date": "2023-12-12",
@@ -46303,7 +46293,7 @@
           "close": 128.893,
           "rawClose": 132.383,
           "volume": 33835.0,
-          "amount": 447930163.0
+          "amount": null
         },
         {
           "date": "2023-12-13",
@@ -46313,7 +46303,7 @@
           "close": 129.075,
           "rawClose": 132.565,
           "volume": 22260.0,
-          "amount": 294983516.0
+          "amount": null
         },
         {
           "date": "2023-12-14",
@@ -46323,7 +46313,7 @@
           "close": 128.951,
           "rawClose": 132.441,
           "volume": 18697.0,
-          "amount": 247695562.0
+          "amount": null
         },
         {
           "date": "2023-12-15",
@@ -46333,7 +46323,7 @@
           "close": 129.068,
           "rawClose": 132.558,
           "volume": 33805.0,
-          "amount": 448072693.0
+          "amount": null
         },
         {
           "date": "2023-12-18",
@@ -46343,7 +46333,7 @@
           "close": 129.175,
           "rawClose": 132.665,
           "volume": 32852.0,
-          "amount": 435803161.0
+          "amount": null
         },
         {
           "date": "2023-12-19",
@@ -46353,7 +46343,7 @@
           "close": 129.162,
           "rawClose": 132.652,
           "volume": 34199.0,
-          "amount": 453695956.0
+          "amount": null
         },
         {
           "date": "2023-12-20",
@@ -46363,7 +46353,7 @@
           "close": 129.071,
           "rawClose": 132.561,
           "volume": 33343.0,
-          "amount": 442207626.0
+          "amount": null
         },
         {
           "date": "2023-12-21",
@@ -46373,7 +46363,7 @@
           "close": 129.12,
           "rawClose": 132.61,
           "volume": 29682.0,
-          "amount": 393473151.0
+          "amount": null
         },
         {
           "date": "2023-12-22",
@@ -46383,7 +46373,7 @@
           "close": 129.297,
           "rawClose": 132.787,
           "volume": 14535.0,
-          "amount": 192990701.0
+          "amount": null
         },
         {
           "date": "2023-12-25",
@@ -46393,7 +46383,7 @@
           "close": 129.405,
           "rawClose": 132.895,
           "volume": 10951.0,
-          "amount": 145467781.0
+          "amount": null
         },
         {
           "date": "2023-12-26",
@@ -46403,7 +46393,7 @@
           "close": 129.507,
           "rawClose": 132.997,
           "volume": 19286.0,
-          "amount": 256504978.0
+          "amount": null
         },
         {
           "date": "2023-12-27",
@@ -46413,7 +46403,7 @@
           "close": 129.636,
           "rawClose": 133.126,
           "volume": 31812.0,
-          "amount": 423501805.0
+          "amount": null
         },
         {
           "date": "2023-12-28",
@@ -46423,7 +46413,7 @@
           "close": 129.755,
           "rawClose": 133.245,
           "volume": 7875.0,
-          "amount": 104887087.0
+          "amount": null
         },
         {
           "date": "2023-12-29",
@@ -46433,7 +46423,7 @@
           "close": 129.873,
           "rawClose": 133.363,
           "volume": 26287.0,
-          "amount": 350506070.0
+          "amount": null
         },
         {
           "date": "2024-01-02",
@@ -46443,7 +46433,7 @@
           "close": 129.762,
           "rawClose": 133.252,
           "volume": 31664.0,
-          "amount": 422059052.0
+          "amount": null
         },
         {
           "date": "2024-01-03",
@@ -46453,7 +46443,7 @@
           "close": 129.727,
           "rawClose": 133.217,
           "volume": 41739.0,
-          "amount": 555849698.0
+          "amount": null
         },
         {
           "date": "2024-01-04",
@@ -46463,7 +46453,7 @@
           "close": 129.83,
           "rawClose": 133.32,
           "volume": 4005.0,
-          "amount": 53394226.0
+          "amount": null
         },
         {
           "date": "2024-01-05",
@@ -46473,7 +46463,7 @@
           "close": 129.967,
           "rawClose": 133.457,
           "volume": 3307.0,
-          "amount": 44113446.0
+          "amount": null
         },
         {
           "date": "2024-01-08",
@@ -46483,7 +46473,7 @@
           "close": 129.933,
           "rawClose": 133.423,
           "volume": 30614.0,
-          "amount": 408421848.0
+          "amount": null
         },
         {
           "date": "2024-01-09",
@@ -46493,7 +46483,7 @@
           "close": 129.954,
           "rawClose": 133.444,
           "volume": 29256.0,
-          "amount": 390354639.0
+          "amount": null
         },
         {
           "date": "2024-01-10",
@@ -46503,7 +46493,7 @@
           "close": 129.937,
           "rawClose": 133.427,
           "volume": 22250.0,
-          "amount": 296839811.0
+          "amount": null
         },
         {
           "date": "2024-01-11",
@@ -46513,7 +46503,7 @@
           "close": 129.97,
           "rawClose": 133.46,
           "volume": 27339.0,
-          "amount": 364757465.0
+          "amount": null
         },
         {
           "date": "2024-01-12",
@@ -46523,7 +46513,7 @@
           "close": 129.927,
           "rawClose": 133.417,
           "volume": 26873.0,
-          "amount": 358434741.0
+          "amount": null
         },
         {
           "date": "2024-01-15",
@@ -46533,7 +46523,7 @@
           "close": 129.883,
           "rawClose": 133.373,
           "volume": 61964.0,
-          "amount": 826566021.0
+          "amount": null
         },
         {
           "date": "2024-01-16",
@@ -46543,7 +46533,7 @@
           "close": 129.792,
           "rawClose": 133.282,
           "volume": 46331.0,
-          "amount": 617761839.0
+          "amount": null
         },
         {
           "date": "2024-01-17",
@@ -46553,7 +46543,7 @@
           "close": 129.889,
           "rawClose": 133.379,
           "volume": 42925.0,
-          "amount": 572341542.0
+          "amount": null
         },
         {
           "date": "2024-01-18",
@@ -46563,7 +46553,7 @@
           "close": 129.86,
           "rawClose": 133.35,
           "volume": 42701.0,
-          "amount": 569876312.0
+          "amount": null
         },
         {
           "date": "2024-01-19",
@@ -46573,7 +46563,7 @@
           "close": 130.085,
           "rawClose": 133.575,
           "volume": 50477.0,
-          "amount": 673929522.0
+          "amount": null
         },
         {
           "date": "2024-01-22",
@@ -46583,7 +46573,7 @@
           "close": 130.147,
           "rawClose": 133.637,
           "volume": 30624.0,
-          "amount": 409094798.0
+          "amount": null
         },
         {
           "date": "2024-01-23",
@@ -46593,7 +46583,7 @@
           "close": 130.069,
           "rawClose": 133.559,
           "volume": 31376.0,
-          "amount": 418987630.0
+          "amount": null
         },
         {
           "date": "2024-01-24",
@@ -46603,7 +46593,7 @@
           "close": 130.022,
           "rawClose": 133.512,
           "volume": 14214.0,
-          "amount": 189815057.0
+          "amount": null
         },
         {
           "date": "2024-01-25",
@@ -46613,7 +46603,7 @@
           "close": 130.192,
           "rawClose": 133.682,
           "volume": 16875.0,
-          "amount": 225569346.0
+          "amount": null
         },
         {
           "date": "2024-01-26",
@@ -46623,7 +46613,7 @@
           "close": 130.285,
           "rawClose": 133.775,
           "volume": 40995.0,
-          "amount": 548326574.0
+          "amount": null
         },
         {
           "date": "2024-01-29",
@@ -46633,7 +46623,7 @@
           "close": 130.331,
           "rawClose": 133.821,
           "volume": 30873.0,
-          "amount": 413130976.0
+          "amount": null
         },
         {
           "date": "2024-01-30",
@@ -46643,7 +46633,7 @@
           "close": 130.677,
           "rawClose": 134.167,
           "volume": 36493.0,
-          "amount": 489255910.0
+          "amount": null
         },
         {
           "date": "2024-01-31",
@@ -46653,7 +46643,7 @@
           "close": 130.71,
           "rawClose": 134.2,
           "volume": 25205.0,
-          "amount": 338210701.0
+          "amount": null
         },
         {
           "date": "2024-02-01",
@@ -46663,7 +46653,7 @@
           "close": 130.588,
           "rawClose": 134.078,
           "volume": 34043.0,
-          "amount": 456351073.0
+          "amount": null
         },
         {
           "date": "2024-02-02",
@@ -46673,7 +46663,7 @@
           "close": 130.576,
           "rawClose": 134.066,
           "volume": 40738.0,
-          "amount": 546118929.0
+          "amount": null
         },
         {
           "date": "2024-02-05",
@@ -46683,7 +46673,7 @@
           "close": 130.734,
           "rawClose": 134.224,
           "volume": 34413.0,
-          "amount": 461796508.0
+          "amount": null
         },
         {
           "date": "2024-02-06",
@@ -46693,7 +46683,7 @@
           "close": 130.533,
           "rawClose": 134.023,
           "volume": 42677.0,
-          "amount": 572060128.0
+          "amount": null
         },
         {
           "date": "2024-02-07",
@@ -46703,7 +46693,7 @@
           "close": 130.471,
           "rawClose": 133.961,
           "volume": 15312.0,
-          "amount": 205142624.0
+          "amount": null
         },
         {
           "date": "2024-02-08",
@@ -46713,7 +46703,7 @@
           "close": 130.71,
           "rawClose": 134.2,
           "volume": 25645.0,
-          "amount": 343927269.0
+          "amount": null
         },
         {
           "date": "2024-02-19",
@@ -46723,7 +46713,7 @@
           "close": 130.67,
           "rawClose": 134.16,
           "volume": 38908.0,
-          "amount": 521972404.0
+          "amount": null
         },
         {
           "date": "2024-02-20",
@@ -46733,7 +46723,7 @@
           "close": 130.712,
           "rawClose": 134.202,
           "volume": 35983.0,
-          "amount": 482744989.0
+          "amount": null
         },
         {
           "date": "2024-02-21",
@@ -46743,7 +46733,7 @@
           "close": 130.795,
           "rawClose": 134.285,
           "volume": 29469.0,
-          "amount": 395684697.0
+          "amount": null
         },
         {
           "date": "2024-02-22",
@@ -46753,7 +46743,7 @@
           "close": 130.853,
           "rawClose": 134.343,
           "volume": 26980.0,
-          "amount": 362284554.0
+          "amount": null
         },
         {
           "date": "2024-02-23",
@@ -46763,7 +46753,7 @@
           "close": 131.019,
           "rawClose": 134.509,
           "volume": 36790.0,
-          "amount": 494736824.0
+          "amount": null
         },
         {
           "date": "2024-02-26",
@@ -46773,7 +46763,7 @@
           "close": 131.031,
           "rawClose": 134.521,
           "volume": 25915.0,
-          "amount": 348596463.0
+          "amount": null
         },
         {
           "date": "2024-02-27",
@@ -46783,7 +46773,7 @@
           "close": 131.069,
           "rawClose": 134.559,
           "volume": 28539.0,
-          "amount": 384026914.0
+          "amount": null
         },
         {
           "date": "2024-02-28",
@@ -46793,7 +46783,7 @@
           "close": 131.08,
           "rawClose": 134.57,
           "volume": 25255.0,
-          "amount": 339736624.0
+          "amount": null
         },
         {
           "date": "2024-02-29",
@@ -46803,7 +46793,7 @@
           "close": 131.131,
           "rawClose": 134.621,
           "volume": 54219.0,
-          "amount": 729932059.0
+          "amount": null
         },
         {
           "date": "2024-03-01",
@@ -46813,7 +46803,7 @@
           "close": 131.05,
           "rawClose": 134.54,
           "volume": 52223.0,
-          "amount": 702672881.0
+          "amount": null
         },
         {
           "date": "2024-03-04",
@@ -46823,7 +46813,7 @@
           "close": 131.055,
           "rawClose": 134.545,
           "volume": 43927.0,
-          "amount": 591032483.0
+          "amount": null
         },
         {
           "date": "2024-03-05",
@@ -46833,7 +46823,7 @@
           "close": 131.06,
           "rawClose": 134.55,
           "volume": 41925.0,
-          "amount": 564130439.0
+          "amount": null
         },
         {
           "date": "2024-03-06",
@@ -46843,7 +46833,7 @@
           "close": 131.24,
           "rawClose": 134.73,
           "volume": 37172.0,
-          "amount": 500761277.0
+          "amount": null
         },
         {
           "date": "2024-03-07",
@@ -46853,7 +46843,7 @@
           "close": 131.356,
           "rawClose": 134.846,
           "volume": 37630.0,
-          "amount": 507391105.0
+          "amount": null
         },
         {
           "date": "2024-03-08",
@@ -46863,7 +46853,7 @@
           "close": 131.303,
           "rawClose": 134.793,
           "volume": 43724.0,
-          "amount": 589453577.0
+          "amount": null
         },
         {
           "date": "2024-03-11",
@@ -46873,7 +46863,7 @@
           "close": 131.218,
           "rawClose": 134.708,
           "volume": 42286.0,
-          "amount": 569558883.0
+          "amount": null
         },
         {
           "date": "2024-03-12",
@@ -46883,7 +46873,7 @@
           "close": 131.091,
           "rawClose": 134.581,
           "volume": 41780.0,
-          "amount": 562296870.0
+          "amount": null
         },
         {
           "date": "2024-03-13",
@@ -46893,7 +46883,7 @@
           "close": 131.054,
           "rawClose": 134.544,
           "volume": 39384.0,
-          "amount": 529420557.0
+          "amount": null
         },
         {
           "date": "2024-03-14",
@@ -46903,7 +46893,7 @@
           "close": 130.981,
           "rawClose": 134.471,
           "volume": 34673.0,
-          "amount": 466290866.0
+          "amount": null
         },
         {
           "date": "2024-03-15",
@@ -46913,7 +46903,7 @@
           "close": 131.064,
           "rawClose": 134.554,
           "volume": 41887.0,
-          "amount": 563565878.0
+          "amount": null
         },
         {
           "date": "2024-03-18",
@@ -46923,7 +46913,7 @@
           "close": 131.187,
           "rawClose": 134.677,
           "volume": 41509.0,
-          "amount": 558782778.0
+          "amount": null
         },
         {
           "date": "2024-03-19",
@@ -46933,7 +46923,7 @@
           "close": 131.293,
           "rawClose": 134.783,
           "volume": 34378.0,
-          "amount": 463246829.0
+          "amount": null
         },
         {
           "date": "2024-03-20",
@@ -46943,7 +46933,7 @@
           "close": 131.269,
           "rawClose": 134.759,
           "volume": 67407.0,
-          "amount": 908402705.0
+          "amount": null
         },
         {
           "date": "2024-03-21",
@@ -46953,7 +46943,7 @@
           "close": 131.293,
           "rawClose": 134.783,
           "volume": 35896.0,
-          "amount": 483576756.0
+          "amount": null
         },
         {
           "date": "2024-03-22",
@@ -46963,7 +46953,7 @@
           "close": 131.326,
           "rawClose": 134.816,
           "volume": 38493.0,
-          "amount": 518969632.0
+          "amount": null
         },
         {
           "date": "2024-03-25",
@@ -46973,7 +46963,7 @@
           "close": 131.262,
           "rawClose": 134.752,
           "volume": 41118.0,
-          "amount": 553835634.0
+          "amount": null
         },
         {
           "date": "2024-03-26",
@@ -46983,7 +46973,7 @@
           "close": 131.247,
           "rawClose": 134.737,
           "volume": 31516.0,
-          "amount": 424598115.0
+          "amount": null
         },
         {
           "date": "2024-03-27",
@@ -46993,7 +46983,7 @@
           "close": 131.301,
           "rawClose": 134.791,
           "volume": 40304.0,
-          "amount": 543158055.0
+          "amount": null
         },
         {
           "date": "2024-03-28",
@@ -47003,7 +46993,7 @@
           "close": 131.285,
           "rawClose": 134.775,
           "volume": 2827.0,
-          "amount": 38109293.0
+          "amount": null
         },
         {
           "date": "2024-03-29",
@@ -47013,7 +47003,7 @@
           "close": 131.433,
           "rawClose": 134.923,
           "volume": 40632.0,
-          "amount": 548002566.0
+          "amount": null
         },
         {
           "date": "2024-04-01",
@@ -47023,7 +47013,7 @@
           "close": 131.388,
           "rawClose": 134.878,
           "volume": 30373.0,
-          "amount": 409613209.0
+          "amount": null
         },
         {
           "date": "2024-04-02",
@@ -47033,7 +47023,7 @@
           "close": 131.436,
           "rawClose": 134.926,
           "volume": 37738.0,
-          "amount": 509095249.0
+          "amount": null
         },
         {
           "date": "2024-04-03",
@@ -47043,7 +47033,7 @@
           "close": 131.573,
           "rawClose": 135.063,
           "volume": 34318.0,
-          "amount": 463414435.0
+          "amount": null
         },
         {
           "date": "2024-04-08",
@@ -47053,7 +47043,7 @@
           "close": 131.74,
           "rawClose": 135.23,
           "volume": 31544.0,
-          "amount": 426404639.0
+          "amount": null
         },
         {
           "date": "2024-04-09",
@@ -47063,7 +47053,7 @@
           "close": 131.865,
           "rawClose": 135.355,
           "volume": 41409.0,
-          "amount": 560376532.0
+          "amount": null
         },
         {
           "date": "2024-04-10",
@@ -47073,7 +47063,7 @@
           "close": 131.879,
           "rawClose": 135.369,
           "volume": 52895.0,
-          "amount": 715854808.0
+          "amount": null
         },
         {
           "date": "2024-04-11",
@@ -47083,7 +47073,7 @@
           "close": 131.904,
           "rawClose": 135.394,
           "volume": 39365.0,
-          "amount": 533063942.0
+          "amount": null
         },
         {
           "date": "2024-04-12",
@@ -47093,7 +47083,7 @@
           "close": 132.079,
           "rawClose": 135.569,
           "volume": 39987.0,
-          "amount": 541980870.0
+          "amount": null
         },
         {
           "date": "2024-04-15",
@@ -47103,7 +47093,7 @@
           "close": 132.06,
           "rawClose": 135.55,
           "volume": 30803.0,
-          "amount": 417584221.0
+          "amount": null
         },
         {
           "date": "2024-04-16",
@@ -47113,7 +47103,7 @@
           "close": 131.987,
           "rawClose": 135.477,
           "volume": 38683.0,
-          "amount": 524038437.0
+          "amount": null
         },
         {
           "date": "2024-04-17",
@@ -47123,7 +47113,7 @@
           "close": 132.022,
           "rawClose": 135.512,
           "volume": 34128.0,
-          "amount": 462501503.0
+          "amount": null
         },
         {
           "date": "2024-04-18",
@@ -47133,7 +47123,7 @@
           "close": 132.128,
           "rawClose": 135.618,
           "volume": 31451.0,
-          "amount": 426368681.0
+          "amount": null
         },
         {
           "date": "2024-04-19",
@@ -47143,7 +47133,7 @@
           "close": 132.216,
           "rawClose": 135.706,
           "volume": 68993.0,
-          "amount": 936298335.0
+          "amount": null
         },
         {
           "date": "2024-04-22",
@@ -47153,7 +47143,7 @@
           "close": 132.297,
           "rawClose": 135.787,
           "volume": 30708.0,
-          "amount": 416881888.0
+          "amount": null
         },
         {
           "date": "2024-04-23",
@@ -47163,7 +47153,7 @@
           "close": 132.487,
           "rawClose": 135.977,
           "volume": 29838.0,
-          "amount": 405530649.0
+          "amount": null
         },
         {
           "date": "2024-04-24",
@@ -47173,7 +47163,7 @@
           "close": 132.128,
           "rawClose": 135.618,
           "volume": 34713.0,
-          "amount": 471142568.0
+          "amount": null
         },
         {
           "date": "2024-04-25",
@@ -47183,7 +47173,7 @@
           "close": 132.223,
           "rawClose": 135.713,
           "volume": 31794.0,
-          "amount": 431549647.0
+          "amount": null
         },
         {
           "date": "2024-04-26",
@@ -47193,7 +47183,7 @@
           "close": 131.999,
           "rawClose": 135.489,
           "volume": 28061.0,
-          "amount": 380788172.0
+          "amount": null
         },
         {
           "date": "2024-04-29",
@@ -47203,7 +47193,7 @@
           "close": 131.439,
           "rawClose": 134.929,
           "volume": 10692.0,
-          "amount": 144190462.0
+          "amount": null
         },
         {
           "date": "2024-04-30",
@@ -47213,7 +47203,7 @@
           "close": 131.822,
           "rawClose": 135.312,
           "volume": 36085.0,
-          "amount": 488135623.0
+          "amount": null
         },
         {
           "date": "2024-05-06",
@@ -47223,7 +47213,7 @@
           "close": 132.035,
           "rawClose": 135.525,
           "volume": 18296.0,
-          "amount": 247889785.0
+          "amount": null
         },
         {
           "date": "2024-05-07",
@@ -47233,7 +47223,7 @@
           "close": 132.201,
           "rawClose": 135.691,
           "volume": 29758.0,
-          "amount": 403983601.0
+          "amount": null
         },
         {
           "date": "2024-05-08",
@@ -47243,7 +47233,7 @@
           "close": 132.225,
           "rawClose": 135.715,
           "volume": 28353.0,
-          "amount": 384760094.0
+          "amount": null
         },
         {
           "date": "2024-05-09",
@@ -47253,7 +47243,7 @@
           "close": 132.106,
           "rawClose": 135.596,
           "volume": 41169.0,
-          "amount": 558285771.0
+          "amount": null
         },
         {
           "date": "2024-05-10",
@@ -47263,7 +47253,7 @@
           "close": 132.082,
           "rawClose": 135.572,
           "volume": 29335.0,
-          "amount": 397753233.0
+          "amount": null
         },
         {
           "date": "2024-05-13",
@@ -47273,7 +47263,7 @@
           "close": 132.226,
           "rawClose": 135.716,
           "volume": 27803.0,
-          "amount": 377206359.0
+          "amount": null
         },
         {
           "date": "2024-05-14",
@@ -47283,7 +47273,7 @@
           "close": 132.301,
           "rawClose": 135.791,
           "volume": 38968.0,
-          "amount": 529176557.0
+          "amount": null
         },
         {
           "date": "2024-05-15",
@@ -47293,7 +47283,7 @@
           "close": 132.3,
           "rawClose": 135.79,
           "volume": 34142.0,
-          "amount": 463696607.0
+          "amount": null
         },
         {
           "date": "2024-05-16",
@@ -47303,7 +47293,7 @@
           "close": 132.236,
           "rawClose": 135.726,
           "volume": 33005.0,
-          "amount": 447901104.0
+          "amount": null
         },
         {
           "date": "2024-05-17",
@@ -47313,7 +47303,7 @@
           "close": 132.137,
           "rawClose": 135.627,
           "volume": 38343.0,
-          "amount": 520056659.0
+          "amount": null
         },
         {
           "date": "2024-05-20",
@@ -47323,7 +47313,7 @@
           "close": 132.299,
           "rawClose": 135.789,
           "volume": 33931.0,
-          "amount": 460591794.0
+          "amount": null
         },
         {
           "date": "2024-05-21",
@@ -47333,7 +47323,7 @@
           "close": 132.229,
           "rawClose": 135.719,
           "volume": 32296.0,
-          "amount": 438365632.0
+          "amount": null
         },
         {
           "date": "2024-05-22",
@@ -47343,7 +47333,7 @@
           "close": 132.287,
           "rawClose": 135.777,
           "volume": 33810.0,
-          "amount": 459043440.0
+          "amount": null
         },
         {
           "date": "2024-05-23",
@@ -47353,7 +47343,7 @@
           "close": 132.381,
           "rawClose": 135.871,
           "volume": 34495.0,
-          "amount": 468626305.0
+          "amount": null
         },
         {
           "date": "2024-05-24",
@@ -47363,7 +47353,7 @@
           "close": 132.384,
           "rawClose": 135.874,
           "volume": 32052.0,
-          "amount": 435493170.0
+          "amount": null
         },
         {
           "date": "2024-05-27",
@@ -47373,7 +47363,7 @@
           "close": 132.35,
           "rawClose": 135.84,
           "volume": 35643.0,
-          "amount": 484134371.0
+          "amount": null
         },
         {
           "date": "2024-05-28",
@@ -47383,7 +47373,7 @@
           "close": 132.426,
           "rawClose": 135.916,
           "volume": 30882.0,
-          "amount": 419630816.0
+          "amount": null
         },
         {
           "date": "2024-05-29",
@@ -47393,7 +47383,7 @@
           "close": 132.498,
           "rawClose": 135.988,
           "volume": 28917.0,
-          "amount": 393217257.0
+          "amount": null
         },
         {
           "date": "2024-05-30",
@@ -47403,7 +47393,7 @@
           "close": 132.551,
           "rawClose": 136.041,
           "volume": 28778.0,
-          "amount": 391452427.0
+          "amount": null
         },
         {
           "date": "2024-05-31",
@@ -47413,7 +47403,7 @@
           "close": 132.528,
           "rawClose": 136.018,
           "volume": 35903.0,
-          "amount": 488344735.0
+          "amount": null
         },
         {
           "date": "2024-06-03",
@@ -47423,7 +47413,7 @@
           "close": 132.67,
           "rawClose": 136.16,
           "volume": 43246.0,
-          "amount": 588590463.0
+          "amount": null
         },
         {
           "date": "2024-06-04",
@@ -47433,7 +47423,7 @@
           "close": 132.702,
           "rawClose": 136.192,
           "volume": 35781.0,
-          "amount": 487162149.0
+          "amount": null
         },
         {
           "date": "2024-06-05",
@@ -47443,7 +47433,7 @@
           "close": 132.741,
           "rawClose": 136.231,
           "volume": 33142.0,
-          "amount": 451510230.0
+          "amount": null
         },
         {
           "date": "2024-06-06",
@@ -47453,7 +47443,7 @@
           "close": 132.715,
           "rawClose": 136.205,
           "volume": 28371.0,
-          "amount": 386461629.0
+          "amount": null
         },
         {
           "date": "2024-06-07",
@@ -47463,7 +47453,7 @@
           "close": 132.764,
           "rawClose": 136.254,
           "volume": 32798.0,
-          "amount": 446804856.0
+          "amount": null
         },
         {
           "date": "2024-06-11",
@@ -47473,7 +47463,7 @@
           "close": 132.764,
           "rawClose": 136.254,
           "volume": 26420.0,
-          "amount": 359971961.0
+          "amount": null
         },
         {
           "date": "2024-06-12",
@@ -47483,7 +47473,7 @@
           "close": 132.746,
           "rawClose": 136.236,
           "volume": 25551.0,
-          "amount": 348113356.0
+          "amount": null
         },
         {
           "date": "2024-06-13",
@@ -47493,7 +47483,7 @@
           "close": 132.759,
           "rawClose": 136.249,
           "volume": 28111.0,
-          "amount": 383015862.0
+          "amount": null
         },
         {
           "date": "2024-06-14",
@@ -47503,7 +47493,7 @@
           "close": 132.78,
           "rawClose": 136.27,
           "volume": 33934.0,
-          "amount": 462389224.0
+          "amount": null
         },
         {
           "date": "2024-06-17",
@@ -47513,7 +47503,7 @@
           "close": 132.837,
           "rawClose": 136.327,
           "volume": 27625.0,
-          "amount": 376491110.0
+          "amount": null
         },
         {
           "date": "2024-06-18",
@@ -47523,7 +47513,7 @@
           "close": 132.874,
           "rawClose": 136.364,
           "volume": 28487.0,
-          "amount": 388415339.0
+          "amount": null
         },
         {
           "date": "2024-06-19",
@@ -47533,7 +47523,7 @@
           "close": 132.901,
           "rawClose": 136.391,
           "volume": 53157.0,
-          "amount": 724892385.0
+          "amount": null
         },
         {
           "date": "2024-06-20",
@@ -47543,7 +47533,7 @@
           "close": 133.016,
           "rawClose": 136.506,
           "volume": 30529.0,
-          "amount": 416635556.0
+          "amount": null
         },
         {
           "date": "2024-06-21",
@@ -47553,7 +47543,7 @@
           "close": 132.947,
           "rawClose": 136.437,
           "volume": 29703.0,
-          "amount": 405267714.0
+          "amount": null
         },
         {
           "date": "2024-06-24",
@@ -47563,7 +47553,7 @@
           "close": 133.03,
           "rawClose": 136.52,
           "volume": 28418.0,
-          "amount": 387723210.0
+          "amount": null
         },
         {
           "date": "2024-06-25",
@@ -47573,7 +47563,7 @@
           "close": 133.072,
           "rawClose": 136.562,
           "volume": 38625.0,
-          "amount": 527605233.0
+          "amount": null
         },
         {
           "date": "2024-06-26",
@@ -47583,7 +47573,7 @@
           "close": 133.172,
           "rawClose": 136.662,
           "volume": 35230.0,
-          "amount": 481371445.0
+          "amount": null
         },
         {
           "date": "2024-06-27",
@@ -47593,7 +47583,7 @@
           "close": 133.313,
           "rawClose": 136.803,
           "volume": 31055.0,
-          "amount": 424762226.0
+          "amount": null
         },
         {
           "date": "2024-06-28",
@@ -47603,7 +47593,7 @@
           "close": 133.409,
           "rawClose": 136.899,
           "volume": 49050.0,
-          "amount": 671355110.0
+          "amount": null
         },
         {
           "date": "2024-07-01",
@@ -47613,7 +47603,7 @@
           "close": 133.182,
           "rawClose": 136.672,
           "volume": 8915.0,
-          "amount": 121957868.0
+          "amount": null
         },
         {
           "date": "2024-07-02",
@@ -47623,7 +47613,7 @@
           "close": 133.305,
           "rawClose": 136.795,
           "volume": 34446.0,
-          "amount": 470877130.0
+          "amount": null
         },
         {
           "date": "2024-07-03",
@@ -47633,7 +47623,7 @@
           "close": 133.517,
           "rawClose": 137.007,
           "volume": 40451.0,
-          "amount": 553749871.0
+          "amount": null
         },
         {
           "date": "2024-07-04",
@@ -47643,7 +47633,7 @@
           "close": 133.444,
           "rawClose": 136.934,
           "volume": 64538.0,
-          "amount": 883819042.0
+          "amount": null
         },
         {
           "date": "2024-07-05",
@@ -47653,7 +47643,7 @@
           "close": 133.338,
           "rawClose": 136.828,
           "volume": 45067.0,
-          "amount": 616550151.0
+          "amount": null
         },
         {
           "date": "2024-07-08",
@@ -47663,7 +47653,7 @@
           "close": 133.071,
           "rawClose": 136.561,
           "volume": 46433.0,
-          "amount": 633828016.0
+          "amount": null
         },
         {
           "date": "2024-07-09",
@@ -47673,7 +47663,7 @@
           "close": 133.239,
           "rawClose": 136.729,
           "volume": 34476.0,
-          "amount": 471260267.0
+          "amount": null
         },
         {
           "date": "2024-07-10",
@@ -47683,7 +47673,7 @@
           "close": 133.325,
           "rawClose": 136.815,
           "volume": 40662.0,
-          "amount": 556048440.0
+          "amount": null
         },
         {
           "date": "2024-07-11",
@@ -47693,7 +47683,7 @@
           "close": 133.318,
           "rawClose": 136.808,
           "volume": 44301.0,
-          "amount": 605995419.0
+          "amount": null
         },
         {
           "date": "2024-07-12",
@@ -47703,7 +47693,7 @@
           "close": 133.426,
           "rawClose": 136.916,
           "volume": 32251.0,
-          "amount": 441525725.0
+          "amount": null
         },
         {
           "date": "2024-07-15",
@@ -47713,7 +47703,7 @@
           "close": 133.478,
           "rawClose": 136.968,
           "volume": 34516.0,
-          "amount": 472735322.0
+          "amount": null
         },
         {
           "date": "2024-07-16",
@@ -47723,7 +47713,7 @@
           "close": 133.477,
           "rawClose": 136.967,
           "volume": 32254.0,
-          "amount": 441735710.0
+          "amount": null
         },
         {
           "date": "2024-07-17",
@@ -47733,7 +47723,7 @@
           "close": 133.509,
           "rawClose": 136.999,
           "volume": 38830.0,
-          "amount": 531856232.0
+          "amount": null
         },
         {
           "date": "2024-07-18",
@@ -47743,7 +47733,7 @@
           "close": 133.468,
           "rawClose": 136.958,
           "volume": 18601.0,
-          "amount": 254751432.0
+          "amount": null
         },
         {
           "date": "2024-07-19",
@@ -47753,7 +47743,7 @@
           "close": 133.56,
           "rawClose": 137.05,
           "volume": 38215.0,
-          "amount": 523565601.0
+          "amount": null
         },
         {
           "date": "2024-07-22",
@@ -47763,7 +47753,7 @@
           "close": 133.851,
           "rawClose": 137.341,
           "volume": 30731.0,
-          "amount": 421893553.0
+          "amount": null
         },
         {
           "date": "2024-07-23",
@@ -47773,7 +47763,7 @@
           "close": 133.996,
           "rawClose": 137.486,
           "volume": 45656.0,
-          "amount": 627477998.0
+          "amount": null
         },
         {
           "date": "2024-07-24",
@@ -47783,7 +47773,7 @@
           "close": 133.998,
           "rawClose": 137.488,
           "volume": 40589.0,
-          "amount": 557941088.0
+          "amount": null
         },
         {
           "date": "2024-07-25",
@@ -47793,7 +47783,7 @@
           "close": 134.018,
           "rawClose": 137.508,
           "volume": 35684.0,
-          "amount": 490721426.0
+          "amount": null
         },
         {
           "date": "2024-07-26",
@@ -47803,7 +47793,7 @@
           "close": 134.077,
           "rawClose": 137.567,
           "volume": 18868.0,
-          "amount": 259492947.0
+          "amount": null
         },
         {
           "date": "2024-07-29",
@@ -47813,7 +47803,7 @@
           "close": 134.054,
           "rawClose": 137.544,
           "volume": 34882.0,
-          "amount": 479801006.0
+          "amount": null
         },
         {
           "date": "2024-07-30",
@@ -47823,7 +47813,7 @@
           "close": 134.074,
           "rawClose": 137.564,
           "volume": 38542.0,
-          "amount": 530140343.0
+          "amount": null
         },
         {
           "date": "2024-07-31",
@@ -47833,7 +47823,7 @@
           "close": 134.171,
           "rawClose": 137.661,
           "volume": 32067.0,
-          "amount": 441450945.0
+          "amount": null
         },
         {
           "date": "2024-08-01",
@@ -47843,7 +47833,7 @@
           "close": 134.397,
           "rawClose": 137.887,
           "volume": 24949.0,
-          "amount": 343700335.0
+          "amount": null
         },
         {
           "date": "2024-08-02",
@@ -47853,7 +47843,7 @@
           "close": 134.598,
           "rawClose": 138.088,
           "volume": 25648.0,
-          "amount": 354010935.0
+          "amount": null
         },
         {
           "date": "2024-08-05",
@@ -47863,7 +47853,7 @@
           "close": 134.649,
           "rawClose": 138.139,
           "volume": 38029.0,
-          "amount": 525168199.0
+          "amount": null
         },
         {
           "date": "2024-08-06",
@@ -47873,7 +47863,7 @@
           "close": 134.45,
           "rawClose": 137.94,
           "volume": 27544.0,
-          "amount": 379823604.0
+          "amount": null
         },
         {
           "date": "2024-08-07",
@@ -47883,7 +47873,7 @@
           "close": 134.641,
           "rawClose": 138.131,
           "volume": 39797.0,
-          "amount": 549421280.0
+          "amount": null
         },
         {
           "date": "2024-08-08",
@@ -47893,7 +47883,7 @@
           "close": 134.521,
           "rawClose": 138.011,
           "volume": 40429.0,
-          "amount": 557716555.0
+          "amount": null
         },
         {
           "date": "2024-08-09",
@@ -47903,7 +47893,7 @@
           "close": 134.336,
           "rawClose": 137.826,
           "volume": 29740.0,
-          "amount": 409834442.0
+          "amount": null
         },
         {
           "date": "2024-08-12",
@@ -47913,7 +47903,7 @@
           "close": 133.714,
           "rawClose": 137.204,
           "volume": 48832.0,
-          "amount": 670790971.0
+          "amount": null
         },
         {
           "date": "2024-08-13",
@@ -47923,7 +47913,7 @@
           "close": 134.119,
           "rawClose": 137.609,
           "volume": 56401.0,
-          "amount": 775790600.0
+          "amount": null
         },
         {
           "date": "2024-08-14",
@@ -47933,7 +47923,7 @@
           "close": 134.246,
           "rawClose": 137.736,
           "volume": 36982.0,
-          "amount": 509655437.0
+          "amount": null
         },
         {
           "date": "2024-08-15",
@@ -47943,7 +47933,7 @@
           "close": 134.11,
           "rawClose": 137.6,
           "volume": 24381.0,
-          "amount": 335713097.0
+          "amount": null
         },
         {
           "date": "2024-08-16",
@@ -47953,7 +47943,7 @@
           "close": 134.087,
           "rawClose": 137.577,
           "volume": 36548.0,
-          "amount": 502938450.0
+          "amount": null
         },
         {
           "date": "2024-08-19",
@@ -47963,7 +47953,7 @@
           "close": 134.146,
           "rawClose": 137.636,
           "volume": 41832.0,
-          "amount": 575601000.0
+          "amount": null
         },
         {
           "date": "2024-08-20",
@@ -47973,7 +47963,7 @@
           "close": 134.124,
           "rawClose": 137.614,
           "volume": 40906.0,
-          "amount": 562956075.0
+          "amount": null
         },
         {
           "date": "2024-08-21",
@@ -47983,7 +47973,7 @@
           "close": 133.977,
           "rawClose": 137.467,
           "volume": 52970.0,
-          "amount": 728438040.0
+          "amount": null
         },
         {
           "date": "2024-08-22",
@@ -47993,7 +47983,7 @@
           "close": 134.253,
           "rawClose": 137.743,
           "volume": 21531.0,
-          "amount": 296505454.0
+          "amount": null
         },
         {
           "date": "2024-08-23",
@@ -48003,7 +47993,7 @@
           "close": 134.454,
           "rawClose": 137.944,
           "volume": 39433.0,
-          "amount": 543410882.0
+          "amount": null
         },
         {
           "date": "2024-08-26",
@@ -48013,7 +48003,7 @@
           "close": 134.456,
           "rawClose": 137.946,
           "volume": 31747.0,
-          "amount": 437899175.0
+          "amount": null
         },
         {
           "date": "2024-08-27",
@@ -48023,7 +48013,7 @@
           "close": 134.366,
           "rawClose": 137.856,
           "volume": 41563.0,
-          "amount": 573048361.0
+          "amount": null
         },
         {
           "date": "2024-08-28",
@@ -48033,7 +48023,7 @@
           "close": 134.411,
           "rawClose": 137.901,
           "volume": 48146.0,
-          "amount": 663689773.0
+          "amount": null
         },
         {
           "date": "2024-08-29",
@@ -48043,7 +48033,7 @@
           "close": 134.337,
           "rawClose": 137.827,
           "volume": 35408.0,
-          "amount": 488190046.0
+          "amount": null
         },
         {
           "date": "2024-08-30",
@@ -48053,7 +48043,7 @@
           "close": 134.295,
           "rawClose": 137.785,
           "volume": 32779.0,
-          "amount": 451610334.0
+          "amount": null
         },
         {
           "date": "2024-09-02",
@@ -48063,7 +48053,7 @@
           "close": 134.616,
           "rawClose": 138.106,
           "volume": 43363.0,
-          "amount": 598891652.0
+          "amount": null
         },
         {
           "date": "2024-09-03",
@@ -48073,7 +48063,7 @@
           "close": 134.799,
           "rawClose": 138.289,
           "volume": 42128.0,
-          "amount": 582406440.0
+          "amount": null
         },
         {
           "date": "2024-09-04",
@@ -48083,7 +48073,7 @@
           "close": 134.847,
           "rawClose": 138.337,
           "volume": 42708.0,
-          "amount": 590911718.0
+          "amount": null
         },
         {
           "date": "2024-09-05",
@@ -48093,7 +48083,7 @@
           "close": 134.933,
           "rawClose": 138.423,
           "volume": 34083.0,
-          "amount": 471901680.0
+          "amount": null
         },
         {
           "date": "2024-09-06",
@@ -48103,7 +48093,7 @@
           "close": 134.978,
           "rawClose": 138.468,
           "volume": 32606.0,
-          "amount": 451442774.0
+          "amount": null
         },
         {
           "date": "2024-09-09",
@@ -48113,7 +48103,7 @@
           "close": 135.051,
           "rawClose": 138.541,
           "volume": 10826.0,
-          "amount": 149963461.0
+          "amount": null
         },
         {
           "date": "2024-09-10",
@@ -48123,7 +48113,7 @@
           "close": 135.169,
           "rawClose": 138.659,
           "volume": 30735.0,
-          "amount": 425915369.0
+          "amount": null
         },
         {
           "date": "2024-09-11",
@@ -48133,7 +48123,7 @@
           "close": 135.376,
           "rawClose": 138.866,
           "volume": 24002.0,
-          "amount": 333183361.0
+          "amount": null
         },
         {
           "date": "2024-09-12",
@@ -48143,7 +48133,7 @@
           "close": 135.161,
           "rawClose": 138.651,
           "volume": 15217.0,
-          "amount": 211198651.0
+          "amount": null
         },
         {
           "date": "2024-09-13",
@@ -48153,7 +48143,7 @@
           "close": 135.355,
           "rawClose": 138.845,
           "volume": 14481.0,
-          "amount": 201007071.0
+          "amount": null
         },
         {
           "date": "2024-09-18",
@@ -48163,7 +48153,7 @@
           "close": 135.389,
           "rawClose": 138.879,
           "volume": 11386.0,
-          "amount": 158139154.0
+          "amount": null
         },
         {
           "date": "2024-09-19",
@@ -48173,7 +48163,7 @@
           "close": 135.205,
           "rawClose": 138.695,
           "volume": 26325.0,
-          "amount": 365367755.0
+          "amount": null
         },
         {
           "date": "2024-09-20",
@@ -48183,7 +48173,7 @@
           "close": 135.304,
           "rawClose": 138.794,
           "volume": 26995.0,
-          "amount": 374644194.0
+          "amount": null
         },
         {
           "date": "2024-09-23",
@@ -48193,7 +48183,7 @@
           "close": 135.334,
           "rawClose": 138.824,
           "volume": 20696.0,
-          "amount": 287365284.0
+          "amount": null
         },
         {
           "date": "2024-09-24",
@@ -48203,7 +48193,7 @@
           "close": 135.182,
           "rawClose": 138.672,
           "volume": 23423.0,
-          "amount": 325022013.0
+          "amount": null
         },
         {
           "date": "2024-09-25",
@@ -48213,7 +48203,7 @@
           "close": 135.507,
           "rawClose": 138.997,
           "volume": 17573.0,
-          "amount": 243887602.0
+          "amount": null
         },
         {
           "date": "2024-09-26",
@@ -48223,7 +48213,7 @@
           "close": 135.4,
           "rawClose": 138.89,
           "volume": 18483.0,
-          "amount": 256839374.0
+          "amount": null
         },
         {
           "date": "2024-09-27",
@@ -48233,7 +48223,7 @@
           "close": 134.82,
           "rawClose": 138.31,
           "volume": 9873.0,
-          "amount": 136649607.0
+          "amount": null
         },
         {
           "date": "2024-09-30",
@@ -48243,7 +48233,7 @@
           "close": 134.354,
           "rawClose": 137.844,
           "volume": 29722.0,
-          "amount": 408040372.0
+          "amount": null
         },
         {
           "date": "2024-10-08",
@@ -48253,7 +48243,7 @@
           "close": 134.3,
           "rawClose": 137.79,
           "volume": 18848.0,
-          "amount": 259664706.0
+          "amount": null
         },
         {
           "date": "2024-10-09",
@@ -48263,7 +48253,7 @@
           "close": 134.58,
           "rawClose": 138.07,
           "volume": 24818.0,
-          "amount": 342442212.0
+          "amount": null
         },
         {
           "date": "2024-10-10",
@@ -48273,7 +48263,7 @@
           "close": 134.908,
           "rawClose": 138.398,
           "volume": 13708.0,
-          "amount": 189523482.0
+          "amount": null
         },
         {
           "date": "2024-10-11",
@@ -48283,7 +48273,7 @@
           "close": 134.98,
           "rawClose": 138.47,
           "volume": 33894.0,
-          "amount": 469396265.0
+          "amount": null
         },
         {
           "date": "2024-10-14",
@@ -48293,7 +48283,7 @@
           "close": 134.958,
           "rawClose": 138.448,
           "volume": 32374.0,
-          "amount": 448294641.0
+          "amount": null
         },
         {
           "date": "2024-10-15",
@@ -48303,7 +48293,7 @@
           "close": 134.994,
           "rawClose": 138.484,
           "volume": 32637.0,
-          "amount": 451883611.0
+          "amount": null
         },
         {
           "date": "2024-10-16",
@@ -48313,7 +48303,7 @@
           "close": 135.013,
           "rawClose": 138.503,
           "volume": 46099.0,
-          "amount": 638376064.0
+          "amount": null
         },
         {
           "date": "2024-10-17",
@@ -48323,7 +48313,7 @@
           "close": 135.201,
           "rawClose": 138.691,
           "volume": 52197.0,
-          "amount": 723563962.0
+          "amount": null
         },
         {
           "date": "2024-10-18",
@@ -48333,7 +48323,7 @@
           "close": 135.047,
           "rawClose": 138.537,
           "volume": 72249.0,
-          "amount": 1000947534.0
+          "amount": null
         },
         {
           "date": "2024-10-21",
@@ -48343,7 +48333,7 @@
           "close": 135.029,
           "rawClose": 138.519,
           "volume": 34468.0,
-          "amount": 477447413.0
+          "amount": null
         },
         {
           "date": "2024-10-22",
@@ -48353,7 +48343,7 @@
           "close": 134.835,
           "rawClose": 138.325,
           "volume": 17004.0,
-          "amount": 235453765.0
+          "amount": null
         },
         {
           "date": "2024-10-23",
@@ -48363,7 +48353,7 @@
           "close": 134.696,
           "rawClose": 138.186,
           "volume": 44680.0,
-          "amount": 617394854.0
+          "amount": null
         },
         {
           "date": "2024-10-24",
@@ -48373,7 +48363,7 @@
           "close": 134.75,
           "rawClose": 138.24,
           "volume": 40460.0,
-          "amount": 559374573.0
+          "amount": null
         },
         {
           "date": "2024-10-25",
@@ -48383,7 +48373,7 @@
           "close": 134.738,
           "rawClose": 138.228,
           "volume": 48924.0,
-          "amount": 676179307.0
+          "amount": null
         },
         {
           "date": "2024-10-28",
@@ -48393,7 +48383,7 @@
           "close": 134.765,
           "rawClose": 138.255,
           "volume": 31677.0,
-          "amount": 437979923.0
+          "amount": null
         },
         {
           "date": "2024-10-29",
@@ -48403,7 +48393,7 @@
           "close": 134.902,
           "rawClose": 138.392,
           "volume": 17659.0,
-          "amount": 244297751.0
+          "amount": null
         },
         {
           "date": "2024-10-30",
@@ -48413,7 +48403,7 @@
           "close": 134.945,
           "rawClose": 138.435,
           "volume": 19408.0,
-          "amount": 268680316.0
+          "amount": null
         },
         {
           "date": "2024-10-31",
@@ -48423,7 +48413,7 @@
           "close": 134.934,
           "rawClose": 138.424,
           "volume": 16582.0,
-          "amount": 229504083.0
+          "amount": null
         },
         {
           "date": "2024-11-01",
@@ -48433,7 +48423,7 @@
           "close": 135.141,
           "rawClose": 138.631,
           "volume": 10652.0,
-          "amount": 147606218.0
+          "amount": null
         },
         {
           "date": "2024-11-04",
@@ -48443,7 +48433,7 @@
           "close": 135.2,
           "rawClose": 138.69,
           "volume": 14599.0,
-          "amount": 202478306.0
+          "amount": null
         },
         {
           "date": "2024-11-05",
@@ -48453,7 +48443,7 @@
           "close": 135.188,
           "rawClose": 138.678,
           "volume": 22315.0,
-          "amount": 309446791.0
+          "amount": null
         },
         {
           "date": "2024-11-06",
@@ -48463,7 +48453,7 @@
           "close": 135.239,
           "rawClose": 138.729,
           "volume": 10041.0,
-          "amount": 139311498.0
+          "amount": null
         },
         {
           "date": "2024-11-07",
@@ -48473,7 +48463,7 @@
           "close": 135.359,
           "rawClose": 138.849,
           "volume": 20181.0,
-          "amount": 280148422.0
+          "amount": null
         },
         {
           "date": "2024-11-08",
@@ -48483,7 +48473,7 @@
           "close": 135.412,
           "rawClose": 138.902,
           "volume": 44914.0,
-          "amount": 623820729.0
+          "amount": null
         },
         {
           "date": "2024-11-11",
@@ -48493,7 +48483,7 @@
           "close": 135.45,
           "rawClose": 138.94,
           "volume": 12833.0,
-          "amount": 178281047.0
+          "amount": null
         },
         {
           "date": "2024-11-12",
@@ -48503,7 +48493,7 @@
           "close": 135.641,
           "rawClose": 139.131,
           "volume": 18063.0,
-          "amount": 251271818.0
+          "amount": null
         },
         {
           "date": "2024-11-13",
@@ -48513,7 +48503,7 @@
           "close": 135.64,
           "rawClose": 139.13,
           "volume": 21947.0,
-          "amount": 305333619.0
+          "amount": null
         },
         {
           "date": "2024-11-14",
@@ -48523,7 +48513,7 @@
           "close": 135.647,
           "rawClose": 139.137,
           "volume": 17297.0,
-          "amount": 240601059.0
+          "amount": null
         },
         {
           "date": "2024-11-15",
@@ -48533,7 +48523,7 @@
           "close": 135.745,
           "rawClose": 139.235,
           "volume": 10855.0,
-          "amount": 151113900.0
+          "amount": null
         },
         {
           "date": "2024-11-18",
@@ -48543,7 +48533,7 @@
           "close": 135.67,
           "rawClose": 139.16,
           "volume": 37385.0,
-          "amount": 520176740.0
+          "amount": null
         },
         {
           "date": "2024-11-19",
@@ -48553,7 +48543,7 @@
           "close": 135.639,
           "rawClose": 139.129,
           "volume": 10371.0,
-          "amount": 144314270.0
+          "amount": null
         },
         {
           "date": "2024-11-20",
@@ -48563,7 +48553,7 @@
           "close": 135.734,
           "rawClose": 139.224,
           "volume": 16014.0,
-          "amount": 222917818.0
+          "amount": null
         },
         {
           "date": "2024-11-21",
@@ -48573,7 +48563,7 @@
           "close": 135.821,
           "rawClose": 139.311,
           "volume": 33598.0,
-          "amount": 467966528.0
+          "amount": null
         },
         {
           "date": "2024-11-22",
@@ -48583,7 +48573,7 @@
           "close": 135.847,
           "rawClose": 139.337,
           "volume": 37658.0,
-          "amount": 524686907.0
+          "amount": null
         },
         {
           "date": "2024-11-25",
@@ -48593,7 +48583,7 @@
           "close": 135.96,
           "rawClose": 139.45,
           "volume": 13868.0,
-          "amount": 193324700.0
+          "amount": null
         },
         {
           "date": "2024-11-26",
@@ -48603,7 +48593,7 @@
           "close": 135.933,
           "rawClose": 139.423,
           "volume": 31489.0,
-          "amount": 438998863.0
+          "amount": null
         },
         {
           "date": "2024-11-27",
@@ -48613,7 +48603,7 @@
           "close": 135.874,
           "rawClose": 139.364,
           "volume": 23838.0,
-          "amount": 332261446.0
+          "amount": null
         },
         {
           "date": "2024-11-28",
@@ -48623,7 +48613,7 @@
           "close": 135.972,
           "rawClose": 139.462,
           "volume": 29668.0,
-          "amount": 413599030.0
+          "amount": null
         },
         {
           "date": "2024-11-29",
@@ -48633,7 +48623,7 @@
           "close": 136.049,
           "rawClose": 139.539,
           "volume": 26459.0,
-          "amount": 369125332.0
+          "amount": null
         },
         {
           "date": "2024-12-02",
@@ -48643,7 +48633,7 @@
           "close": 136.354,
           "rawClose": 139.844,
           "volume": 23929.0,
-          "amount": 334502591.0
+          "amount": null
         },
         {
           "date": "2024-12-03",
@@ -48653,7 +48643,7 @@
           "close": 136.327,
           "rawClose": 139.817,
           "volume": 32736.0,
-          "amount": 457763394.0
+          "amount": null
         },
         {
           "date": "2024-12-04",
@@ -48663,7 +48653,7 @@
           "close": 136.448,
           "rawClose": 139.938,
           "volume": 33480.0,
-          "amount": 468453598.0
+          "amount": null
         },
         {
           "date": "2024-12-05",
@@ -48673,7 +48663,7 @@
           "close": 136.478,
           "rawClose": 139.968,
           "volume": 21527.0,
-          "amount": 301263806.0
+          "amount": null
         },
         {
           "date": "2024-12-06",
@@ -48683,7 +48673,7 @@
           "close": 136.435,
           "rawClose": 139.925,
           "volume": 76784.0,
-          "amount": 1074468242.0
+          "amount": null
         },
         {
           "date": "2024-12-09",
@@ -48693,7 +48683,7 @@
           "close": 136.447,
           "rawClose": 139.937,
           "volume": 24478.0,
-          "amount": 342553708.0
+          "amount": null
         },
         {
           "date": "2024-12-10",
@@ -48703,7 +48693,7 @@
           "close": 136.883,
           "rawClose": 140.373,
           "volume": 46065.0,
-          "amount": 646045300.0
+          "amount": null
         },
         {
           "date": "2024-12-11",
@@ -48713,7 +48703,7 @@
           "close": 136.892,
           "rawClose": 140.382,
           "volume": 31006.0,
-          "amount": 435188652.0
+          "amount": null
         },
         {
           "date": "2024-12-12",
@@ -48723,7 +48713,7 @@
           "close": 137.073,
           "rawClose": 140.563,
           "volume": 34696.0,
-          "amount": 487421064.0
+          "amount": null
         },
         {
           "date": "2024-12-13",
@@ -48733,7 +48723,7 @@
           "close": 137.565,
           "rawClose": 141.055,
           "volume": 37769.0,
-          "amount": 532686553.0
+          "amount": null
         },
         {
           "date": "2024-12-16",
@@ -48743,7 +48733,7 @@
           "close": 137.673,
           "rawClose": 141.163,
           "volume": 20894.0,
-          "amount": 295108021.0
+          "amount": null
         },
         {
           "date": "2024-12-17",
@@ -48753,7 +48743,7 @@
           "close": 137.473,
           "rawClose": 140.963,
           "volume": 99246.0,
-          "amount": 1399074018.0
+          "amount": null
         },
         {
           "date": "2024-12-18",
@@ -48763,7 +48753,7 @@
           "close": 137.465,
           "rawClose": 140.955,
           "volume": 19936.0,
-          "amount": 280967253.0
+          "amount": null
         },
         {
           "date": "2024-12-19",
@@ -48773,7 +48763,7 @@
           "close": 137.51,
           "rawClose": 141.0,
           "volume": 34594.0,
-          "amount": 487811661.0
+          "amount": null
         },
         {
           "date": "2024-12-20",
@@ -48783,7 +48773,7 @@
           "close": 137.947,
           "rawClose": 141.437,
           "volume": 22046.0,
-          "amount": 311518796.0
+          "amount": null
         },
         {
           "date": "2024-12-23",
@@ -48793,7 +48783,7 @@
           "close": 137.871,
           "rawClose": 141.361,
           "volume": 39287.0,
-          "amount": 555449871.0
+          "amount": null
         },
         {
           "date": "2024-12-24",
@@ -48803,7 +48793,7 @@
           "close": 137.763,
           "rawClose": 141.253,
           "volume": 30995.0,
-          "amount": 437956407.0
+          "amount": null
         },
         {
           "date": "2024-12-25",
@@ -48813,7 +48803,7 @@
           "close": 137.505,
           "rawClose": 140.995,
           "volume": 20638.0,
-          "amount": 291154302.0
+          "amount": null
         },
         {
           "date": "2024-12-26",
@@ -48823,7 +48813,7 @@
           "close": 137.507,
           "rawClose": 140.997,
           "volume": 28753.0,
-          "amount": 405468565.0
+          "amount": null
         },
         {
           "date": "2024-12-27",
@@ -48833,7 +48823,7 @@
           "close": 137.798,
           "rawClose": 141.288,
           "volume": 29039.0,
-          "amount": 410049161.0
+          "amount": null
         },
         {
           "date": "2024-12-30",
@@ -48843,7 +48833,7 @@
           "close": 137.513,
           "rawClose": 141.003,
           "volume": 18093.0,
-          "amount": 255258235.0
+          "amount": null
         },
         {
           "date": "2024-12-31",
@@ -48853,7 +48843,7 @@
           "close": 137.726,
           "rawClose": 141.216,
           "volume": 23833.0,
-          "amount": 336517938.0
+          "amount": null
         },
         {
           "date": "2025-01-02",
@@ -48863,7 +48853,7 @@
           "close": 137.921,
           "rawClose": 141.411,
           "volume": 27487.0,
-          "amount": 388656746.0
+          "amount": null
         },
         {
           "date": "2025-01-03",
@@ -48873,7 +48863,7 @@
           "close": 138.297,
           "rawClose": 141.787,
           "volume": 21161.0,
-          "amount": 299664872.0
+          "amount": null
         },
         {
           "date": "2025-01-06",
@@ -48883,7 +48873,7 @@
           "close": 138.299,
           "rawClose": 141.789,
           "volume": 31543.0,
-          "amount": 447313768.0
+          "amount": null
         },
         {
           "date": "2025-01-07",
@@ -48893,7 +48883,7 @@
           "close": 138.068,
           "rawClose": 141.558,
           "volume": 15614.0,
-          "amount": 221098456.0
+          "amount": null
         },
         {
           "date": "2025-01-08",
@@ -48903,7 +48893,7 @@
           "close": 138.113,
           "rawClose": 141.603,
           "volume": 34266.0,
-          "amount": 485293134.0
+          "amount": null
         },
         {
           "date": "2025-01-09",
@@ -48913,7 +48903,7 @@
           "close": 137.808,
           "rawClose": 141.298,
           "volume": 26075.0,
-          "amount": 368708413.0
+          "amount": null
         },
         {
           "date": "2025-01-10",
@@ -48923,7 +48913,7 @@
           "close": 137.719,
           "rawClose": 141.209,
           "volume": 15031.0,
-          "amount": 211894199.0
+          "amount": null
         },
         {
           "date": "2025-01-13",
@@ -48933,7 +48923,7 @@
           "close": 137.549,
           "rawClose": 141.039,
           "volume": 32960.0,
-          "amount": 464892516.0
+          "amount": null
         },
         {
           "date": "2025-01-14",
@@ -48943,7 +48933,7 @@
           "close": 137.621,
           "rawClose": 141.111,
           "volume": 23460.0,
-          "amount": 330815325.0
+          "amount": null
         },
         {
           "date": "2025-01-15",
@@ -48953,7 +48943,7 @@
           "close": 137.777,
           "rawClose": 141.267,
           "volume": 37847.0,
-          "amount": 534647062.0
+          "amount": null
         },
         {
           "date": "2025-01-16",
@@ -48963,7 +48953,7 @@
           "close": 137.753,
           "rawClose": 141.243,
           "volume": 26141.0,
-          "amount": 369128199.0
+          "amount": null
         },
         {
           "date": "2025-01-17",
@@ -48973,7 +48963,7 @@
           "close": 137.688,
           "rawClose": 141.178,
           "volume": 24902.0,
-          "amount": 351623333.0
+          "amount": null
         },
         {
           "date": "2025-01-20",
@@ -48983,7 +48973,7 @@
           "close": 137.699,
           "rawClose": 141.189,
           "volume": 82198.0,
-          "amount": 1160577519.0
+          "amount": null
         },
         {
           "date": "2025-01-21",
@@ -48993,7 +48983,7 @@
           "close": 137.729,
           "rawClose": 141.219,
           "volume": 10240.0,
-          "amount": 144584689.0
+          "amount": null
         },
         {
           "date": "2025-01-22",
@@ -49003,7 +48993,7 @@
           "close": 137.82,
           "rawClose": 141.31,
           "volume": 124685.0,
-          "amount": 1761877034.0
+          "amount": null
         },
         {
           "date": "2025-01-23",
@@ -49013,7 +49003,7 @@
           "close": 137.656,
           "rawClose": 141.146,
           "volume": 126339.0,
-          "amount": 1783187892.0
+          "amount": null
         },
         {
           "date": "2025-01-24",
@@ -49023,7 +49013,7 @@
           "close": 137.514,
           "rawClose": 141.004,
           "volume": 154365.0,
-          "amount": 2176190516.0
+          "amount": null
         },
         {
           "date": "2025-01-27",
@@ -49033,7 +49023,7 @@
           "close": 138.006,
           "rawClose": 141.496,
           "volume": 118679.0,
-          "amount": 1677881693.0
+          "amount": null
         },
         {
           "date": "2025-02-05",
@@ -49043,7 +49033,7 @@
           "close": 137.969,
           "rawClose": 141.459,
           "volume": 104712.0,
-          "amount": 1480642754.0
+          "amount": null
         },
         {
           "date": "2025-02-06",
@@ -49053,7 +49043,7 @@
           "close": 138.104,
           "rawClose": 141.594,
           "volume": 110857.0,
-          "amount": 1568559965.0
+          "amount": null
         },
         {
           "date": "2025-02-07",
@@ -49063,7 +49053,7 @@
           "close": 138.021,
           "rawClose": 141.511,
           "volume": 158454.0,
-          "amount": 2242793282.0
+          "amount": null
         },
         {
           "date": "2025-02-10",
@@ -49073,7 +49063,7 @@
           "close": 137.791,
           "rawClose": 141.281,
           "volume": 151570.0,
-          "amount": 2141896017.0
+          "amount": null
         },
         {
           "date": "2025-02-11",
@@ -49083,7 +49073,7 @@
           "close": 137.758,
           "rawClose": 141.248,
           "volume": 52802.0,
-          "amount": 745854857.0
+          "amount": null
         },
         {
           "date": "2025-02-12",
@@ -49093,7 +49083,7 @@
           "close": 137.76,
           "rawClose": 141.25,
           "volume": 28326.0,
-          "amount": 400237911.0
+          "amount": null
         },
         {
           "date": "2025-02-13",
@@ -49103,7 +49093,7 @@
           "close": 137.737,
           "rawClose": 141.227,
           "volume": 152223.0,
-          "amount": 2149203552.0
+          "amount": null
         },
         {
           "date": "2025-02-14",
@@ -49113,7 +49103,7 @@
           "close": 137.436,
           "rawClose": 140.926,
           "volume": 144112.0,
-          "amount": 2031037213.0
+          "amount": null
         },
         {
           "date": "2025-02-17",
@@ -49123,7 +49113,7 @@
           "close": 137.342,
           "rawClose": 140.832,
           "volume": 15595.0,
-          "amount": 219615204.0
+          "amount": null
         },
         {
           "date": "2025-02-18",
@@ -49133,7 +49123,7 @@
           "close": 137.147,
           "rawClose": 140.637,
           "volume": 157012.0,
-          "amount": 2208975781.0
+          "amount": null
         },
         {
           "date": "2025-02-19",
@@ -49143,7 +49133,7 @@
           "close": 137.327,
           "rawClose": 140.817,
           "volume": 146661.0,
-          "amount": 2062844991.0
+          "amount": null
         },
         {
           "date": "2025-02-20",
@@ -49153,7 +49143,7 @@
           "close": 137.093,
           "rawClose": 140.583,
           "volume": 58578.0,
-          "amount": 824264508.0
+          "amount": null
         },
         {
           "date": "2025-02-21",
@@ -49163,7 +49153,7 @@
           "close": 136.96,
           "rawClose": 140.45,
           "volume": 157081.0,
-          "amount": 2204531142.0
+          "amount": null
         },
         {
           "date": "2025-02-24",
@@ -49173,7 +49163,7 @@
           "close": 136.574,
           "rawClose": 140.064,
           "volume": 158630.0,
-          "amount": 2224846986.0
+          "amount": null
         },
         {
           "date": "2025-02-25",
@@ -49183,7 +49173,7 @@
           "close": 136.763,
           "rawClose": 140.253,
           "volume": 18767.0,
-          "amount": 263078803.0
+          "amount": null
         },
         {
           "date": "2025-02-26",
@@ -49193,7 +49183,7 @@
           "close": 136.775,
           "rawClose": 140.265,
           "volume": 145746.0,
-          "amount": 2044656259.0
+          "amount": null
         },
         {
           "date": "2025-02-27",
@@ -49203,7 +49193,7 @@
           "close": 136.717,
           "rawClose": 140.207,
           "volume": 153011.0,
-          "amount": 2146722170.0
+          "amount": null
         },
         {
           "date": "2025-02-28",
@@ -49213,7 +49203,7 @@
           "close": 136.764,
           "rawClose": 140.254,
           "volume": 20762.0,
-          "amount": 291037256.0
+          "amount": null
         },
         {
           "date": "2025-03-03",
@@ -49223,7 +49213,7 @@
           "close": 137.11,
           "rawClose": 140.6,
           "volume": 156581.0,
-          "amount": 2197633370.0
+          "amount": null
         },
         {
           "date": "2025-03-04",
@@ -49233,7 +49223,7 @@
           "close": 137.104,
           "rawClose": 140.594,
           "volume": 21393.0,
-          "amount": 300824219.0
+          "amount": null
         },
         {
           "date": "2025-03-05",
@@ -49243,7 +49233,7 @@
           "close": 137.056,
           "rawClose": 140.546,
           "volume": 149918.0,
-          "amount": 2108131530.0
+          "amount": null
         },
         {
           "date": "2025-03-06",
@@ -49253,7 +49243,7 @@
           "close": 136.927,
           "rawClose": 140.417,
           "volume": 149712.0,
-          "amount": 2101496941.0
+          "amount": null
         },
         {
           "date": "2025-03-07",
@@ -49263,7 +49253,7 @@
           "close": 136.647,
           "rawClose": 140.137,
           "volume": 18771.0,
-          "amount": 262948958.0
+          "amount": null
         },
         {
           "date": "2025-03-10",
@@ -49273,7 +49263,7 @@
           "close": 136.415,
           "rawClose": 139.905,
           "volume": 23009.0,
-          "amount": 322151634.0
+          "amount": null
         },
         {
           "date": "2025-03-11",
@@ -49283,7 +49273,7 @@
           "close": 136.091,
           "rawClose": 139.581,
           "volume": 12963.0,
-          "amount": 181089081.0
+          "amount": null
         },
         {
           "date": "2025-03-12",
@@ -49293,7 +49283,7 @@
           "close": 136.583,
           "rawClose": 140.073,
           "volume": 183836.0,
-          "amount": 2567643999.0
+          "amount": null
         },
         {
           "date": "2025-03-13",
@@ -49303,7 +49293,7 @@
           "close": 136.601,
           "rawClose": 140.091,
           "volume": 20625.0,
-          "amount": 289055370.0
+          "amount": null
         },
         {
           "date": "2025-03-14",
@@ -49313,7 +49303,7 @@
           "close": 136.576,
           "rawClose": 140.066,
           "volume": 52481.0,
-          "amount": 734683334.0
+          "amount": null
         },
         {
           "date": "2025-03-17",
@@ -49323,7 +49313,7 @@
           "close": 136.289,
           "rawClose": 139.779,
           "volume": 12210.0,
-          "amount": 170742795.0
+          "amount": null
         },
         {
           "date": "2025-03-18",
@@ -49333,7 +49323,7 @@
           "close": 136.39,
           "rawClose": 139.88,
           "volume": 23671.0,
-          "amount": 331114763.0
+          "amount": null
         },
         {
           "date": "2025-03-19",
@@ -49343,7 +49333,7 @@
           "close": 136.302,
           "rawClose": 139.792,
           "volume": 32373.0,
-          "amount": 452586542.0
+          "amount": null
         },
         {
           "date": "2025-03-20",
@@ -49353,7 +49343,7 @@
           "close": 136.475,
           "rawClose": 139.965,
           "volume": 37766.0,
-          "amount": 528672465.0
+          "amount": null
         },
         {
           "date": "2025-03-21",
@@ -49363,7 +49353,7 @@
           "close": 136.422,
           "rawClose": 139.912,
           "volume": 13837.0,
-          "amount": 193642852.0
+          "amount": null
         },
         {
           "date": "2025-03-24",
@@ -49373,7 +49363,7 @@
           "close": 136.354,
           "rawClose": 139.844,
           "volume": 14798.0,
-          "amount": 206968095.0
+          "amount": null
         },
         {
           "date": "2025-03-25",
@@ -49383,7 +49373,7 @@
           "close": 136.527,
           "rawClose": 140.017,
           "volume": 40245.0,
-          "amount": 563393410.0
+          "amount": null
         },
         {
           "date": "2025-03-26",
@@ -49393,7 +49383,7 @@
           "close": 136.686,
           "rawClose": 140.176,
           "volume": 8144.0,
-          "amount": 114073831.0
+          "amount": null
         },
         {
           "date": "2025-03-27",
@@ -49403,7 +49393,7 @@
           "close": 136.737,
           "rawClose": 140.227,
           "volume": 11059.0,
-          "amount": 155030948.0
+          "amount": null
         },
         {
           "date": "2025-03-28",
@@ -49413,7 +49403,7 @@
           "close": 136.707,
           "rawClose": 140.197,
           "volume": 9230.0,
-          "amount": 129437244.0
+          "amount": null
         },
         {
           "date": "2025-03-31",
@@ -49423,7 +49413,7 @@
           "close": 136.697,
           "rawClose": 140.187,
           "volume": 90483.0,
-          "amount": 1268608186.0
+          "amount": null
         },
         {
           "date": "2025-04-01",
@@ -49433,7 +49423,7 @@
           "close": 136.69,
           "rawClose": 140.18,
           "volume": 70994.0,
-          "amount": 995092985.0
+          "amount": null
         },
         {
           "date": "2025-04-02",
@@ -49443,7 +49433,7 @@
           "close": 136.792,
           "rawClose": 140.282,
           "volume": 18733.0,
-          "amount": 262688842.0
+          "amount": null
         },
         {
           "date": "2025-04-03",
@@ -49453,7 +49443,7 @@
           "close": 137.304,
           "rawClose": 140.794,
           "volume": 21176.0,
-          "amount": 297898903.0
+          "amount": null
         },
         {
           "date": "2025-04-07",
@@ -49463,7 +49453,7 @@
           "close": 137.727,
           "rawClose": 141.217,
           "volume": 23109.0,
-          "amount": 326222256.0
+          "amount": null
         },
         {
           "date": "2025-04-08",
@@ -49473,7 +49463,7 @@
           "close": 137.613,
           "rawClose": 141.103,
           "volume": 68766.0,
-          "amount": 970298725.0
+          "amount": null
         },
         {
           "date": "2025-04-09",
@@ -49483,7 +49473,7 @@
           "close": 137.694,
           "rawClose": 141.184,
           "volume": 22420.0,
-          "amount": 316324997.0
+          "amount": null
         },
         {
           "date": "2025-04-10",
@@ -49493,7 +49483,7 @@
           "close": 137.828,
           "rawClose": 141.318,
           "volume": 98584.0,
-          "amount": 1392052075.0
+          "amount": null
         },
         {
           "date": "2025-04-11",
@@ -49503,7 +49493,7 @@
           "close": 137.875,
           "rawClose": 141.365,
           "volume": 86298.0,
-          "amount": 1220245213.0
+          "amount": null
         },
         {
           "date": "2025-04-14",
@@ -49513,7 +49503,7 @@
           "close": 137.753,
           "rawClose": 141.243,
           "volume": 194777.0,
-          "amount": 2751360169.0
+          "amount": null
         },
         {
           "date": "2025-04-15",
@@ -49523,7 +49513,7 @@
           "close": 137.756,
           "rawClose": 141.246,
           "volume": 14094.0,
-          "amount": 199086331.0
+          "amount": null
         },
         {
           "date": "2025-04-16",
@@ -49533,7 +49523,7 @@
           "close": 137.874,
           "rawClose": 141.364,
           "volume": 176795.0,
-          "amount": 2499038307.0
+          "amount": null
         },
         {
           "date": "2025-04-17",
@@ -49543,7 +49533,7 @@
           "close": 137.786,
           "rawClose": 141.276,
           "volume": 126369.0,
-          "amount": 1785632175.0
+          "amount": null
         },
         {
           "date": "2025-04-18",
@@ -49553,7 +49543,7 @@
           "close": 137.727,
           "rawClose": 141.217,
           "volume": 178050.0,
-          "amount": 2514789067.0
+          "amount": null
         },
         {
           "date": "2025-04-21",
@@ -49563,7 +49553,7 @@
           "close": 137.609,
           "rawClose": 141.099,
           "volume": 7962.0,
-          "amount": 112369628.0
+          "amount": null
         },
         {
           "date": "2025-04-22",
@@ -49573,7 +49563,7 @@
           "close": 137.66,
           "rawClose": 141.15,
           "volume": 45982.0,
-          "amount": 648966577.0
+          "amount": null
         },
         {
           "date": "2025-04-23",
@@ -49583,7 +49573,7 @@
           "close": 137.531,
           "rawClose": 141.021,
           "volume": 9591.0,
-          "amount": 135259736.0
+          "amount": null
         },
         {
           "date": "2025-04-24",
@@ -49593,7 +49583,7 @@
           "close": 137.413,
           "rawClose": 140.903,
           "volume": 117553.0,
-          "amount": 1657710810.0
+          "amount": null
         },
         {
           "date": "2025-04-25",
@@ -49603,7 +49593,7 @@
           "close": 137.539,
           "rawClose": 141.029,
           "volume": 12027.0,
-          "amount": 169593657.0
+          "amount": null
         },
         {
           "date": "2025-04-28",
@@ -49613,7 +49603,7 @@
           "close": 137.501,
           "rawClose": 140.991,
           "volume": 102934.0,
-          "amount": 1451560136.0
+          "amount": null
         },
         {
           "date": "2025-04-29",
@@ -49623,7 +49613,7 @@
           "close": 137.686,
           "rawClose": 141.176,
           "volume": 74728.0,
-          "amount": 1054460936.0
+          "amount": null
         },
         {
           "date": "2025-04-30",
@@ -49633,7 +49623,7 @@
           "close": 137.793,
           "rawClose": 141.283,
           "volume": 20061.0,
-          "amount": 283278065.0
+          "amount": null
         },
         {
           "date": "2025-05-06",
@@ -49643,7 +49633,7 @@
           "close": 137.718,
           "rawClose": 141.208,
           "volume": 187147.0,
-          "amount": 2642918335.0
+          "amount": null
         },
         {
           "date": "2025-05-07",
@@ -49653,7 +49643,7 @@
           "close": 137.68,
           "rawClose": 141.17,
           "volume": 44691.0,
-          "amount": 631050549.0
+          "amount": null
         },
         {
           "date": "2025-05-08",
@@ -49663,7 +49653,7 @@
           "close": 137.96,
           "rawClose": 141.45,
           "volume": 48415.0,
-          "amount": 684567461.0
+          "amount": null
         },
         {
           "date": "2025-05-09",
@@ -49673,7 +49663,7 @@
           "close": 137.92,
           "rawClose": 141.41,
           "volume": 17149.0,
-          "amount": 242591105.0
+          "amount": null
         },
         {
           "date": "2025-05-12",
@@ -49683,7 +49673,7 @@
           "close": 137.855,
           "rawClose": 141.345,
           "volume": 15726.0,
-          "amount": 222325869.0
+          "amount": null
         },
         {
           "date": "2025-05-13",
@@ -49693,7 +49683,7 @@
           "close": 137.761,
           "rawClose": 141.251,
           "volume": 21606.0,
-          "amount": 305174618.0
+          "amount": null
         },
         {
           "date": "2025-05-14",
@@ -49703,7 +49693,7 @@
           "close": 137.645,
           "rawClose": 141.135,
           "volume": 13478.0,
-          "amount": 190289071.0
+          "amount": null
         },
         {
           "date": "2025-05-15",
@@ -49713,7 +49703,7 @@
           "close": 137.547,
           "rawClose": 141.037,
           "volume": 10882.0,
-          "amount": 153524008.0
+          "amount": null
         },
         {
           "date": "2025-05-16",
@@ -49723,7 +49713,7 @@
           "close": 137.453,
           "rawClose": 140.943,
           "volume": 10243.0,
-          "amount": 144356714.0
+          "amount": null
         },
         {
           "date": "2025-05-19",
@@ -49733,7 +49723,7 @@
           "close": 137.522,
           "rawClose": 141.012,
           "volume": 11215.0,
-          "amount": 158124469.0
+          "amount": null
         },
         {
           "date": "2025-05-20",
@@ -49743,7 +49733,7 @@
           "close": 137.569,
           "rawClose": 141.059,
           "volume": 10686.0,
-          "amount": 150735318.0
+          "amount": null
         },
         {
           "date": "2025-05-21",
@@ -49753,7 +49743,7 @@
           "close": 137.554,
           "rawClose": 141.044,
           "volume": 6659.0,
-          "amount": 93920227.0
+          "amount": null
         },
         {
           "date": "2025-05-22",
@@ -49763,7 +49753,7 @@
           "close": 137.553,
           "rawClose": 141.043,
           "volume": 6494.0,
-          "amount": 91609588.0
+          "amount": null
         },
         {
           "date": "2025-05-23",
@@ -49773,7 +49763,7 @@
           "close": 137.659,
           "rawClose": 141.149,
           "volume": 7615.0,
-          "amount": 107431278.0
+          "amount": null
         },
         {
           "date": "2025-05-26",
@@ -49783,7 +49773,7 @@
           "close": 137.656,
           "rawClose": 141.146,
           "volume": 52579.0,
-          "amount": 742069945.0
+          "amount": null
         },
         {
           "date": "2025-05-27",
@@ -49793,7 +49783,7 @@
           "close": 137.604,
           "rawClose": 141.094,
           "volume": 66876.0,
-          "amount": 943822379.0
+          "amount": null
         },
         {
           "date": "2025-05-28",
@@ -49803,7 +49793,7 @@
           "close": 137.611,
           "rawClose": 141.101,
           "volume": 32829.0,
-          "amount": 463154890.0
+          "amount": null
         },
         {
           "date": "2025-05-29",
@@ -49813,7 +49803,7 @@
           "close": 137.453,
           "rawClose": 140.943,
           "volume": 12326.0,
-          "amount": 173763878.0
+          "amount": null
         },
         {
           "date": "2025-05-30",
@@ -49823,7 +49813,7 @@
           "close": 137.586,
           "rawClose": 141.076,
           "volume": 23656.0,
-          "amount": 333760140.0
+          "amount": null
         },
         {
           "date": "2025-06-03",
@@ -49833,7 +49823,7 @@
           "close": 137.579,
           "rawClose": 141.069,
           "volume": 158852.0,
-          "amount": 2241350095.0
+          "amount": null
         },
         {
           "date": "2025-06-04",
@@ -49843,7 +49833,7 @@
           "close": 137.669,
           "rawClose": 141.159,
           "volume": 234587.0,
-          "amount": 3309652314.0
+          "amount": null
         },
         {
           "date": "2025-06-05",
@@ -49853,7 +49843,7 @@
           "close": 137.736,
           "rawClose": 141.226,
           "volume": 113705.0,
-          "amount": 1605657541.0
+          "amount": null
         },
         {
           "date": "2025-06-06",
@@ -49863,7 +49853,7 @@
           "close": 137.851,
           "rawClose": 141.341,
           "volume": 152139.0,
-          "amount": 2150296184.0
+          "amount": null
         },
         {
           "date": "2025-06-09",
@@ -49873,7 +49863,7 @@
           "close": 137.9,
           "rawClose": 141.39,
           "volume": 121585.0,
-          "amount": 1718978403.0
+          "amount": null
         },
         {
           "date": "2025-06-10",
@@ -49883,7 +49873,7 @@
           "close": 137.916,
           "rawClose": 141.406,
           "volume": 221953.0,
-          "amount": 3138435082.0
+          "amount": null
         },
         {
           "date": "2025-06-11",
@@ -49893,7 +49883,7 @@
           "close": 137.909,
           "rawClose": 141.399,
           "volume": 141283.0,
-          "amount": 1997668355.0
+          "amount": null
         },
         {
           "date": "2025-06-12",
@@ -49903,7 +49893,7 @@
           "close": 137.879,
           "rawClose": 141.369,
           "volume": 103178.0,
-          "amount": 1458824820.0
+          "amount": null
         },
         {
           "date": "2025-06-13",
@@ -49913,7 +49903,7 @@
           "close": 137.908,
           "rawClose": 141.398,
           "volume": 192043.0,
-          "amount": 2715223508.0
+          "amount": null
         },
         {
           "date": "2025-06-16",
@@ -49923,7 +49913,7 @@
           "close": 137.939,
           "rawClose": 141.429,
           "volume": 137211.0,
-          "amount": 1940597436.0
+          "amount": null
         },
         {
           "date": "2025-06-17",
@@ -49933,7 +49923,7 @@
           "close": 138.093,
           "rawClose": 141.583,
           "volume": 131917.0,
-          "amount": 1867025044.0
+          "amount": null
         },
         {
           "date": "2025-06-18",
@@ -49943,7 +49933,7 @@
           "close": 138.109,
           "rawClose": 141.599,
           "volume": 14264.0,
-          "amount": 201963862.0
+          "amount": null
         },
         {
           "date": "2025-06-19",
@@ -49953,7 +49943,7 @@
           "close": 138.115,
           "rawClose": 141.605,
           "volume": 11456.0,
-          "amount": 162234983.0
+          "amount": null
         },
         {
           "date": "2025-06-20",
@@ -49963,7 +49953,7 @@
           "close": 138.14,
           "rawClose": 141.63,
           "volume": 5534.0,
-          "amount": 78370916.0
+          "amount": null
         },
         {
           "date": "2025-06-23",
@@ -49973,7 +49963,7 @@
           "close": 138.111,
           "rawClose": 141.601,
           "volume": 10042.0,
-          "amount": 142186288.0
+          "amount": null
         },
         {
           "date": "2025-06-24",
@@ -49983,7 +49973,7 @@
           "close": 138.058,
           "rawClose": 141.548,
           "volume": 280304.0,
-          "amount": 3967299893.0
+          "amount": null
         },
         {
           "date": "2025-06-25",
@@ -49993,7 +49983,7 @@
           "close": 138.022,
           "rawClose": 141.512,
           "volume": 196281.0,
-          "amount": 2778588414.0
+          "amount": null
         },
         {
           "date": "2025-06-26",
@@ -50003,7 +49993,7 @@
           "close": 138.06,
           "rawClose": 141.55,
           "volume": 271713.0,
-          "amount": 3845598972.0
+          "amount": null
         },
         {
           "date": "2025-06-27",
@@ -50013,7 +50003,7 @@
           "close": 138.155,
           "rawClose": 141.645,
           "volume": 197700.0,
-          "amount": 2800057202.0
+          "amount": null
         },
         {
           "date": "2025-06-30",
@@ -50023,7 +50013,7 @@
           "close": 138.091,
           "rawClose": 141.581,
           "volume": 78009.0,
-          "amount": 1104500634.0
+          "amount": null
         },
         {
           "date": "2025-07-01",
@@ -50033,7 +50023,7 @@
           "close": 138.141,
           "rawClose": 141.631,
           "volume": 130705.0,
-          "amount": 1851012477.0
+          "amount": null
         },
         {
           "date": "2025-07-02",
@@ -50043,7 +50033,7 @@
           "close": 138.221,
           "rawClose": 141.711,
           "volume": 221222.0,
-          "amount": 3134424889.0
+          "amount": null
         },
         {
           "date": "2025-07-03",
@@ -50053,7 +50043,7 @@
           "close": 138.239,
           "rawClose": 141.729,
           "volume": 190406.0,
-          "amount": 2698971004.0
+          "amount": null
         },
         {
           "date": "2025-07-04",
@@ -50063,7 +50053,7 @@
           "close": 138.272,
           "rawClose": 141.762,
           "volume": 191611.0,
-          "amount": 2716145342.0
+          "amount": null
         },
         {
           "date": "2025-07-07",
@@ -50073,7 +50063,7 @@
           "close": 138.251,
           "rawClose": 141.741,
           "volume": 94947.0,
-          "amount": 1345666324.0
+          "amount": null
         },
         {
           "date": "2025-07-08",
@@ -50083,7 +50073,7 @@
           "close": 138.141,
           "rawClose": 141.631,
           "volume": 103800.0,
-          "amount": 1470175661.0
+          "amount": null
         },
         {
           "date": "2025-07-09",
@@ -50093,7 +50083,7 @@
           "close": 138.139,
           "rawClose": 141.629,
           "volume": 204550.0,
-          "amount": 2896966771.0
+          "amount": null
         },
         {
           "date": "2025-07-10",
@@ -50103,7 +50093,7 @@
           "close": 138.047,
           "rawClose": 141.537,
           "volume": 241126.0,
-          "amount": 3413609029.0
+          "amount": null
         },
         {
           "date": "2025-07-11",
@@ -50113,7 +50103,7 @@
           "close": 138.009,
           "rawClose": 141.499,
           "volume": 28346.0,
-          "amount": 401020180.0
+          "amount": null
         },
         {
           "date": "2025-07-14",
@@ -50123,7 +50113,7 @@
           "close": 137.937,
           "rawClose": 141.427,
           "volume": 14642.0,
-          "amount": 207082394.0
+          "amount": null
         },
         {
           "date": "2025-07-15",
@@ -50133,7 +50123,7 @@
           "close": 138.077,
           "rawClose": 141.567,
           "volume": 217189.0,
-          "amount": 3073925072.0
+          "amount": null
         },
         {
           "date": "2025-07-16",
@@ -50143,7 +50133,7 @@
           "close": 138.086,
           "rawClose": 141.576,
           "volume": 137680.0,
-          "amount": 1949148478.0
+          "amount": null
         },
         {
           "date": "2025-07-17",
@@ -50153,7 +50143,7 @@
           "close": 138.078,
           "rawClose": 141.568,
           "volume": 10799.0,
-          "amount": 152867821.0
+          "amount": null
         },
         {
           "date": "2025-07-18",
@@ -50163,7 +50153,7 @@
           "close": 138.066,
           "rawClose": 141.556,
           "volume": 11338.0,
-          "amount": 160478386.0
+          "amount": null
         },
         {
           "date": "2025-07-21",
@@ -50173,7 +50163,7 @@
           "close": 137.979,
           "rawClose": 141.469,
           "volume": 69880.0,
-          "amount": 988643031.0
+          "amount": null
         },
         {
           "date": "2025-07-22",
@@ -50183,7 +50173,7 @@
           "close": 137.905,
           "rawClose": 141.395,
           "volume": 96063.0,
-          "amount": 1359760771.0
+          "amount": null
         },
         {
           "date": "2025-07-23",
@@ -50193,7 +50183,7 @@
           "close": 137.851,
           "rawClose": 141.341,
           "volume": 41098.0,
-          "amount": 580452933.0
+          "amount": null
         },
         {
           "date": "2025-07-24",
@@ -50203,7 +50193,7 @@
           "close": 137.584,
           "rawClose": 141.074,
           "volume": 113994.0,
-          "amount": 1608854283.0
+          "amount": null
         },
         {
           "date": "2025-07-25",
@@ -50213,7 +50203,7 @@
           "close": 137.615,
           "rawClose": 141.105,
           "volume": 62686.0,
-          "amount": 884715833.0
+          "amount": null
         },
         {
           "date": "2025-07-28",
@@ -50223,7 +50213,7 @@
           "close": 137.748,
           "rawClose": 141.238,
           "volume": 145640.0,
-          "amount": 2056132830.0
+          "amount": null
         },
         {
           "date": "2025-07-29",
@@ -50233,7 +50223,7 @@
           "close": 137.574,
           "rawClose": 141.064,
           "volume": 73632.0,
-          "amount": 1039197397.0
+          "amount": null
         },
         {
           "date": "2025-07-30",
@@ -50243,7 +50233,7 @@
           "close": 137.713,
           "rawClose": 141.203,
           "volume": 116716.0,
-          "amount": 1647708359.0
+          "amount": null
         },
         {
           "date": "2025-07-31",
@@ -50253,7 +50243,7 @@
           "close": 137.823,
           "rawClose": 141.313,
           "volume": 119712.0,
-          "amount": 1691440828.0
+          "amount": null
         },
         {
           "date": "2025-08-01",
@@ -50263,7 +50253,7 @@
           "close": 137.831,
           "rawClose": 141.321,
           "volume": 162478.0,
-          "amount": 2295315358.0
+          "amount": null
         },
         {
           "date": "2025-08-04",
@@ -50273,7 +50263,7 @@
           "close": 137.803,
           "rawClose": 141.293,
           "volume": 235391.0,
-          "amount": 3328242167.0
+          "amount": null
         },
         {
           "date": "2025-08-05",
@@ -50283,7 +50273,7 @@
           "close": 137.847,
           "rawClose": 141.337,
           "volume": 84474.0,
-          "amount": 1193442724.0
+          "amount": null
         },
         {
           "date": "2025-08-06",
@@ -50293,7 +50283,7 @@
           "close": 137.861,
           "rawClose": 141.351,
           "volume": 117942.0,
-          "amount": 1666621556.0
+          "amount": null
         },
         {
           "date": "2025-08-07",
@@ -50303,7 +50293,7 @@
           "close": 137.961,
           "rawClose": 141.451,
           "volume": 95938.0,
-          "amount": 1357236056.0
+          "amount": null
         },
         {
           "date": "2025-08-08",
@@ -50313,7 +50303,7 @@
           "close": 138.018,
           "rawClose": 141.508,
           "volume": 133447.0,
-          "amount": 1888073147.0
+          "amount": null
         },
         {
           "date": "2025-08-11",
@@ -50323,7 +50313,7 @@
           "close": 137.851,
           "rawClose": 141.341,
           "volume": 124355.0,
-          "amount": 1758131820.0
+          "amount": null
         },
         {
           "date": "2025-08-12",
@@ -50333,7 +50323,7 @@
           "close": 137.823,
           "rawClose": 141.313,
           "volume": 12510.0,
-          "amount": 176761130.0
+          "amount": null
         },
         {
           "date": "2025-08-13",
@@ -50343,7 +50333,7 @@
           "close": 137.921,
           "rawClose": 141.411,
           "volume": 93018.0,
-          "amount": 1314980260.0
+          "amount": null
         },
         {
           "date": "2025-08-14",
@@ -50353,7 +50343,7 @@
           "close": 137.868,
           "rawClose": 141.358,
           "volume": 81088.0,
-          "amount": 1146241959.0
+          "amount": null
         },
         {
           "date": "2025-08-15",
@@ -50363,7 +50353,7 @@
           "close": 137.855,
           "rawClose": 141.345,
           "volume": 11732.0,
-          "amount": 165836762.0
+          "amount": null
         },
         {
           "date": "2025-08-18",
@@ -50373,7 +50363,7 @@
           "close": 137.557,
           "rawClose": 141.047,
           "volume": 65279.0,
-          "amount": 921224911.0
+          "amount": null
         },
         {
           "date": "2025-08-19",
@@ -50383,7 +50373,7 @@
           "close": 137.568,
           "rawClose": 141.058,
           "volume": 28820.0,
-          "amount": 406516273.0
+          "amount": null
         },
         {
           "date": "2025-08-20",
@@ -50393,7 +50383,7 @@
           "close": 137.506,
           "rawClose": 140.996,
           "volume": 15865.0,
-          "amount": 223840318.0
+          "amount": null
         },
         {
           "date": "2025-08-21",
@@ -50403,7 +50393,7 @@
           "close": 137.568,
           "rawClose": 141.058,
           "volume": 11547.0,
-          "amount": 162810692.0
+          "amount": null
         },
         {
           "date": "2025-08-22",
@@ -50413,7 +50403,7 @@
           "close": 137.531,
           "rawClose": 141.021,
           "volume": 106106.0,
-          "amount": 1496865833.0
+          "amount": null
         },
         {
           "date": "2025-08-25",
@@ -50423,7 +50413,7 @@
           "close": 137.65,
           "rawClose": 141.14,
           "volume": 67599.0,
-          "amount": 953617259.0
+          "amount": null
         },
         {
           "date": "2025-08-26",
@@ -50433,7 +50423,7 @@
           "close": 137.656,
           "rawClose": 141.146,
           "volume": 21903.0,
-          "amount": 309141375.0
+          "amount": null
         },
         {
           "date": "2025-08-27",
@@ -50443,7 +50433,7 @@
           "close": 137.694,
           "rawClose": 141.184,
           "volume": 120517.0,
-          "amount": 1701443898.0
+          "amount": null
         },
         {
           "date": "2025-08-28",
@@ -50453,7 +50443,7 @@
           "close": 137.626,
           "rawClose": 141.116,
           "volume": 97128.0,
-          "amount": 1371129482.0
+          "amount": null
         },
         {
           "date": "2025-08-29",
@@ -50463,7 +50453,7 @@
           "close": 137.658,
           "rawClose": 141.148,
           "volume": 150720.0,
-          "amount": 2126926762.0
+          "amount": null
         },
         {
           "date": "2025-09-01",
@@ -50473,7 +50463,7 @@
           "close": 137.769,
           "rawClose": 141.259,
           "volume": 17948.0,
-          "amount": 253403686.0
+          "amount": null
         },
         {
           "date": "2025-09-02",
@@ -50483,7 +50473,7 @@
           "close": 137.767,
           "rawClose": 141.257,
           "volume": 206377.0,
-          "amount": 2915444474.0
+          "amount": null
         },
         {
           "date": "2025-09-03",
@@ -50493,7 +50483,7 @@
           "close": 137.912,
           "rawClose": 141.402,
           "volume": 106698.0,
-          "amount": 1508283479.0
+          "amount": null
         },
         {
           "date": "2025-09-04",
@@ -50503,7 +50493,7 @@
           "close": 137.998,
           "rawClose": 141.488,
           "volume": 70465.0,
-          "amount": 997096842.0
+          "amount": null
         },
         {
           "date": "2025-09-05",
@@ -50513,7 +50503,7 @@
           "close": 137.789,
           "rawClose": 141.279,
           "volume": 170921.0,
-          "amount": 2416047163.0
+          "amount": null
         },
         {
           "date": "2025-09-08",
@@ -50523,7 +50513,7 @@
           "close": 137.761,
           "rawClose": 141.251,
           "volume": 152067.0,
-          "amount": 2148137329.0
+          "amount": null
         },
         {
           "date": "2025-09-09",
@@ -50533,7 +50523,7 @@
           "close": 137.741,
           "rawClose": 141.231,
           "volume": 189836.0,
-          "amount": 2681317680.0
+          "amount": null
         },
         {
           "date": "2025-09-10",
@@ -50543,7 +50533,7 @@
           "close": 137.665,
           "rawClose": 141.155,
           "volume": 205134.0,
-          "amount": 2896339774.0
+          "amount": null
         },
         {
           "date": "2025-09-11",
@@ -50553,7 +50543,7 @@
           "close": 137.766,
           "rawClose": 141.256,
           "volume": 87079.0,
-          "amount": 1229280891.0
+          "amount": null
         },
         {
           "date": "2025-09-12",
@@ -50563,7 +50553,7 @@
           "close": 137.811,
           "rawClose": 141.301,
           "volume": 179192.0,
-          "amount": 2531881924.0
+          "amount": null
         },
         {
           "date": "2025-09-15",
@@ -50573,7 +50563,7 @@
           "close": 137.9,
           "rawClose": 141.39,
           "volume": 125685.0,
-          "amount": 1777011590.0
+          "amount": null
         },
         {
           "date": "2025-09-16",
@@ -50583,7 +50573,7 @@
           "close": 137.985,
           "rawClose": 141.475,
           "volume": 142363.0,
-          "amount": 2012786765.0
+          "amount": null
         },
         {
           "date": "2025-09-17",
@@ -50593,7 +50583,7 @@
           "close": 138.142,
           "rawClose": 141.632,
           "volume": 74286.0,
-          "amount": 1051596980.0
+          "amount": null
         },
         {
           "date": "2025-09-18",
@@ -50603,7 +50593,7 @@
           "close": 138.05,
           "rawClose": 141.54,
           "volume": 14795.0,
-          "amount": 209446427.0
+          "amount": null
         },
         {
           "date": "2025-09-19",
@@ -50613,7 +50603,7 @@
           "close": 137.895,
           "rawClose": 141.385,
           "volume": 22424.0,
-          "amount": 317255213.0
+          "amount": null
         },
         {
           "date": "2025-09-22",
@@ -50623,7 +50613,7 @@
           "close": 138.007,
           "rawClose": 141.497,
           "volume": 46207.0,
-          "amount": 653769526.0
+          "amount": null
         },
         {
           "date": "2025-09-23",
@@ -50633,7 +50623,7 @@
           "close": 137.882,
           "rawClose": 139.922,
           "volume": 20503.0,
-          "amount": 286766979.0
+          "amount": null
         },
         {
           "date": "2025-09-24",
@@ -50643,7 +50633,7 @@
           "close": 137.764,
           "rawClose": 139.804,
           "volume": 17124.0,
-          "amount": 239540100.0
+          "amount": null
         },
         {
           "date": "2025-09-25",
@@ -50653,7 +50643,7 @@
           "close": 137.712,
           "rawClose": 139.752,
           "volume": 10940.0,
-          "amount": 152811779.0
+          "amount": null
         },
         {
           "date": "2025-09-26",
@@ -50663,7 +50653,7 @@
           "close": 137.816,
           "rawClose": 139.856,
           "volume": 13670.0,
-          "amount": 191160931.0
+          "amount": null
         },
         {
           "date": "2025-09-29",
@@ -50673,7 +50663,7 @@
           "close": 137.781,
           "rawClose": 139.821,
           "volume": 8548.0,
-          "amount": 119550758.0
+          "amount": null
         },
         {
           "date": "2025-09-30",
@@ -50683,7 +50673,7 @@
           "close": 137.988,
           "rawClose": 140.028,
           "volume": 9344.0,
-          "amount": 130786484.0
+          "amount": null
         },
         {
           "date": "2025-10-09",
@@ -50693,7 +50683,7 @@
           "close": 138.083,
           "rawClose": 140.123,
           "volume": 207224.0,
-          "amount": 2903212974.0
+          "amount": null
         },
         {
           "date": "2025-10-10",
@@ -50703,7 +50693,7 @@
           "close": 138.053,
           "rawClose": 140.093,
           "volume": 9361.0,
-          "amount": 131187618.0
+          "amount": null
         },
         {
           "date": "2025-10-13",
@@ -50713,7 +50703,7 @@
           "close": 138.094,
           "rawClose": 140.134,
           "volume": 145693.0,
-          "amount": 2041830215.0
+          "amount": null
         },
         {
           "date": "2025-10-14",
@@ -50723,7 +50713,7 @@
           "close": 138.141,
           "rawClose": 140.181,
           "volume": 275776.0,
-          "amount": 3864121551.0
+          "amount": null
         },
         {
           "date": "2025-10-15",
@@ -50733,7 +50723,7 @@
           "close": 138.1,
           "rawClose": 140.14,
           "volume": 139224.0,
-          "amount": 1951086403.0
+          "amount": null
         },
         {
           "date": "2025-10-16",
@@ -50743,7 +50733,7 @@
           "close": 138.106,
           "rawClose": 140.146,
           "volume": 16115.0,
-          "amount": 225882754.0
+          "amount": null
         },
         {
           "date": "2025-10-17",
@@ -50753,7 +50743,7 @@
           "close": 138.206,
           "rawClose": 140.246,
           "volume": 272471.0,
-          "amount": 3820809676.0
+          "amount": null
         },
         {
           "date": "2025-10-20",
@@ -50763,7 +50753,7 @@
           "close": 138.082,
           "rawClose": 140.122,
           "volume": 192456.0,
-          "amount": 2696776998.0
+          "amount": null
         },
         {
           "date": "2025-10-21",
@@ -50773,7 +50763,7 @@
           "close": 138.102,
           "rawClose": 140.142,
           "volume": 168418.0,
-          "amount": 2360352711.0
+          "amount": null
         },
         {
           "date": "2025-10-22",
@@ -50783,7 +50773,7 @@
           "close": 138.128,
           "rawClose": 140.168,
           "volume": 54490.0,
-          "amount": 763689778.0
+          "amount": null
         },
         {
           "date": "2025-10-23",
@@ -50793,7 +50783,7 @@
           "close": 138.088,
           "rawClose": 140.128,
           "volume": 14635.0,
-          "amount": 205131598.0
+          "amount": null
         },
         {
           "date": "2025-10-24",
@@ -50803,7 +50793,7 @@
           "close": 138.079,
           "rawClose": 140.119,
           "volume": 132531.0,
-          "amount": 1857074922.0
+          "amount": null
         },
         {
           "date": "2025-10-27",
@@ -50813,7 +50803,7 @@
           "close": 138.126,
           "rawClose": 140.166,
           "volume": 22130.0,
-          "amount": 310154177.0
+          "amount": null
         },
         {
           "date": "2025-10-28",
@@ -50823,7 +50813,7 @@
           "close": 138.405,
           "rawClose": 140.445,
           "volume": 127528.0,
-          "amount": 1790619992.0
+          "amount": null
         },
         {
           "date": "2025-10-29",
@@ -50833,7 +50823,7 @@
           "close": 138.521,
           "rawClose": 140.561,
           "volume": 20539.0,
-          "amount": 288715938.0
+          "amount": null
         },
         {
           "date": "2025-10-30",
@@ -50843,7 +50833,7 @@
           "close": 138.634,
           "rawClose": 140.674,
           "volume": 118846.0,
-          "amount": 1671640546.0
+          "amount": null
         },
         {
           "date": "2025-10-31",
@@ -50853,7 +50843,7 @@
           "close": 138.65,
           "rawClose": 140.69,
           "volume": 107682.0,
-          "amount": 1514989542.0
+          "amount": null
         },
         {
           "date": "2025-11-03",
@@ -50863,7 +50853,7 @@
           "close": 138.588,
           "rawClose": 140.628,
           "volume": 207629.0,
-          "amount": 2919850898.0
+          "amount": null
         },
         {
           "date": "2025-11-04",
@@ -50873,7 +50863,7 @@
           "close": 138.581,
           "rawClose": 140.621,
           "volume": 11606.0,
-          "amount": 163167321.0
+          "amount": null
         },
         {
           "date": "2025-11-05",
@@ -50883,7 +50873,7 @@
           "close": 138.586,
           "rawClose": 140.626,
           "volume": 120721.0,
-          "amount": 1697717912.0
+          "amount": null
         },
         {
           "date": "2025-11-06",
@@ -50893,7 +50883,7 @@
           "close": 138.52,
           "rawClose": 140.56,
           "volume": 224263.0,
-          "amount": 3152261364.0
+          "amount": null
         },
         {
           "date": "2025-11-07",
@@ -50903,7 +50893,7 @@
           "close": 138.549,
           "rawClose": 140.589,
           "volume": 86362.0,
-          "amount": 1214077719.0
+          "amount": null
         },
         {
           "date": "2025-11-10",
@@ -50913,7 +50903,7 @@
           "close": 138.545,
           "rawClose": 140.585,
           "volume": 24369.0,
-          "amount": 342585581.0
+          "amount": null
         },
         {
           "date": "2025-11-11",
@@ -50923,7 +50913,7 @@
           "close": 138.562,
           "rawClose": 140.602,
           "volume": 70718.0,
-          "amount": 994472664.0
+          "amount": null
         },
         {
           "date": "2025-11-12",
@@ -50933,7 +50923,7 @@
           "close": 138.62,
           "rawClose": 140.66,
           "volume": 115655.0,
-          "amount": 1626726873.0
+          "amount": null
         },
         {
           "date": "2025-11-13",
@@ -50943,7 +50933,7 @@
           "close": 138.564,
           "rawClose": 140.604,
           "volume": 40391.0,
-          "amount": 567929741.0
+          "amount": null
         },
         {
           "date": "2025-11-14",
@@ -50953,7 +50943,7 @@
           "close": 138.547,
           "rawClose": 140.587,
           "volume": 109408.0,
-          "amount": 1538069442.0
+          "amount": null
         },
         {
           "date": "2025-11-17",
@@ -50963,7 +50953,7 @@
           "close": 138.573,
           "rawClose": 140.613,
           "volume": 169897.0,
-          "amount": 2389023218.0
+          "amount": null
         },
         {
           "date": "2025-11-18",
@@ -50973,7 +50963,7 @@
           "close": 138.581,
           "rawClose": 140.621,
           "volume": 163019.0,
-          "amount": 2292207003.0
+          "amount": null
         },
         {
           "date": "2025-11-19",
@@ -50983,7 +50973,7 @@
           "close": 138.539,
           "rawClose": 140.579,
           "volume": 7313.0,
-          "amount": 102803877.0
+          "amount": null
         },
         {
           "date": "2025-11-20",
@@ -50993,7 +50983,7 @@
           "close": 138.612,
           "rawClose": 140.652,
           "volume": 8750.0,
-          "amount": 123069611.0
+          "amount": null
         },
         {
           "date": "2025-11-21",
@@ -51003,7 +50993,7 @@
           "close": 138.574,
           "rawClose": 140.614,
           "volume": 22211.0,
-          "amount": 312346385.0
+          "amount": null
         },
         {
           "date": "2025-11-24",
@@ -51013,7 +51003,7 @@
           "close": 138.59,
           "rawClose": 140.63,
           "volume": 25788.0,
-          "amount": 362680824.0
+          "amount": null
         },
         {
           "date": "2025-11-25",
@@ -51023,7 +51013,7 @@
           "close": 138.593,
           "rawClose": 140.633,
           "volume": 12705.0,
-          "amount": 178675378.0
+          "amount": null
         },
         {
           "date": "2025-11-26",
@@ -51033,7 +51023,7 @@
           "close": 138.441,
           "rawClose": 140.481,
           "volume": 8553.0,
-          "amount": 120220448.0
+          "amount": null
         },
         {
           "date": "2025-11-27",
@@ -51043,7 +51033,7 @@
           "close": 138.433,
           "rawClose": 140.473,
           "volume": 176208.0,
-          "amount": 2475191555.0
+          "amount": null
         },
         {
           "date": "2025-11-28",
@@ -51053,7 +51043,7 @@
           "close": 138.488,
           "rawClose": 140.528,
           "volume": 54604.0,
-          "amount": 767277624.0
+          "amount": null
         },
         {
           "date": "2025-12-01",
@@ -51063,7 +51053,7 @@
           "close": 138.535,
           "rawClose": 140.575,
           "volume": 6955.0,
-          "amount": 97746569.0
+          "amount": null
         },
         {
           "date": "2025-12-02",
@@ -51073,7 +51063,7 @@
           "close": 138.5,
           "rawClose": 140.54,
           "volume": 138482.0,
-          "amount": 1946453657.0
+          "amount": null
         },
         {
           "date": "2025-12-03",
@@ -51083,7 +51073,7 @@
           "close": 138.512,
           "rawClose": 140.552,
           "volume": 21602.0,
-          "amount": 303603829.0
+          "amount": null
         },
         {
           "date": "2025-12-04",
@@ -51093,7 +51083,7 @@
           "close": 138.371,
           "rawClose": 140.411,
           "volume": 7206.0,
-          "amount": 101194425.0
+          "amount": null
         },
         {
           "date": "2025-12-05",
@@ -51103,7 +51093,7 @@
           "close": 138.443,
           "rawClose": 140.483,
           "volume": 80403.0,
-          "amount": 1129231503.0
+          "amount": null
         },
         {
           "date": "2025-12-08",
@@ -51113,7 +51103,7 @@
           "close": 138.428,
           "rawClose": 140.468,
           "volume": 10304.0,
-          "amount": 144721563.0
+          "amount": null
         },
         {
           "date": "2025-12-09",
@@ -51123,7 +51113,7 @@
           "close": 138.505,
           "rawClose": 140.545,
           "volume": 46431.0,
-          "amount": 652541606.0
+          "amount": null
         },
         {
           "date": "2025-12-10",
@@ -51133,7 +51123,7 @@
           "close": 138.526,
           "rawClose": 140.566,
           "volume": 34187.0,
-          "amount": 480455777.0
+          "amount": null
         },
         {
           "date": "2025-12-11",
@@ -51143,7 +51133,7 @@
           "close": 138.62,
           "rawClose": 140.66,
           "volume": 71021.0,
-          "amount": 998954330.0
+          "amount": null
         },
         {
           "date": "2025-12-12",
@@ -51153,7 +51143,7 @@
           "close": 138.581,
           "rawClose": 140.621,
           "volume": 121593.0,
-          "amount": 1710045851.0
+          "amount": null
         },
         {
           "date": "2025-12-15",
@@ -51163,7 +51153,7 @@
           "close": 138.522,
           "rawClose": 140.562,
           "volume": 9522.0,
-          "amount": 133867934.0
+          "amount": null
         },
         {
           "date": "2025-12-16",
@@ -51173,7 +51163,7 @@
           "close": 138.496,
           "rawClose": 140.536,
           "volume": 77847.0,
-          "amount": 1094298398.0
+          "amount": null
         },
         {
           "date": "2025-12-17",
@@ -51183,7 +51173,7 @@
           "close": 138.589,
           "rawClose": 140.629,
           "volume": 86837.0,
-          "amount": 1220560151.0
+          "amount": null
         },
         {
           "date": "2025-12-18",
@@ -51193,7 +51183,7 @@
           "close": 138.673,
           "rawClose": 140.713,
           "volume": 15296.0,
-          "amount": 215201281.0
+          "amount": null
         },
         {
           "date": "2025-12-19",
@@ -51203,7 +51193,7 @@
           "close": 138.747,
           "rawClose": 140.787,
           "volume": 20448.0,
-          "amount": 287806491.0
+          "amount": null
         },
         {
           "date": "2025-12-22",
@@ -51213,7 +51203,7 @@
           "close": 138.675,
           "rawClose": 140.715,
           "volume": 32913.0,
-          "amount": 463266345.0
+          "amount": null
         },
         {
           "date": "2025-12-23",
@@ -51223,7 +51213,7 @@
           "close": 138.912,
           "rawClose": 140.952,
           "volume": 112949.0,
-          "amount": 1590619850.0
+          "amount": null
         },
         {
           "date": "2025-12-24",
@@ -51233,7 +51223,7 @@
           "close": 138.854,
           "rawClose": 140.894,
           "volume": 27781.0,
-          "amount": 391354276.0
+          "amount": null
         },
         {
           "date": "2025-12-25",
@@ -51243,7 +51233,7 @@
           "close": 138.807,
           "rawClose": 140.847,
           "volume": 24865.0,
-          "amount": 350359154.0
+          "amount": null
         },
         {
           "date": "2025-12-26",
@@ -51253,7 +51243,7 @@
           "close": 138.899,
           "rawClose": 140.285,
           "volume": 21476.0,
-          "amount": 301239032.0
+          "amount": null
         },
         {
           "date": "2025-12-29",
@@ -51263,7 +51253,7 @@
           "close": 138.73,
           "rawClose": 140.116,
           "volume": 64110.0,
-          "amount": 898161012.0
+          "amount": null
         },
         {
           "date": "2025-12-30",
@@ -51273,7 +51263,7 @@
           "close": 138.707,
           "rawClose": 140.093,
           "volume": 22818.0,
-          "amount": 319708291.0
+          "amount": null
         },
         {
           "date": "2025-12-31",
@@ -51283,7 +51273,7 @@
           "close": 138.71,
           "rawClose": 140.096,
           "volume": 17226.0,
-          "amount": 241243464.0
+          "amount": null
         },
         {
           "date": "2026-01-05",
@@ -51293,7 +51283,7 @@
           "close": 138.579,
           "rawClose": 139.965,
           "volume": 12972.0,
-          "amount": 181611918.0
+          "amount": null
         },
         {
           "date": "2026-01-06",
@@ -51303,7 +51293,7 @@
           "close": 138.474,
           "rawClose": 139.86,
           "volume": 112357.0,
-          "amount": 1570924207.0
+          "amount": null
         },
         {
           "date": "2026-01-07",
@@ -51313,7 +51303,7 @@
           "close": 138.397,
           "rawClose": 139.783,
           "volume": 167378.0,
-          "amount": 2340480836.0
+          "amount": null
         },
         {
           "date": "2026-01-08",
@@ -51323,7 +51313,7 @@
           "close": 138.518,
           "rawClose": 139.904,
           "volume": 39895.0,
-          "amount": 557781282.0
+          "amount": null
         },
         {
           "date": "2026-01-09",
@@ -51333,7 +51323,7 @@
           "close": 138.507,
           "rawClose": 139.893,
           "volume": 12286.0,
-          "amount": 171833972.0
+          "amount": null
         },
         {
           "date": "2026-01-12",
@@ -51343,7 +51333,7 @@
           "close": 138.576,
           "rawClose": 139.962,
           "volume": 16725.0,
-          "amount": 234056872.0
+          "amount": null
         },
         {
           "date": "2026-01-13",
@@ -51353,7 +51343,7 @@
           "close": 138.616,
           "rawClose": 140.002,
           "volume": 8034.0,
-          "amount": 112451723.0
+          "amount": null
         },
         {
           "date": "2026-01-14",
@@ -51363,7 +51353,7 @@
           "close": 138.707,
           "rawClose": 140.093,
           "volume": 150378.0,
-          "amount": 2104882648.0
+          "amount": null
         },
         {
           "date": "2026-01-15",
@@ -51373,7 +51363,7 @@
           "close": 138.762,
           "rawClose": 140.148,
           "volume": 12254.0,
-          "amount": 171717523.0
+          "amount": null
         },
         {
           "date": "2026-01-16",
@@ -51383,7 +51373,7 @@
           "close": 138.852,
           "rawClose": 140.238,
           "volume": 28525.0,
-          "amount": 399848109.0
+          "amount": null
         },
         {
           "date": "2026-01-19",
@@ -51393,7 +51383,7 @@
           "close": 138.843,
           "rawClose": 140.229,
           "volume": 194803.0,
-          "amount": 2731692858.0
+          "amount": null
         },
         {
           "date": "2026-01-20",
@@ -51403,7 +51393,7 @@
           "close": 138.932,
           "rawClose": 140.318,
           "volume": 131432.0,
-          "amount": 1843502135.0
+          "amount": null
         },
         {
           "date": "2026-01-21",
@@ -51413,7 +51403,7 @@
           "close": 138.929,
           "rawClose": 140.315,
           "volume": 7478.0,
-          "amount": 104913570.0
+          "amount": null
         },
         {
           "date": "2026-01-22",
@@ -51423,7 +51413,7 @@
           "close": 138.916,
           "rawClose": 140.302,
           "volume": 326892.0,
-          "amount": 4586112978.0
+          "amount": null
         },
         {
           "date": "2026-01-23",
@@ -51433,7 +51423,7 @@
           "close": 138.963,
           "rawClose": 140.349,
           "volume": 185941.0,
-          "amount": 2609245846.0
+          "amount": null
         },
         {
           "date": "2026-01-26",
@@ -51443,7 +51433,7 @@
           "close": 138.936,
           "rawClose": 140.322,
           "volume": 14382.0,
-          "amount": 201839995.0
+          "amount": null
         },
         {
           "date": "2026-01-27",
@@ -51453,7 +51443,7 @@
           "close": 138.949,
           "rawClose": 140.335,
           "volume": 206811.0,
-          "amount": 2902384149.0
+          "amount": null
         },
         {
           "date": "2026-01-28",
@@ -51463,7 +51453,7 @@
           "close": 138.971,
           "rawClose": 140.357,
           "volume": 20130.0,
-          "amount": 282511254.0
+          "amount": null
         },
         {
           "date": "2026-01-29",
@@ -51473,7 +51463,7 @@
           "close": 139.057,
           "rawClose": 140.443,
           "volume": 174755.0,
-          "amount": 2455320580.0
+          "amount": null
         },
         {
           "date": "2026-01-30",
@@ -51483,7 +51473,7 @@
           "close": 139.043,
           "rawClose": 140.429,
           "volume": 9467.0,
-          "amount": 132960114.0
+          "amount": null
         },
         {
           "date": "2026-02-02",
@@ -51493,7 +51483,7 @@
           "close": 139.046,
           "rawClose": 140.432,
           "volume": 203063.0,
-          "amount": 2851431322.0
+          "amount": null
         },
         {
           "date": "2026-02-03",
@@ -51503,7 +51493,7 @@
           "close": 139.095,
           "rawClose": 140.481,
           "volume": 17589.0,
-          "amount": 247050033.0
+          "amount": null
         },
         {
           "date": "2026-02-04",
@@ -51513,7 +51503,7 @@
           "close": 139.08,
           "rawClose": 140.466,
           "volume": 201750.0,
-          "amount": 2833934279.0
+          "amount": null
         },
         {
           "date": "2026-02-05",
@@ -51523,7 +51513,7 @@
           "close": 139.164,
           "rawClose": 140.55,
           "volume": 7987.0,
-          "amount": 112208158.0
+          "amount": null
         },
         {
           "date": "2026-02-06",
@@ -51533,7 +51523,7 @@
           "close": 139.2,
           "rawClose": 140.586,
           "volume": 12868.0,
-          "amount": 180871019.0
+          "amount": null
         },
         {
           "date": "2026-02-09",
@@ -51543,7 +51533,7 @@
           "close": 139.286,
           "rawClose": 140.672,
           "volume": 8479.0,
-          "amount": 119245705.0
+          "amount": null
         },
         {
           "date": "2026-02-10",
@@ -51553,7 +51543,7 @@
           "close": 139.283,
           "rawClose": 140.669,
           "volume": 5421.0,
-          "amount": 76259714.0
+          "amount": null
         },
         {
           "date": "2026-02-11",
@@ -51563,7 +51553,7 @@
           "close": 139.347,
           "rawClose": 140.733,
           "volume": 6064.0,
-          "amount": 85336447.0
+          "amount": null
         },
         {
           "date": "2026-02-12",
@@ -51573,7 +51563,7 @@
           "close": 139.405,
           "rawClose": 140.791,
           "volume": 6040.0,
-          "amount": 85023235.0
+          "amount": null
         },
         {
           "date": "2026-02-13",
@@ -51583,7 +51573,7 @@
           "close": 139.459,
           "rawClose": 140.845,
           "volume": 18809.0,
-          "amount": 264879853.0
+          "amount": null
         },
         {
           "date": "2026-02-24",
@@ -51593,7 +51583,7 @@
           "close": 139.475,
           "rawClose": 140.861,
           "volume": 10633.0,
-          "amount": 149773178.0
+          "amount": null
         },
         {
           "date": "2026-02-25",
@@ -51603,7 +51593,7 @@
           "close": 139.359,
           "rawClose": 140.745,
           "volume": 9877.0,
-          "amount": 139060363.0
+          "amount": null
         },
         {
           "date": "2026-02-26",
@@ -51613,7 +51603,7 @@
           "close": 139.224,
           "rawClose": 140.61,
           "volume": 8914.0,
-          "amount": 125362222.0
+          "amount": null
         },
         {
           "date": "2026-02-27",
@@ -51623,7 +51613,7 @@
           "close": 139.312,
           "rawClose": 140.698,
           "volume": 116101.0,
-          "amount": 1633170980.0
+          "amount": null
         },
         {
           "date": "2026-03-02",
@@ -51633,7 +51623,7 @@
           "close": 139.433,
           "rawClose": 140.819,
           "volume": 8054.0,
-          "amount": 113379940.0
+          "amount": null
         },
         {
           "date": "2026-03-03",
@@ -51643,7 +51633,7 @@
           "close": 139.422,
           "rawClose": 140.808,
           "volume": 15663.0,
-          "amount": 220550049.0
+          "amount": null
         },
         {
           "date": "2026-03-04",
@@ -51653,7 +51643,7 @@
           "close": 139.543,
           "rawClose": 140.929,
           "volume": 6088.0,
-          "amount": 85755837.0
+          "amount": null
         },
         {
           "date": "2026-03-05",
@@ -51663,7 +51653,7 @@
           "close": 139.484,
           "rawClose": 140.87,
           "volume": 102599.0,
-          "amount": 1445202167.0
+          "amount": null
         },
         {
           "date": "2026-03-06",
@@ -51673,7 +51663,7 @@
           "close": 139.52,
           "rawClose": 140.906,
           "volume": 257192.0,
-          "amount": 3623453034.0
+          "amount": null
         },
         {
           "date": "2026-03-09",
@@ -51683,7 +51673,7 @@
           "close": 139.351,
           "rawClose": 140.737,
           "volume": 97514.0,
-          "amount": 1372498930.0
+          "amount": null
         },
         {
           "date": "2026-03-10",
@@ -51693,7 +51683,7 @@
           "close": 139.359,
           "rawClose": 140.745,
           "volume": 23681.0,
-          "amount": 333197917.0
+          "amount": null
         },
         {
           "date": "2026-03-11",
@@ -51703,7 +51693,7 @@
           "close": 139.349,
           "rawClose": 140.735,
           "volume": 36833.0,
-          "amount": 518344812.0
+          "amount": null
         },
         {
           "date": "2026-03-12",
@@ -51713,7 +51703,7 @@
           "close": 139.353,
           "rawClose": 140.739,
           "volume": 51026.0,
-          "amount": 718108320.0
+          "amount": null
         },
         {
           "date": "2026-03-13",
@@ -51723,7 +51713,7 @@
           "close": 139.386,
           "rawClose": 140.772,
           "volume": 13807.0,
-          "amount": 194367506.0
+          "amount": null
         },
         {
           "date": "2026-03-16",
@@ -51733,7 +51723,7 @@
           "close": 139.292,
           "rawClose": 140.678,
           "volume": 148540.0,
-          "amount": 2089975756.0
+          "amount": null
         },
         {
           "date": "2026-03-17",
@@ -51743,7 +51733,7 @@
           "close": 139.294,
           "rawClose": 140.68,
           "volume": 27101.0,
-          "amount": 381256370.0
+          "amount": null
         },
         {
           "date": "2026-03-18",
@@ -51753,7 +51743,7 @@
           "close": 139.432,
           "rawClose": 140.818,
           "volume": 13928.0,
-          "amount": 196057791.0
+          "amount": null
         },
         {
           "date": "2026-03-19",
@@ -51763,7 +51753,7 @@
           "close": 139.508,
           "rawClose": 140.894,
           "volume": 244510.0,
-          "amount": 3444857036.0
+          "amount": null
         },
         {
           "date": "2026-03-20",
@@ -51773,7 +51763,7 @@
           "close": 139.467,
           "rawClose": 140.853,
           "volume": 188748.0,
-          "amount": 2658540561.0
+          "amount": null
         },
         {
           "date": "2026-03-23",
@@ -51783,7 +51773,7 @@
           "close": 139.414,
           "rawClose": 140.8,
           "volume": 25126.0,
-          "amount": 353840647.0
+          "amount": null
         },
         {
           "date": "2026-03-24",
@@ -51793,7 +51783,7 @@
           "close": 139.378,
           "rawClose": 140.764,
           "volume": 29171.0,
-          "amount": 410657475.0
+          "amount": null
         },
         {
           "date": "2026-03-25",
@@ -51803,7 +51793,7 @@
           "close": 139.423,
           "rawClose": 140.237,
           "volume": 103562.0,
-          "amount": 1451880805.0
+          "amount": null
         },
         {
           "date": "2026-03-26",
@@ -51813,7 +51803,7 @@
           "close": 139.477,
           "rawClose": 140.291,
           "volume": 25678.0,
-          "amount": 360196720.0
+          "amount": null
         },
         {
           "date": "2026-03-27",
@@ -51823,7 +51813,7 @@
           "close": 139.562,
           "rawClose": 140.376,
           "volume": 117229.0,
-          "amount": 1645336838.0
+          "amount": null
         },
         {
           "date": "2026-03-30",
@@ -51833,7 +51823,7 @@
           "close": 139.65,
           "rawClose": 140.464,
           "volume": 108977.0,
-          "amount": 1530325060.0
+          "amount": null
         },
         {
           "date": "2026-03-31",
@@ -51843,7 +51833,7 @@
           "close": 139.69,
           "rawClose": 140.504,
           "volume": 26502.0,
-          "amount": 372298158.0
+          "amount": null
         },
         {
           "date": "2026-04-01",
@@ -51853,7 +51843,7 @@
           "close": 139.571,
           "rawClose": 140.385,
           "volume": 90957.0,
-          "amount": 1276869393.0
+          "amount": null
         },
         {
           "date": "2026-04-02",
@@ -51863,7 +51853,7 @@
           "close": 139.596,
           "rawClose": 140.41,
           "volume": 28037.0,
-          "amount": 393562799.0
+          "amount": null
         },
         {
           "date": "2026-04-03",
@@ -51873,7 +51863,7 @@
           "close": 139.662,
           "rawClose": 140.476,
           "volume": 15423.0,
-          "amount": 216651600.0
+          "amount": null
         },
         {
           "date": "2026-04-07",
@@ -51883,7 +51873,7 @@
           "close": 139.645,
           "rawClose": 140.459,
           "volume": 18288.0,
-          "amount": 256892861.0
+          "amount": null
         },
         {
           "date": "2026-04-08",
@@ -51893,7 +51883,7 @@
           "close": 139.573,
           "rawClose": 140.387,
           "volume": 70776.0,
-          "amount": 993720023.0
+          "amount": null
         },
         {
           "date": "2026-04-09",
@@ -51903,7 +51893,7 @@
           "close": 139.59,
           "rawClose": 140.404,
           "volume": 25511.0,
-          "amount": 358126493.0
+          "amount": null
         },
         {
           "date": "2026-04-10",
@@ -51913,7 +51903,7 @@
           "close": 139.592,
           "rawClose": 140.406,
           "volume": 40741.0,
-          "amount": 571981864.0
+          "amount": null
         },
         {
           "date": "2026-04-13",
@@ -51923,7 +51913,7 @@
           "close": 139.628,
           "rawClose": 140.442,
           "volume": 30418.0,
-          "amount": 427188473.0
+          "amount": null
         },
         {
           "date": "2026-04-14",
@@ -51933,7 +51923,7 @@
           "close": 139.654,
           "rawClose": 140.468,
           "volume": 51408.0,
-          "amount": 722004013.0
+          "amount": null
         },
         {
           "date": "2026-04-15",
@@ -51943,7 +51933,7 @@
           "close": 139.787,
           "rawClose": 140.601,
           "volume": 33118.0,
-          "amount": 465441359.0
+          "amount": null
         },
         {
           "date": "2026-04-16",
@@ -51953,7 +51943,7 @@
           "close": 139.873,
           "rawClose": 140.687,
           "volume": 29215.0,
-          "amount": 410935490.0
+          "amount": null
         },
         {
           "date": "2026-04-17",
@@ -51963,7 +51953,7 @@
           "close": 139.94,
           "rawClose": 140.754,
           "volume": 23830.0,
-          "amount": 335391041.0
+          "amount": null
         },
         {
           "date": "2026-04-20",
@@ -51973,7 +51963,7 @@
           "close": 139.925,
           "rawClose": 140.739,
           "volume": 56866.0,
-          "amount": 800322151.0
+          "amount": null
         },
         {
           "date": "2026-04-21",
@@ -51983,7 +51973,7 @@
           "close": 139.92,
           "rawClose": 140.734,
           "volume": 7982.0,
-          "amount": 112355403.0
+          "amount": null
         },
         {
           "date": "2026-04-22",
@@ -51993,7 +51983,7 @@
           "close": 140.023,
           "rawClose": 140.837,
           "volume": 29608.0,
-          "amount": 416911557.0
+          "amount": null
         },
         {
           "date": "2026-04-23",
@@ -52003,7 +51993,7 @@
           "close": 140.023,
           "rawClose": 140.837,
           "volume": 50750.0,
-          "amount": 714682913.0
+          "amount": null
         },
         {
           "date": "2026-04-24",
@@ -52013,7 +52003,7 @@
           "close": 140.085,
           "rawClose": 140.899,
           "volume": 48984.0,
-          "amount": 690287943.0
+          "amount": null
         },
         {
           "date": "2026-04-27",
@@ -52023,7 +52013,7 @@
           "close": 139.887,
           "rawClose": 140.701,
           "volume": 30849.0,
-          "amount": 434322626.0
+          "amount": null
         },
         {
           "date": "2026-04-28",
@@ -52033,7 +52023,7 @@
           "close": 140.006,
           "rawClose": 140.82,
           "volume": 84554.0,
-          "amount": 1190676364.0
+          "amount": null
         },
         {
           "date": "2026-04-29",
@@ -52043,7 +52033,7 @@
           "close": 140.085,
           "rawClose": 140.899,
           "volume": 41704.0,
-          "amount": 587490081.0
+          "amount": null
         },
         {
           "date": "2026-04-30",
@@ -52053,7 +52043,7 @@
           "close": 140.059,
           "rawClose": 140.873,
           "volume": 172006.0,
-          "amount": 2423305309.0
+          "amount": null
         },
         {
           "date": "2026-05-06",
@@ -52063,7 +52053,7 @@
           "close": 139.997,
           "rawClose": 140.811,
           "volume": 48190.0,
-          "amount": 678304691.0
+          "amount": null
         },
         {
           "date": "2026-05-07",
@@ -52073,7 +52063,7 @@
           "close": 140.006,
           "rawClose": 140.82,
           "volume": 54616.0,
-          "amount": 769267027.0
+          "amount": null
         },
         {
           "date": "2026-05-08",
@@ -52083,7 +52073,7 @@
           "close": 140.086,
           "rawClose": 140.9,
           "volume": 200995.0,
-          "amount": 2831456493.0
+          "amount": null
         },
         {
           "date": "2026-05-11",
@@ -52093,7 +52083,7 @@
           "close": 140.097,
           "rawClose": 140.911,
           "volume": 36146.0,
-          "amount": 509168664.0
+          "amount": null
         },
         {
           "date": "2026-05-12",
@@ -52103,7 +52093,7 @@
           "close": 140.149,
           "rawClose": 140.963,
           "volume": 32192.0,
-          "amount": 453697250.0
+          "amount": null
         },
         {
           "date": "2026-05-13",
@@ -52113,7 +52103,7 @@
           "close": 140.185,
           "rawClose": 140.999,
           "volume": 20414.0,
-          "amount": 287814920.0
+          "amount": null
         },
         {
           "date": "2026-05-14",
@@ -52123,7 +52113,7 @@
           "close": 140.197,
           "rawClose": 141.011,
           "volume": 15545.0,
-          "amount": 219193453.0
+          "amount": null
         },
         {
           "date": "2026-05-15",
@@ -52133,7 +52123,7 @@
           "close": 140.26,
           "rawClose": 141.074,
           "volume": 18514.0,
-          "amount": 261157821.0
+          "amount": null
         },
         {
           "date": "2026-05-18",
@@ -52143,7 +52133,7 @@
           "close": 140.312,
           "rawClose": 141.126,
           "volume": 18273.0,
-          "amount": 257802404.0
+          "amount": null
         },
         {
           "date": "2026-05-19",
@@ -52153,7 +52143,7 @@
           "close": 140.433,
           "rawClose": 141.247,
           "volume": 37188.0,
-          "amount": 525124559.0
+          "amount": null
         },
         {
           "date": "2026-05-20",
@@ -52163,7 +52153,7 @@
           "close": 140.464,
           "rawClose": 141.278,
           "volume": 15078.0,
-          "amount": 213001454.0
+          "amount": null
         },
         {
           "date": "2026-05-21",
@@ -52173,7 +52163,7 @@
           "close": 140.377,
           "rawClose": 141.191,
           "volume": 20175.0,
-          "amount": 284969253.0
+          "amount": null
         },
         {
           "date": "2026-05-22",
@@ -52183,7 +52173,7 @@
           "close": 140.39,
           "rawClose": 141.204,
           "volume": 10516.0,
-          "amount": 148471271.0
+          "amount": null
         },
         {
           "date": "2026-05-25",
@@ -52193,7 +52183,7 @@
           "close": 140.362,
           "rawClose": 141.176,
           "volume": 16152.0,
-          "amount": 228006970.0
+          "amount": null
         },
         {
           "date": "2026-05-26",
@@ -52203,7 +52193,7 @@
           "close": 140.416,
           "rawClose": 141.23,
           "volume": 10171.0,
-          "amount": 143613189.0
+          "amount": null
         },
         {
           "date": "2026-05-27",
@@ -52213,7 +52203,7 @@
           "close": 140.488,
           "rawClose": 141.302,
           "volume": 72578.0,
-          "amount": 1025342458.0
+          "amount": null
         },
         {
           "date": "2026-05-28",
@@ -52223,7 +52213,7 @@
           "close": 140.603,
           "rawClose": 141.417,
           "volume": 18554.0,
-          "amount": 262327548.0
+          "amount": null
         },
         {
           "date": "2026-05-29",
@@ -52233,7 +52223,7 @@
           "close": 140.685,
           "rawClose": 141.499,
           "volume": 66250.0,
-          "amount": 937183209.0
+          "amount": null
         },
         {
           "date": "2026-06-01",
@@ -52243,7 +52233,7 @@
           "close": 140.69,
           "rawClose": 141.504,
           "volume": 27166.0,
-          "amount": 384406914.0
+          "amount": null
         },
         {
           "date": "2026-06-02",
@@ -52253,7 +52243,7 @@
           "close": 140.666,
           "rawClose": 141.48,
           "volume": 29173.0,
-          "amount": 412757992.0
+          "amount": null
         },
         {
           "date": "2026-06-03",
@@ -52263,7 +52253,7 @@
           "close": 140.65,
           "rawClose": 141.464,
           "volume": 34290.0,
-          "amount": 485092362.0
+          "amount": null
         },
         {
           "date": "2026-06-04",
@@ -52273,7 +52263,7 @@
           "close": 140.69,
           "rawClose": 141.504,
           "volume": 35412.0,
-          "amount": 501012003.0
+          "amount": null
         },
         {
           "date": "2026-06-05",
@@ -52283,7 +52273,7 @@
           "close": 140.686,
           "rawClose": 141.5,
           "volume": 29553.0,
-          "amount": 418197984.0
+          "amount": null
         },
         {
           "date": "2026-06-08",
@@ -52293,7 +52283,7 @@
           "close": 140.595,
           "rawClose": 141.409,
           "volume": 20336.0,
-          "amount": 287548734.0
+          "amount": null
         },
         {
           "date": "2026-06-09",
@@ -52303,7 +52293,7 @@
           "close": 140.531,
           "rawClose": 141.345,
           "volume": 30226.0,
-          "amount": 427297140.0
+          "amount": null
         },
         {
           "date": "2026-06-10",
@@ -52313,7 +52303,7 @@
           "close": 140.464,
           "rawClose": 141.278,
           "volume": 27309.0,
-          "amount": 385946408.0
+          "amount": null
         },
         {
           "date": "2026-06-11",
@@ -52323,7 +52313,7 @@
           "close": 140.324,
           "rawClose": 141.138,
           "volume": 25459.0,
-          "amount": 359519948.0
+          "amount": null
         },
         {
           "date": "2026-06-12",
@@ -52333,7 +52323,7 @@
           "close": 140.349,
           "rawClose": 141.163,
           "volume": 27540.0,
-          "amount": 388751195.0
+          "amount": null
         },
         {
           "date": "2026-06-15",
@@ -52343,7 +52333,7 @@
           "close": 140.376,
           "rawClose": 141.19,
           "volume": 21902.0,
-          "amount": 309195849.0
+          "amount": null
         },
         {
           "date": "2026-06-16",
@@ -52353,7 +52343,7 @@
           "close": 140.495,
           "rawClose": 141.309,
           "volume": 50600.0,
-          "amount": 714503942.0
+          "amount": null
         },
         {
           "date": "2026-06-17",
@@ -52363,7 +52353,7 @@
           "close": 140.534,
           "rawClose": 141.348,
           "volume": 20260.0,
-          "amount": 286315021.0
+          "amount": null
         },
         {
           "date": "2026-06-18",
@@ -52373,7 +52363,7 @@
           "close": 140.617,
           "rawClose": 141.431,
           "volume": 44534.0,
-          "amount": 629649442.0
+          "amount": null
         },
         {
           "date": "2026-06-22",
@@ -52383,7 +52373,7 @@
           "close": 140.649,
           "rawClose": 141.463,
           "volume": 85941.0,
-          "amount": 1215427665.0
+          "amount": null
         },
         {
           "date": "2026-06-23",
@@ -52393,7 +52383,7 @@
           "close": 140.558,
           "rawClose": 141.372,
           "volume": 25436.0,
-          "amount": 359648713.0
+          "amount": null
         },
         {
           "date": "2026-06-24",
@@ -52403,7 +52393,7 @@
           "close": 140.619,
           "rawClose": 141.433,
           "volume": 51554.0,
-          "amount": 728986449.0
+          "amount": null
         },
         {
           "date": "2026-06-25",
@@ -52413,7 +52403,7 @@
           "close": 140.636,
           "rawClose": 140.636,
           "volume": 24147.0,
-          "amount": 339633768.0
+          "amount": null
         },
         {
           "date": "2026-06-26",
@@ -52423,7 +52413,7 @@
           "close": 140.721,
           "rawClose": 140.721,
           "volume": 11854.0,
-          "amount": 166770331.0
+          "amount": null
         },
         {
           "date": "2026-06-29",
@@ -52433,7 +52423,7 @@
           "close": 140.845,
           "rawClose": 140.845,
           "volume": 18959.0,
-          "amount": 266979920.0
+          "amount": null
         },
         {
           "date": "2026-06-30",
@@ -52443,7 +52433,7 @@
           "close": 140.792,
           "rawClose": 140.792,
           "volume": 31562.0,
-          "amount": 444375154.0
+          "amount": null
         },
         {
           "date": "2026-07-01",
@@ -52453,7 +52443,7 @@
           "close": 140.637,
           "rawClose": 140.637,
           "volume": 53722.0,
-          "amount": 755580835.0
+          "amount": null
         },
         {
           "date": "2026-07-02",
@@ -52463,7 +52453,7 @@
           "close": 140.695,
           "rawClose": 140.695,
           "volume": 30623.0,
-          "amount": 430786278.0
+          "amount": null
         },
         {
           "date": "2026-07-03",
@@ -52473,7 +52463,7 @@
           "close": 140.695,
           "rawClose": 140.695,
           "volume": 137244.0,
-          "amount": 1930789825.0
+          "amount": null
         },
         {
           "date": "2026-07-06",
@@ -52483,7 +52473,7 @@
           "close": 140.753,
           "rawClose": 140.753,
           "volume": 37606.0,
-          "amount": 529321465.0
+          "amount": null
         },
         {
           "date": "2026-07-07",
@@ -52493,7 +52483,7 @@
           "close": 140.748,
           "rawClose": 140.748,
           "volume": 48534.0,
-          "amount": 683052994.0
+          "amount": null
         },
         {
           "date": "2026-07-08",
@@ -52503,7 +52493,7 @@
           "close": 140.799,
           "rawClose": 140.799,
           "volume": 314106.0,
-          "amount": 4421018063.0
+          "amount": null
         },
         {
           "date": "2026-07-09",
@@ -52513,7 +52503,7 @@
           "close": 140.771,
           "rawClose": 140.771,
           "volume": 96245.0,
-          "amount": 1355072991.0
+          "amount": null
         },
         {
           "date": "2026-07-10",
@@ -52523,7 +52513,7 @@
           "close": 140.782,
           "rawClose": 140.782,
           "volume": 188520.0,
-          "amount": 2654021716.0
+          "amount": null
         },
         {
           "date": "2026-07-13",
@@ -52533,7 +52523,7 @@
           "close": 140.775,
           "rawClose": 140.775,
           "volume": 138857.0,
-          "amount": 1954848112.0
+          "amount": null
         },
         {
           "date": "2026-07-14",
@@ -52543,7 +52533,7 @@
           "close": 140.798,
           "rawClose": 140.798,
           "volume": 51834.0,
-          "amount": 729828690.0
+          "amount": null
         },
         {
           "date": "2026-07-15",
@@ -52553,7 +52543,7 @@
           "close": 140.819,
           "rawClose": 140.819,
           "volume": 34878.0,
-          "amount": 491119670.0
+          "amount": null
         },
         {
           "date": "2026-07-16",
@@ -52563,7 +52553,7 @@
           "close": 140.789,
           "rawClose": 140.789,
           "volume": 35007.0,
-          "amount": 492833915.0
+          "amount": null
         },
         {
           "date": "2026-07-17",
@@ -52573,7 +52563,7 @@
           "close": 140.812,
           "rawClose": 140.812,
           "volume": 33700.0,
-          "amount": 474561233.0
+          "amount": null
         },
         {
           "date": "2026-07-20",
@@ -52583,7 +52573,7 @@
           "close": 140.815,
           "rawClose": 140.815,
           "volume": 43703.0,
-          "amount": 615340237.0
+          "amount": null
         },
         {
           "date": "2026-07-21",
@@ -52593,7 +52583,7 @@
           "close": 140.824,
           "rawClose": 140.824,
           "volume": 196830.0,
-          "amount": 2771533303.0
+          "amount": null
         },
         {
           "date": "2026-07-22",
@@ -52603,7 +52593,7 @@
           "close": 140.899,
           "rawClose": 140.899,
           "volume": 68477.0,
-          "amount": 964504443.0
+          "amount": null
         },
         {
           "date": "2026-07-23",
@@ -52613,7 +52603,7 @@
           "close": 140.867,
           "rawClose": 140.867,
           "volume": 192811.0,
-          "amount": 2716348580.0
+          "amount": null
         },
         {
           "date": "2026-07-24",
@@ -52623,7 +52613,7 @@
           "close": 140.874,
           "rawClose": 140.874,
           "volume": 57626.0,
-          "amount": 811667534.0
+          "amount": null
         },
         {
           "date": "2026-07-27",
@@ -52633,7 +52623,7 @@
           "close": 140.841,
           "rawClose": 140.841,
           "volume": 42748.0,
-          "amount": 602132747.0
+          "amount": null
         },
         {
           "date": "2026-07-28",
@@ -52643,7 +52633,7 @@
           "close": 140.832,
           "rawClose": 140.832,
           "volume": 50936.0,
-          "amount": 717363013.0
+          "amount": null
         },
         {
           "date": "2026-07-29",
@@ -52653,7 +52643,7 @@
           "close": 140.827,
           "rawClose": 140.827,
           "volume": 74226.0,
-          "amount": 1045378456.0
+          "amount": null
         },
         {
           "date": "2026-07-30",
@@ -52663,7 +52653,7 @@
           "close": 140.853,
           "rawClose": 140.853,
           "volume": 72295.0,
-          "amount": 1018191254.0
+          "amount": null
         },
         {
           "date": "2026-07-31",
@@ -52673,7 +52663,7 @@
           "close": 140.97,
           "rawClose": 140.97,
           "volume": 16707.0,
-          "amount": 235469643.0
+          "amount": null
         },
         {
           "date": "2026-08-03",
@@ -52683,7 +52673,7 @@
           "close": 140.957,
           "rawClose": 140.957,
           "volume": 113217.0,
-          "amount": 1595865814.0
+          "amount": null
         },
         {
           "date": "2026-08-04",
@@ -52693,7 +52683,7 @@
           "close": 140.991,
           "rawClose": 140.991,
           "volume": 30847.0,
-          "amount": 434910254.0
+          "amount": null
         },
         {
           "date": "2026-08-05",
@@ -52703,7 +52693,7 @@
           "close": 141.0,
           "rawClose": 141.0,
           "volume": 106502.0,
-          "amount": 1501821107.0
+          "amount": null
         },
         {
           "date": "2026-08-06",
@@ -52713,7 +52703,7 @@
           "close": 141.015,
           "rawClose": 141.015,
           "volume": 162068.0,
-          "amount": 2285171318.0
+          "amount": null
         },
         {
           "date": "2026-08-07",
@@ -52723,7 +52713,7 @@
           "close": 141.086,
           "rawClose": 141.086,
           "volume": 228398.0,
-          "amount": 3221110562.0
+          "amount": null
         },
         {
           "date": "2026-08-10",
@@ -52733,7 +52723,7 @@
           "close": 141.101,
           "rawClose": 141.101,
           "volume": 61330.0,
-          "amount": 865336191.0
+          "amount": null
         },
         {
           "date": "2026-08-11",
@@ -52743,7 +52733,7 @@
           "close": 141.07,
           "rawClose": 141.07,
           "volume": 52086.0,
-          "amount": 734840618.0
+          "amount": null
         },
         {
           "date": "2026-08-12",
@@ -52753,7 +52743,7 @@
           "close": 141.084,
           "rawClose": 141.084,
           "volume": 95334.0,
-          "amount": 1344941511.0
+          "amount": null
         },
         {
           "date": "2026-08-13",
@@ -52763,7 +52753,7 @@
           "close": 141.131,
           "rawClose": 141.131,
           "volume": 192976.0,
-          "amount": 2723367550.0
+          "amount": null
         },
         {
           "date": "2026-08-14",
@@ -52773,7 +52763,7 @@
           "close": 141.18,
           "rawClose": 141.18,
           "volume": 110966.0,
-          "amount": 1566417101.0
+          "amount": null
         },
         {
           "date": "2026-08-17",
@@ -52783,7 +52773,7 @@
           "close": 141.217,
           "rawClose": 141.217,
           "volume": 37391.0,
-          "amount": 527972993.0
+          "amount": null
         },
         {
           "date": "2026-08-18",
@@ -52793,7 +52783,7 @@
           "close": 141.283,
           "rawClose": 141.283,
           "volume": 366275.0,
-          "amount": 5175126048.0
+          "amount": null
         },
         {
           "date": "2026-08-19",
@@ -52803,7 +52793,7 @@
           "close": 141.269,
           "rawClose": 141.269,
           "volume": 62279.0,
-          "amount": 879765166.0
+          "amount": null
         },
         {
           "date": "2026-08-20",
@@ -52813,7 +52803,7 @@
           "close": 141.235,
           "rawClose": 141.235,
           "volume": 113131.0,
-          "amount": 1597680921.0
+          "amount": null
         },
         {
           "date": "2026-08-21",
@@ -52823,7 +52813,7 @@
           "close": 141.255,
           "rawClose": 141.255,
           "volume": 13204.0,
-          "amount": 186494510.0
+          "amount": null
         },
         {
           "date": "2026-08-24",
@@ -52833,7 +52823,7 @@
           "close": 141.29,
           "rawClose": 141.29,
           "volume": 19457.0,
-          "amount": 274870609.0
+          "amount": null
         },
         {
           "date": "2026-08-25",
@@ -52843,7 +52833,7 @@
           "close": 141.302,
           "rawClose": 141.302,
           "volume": 82908.0,
-          "amount": 1171438903.0
+          "amount": null
         },
         {
           "date": "2026-08-26",
@@ -52853,7 +52843,7 @@
           "close": 141.208,
           "rawClose": 141.208,
           "volume": 34307.0,
-          "amount": 484491801.0
+          "amount": null
         },
         {
           "date": "2026-08-27",
@@ -52863,7 +52853,7 @@
           "close": 141.134,
           "rawClose": 141.134,
           "volume": 68461.0,
-          "amount": 966373761.0
+          "amount": null
         },
         {
           "date": "2026-08-28",
@@ -52873,7 +52863,7 @@
           "close": 141.112,
           "rawClose": 141.112,
           "volume": 183885.0,
-          "amount": 2594813442.0
+          "amount": null
         },
         {
           "date": "2026-08-31",
@@ -52883,7 +52873,7 @@
           "close": 141.114,
           "rawClose": 141.114,
           "volume": 42060.0,
-          "amount": 593503339.0
+          "amount": null
         },
         {
           "date": "2026-09-01",
@@ -52893,7 +52883,7 @@
           "close": 141.187,
           "rawClose": 141.187,
           "volume": 195502.0,
-          "amount": 2759404126.0
+          "amount": null
         },
         {
           "date": "2026-09-02",
@@ -52903,7 +52893,7 @@
           "close": 141.166,
           "rawClose": 141.166,
           "volume": 355571.0,
-          "amount": 5019917476.0
+          "amount": null
         },
         {
           "date": "2026-09-03",
@@ -52913,7 +52903,7 @@
           "close": 141.23,
           "rawClose": 141.23,
           "volume": 287152.0,
-          "amount": 4055180764.0
+          "amount": null
         },
         {
           "date": "2026-09-04",
@@ -52923,7 +52913,7 @@
           "close": 141.221,
           "rawClose": 141.221,
           "volume": 336476.0,
-          "amount": 4751788351.0
+          "amount": null
         },
         {
           "date": "2026-09-07",
@@ -52933,7 +52923,7 @@
           "close": 141.222,
           "rawClose": 141.222,
           "volume": 214284.0,
-          "amount": 3026199621.0
+          "amount": null
         },
         {
           "date": "2026-09-08",
@@ -52943,7 +52933,7 @@
           "close": 141.21,
           "rawClose": 141.21,
           "volume": 186855.0,
-          "amount": 2638866391.0
+          "amount": null
         },
         {
           "date": "2026-09-09",
@@ -52953,7 +52943,7 @@
           "close": 141.211,
           "rawClose": 141.211,
           "volume": 286867.0,
-          "amount": 4050815622.0
+          "amount": null
         },
         {
           "date": "2026-09-10",
@@ -52963,7 +52953,7 @@
           "close": 141.185,
           "rawClose": 141.185,
           "volume": 155309.0,
-          "amount": 2192636619.0
+          "amount": null
         },
         {
           "date": "2026-09-11",
@@ -52973,7 +52963,7 @@
           "close": 141.146,
           "rawClose": 141.146,
           "volume": 193313.0,
-          "amount": 2728766463.0
+          "amount": null
         },
         {
           "date": "2026-09-14",
@@ -52983,7 +52973,17 @@
           "close": 141.173,
           "rawClose": 141.173,
           "volume": 328228.0,
-          "amount": 4634296872.0
+          "amount": null
+        },
+        {
+          "date": "2026-09-15",
+          "open": 141.18,
+          "high": 141.21,
+          "low": 141.18,
+          "close": 141.2,
+          "rawClose": 141.203,
+          "volume": 253641.0,
+          "amount": null
         }
       ]
     }
