@@ -2,7 +2,7 @@
   "schemaVersion": "1.3",
   "algorithmVersion": "weekly-asof-v4",
   "stateModelVersion": "self-percentile-v1",
-  "generatedAt": "2026-09-17T15:44:18.396Z",
+  "generatedAt": "2026-09-18T15:32:50.071Z",
   "snapshotRule": "观察周后的周一08:00 Asia/Shanghai与供应商可得时间取较晚者；只发布已到可用时点的完整周观测；基金和LOF优先使用前复权序列并逐项披露复权状态",
   "assets": [
     {
@@ -3472,14 +3472,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W29",
-          "value": 20609.14,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 20156.51,
@@ -28162,14 +28154,6 @@
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
-          "weekId": "2024-W04",
-          "value": 108.882,
-          "sourceObservationDate": "2024-01-26",
-          "providerAvailableAt": "2024-01-26T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-29T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
           "weekId": "2024-W05",
           "value": 108.964,
           "sourceObservationDate": "2024-02-02",
@@ -29266,14 +29250,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W04",
-          "value": 105.603,
-          "sourceObservationDate": "2024-01-26",
-          "providerAvailableAt": "2024-01-26T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-29T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W05",
           "value": 106.614,
@@ -30373,7 +30349,7 @@
       "observations": [
         {
           "weekId": "2024-W04",
-          "value": 121.047,
+          "value": 119.773,
           "sourceObservationDate": "2024-01-26",
           "providerAvailableAt": "2024-01-26T09:00:00Z",
           "snapshotAvailableAt": "2024-01-29T00:00:00.000Z",
@@ -30381,7 +30357,7 @@
         },
         {
           "weekId": "2024-W05",
-          "value": 121.657,
+          "value": 120.383,
           "sourceObservationDate": "2024-02-02",
           "providerAvailableAt": "2024-02-02T09:00:00Z",
           "snapshotAvailableAt": "2024-02-05T00:00:00.000Z",
@@ -30389,7 +30365,7 @@
         },
         {
           "weekId": "2024-W06",
-          "value": 121.767,
+          "value": 120.493,
           "sourceObservationDate": "2024-02-08",
           "providerAvailableAt": "2024-02-08T09:00:00Z",
           "snapshotAvailableAt": "2024-02-12T00:00:00.000Z",
@@ -30397,7 +30373,7 @@
         },
         {
           "weekId": "2024-W08",
-          "value": 122.119,
+          "value": 120.845,
           "sourceObservationDate": "2024-02-23",
           "providerAvailableAt": "2024-02-23T09:00:00Z",
           "snapshotAvailableAt": "2024-02-26T00:00:00.000Z",
@@ -30405,7 +30381,7 @@
         },
         {
           "weekId": "2024-W09",
-          "value": 122.305,
+          "value": 121.031,
           "sourceObservationDate": "2024-03-01",
           "providerAvailableAt": "2024-03-01T09:00:00Z",
           "snapshotAvailableAt": "2024-03-04T00:00:00.000Z",
@@ -30413,7 +30389,7 @@
         },
         {
           "weekId": "2024-W10",
-          "value": 122.999,
+          "value": 121.725,
           "sourceObservationDate": "2024-03-08",
           "providerAvailableAt": "2024-03-08T09:00:00Z",
           "snapshotAvailableAt": "2024-03-11T00:00:00.000Z",
@@ -30421,7 +30397,7 @@
         },
         {
           "weekId": "2024-W11",
-          "value": 122.441,
+          "value": 121.167,
           "sourceObservationDate": "2024-03-15",
           "providerAvailableAt": "2024-03-15T09:00:00Z",
           "snapshotAvailableAt": "2024-03-18T00:00:00.000Z",
@@ -30429,7 +30405,7 @@
         },
         {
           "weekId": "2024-W12",
-          "value": 122.687,
+          "value": 121.413,
           "sourceObservationDate": "2024-03-22",
           "providerAvailableAt": "2024-03-22T09:00:00Z",
           "snapshotAvailableAt": "2024-03-25T00:00:00.000Z",
@@ -30437,7 +30413,7 @@
         },
         {
           "weekId": "2024-W13",
-          "value": 122.781,
+          "value": 121.507,
           "sourceObservationDate": "2024-03-29",
           "providerAvailableAt": "2024-03-29T09:00:00Z",
           "snapshotAvailableAt": "2024-04-01T00:00:00.000Z",
@@ -30445,7 +30421,7 @@
         },
         {
           "weekId": "2024-W14",
-          "value": 122.95,
+          "value": 121.676,
           "sourceObservationDate": "2024-04-03",
           "providerAvailableAt": "2024-04-03T09:00:00Z",
           "snapshotAvailableAt": "2024-04-08T00:00:00.000Z",
@@ -30453,7 +30429,7 @@
         },
         {
           "weekId": "2024-W15",
-          "value": 123.261,
+          "value": 121.987,
           "sourceObservationDate": "2024-04-12",
           "providerAvailableAt": "2024-04-12T09:00:00Z",
           "snapshotAvailableAt": "2024-04-15T00:00:00.000Z",
@@ -30461,7 +30437,7 @@
         },
         {
           "weekId": "2024-W16",
-          "value": 123.681,
+          "value": 122.407,
           "sourceObservationDate": "2024-04-19",
           "providerAvailableAt": "2024-04-19T09:00:00Z",
           "snapshotAvailableAt": "2024-04-22T00:00:00.000Z",
@@ -30469,7 +30445,7 @@
         },
         {
           "weekId": "2024-W17",
-          "value": 123.26,
+          "value": 121.986,
           "sourceObservationDate": "2024-04-26",
           "providerAvailableAt": "2024-04-26T09:00:00Z",
           "snapshotAvailableAt": "2024-04-29T00:00:00.000Z",
@@ -30477,7 +30453,7 @@
         },
         {
           "weekId": "2024-W18",
-          "value": 123.111,
+          "value": 121.837,
           "sourceObservationDate": "2024-04-30",
           "providerAvailableAt": "2024-04-30T09:00:00Z",
           "snapshotAvailableAt": "2024-05-06T00:00:00.000Z",
@@ -30485,7 +30461,7 @@
         },
         {
           "weekId": "2024-W19",
-          "value": 123.292,
+          "value": 122.018,
           "sourceObservationDate": "2024-05-10",
           "providerAvailableAt": "2024-05-10T09:00:00Z",
           "snapshotAvailableAt": "2024-05-13T00:00:00.000Z",
@@ -30493,7 +30469,7 @@
         },
         {
           "weekId": "2024-W20",
-          "value": 123.277,
+          "value": 122.003,
           "sourceObservationDate": "2024-05-17",
           "providerAvailableAt": "2024-05-17T09:00:00Z",
           "snapshotAvailableAt": "2024-05-20T00:00:00.000Z",
@@ -30501,7 +30477,7 @@
         },
         {
           "weekId": "2024-W21",
-          "value": 123.603,
+          "value": 122.329,
           "sourceObservationDate": "2024-05-24",
           "providerAvailableAt": "2024-05-24T09:00:00Z",
           "snapshotAvailableAt": "2024-05-27T00:00:00.000Z",
@@ -30509,7 +30485,7 @@
         },
         {
           "weekId": "2024-W22",
-          "value": 123.665,
+          "value": 122.391,
           "sourceObservationDate": "2024-05-31",
           "providerAvailableAt": "2024-05-31T09:00:00Z",
           "snapshotAvailableAt": "2024-06-03T00:00:00.000Z",
@@ -30517,7 +30493,7 @@
         },
         {
           "weekId": "2024-W23",
-          "value": 124.035,
+          "value": 122.761,
           "sourceObservationDate": "2024-06-07",
           "providerAvailableAt": "2024-06-07T09:00:00Z",
           "snapshotAvailableAt": "2024-06-10T00:00:00.000Z",
@@ -30525,7 +30501,7 @@
         },
         {
           "weekId": "2024-W24",
-          "value": 124.168,
+          "value": 122.894,
           "sourceObservationDate": "2024-06-14",
           "providerAvailableAt": "2024-06-14T09:00:00Z",
           "snapshotAvailableAt": "2024-06-17T00:00:00.000Z",
@@ -30533,7 +30509,7 @@
         },
         {
           "weekId": "2024-W25",
-          "value": 124.376,
+          "value": 123.102,
           "sourceObservationDate": "2024-06-21",
           "providerAvailableAt": "2024-06-21T09:00:00Z",
           "snapshotAvailableAt": "2024-06-24T00:00:00.000Z",
@@ -30541,7 +30517,7 @@
         },
         {
           "weekId": "2024-W26",
-          "value": 124.997,
+          "value": 123.723,
           "sourceObservationDate": "2024-06-28",
           "providerAvailableAt": "2024-06-28T09:00:00Z",
           "snapshotAvailableAt": "2024-07-01T00:00:00.000Z",
@@ -30549,7 +30525,7 @@
         },
         {
           "weekId": "2024-W27",
-          "value": 124.717,
+          "value": 123.443,
           "sourceObservationDate": "2024-07-05",
           "providerAvailableAt": "2024-07-05T09:00:00Z",
           "snapshotAvailableAt": "2024-07-08T00:00:00.000Z",
@@ -30557,7 +30533,7 @@
         },
         {
           "weekId": "2024-W28",
-          "value": 124.9,
+          "value": 123.626,
           "sourceObservationDate": "2024-07-12",
           "providerAvailableAt": "2024-07-12T09:00:00Z",
           "snapshotAvailableAt": "2024-07-15T00:00:00.000Z",
@@ -30565,7 +30541,7 @@
         },
         {
           "weekId": "2024-W29",
-          "value": 125.076,
+          "value": 123.802,
           "sourceObservationDate": "2024-07-19",
           "providerAvailableAt": "2024-07-19T09:00:00Z",
           "snapshotAvailableAt": "2024-07-22T00:00:00.000Z",
@@ -30573,7 +30549,7 @@
         },
         {
           "weekId": "2024-W30",
-          "value": 125.91,
+          "value": 124.636,
           "sourceObservationDate": "2024-07-26",
           "providerAvailableAt": "2024-07-26T09:00:00Z",
           "snapshotAvailableAt": "2024-07-29T00:00:00.000Z",
@@ -30581,7 +30557,7 @@
         },
         {
           "weekId": "2024-W31",
-          "value": 126.452,
+          "value": 125.178,
           "sourceObservationDate": "2024-08-02",
           "providerAvailableAt": "2024-08-02T09:00:00Z",
           "snapshotAvailableAt": "2024-08-05T00:00:00.000Z",
@@ -30589,7 +30565,7 @@
         },
         {
           "weekId": "2024-W32",
-          "value": 126.028,
+          "value": 124.754,
           "sourceObservationDate": "2024-08-09",
           "providerAvailableAt": "2024-08-09T09:00:00Z",
           "snapshotAvailableAt": "2024-08-12T00:00:00.000Z",
@@ -30597,7 +30573,7 @@
         },
         {
           "weekId": "2024-W33",
-          "value": 125.955,
+          "value": 124.681,
           "sourceObservationDate": "2024-08-16",
           "providerAvailableAt": "2024-08-16T09:00:00Z",
           "snapshotAvailableAt": "2024-08-19T00:00:00.000Z",
@@ -30605,7 +30581,7 @@
         },
         {
           "weekId": "2024-W34",
-          "value": 126.279,
+          "value": 125.005,
           "sourceObservationDate": "2024-08-23",
           "providerAvailableAt": "2024-08-23T09:00:00Z",
           "snapshotAvailableAt": "2024-08-26T00:00:00.000Z",
@@ -30613,7 +30589,7 @@
         },
         {
           "weekId": "2024-W35",
-          "value": 126.009,
+          "value": 124.735,
           "sourceObservationDate": "2024-08-30",
           "providerAvailableAt": "2024-08-30T09:00:00Z",
           "snapshotAvailableAt": "2024-09-02T00:00:00.000Z",
@@ -30621,7 +30597,7 @@
         },
         {
           "weekId": "2024-W36",
-          "value": 126.639,
+          "value": 125.365,
           "sourceObservationDate": "2024-09-06",
           "providerAvailableAt": "2024-09-06T09:00:00Z",
           "snapshotAvailableAt": "2024-09-09T00:00:00.000Z",
@@ -30629,7 +30605,7 @@
         },
         {
           "weekId": "2024-W37",
-          "value": 127.214,
+          "value": 125.94,
           "sourceObservationDate": "2024-09-13",
           "providerAvailableAt": "2024-09-13T09:00:00Z",
           "snapshotAvailableAt": "2024-09-16T00:00:00.000Z",
@@ -30637,7 +30613,7 @@
         },
         {
           "weekId": "2024-W38",
-          "value": 127.56,
+          "value": 126.286,
           "sourceObservationDate": "2024-09-20",
           "providerAvailableAt": "2024-09-20T09:00:00Z",
           "snapshotAvailableAt": "2024-09-23T00:00:00.000Z",
@@ -30645,7 +30621,7 @@
         },
         {
           "weekId": "2024-W39",
-          "value": 126.13,
+          "value": 124.856,
           "sourceObservationDate": "2024-09-27",
           "providerAvailableAt": "2024-09-27T09:00:00Z",
           "snapshotAvailableAt": "2024-09-30T00:00:00.000Z",
@@ -30653,7 +30629,7 @@
         },
         {
           "weekId": "2024-W40",
-          "value": 125.634,
+          "value": 124.36,
           "sourceObservationDate": "2024-09-30",
           "providerAvailableAt": "2024-09-30T09:00:00Z",
           "snapshotAvailableAt": "2024-10-07T00:00:00.000Z",
@@ -30661,7 +30637,7 @@
         },
         {
           "weekId": "2024-W41",
-          "value": 126.541,
+          "value": 125.267,
           "sourceObservationDate": "2024-10-11",
           "providerAvailableAt": "2024-10-11T09:00:00Z",
           "snapshotAvailableAt": "2024-10-14T00:00:00.000Z",
@@ -30669,7 +30645,7 @@
         },
         {
           "weekId": "2024-W42",
-          "value": 126.868,
+          "value": 125.594,
           "sourceObservationDate": "2024-10-18",
           "providerAvailableAt": "2024-10-18T09:00:00Z",
           "snapshotAvailableAt": "2024-10-21T00:00:00.000Z",
@@ -30677,7 +30653,7 @@
         },
         {
           "weekId": "2024-W43",
-          "value": 126.428,
+          "value": 125.154,
           "sourceObservationDate": "2024-10-25",
           "providerAvailableAt": "2024-10-25T09:00:00Z",
           "snapshotAvailableAt": "2024-10-28T00:00:00.000Z",
@@ -30685,7 +30661,7 @@
         },
         {
           "weekId": "2024-W44",
-          "value": 126.786,
+          "value": 125.512,
           "sourceObservationDate": "2024-11-01",
           "providerAvailableAt": "2024-11-01T09:00:00Z",
           "snapshotAvailableAt": "2024-11-04T00:00:00.000Z",
@@ -30693,7 +30669,7 @@
         },
         {
           "weekId": "2024-W45",
-          "value": 127.151,
+          "value": 125.877,
           "sourceObservationDate": "2024-11-08",
           "providerAvailableAt": "2024-11-08T09:00:00Z",
           "snapshotAvailableAt": "2024-11-11T00:00:00.000Z",
@@ -30701,7 +30677,7 @@
         },
         {
           "weekId": "2024-W46",
-          "value": 127.492,
+          "value": 126.218,
           "sourceObservationDate": "2024-11-15",
           "providerAvailableAt": "2024-11-15T09:00:00Z",
           "snapshotAvailableAt": "2024-11-18T00:00:00.000Z",
@@ -30709,7 +30685,7 @@
         },
         {
           "weekId": "2024-W47",
-          "value": 127.629,
+          "value": 126.355,
           "sourceObservationDate": "2024-11-22",
           "providerAvailableAt": "2024-11-22T09:00:00Z",
           "snapshotAvailableAt": "2024-11-25T00:00:00.000Z",
@@ -30717,7 +30693,7 @@
         },
         {
           "weekId": "2024-W48",
-          "value": 128.176,
+          "value": 126.902,
           "sourceObservationDate": "2024-11-29",
           "providerAvailableAt": "2024-11-29T09:00:00Z",
           "snapshotAvailableAt": "2024-12-02T00:00:00.000Z",
@@ -30725,7 +30701,7 @@
         },
         {
           "weekId": "2024-W49",
-          "value": 128.839,
+          "value": 127.565,
           "sourceObservationDate": "2024-12-06",
           "providerAvailableAt": "2024-12-06T09:00:00Z",
           "snapshotAvailableAt": "2024-12-09T00:00:00.000Z",
@@ -30733,7 +30709,7 @@
         },
         {
           "weekId": "2024-W50",
-          "value": 130.744,
+          "value": 129.47,
           "sourceObservationDate": "2024-12-13",
           "providerAvailableAt": "2024-12-13T09:00:00Z",
           "snapshotAvailableAt": "2024-12-16T00:00:00.000Z",
@@ -30741,7 +30717,7 @@
         },
         {
           "weekId": "2024-W51",
-          "value": 131.187,
+          "value": 129.913,
           "sourceObservationDate": "2024-12-20",
           "providerAvailableAt": "2024-12-20T09:00:00Z",
           "snapshotAvailableAt": "2024-12-23T00:00:00.000Z",
@@ -30749,7 +30725,7 @@
         },
         {
           "weekId": "2024-W52",
-          "value": 131.373,
+          "value": 130.099,
           "sourceObservationDate": "2024-12-27",
           "providerAvailableAt": "2024-12-27T09:00:00Z",
           "snapshotAvailableAt": "2024-12-30T00:00:00.000Z",
@@ -30757,7 +30733,7 @@
         },
         {
           "weekId": "2025-W01",
-          "value": 132.436,
+          "value": 131.162,
           "sourceObservationDate": "2025-01-03",
           "providerAvailableAt": "2025-01-03T09:00:00Z",
           "snapshotAvailableAt": "2025-01-06T00:00:00.000Z",
@@ -30765,7 +30741,7 @@
         },
         {
           "weekId": "2025-W02",
-          "value": 131.996,
+          "value": 130.722,
           "sourceObservationDate": "2025-01-10",
           "providerAvailableAt": "2025-01-10T09:00:00Z",
           "snapshotAvailableAt": "2025-01-13T00:00:00.000Z",
@@ -30773,7 +30749,7 @@
         },
         {
           "weekId": "2025-W03",
-          "value": 132.053,
+          "value": 130.779,
           "sourceObservationDate": "2025-01-17",
           "providerAvailableAt": "2025-01-17T09:00:00Z",
           "snapshotAvailableAt": "2025-01-20T00:00:00.000Z",
@@ -30781,7 +30757,7 @@
         },
         {
           "weekId": "2025-W04",
-          "value": 131.872,
+          "value": 130.598,
           "sourceObservationDate": "2025-01-24",
           "providerAvailableAt": "2025-01-24T09:00:00Z",
           "snapshotAvailableAt": "2025-01-27T00:00:00.000Z",
@@ -30789,7 +30765,7 @@
         },
         {
           "weekId": "2025-W05",
-          "value": 132.381,
+          "value": 131.107,
           "sourceObservationDate": "2025-01-27",
           "providerAvailableAt": "2025-01-27T09:00:00Z",
           "snapshotAvailableAt": "2025-02-03T00:00:00.000Z",
@@ -30797,7 +30773,7 @@
         },
         {
           "weekId": "2025-W06",
-          "value": 132.472,
+          "value": 131.198,
           "sourceObservationDate": "2025-02-07",
           "providerAvailableAt": "2025-02-07T09:00:00Z",
           "snapshotAvailableAt": "2025-02-10T00:00:00.000Z",
@@ -30805,7 +30781,7 @@
         },
         {
           "weekId": "2025-W07",
-          "value": 132.129,
+          "value": 130.855,
           "sourceObservationDate": "2025-02-14",
           "providerAvailableAt": "2025-02-14T09:00:00Z",
           "snapshotAvailableAt": "2025-02-17T00:00:00.000Z",
@@ -30813,7 +30789,7 @@
         },
         {
           "weekId": "2025-W08",
-          "value": 131.354,
+          "value": 130.08,
           "sourceObservationDate": "2025-02-21",
           "providerAvailableAt": "2025-02-21T09:00:00Z",
           "snapshotAvailableAt": "2025-02-24T00:00:00.000Z",
@@ -30821,7 +30797,7 @@
         },
         {
           "weekId": "2025-W09",
-          "value": 131.182,
+          "value": 129.908,
           "sourceObservationDate": "2025-02-28",
           "providerAvailableAt": "2025-02-28T09:00:00Z",
           "snapshotAvailableAt": "2025-03-03T00:00:00.000Z",
@@ -30829,7 +30805,7 @@
         },
         {
           "weekId": "2025-W10",
-          "value": 130.617,
+          "value": 129.343,
           "sourceObservationDate": "2025-03-07",
           "providerAvailableAt": "2025-03-07T09:00:00Z",
           "snapshotAvailableAt": "2025-03-10T00:00:00.000Z",
@@ -30837,7 +30813,7 @@
         },
         {
           "weekId": "2025-W11",
-          "value": 129.968,
+          "value": 128.694,
           "sourceObservationDate": "2025-03-14",
           "providerAvailableAt": "2025-03-14T09:00:00Z",
           "snapshotAvailableAt": "2025-03-17T00:00:00.000Z",
@@ -30845,7 +30821,7 @@
         },
         {
           "weekId": "2025-W12",
-          "value": 130.216,
+          "value": 128.942,
           "sourceObservationDate": "2025-03-21",
           "providerAvailableAt": "2025-03-21T09:00:00Z",
           "snapshotAvailableAt": "2025-03-24T00:00:00.000Z",
@@ -30853,7 +30829,7 @@
         },
         {
           "weekId": "2025-W13",
-          "value": 130.374,
+          "value": 129.1,
           "sourceObservationDate": "2025-03-28",
           "providerAvailableAt": "2025-03-28T09:00:00Z",
           "snapshotAvailableAt": "2025-03-31T00:00:00.000Z",
@@ -30861,7 +30837,7 @@
         },
         {
           "weekId": "2025-W14",
-          "value": 131.385,
+          "value": 130.111,
           "sourceObservationDate": "2025-04-03",
           "providerAvailableAt": "2025-04-03T09:00:00Z",
           "snapshotAvailableAt": "2025-04-07T00:00:00.000Z",
@@ -30869,7 +30845,7 @@
         },
         {
           "weekId": "2025-W15",
-          "value": 131.951,
+          "value": 130.677,
           "sourceObservationDate": "2025-04-11",
           "providerAvailableAt": "2025-04-11T09:00:00Z",
           "snapshotAvailableAt": "2025-04-14T00:00:00.000Z",
@@ -30877,7 +30853,7 @@
         },
         {
           "weekId": "2025-W16",
-          "value": 132.115,
+          "value": 130.841,
           "sourceObservationDate": "2025-04-18",
           "providerAvailableAt": "2025-04-18T09:00:00Z",
           "snapshotAvailableAt": "2025-04-21T00:00:00.000Z",
@@ -30885,7 +30861,7 @@
         },
         {
           "weekId": "2025-W17",
-          "value": 131.963,
+          "value": 130.689,
           "sourceObservationDate": "2025-04-25",
           "providerAvailableAt": "2025-04-25T09:00:00Z",
           "snapshotAvailableAt": "2025-04-28T00:00:00.000Z",
@@ -30893,7 +30869,7 @@
         },
         {
           "weekId": "2025-W18",
-          "value": 132.413,
+          "value": 131.139,
           "sourceObservationDate": "2025-04-30",
           "providerAvailableAt": "2025-04-30T09:00:00Z",
           "snapshotAvailableAt": "2025-05-05T00:00:00.000Z",
@@ -30901,7 +30877,7 @@
         },
         {
           "weekId": "2025-W19",
-          "value": 132.459,
+          "value": 131.185,
           "sourceObservationDate": "2025-05-09",
           "providerAvailableAt": "2025-05-09T09:00:00Z",
           "snapshotAvailableAt": "2025-05-12T00:00:00.000Z",
@@ -30909,7 +30885,7 @@
         },
         {
           "weekId": "2025-W20",
-          "value": 131.915,
+          "value": 130.641,
           "sourceObservationDate": "2025-05-16",
           "providerAvailableAt": "2025-05-16T09:00:00Z",
           "snapshotAvailableAt": "2025-05-19T00:00:00.000Z",
@@ -30917,7 +30893,7 @@
         },
         {
           "weekId": "2025-W21",
-          "value": 132.07,
+          "value": 130.796,
           "sourceObservationDate": "2025-05-23",
           "providerAvailableAt": "2025-05-23T09:00:00Z",
           "snapshotAvailableAt": "2025-05-26T00:00:00.000Z",
@@ -30925,7 +30901,7 @@
         },
         {
           "weekId": "2025-W22",
-          "value": 131.991,
+          "value": 130.717,
           "sourceObservationDate": "2025-05-30",
           "providerAvailableAt": "2025-05-30T09:00:00Z",
           "snapshotAvailableAt": "2025-06-02T00:00:00.000Z",
@@ -30933,7 +30909,7 @@
         },
         {
           "weekId": "2025-W23",
-          "value": 132.206,
+          "value": 130.932,
           "sourceObservationDate": "2025-06-06",
           "providerAvailableAt": "2025-06-06T09:00:00Z",
           "snapshotAvailableAt": "2025-06-09T00:00:00.000Z",
@@ -30941,7 +30917,7 @@
         },
         {
           "weekId": "2025-W24",
-          "value": 132.514,
+          "value": 131.24,
           "sourceObservationDate": "2025-06-13",
           "providerAvailableAt": "2025-06-13T09:00:00Z",
           "snapshotAvailableAt": "2025-06-16T00:00:00.000Z",
@@ -30949,7 +30925,7 @@
         },
         {
           "weekId": "2025-W25",
-          "value": 132.73,
+          "value": 131.456,
           "sourceObservationDate": "2025-06-20",
           "providerAvailableAt": "2025-06-20T09:00:00Z",
           "snapshotAvailableAt": "2025-06-23T00:00:00.000Z",
@@ -30957,7 +30933,7 @@
         },
         {
           "weekId": "2025-W26",
-          "value": 132.651,
+          "value": 131.377,
           "sourceObservationDate": "2025-06-27",
           "providerAvailableAt": "2025-06-27T09:00:00Z",
           "snapshotAvailableAt": "2025-06-30T00:00:00.000Z",
@@ -30965,7 +30941,7 @@
         },
         {
           "weekId": "2025-W27",
-          "value": 132.79,
+          "value": 131.516,
           "sourceObservationDate": "2025-07-04",
           "providerAvailableAt": "2025-07-04T09:00:00Z",
           "snapshotAvailableAt": "2025-07-07T00:00:00.000Z",
@@ -30973,7 +30949,7 @@
         },
         {
           "weekId": "2025-W28",
-          "value": 132.475,
+          "value": 131.201,
           "sourceObservationDate": "2025-07-11",
           "providerAvailableAt": "2025-07-11T09:00:00Z",
           "snapshotAvailableAt": "2025-07-14T00:00:00.000Z",
@@ -30981,7 +30957,7 @@
         },
         {
           "weekId": "2025-W29",
-          "value": 132.533,
+          "value": 131.259,
           "sourceObservationDate": "2025-07-18",
           "providerAvailableAt": "2025-07-18T09:00:00Z",
           "snapshotAvailableAt": "2025-07-21T00:00:00.000Z",
@@ -30989,7 +30965,7 @@
         },
         {
           "weekId": "2025-W30",
-          "value": 131.691,
+          "value": 130.417,
           "sourceObservationDate": "2025-07-25",
           "providerAvailableAt": "2025-07-25T09:00:00Z",
           "snapshotAvailableAt": "2025-07-28T00:00:00.000Z",
@@ -30997,7 +30973,7 @@
         },
         {
           "weekId": "2025-W31",
-          "value": 132.209,
+          "value": 130.935,
           "sourceObservationDate": "2025-08-01",
           "providerAvailableAt": "2025-08-01T09:00:00Z",
           "snapshotAvailableAt": "2025-08-04T00:00:00.000Z",
@@ -31005,7 +30981,7 @@
         },
         {
           "weekId": "2025-W32",
-          "value": 132.398,
+          "value": 131.124,
           "sourceObservationDate": "2025-08-08",
           "providerAvailableAt": "2025-08-08T09:00:00Z",
           "snapshotAvailableAt": "2025-08-11T00:00:00.000Z",
@@ -31013,7 +30989,7 @@
         },
         {
           "weekId": "2025-W33",
-          "value": 131.913,
+          "value": 130.639,
           "sourceObservationDate": "2025-08-15",
           "providerAvailableAt": "2025-08-15T09:00:00Z",
           "snapshotAvailableAt": "2025-08-18T00:00:00.000Z",
@@ -31021,7 +30997,7 @@
         },
         {
           "weekId": "2025-W34",
-          "value": 131.336,
+          "value": 130.062,
           "sourceObservationDate": "2025-08-22",
           "providerAvailableAt": "2025-08-22T09:00:00Z",
           "snapshotAvailableAt": "2025-08-25T00:00:00.000Z",
@@ -31029,7 +31005,7 @@
         },
         {
           "weekId": "2025-W35",
-          "value": 131.479,
+          "value": 130.205,
           "sourceObservationDate": "2025-08-29",
           "providerAvailableAt": "2025-08-29T09:00:00Z",
           "snapshotAvailableAt": "2025-09-01T00:00:00.000Z",
@@ -31037,7 +31013,7 @@
         },
         {
           "weekId": "2025-W36",
-          "value": 131.598,
+          "value": 130.324,
           "sourceObservationDate": "2025-09-05",
           "providerAvailableAt": "2025-09-05T09:00:00Z",
           "snapshotAvailableAt": "2025-09-08T00:00:00.000Z",
@@ -31045,7 +31021,7 @@
         },
         {
           "weekId": "2025-W37",
-          "value": 131.392,
+          "value": 130.118,
           "sourceObservationDate": "2025-09-12",
           "providerAvailableAt": "2025-09-12T09:00:00Z",
           "snapshotAvailableAt": "2025-09-15T00:00:00.000Z",
@@ -31053,7 +31029,7 @@
         },
         {
           "weekId": "2025-W38",
-          "value": 131.518,
+          "value": 130.244,
           "sourceObservationDate": "2025-09-19",
           "providerAvailableAt": "2025-09-19T09:00:00Z",
           "snapshotAvailableAt": "2025-09-22T00:00:00.000Z",
@@ -31061,7 +31037,7 @@
         },
         {
           "weekId": "2025-W39",
-          "value": 131.286,
+          "value": 130.012,
           "sourceObservationDate": "2025-09-26",
           "providerAvailableAt": "2025-09-26T09:00:00Z",
           "snapshotAvailableAt": "2025-09-29T00:00:00.000Z",
@@ -31069,7 +31045,7 @@
         },
         {
           "weekId": "2025-W40",
-          "value": 131.481,
+          "value": 130.207,
           "sourceObservationDate": "2025-09-30",
           "providerAvailableAt": "2025-09-30T09:00:00Z",
           "snapshotAvailableAt": "2025-10-06T00:00:00.000Z",
@@ -31077,7 +31053,7 @@
         },
         {
           "weekId": "2025-W41",
-          "value": 131.542,
+          "value": 130.268,
           "sourceObservationDate": "2025-10-10",
           "providerAvailableAt": "2025-10-10T09:00:00Z",
           "snapshotAvailableAt": "2025-10-13T00:00:00.000Z",
@@ -31085,7 +31061,7 @@
         },
         {
           "weekId": "2025-W42",
-          "value": 132.153,
+          "value": 130.879,
           "sourceObservationDate": "2025-10-17",
           "providerAvailableAt": "2025-10-17T09:00:00Z",
           "snapshotAvailableAt": "2025-10-20T00:00:00.000Z",
@@ -31093,7 +31069,7 @@
         },
         {
           "weekId": "2025-W43",
-          "value": 131.749,
+          "value": 130.475,
           "sourceObservationDate": "2025-10-24",
           "providerAvailableAt": "2025-10-24T09:00:00Z",
           "snapshotAvailableAt": "2025-10-27T00:00:00.000Z",
@@ -31101,7 +31077,7 @@
         },
         {
           "weekId": "2025-W44",
-          "value": 132.514,
+          "value": 131.24,
           "sourceObservationDate": "2025-10-31",
           "providerAvailableAt": "2025-10-31T09:00:00Z",
           "snapshotAvailableAt": "2025-11-03T00:00:00.000Z",
@@ -31109,7 +31085,7 @@
         },
         {
           "weekId": "2025-W45",
-          "value": 132.413,
+          "value": 131.139,
           "sourceObservationDate": "2025-11-07",
           "providerAvailableAt": "2025-11-07T09:00:00Z",
           "snapshotAvailableAt": "2025-11-10T00:00:00.000Z",
@@ -31117,7 +31093,7 @@
         },
         {
           "weekId": "2025-W46",
-          "value": 132.368,
+          "value": 131.094,
           "sourceObservationDate": "2025-11-14",
           "providerAvailableAt": "2025-11-14T09:00:00Z",
           "snapshotAvailableAt": "2025-11-17T00:00:00.000Z",
@@ -31125,7 +31101,7 @@
         },
         {
           "weekId": "2025-W47",
-          "value": 132.464,
+          "value": 131.19,
           "sourceObservationDate": "2025-11-21",
           "providerAvailableAt": "2025-11-21T09:00:00Z",
           "snapshotAvailableAt": "2025-11-24T00:00:00.000Z",
@@ -31133,7 +31109,7 @@
         },
         {
           "weekId": "2025-W48",
-          "value": 132.088,
+          "value": 130.814,
           "sourceObservationDate": "2025-11-28",
           "providerAvailableAt": "2025-11-28T09:00:00Z",
           "snapshotAvailableAt": "2025-12-01T00:00:00.000Z",
@@ -31141,7 +31117,7 @@
         },
         {
           "weekId": "2025-W49",
-          "value": 132.01,
+          "value": 130.736,
           "sourceObservationDate": "2025-12-05",
           "providerAvailableAt": "2025-12-05T09:00:00Z",
           "snapshotAvailableAt": "2025-12-08T00:00:00.000Z",
@@ -31149,7 +31125,7 @@
         },
         {
           "weekId": "2025-W50",
-          "value": 132.239,
+          "value": 130.965,
           "sourceObservationDate": "2025-12-12",
           "providerAvailableAt": "2025-12-12T09:00:00Z",
           "snapshotAvailableAt": "2025-12-15T00:00:00.000Z",
@@ -31157,7 +31133,7 @@
         },
         {
           "weekId": "2025-W51",
-          "value": 132.252,
+          "value": 130.978,
           "sourceObservationDate": "2025-12-19",
           "providerAvailableAt": "2025-12-19T09:00:00Z",
           "snapshotAvailableAt": "2025-12-22T00:00:00.000Z",
@@ -31165,7 +31141,7 @@
         },
         {
           "weekId": "2025-W52",
-          "value": 132.335,
+          "value": 131.061,
           "sourceObservationDate": "2025-12-26",
           "providerAvailableAt": "2025-12-26T09:00:00Z",
           "snapshotAvailableAt": "2025-12-29T00:00:00.000Z",
@@ -31173,7 +31149,7 @@
         },
         {
           "weekId": "2026-W01",
-          "value": 131.888,
+          "value": 130.614,
           "sourceObservationDate": "2025-12-31",
           "providerAvailableAt": "2025-12-31T09:00:00Z",
           "snapshotAvailableAt": "2026-01-05T00:00:00.000Z",
@@ -31181,7 +31157,7 @@
         },
         {
           "weekId": "2026-W02",
-          "value": 131.92,
+          "value": 130.646,
           "sourceObservationDate": "2026-01-09",
           "providerAvailableAt": "2026-01-09T09:00:00Z",
           "snapshotAvailableAt": "2026-01-12T00:00:00.000Z",
@@ -31189,7 +31165,7 @@
         },
         {
           "weekId": "2026-W03",
-          "value": 132.292,
+          "value": 131.018,
           "sourceObservationDate": "2026-01-16",
           "providerAvailableAt": "2026-01-16T09:00:00Z",
           "snapshotAvailableAt": "2026-01-19T00:00:00.000Z",
@@ -31197,7 +31173,7 @@
         },
         {
           "weekId": "2026-W04",
-          "value": 132.637,
+          "value": 131.363,
           "sourceObservationDate": "2026-01-23",
           "providerAvailableAt": "2026-01-23T09:00:00Z",
           "snapshotAvailableAt": "2026-01-26T00:00:00.000Z",
@@ -31205,7 +31181,7 @@
         },
         {
           "weekId": "2026-W05",
-          "value": 132.853,
+          "value": 131.579,
           "sourceObservationDate": "2026-01-30",
           "providerAvailableAt": "2026-01-30T09:00:00Z",
           "snapshotAvailableAt": "2026-02-02T00:00:00.000Z",
@@ -31213,7 +31189,7 @@
         },
         {
           "weekId": "2026-W06",
-          "value": 133.087,
+          "value": 131.813,
           "sourceObservationDate": "2026-02-06",
           "providerAvailableAt": "2026-02-06T09:00:00Z",
           "snapshotAvailableAt": "2026-02-09T00:00:00.000Z",
@@ -31221,7 +31197,7 @@
         },
         {
           "weekId": "2026-W07",
-          "value": 133.318,
+          "value": 132.044,
           "sourceObservationDate": "2026-02-13",
           "providerAvailableAt": "2026-02-13T09:00:00Z",
           "snapshotAvailableAt": "2026-02-16T00:00:00.000Z",
@@ -31229,7 +31205,7 @@
         },
         {
           "weekId": "2026-W09",
-          "value": 133.061,
+          "value": 131.787,
           "sourceObservationDate": "2026-02-27",
           "providerAvailableAt": "2026-02-27T09:00:00Z",
           "snapshotAvailableAt": "2026-03-02T00:00:00.000Z",
@@ -31237,7 +31213,7 @@
         },
         {
           "weekId": "2026-W10",
-          "value": 133.347,
+          "value": 132.073,
           "sourceObservationDate": "2026-03-06",
           "providerAvailableAt": "2026-03-06T09:00:00Z",
           "snapshotAvailableAt": "2026-03-09T00:00:00.000Z",
@@ -31245,7 +31221,7 @@
         },
         {
           "weekId": "2026-W11",
-          "value": 133.093,
+          "value": 131.819,
           "sourceObservationDate": "2026-03-13",
           "providerAvailableAt": "2026-03-13T09:00:00Z",
           "snapshotAvailableAt": "2026-03-16T00:00:00.000Z",
@@ -31253,7 +31229,7 @@
         },
         {
           "weekId": "2026-W12",
-          "value": 133,
+          "value": 131.726,
           "sourceObservationDate": "2026-03-20",
           "providerAvailableAt": "2026-03-20T09:00:00Z",
           "snapshotAvailableAt": "2026-03-23T00:00:00.000Z",
@@ -31261,7 +31237,7 @@
         },
         {
           "weekId": "2026-W13",
-          "value": 133.137,
+          "value": 131.863,
           "sourceObservationDate": "2026-03-27",
           "providerAvailableAt": "2026-03-27T09:00:00Z",
           "snapshotAvailableAt": "2026-03-30T00:00:00.000Z",
@@ -31269,7 +31245,7 @@
         },
         {
           "weekId": "2026-W14",
-          "value": 133.241,
+          "value": 131.967,
           "sourceObservationDate": "2026-04-03",
           "providerAvailableAt": "2026-04-03T09:00:00Z",
           "snapshotAvailableAt": "2026-04-06T00:00:00.000Z",
@@ -31277,7 +31253,7 @@
         },
         {
           "weekId": "2026-W15",
-          "value": 133.372,
+          "value": 132.098,
           "sourceObservationDate": "2026-04-10",
           "providerAvailableAt": "2026-04-10T09:00:00Z",
           "snapshotAvailableAt": "2026-04-13T00:00:00.000Z",
@@ -31285,7 +31261,7 @@
         },
         {
           "weekId": "2026-W16",
-          "value": 133.909,
+          "value": 132.635,
           "sourceObservationDate": "2026-04-17",
           "providerAvailableAt": "2026-04-17T09:00:00Z",
           "snapshotAvailableAt": "2026-04-20T00:00:00.000Z",
@@ -31293,7 +31269,7 @@
         },
         {
           "weekId": "2026-W17",
-          "value": 133.952,
+          "value": 132.678,
           "sourceObservationDate": "2026-04-24",
           "providerAvailableAt": "2026-04-24T09:00:00Z",
           "snapshotAvailableAt": "2026-04-27T00:00:00.000Z",
@@ -31301,7 +31277,7 @@
         },
         {
           "weekId": "2026-W18",
-          "value": 133.931,
+          "value": 132.657,
           "sourceObservationDate": "2026-04-30",
           "providerAvailableAt": "2026-04-30T09:00:00Z",
           "snapshotAvailableAt": "2026-05-04T00:00:00.000Z",
@@ -31309,7 +31285,7 @@
         },
         {
           "weekId": "2026-W19",
-          "value": 133.907,
+          "value": 132.633,
           "sourceObservationDate": "2026-05-08",
           "providerAvailableAt": "2026-05-08T09:00:00Z",
           "snapshotAvailableAt": "2026-05-11T00:00:00.000Z",
@@ -31317,7 +31293,7 @@
         },
         {
           "weekId": "2026-W20",
-          "value": 134.145,
+          "value": 132.871,
           "sourceObservationDate": "2026-05-15",
           "providerAvailableAt": "2026-05-15T09:00:00Z",
           "snapshotAvailableAt": "2026-05-18T00:00:00.000Z",
@@ -31325,7 +31301,7 @@
         },
         {
           "weekId": "2026-W21",
-          "value": 134.206,
+          "value": 132.932,
           "sourceObservationDate": "2026-05-22",
           "providerAvailableAt": "2026-05-22T09:00:00Z",
           "snapshotAvailableAt": "2026-05-25T00:00:00.000Z",
@@ -31333,7 +31309,7 @@
         },
         {
           "weekId": "2026-W22",
-          "value": 134.739,
+          "value": 133.465,
           "sourceObservationDate": "2026-05-29",
           "providerAvailableAt": "2026-05-29T09:00:00Z",
           "snapshotAvailableAt": "2026-06-01T00:00:00.000Z",
@@ -31341,7 +31317,7 @@
         },
         {
           "weekId": "2026-W23",
-          "value": 134.802,
+          "value": 133.528,
           "sourceObservationDate": "2026-06-05",
           "providerAvailableAt": "2026-06-05T09:00:00Z",
           "snapshotAvailableAt": "2026-06-08T00:00:00.000Z",
@@ -31349,7 +31325,7 @@
         },
         {
           "weekId": "2026-W24",
-          "value": 134.313,
+          "value": 133.039,
           "sourceObservationDate": "2026-06-12",
           "providerAvailableAt": "2026-06-12T09:00:00Z",
           "snapshotAvailableAt": "2026-06-15T00:00:00.000Z",
@@ -31357,7 +31333,7 @@
         },
         {
           "weekId": "2026-W25",
-          "value": 134.715,
+          "value": 133.441,
           "sourceObservationDate": "2026-06-18",
           "providerAvailableAt": "2026-06-18T09:00:00Z",
           "snapshotAvailableAt": "2026-06-22T00:00:00.000Z",
@@ -31365,7 +31341,7 @@
         },
         {
           "weekId": "2026-W26",
-          "value": 134.796,
+          "value": 133.521,
           "sourceObservationDate": "2026-06-26",
           "providerAvailableAt": "2026-06-26T09:00:00Z",
           "snapshotAvailableAt": "2026-06-29T00:00:00.000Z",
@@ -31373,7 +31349,7 @@
         },
         {
           "weekId": "2026-W27",
-          "value": 134.731,
+          "value": 133.456,
           "sourceObservationDate": "2026-07-03",
           "providerAvailableAt": "2026-07-03T09:00:00Z",
           "snapshotAvailableAt": "2026-07-06T00:00:00.000Z",
@@ -31381,7 +31357,7 @@
         },
         {
           "weekId": "2026-W28",
-          "value": 134.937,
+          "value": 133.662,
           "sourceObservationDate": "2026-07-10",
           "providerAvailableAt": "2026-07-10T09:00:00Z",
           "snapshotAvailableAt": "2026-07-13T00:00:00.000Z",
@@ -31389,7 +31365,7 @@
         },
         {
           "weekId": "2026-W29",
-          "value": 134.966,
+          "value": 133.691,
           "sourceObservationDate": "2026-07-17",
           "providerAvailableAt": "2026-07-17T09:00:00Z",
           "snapshotAvailableAt": "2026-07-20T00:00:00.000Z",
@@ -31397,7 +31373,7 @@
         },
         {
           "weekId": "2026-W30",
-          "value": 135.163,
+          "value": 133.888,
           "sourceObservationDate": "2026-07-24",
           "providerAvailableAt": "2026-07-24T09:00:00Z",
           "snapshotAvailableAt": "2026-07-27T00:00:00.000Z",
@@ -31405,7 +31381,7 @@
         },
         {
           "weekId": "2026-W31",
-          "value": 135.378,
+          "value": 134.103,
           "sourceObservationDate": "2026-07-31",
           "providerAvailableAt": "2026-07-31T09:00:00Z",
           "snapshotAvailableAt": "2026-08-03T00:00:00.000Z",
@@ -31413,7 +31389,7 @@
         },
         {
           "weekId": "2026-W32",
-          "value": 135.513,
+          "value": 134.238,
           "sourceObservationDate": "2026-08-07",
           "providerAvailableAt": "2026-08-07T09:00:00Z",
           "snapshotAvailableAt": "2026-08-10T00:00:00.000Z",
@@ -31421,7 +31397,7 @@
         },
         {
           "weekId": "2026-W33",
-          "value": 135.752,
+          "value": 134.477,
           "sourceObservationDate": "2026-08-14",
           "providerAvailableAt": "2026-08-14T09:00:00Z",
           "snapshotAvailableAt": "2026-08-17T00:00:00.000Z",
@@ -31429,7 +31405,7 @@
         },
         {
           "weekId": "2026-W34",
-          "value": 135.765,
+          "value": 134.49,
           "sourceObservationDate": "2026-08-21",
           "providerAvailableAt": "2026-08-21T09:00:00Z",
           "snapshotAvailableAt": "2026-08-24T00:00:00.000Z",
@@ -31437,7 +31413,7 @@
         },
         {
           "weekId": "2026-W35",
-          "value": 135.656,
+          "value": 134.381,
           "sourceObservationDate": "2026-08-28",
           "providerAvailableAt": "2026-08-28T09:00:00Z",
           "snapshotAvailableAt": "2026-08-31T00:00:00.000Z",
@@ -31445,7 +31421,7 @@
         },
         {
           "weekId": "2026-W36",
-          "value": 135.878,
+          "value": 134.603,
           "sourceObservationDate": "2026-09-04",
           "providerAvailableAt": "2026-09-04T09:00:00Z",
           "snapshotAvailableAt": "2026-09-07T00:00:00.000Z",
@@ -31453,7 +31429,7 @@
         },
         {
           "weekId": "2026-W37",
-          "value": 135.852,
+          "value": 134.577,
           "sourceObservationDate": "2026-09-11",
           "providerAvailableAt": "2026-09-11T09:00:00Z",
           "snapshotAvailableAt": "2026-09-14T00:00:00.000Z",
