@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-18T15:32:50.071Z",
+  "generatedAt": "2026-09-19T06:30:39.542Z",
   "status": "OK",
   "blockingCoreAdvice": false,
   "researchUnavailable": false,
   "summary": "22项资产周期序列已完成周频时点校验",
-  "lastSuccessfulGeneratedAt": "2026-09-18T15:32:50.071Z",
-  "dataGeneratedAt": "2026-09-18T15:32:50.071Z",
+  "lastSuccessfulGeneratedAt": "2026-09-19T06:30:39.542Z",
+  "dataGeneratedAt": "2026-09-19T06:30:39.542Z",
   "coverage": {
     "catalog": 34,
     "connected": 22,

@@ -2,7 +2,7 @@
   "schemaVersion": "1.3",
   "algorithmVersion": "weekly-asof-v4",
   "stateModelVersion": "self-percentile-v1",
-  "generatedAt": "2026-09-18T15:32:50.071Z",
+  "generatedAt": "2026-09-19T06:30:39.542Z",
   "snapshotRule": "观察周后的周一08:00 Asia/Shanghai与供应商可得时间取较晚者；只发布已到可用时点的完整周观测；基金和LOF优先使用前复权序列并逐项披露复权状态",
   "assets": [
     {
@@ -5215,14 +5215,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W33",
-          "value": 4228.48,
-          "sourceObservationDate": "2022-08-19",
-          "providerAvailableAt": "2022-08-19T23:00:00Z",
-          "snapshotAvailableAt": "2022-08-22T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W34",
           "value": 4057.66,
@@ -19028,14 +19020,6 @@
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
         {
-          "weekId": "2024-W04",
-          "value": 1.044,
-          "sourceObservationDate": "2024-01-26",
-          "providerAvailableAt": "2024-01-26T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-29T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
           "weekId": "2024-W05",
           "value": 0.964,
           "sourceObservationDate": "2024-02-02",
@@ -21861,14 +21845,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W04",
-          "value": 4.625,
-          "sourceObservationDate": "2024-01-26",
-          "providerAvailableAt": "2024-01-26T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-29T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W05",
           "value": 4.679,
@@ -30347,14 +30323,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W04",
-          "value": 119.773,
-          "sourceObservationDate": "2024-01-26",
-          "providerAvailableAt": "2024-01-26T09:00:00Z",
-          "snapshotAvailableAt": "2024-01-29T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W05",
           "value": 120.383,
