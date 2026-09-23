@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "buildId": "20260923-141645Z-2020e8fc2f7c-ff60e99c47d9",
-  "generatedAt": "2026-09-23T14:16:45+00:00",
+  "buildId": "20260923-152654Z-0bc5b3b46812-ff60e99c47d9",
+  "generatedAt": "2026-09-23T15:26:54+00:00",
   "productVersion": "5.7.0",
   "strategyVersion": "1.2.0",
-  "sourceCommit": "2020e8fc2f7cb1012323cb4e16364536ffd74850",
-  "basePath": "releases/20260923-141645Z-2020e8fc2f7c-ff60e99c47d9/",
-  "manifest": "releases/20260923-141645Z-2020e8fc2f7c-ff60e99c47d9/bundle-manifest.json"
+  "sourceCommit": "0bc5b3b46812121e1ea40ffa75704d83eb801c4b",
+  "basePath": "releases/20260923-152654Z-0bc5b3b46812-ff60e99c47d9/",
+  "manifest": "releases/20260923-152654Z-0bc5b3b46812-ff60e99c47d9/bundle-manifest.json"
 }
