@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "buildId": "20260922-153117Z-d9e9c81f38a3-54d1871822fa",
-  "generatedAt": "2026-09-22T15:31:17+00:00",
+  "buildId": "20260923-141645Z-2020e8fc2f7c-ff60e99c47d9",
+  "generatedAt": "2026-09-23T14:16:45+00:00",
   "historyTradingDays": 756,
   "assets": {
     "510300": {
@@ -11,16 +11,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 3.765,
-          "high": 3.768,
-          "low": 3.668,
-          "close": 3.67,
-          "rawClose": 3.95,
-          "volume": 12885598.0,
-          "amount": 5137860063.0
-        },
         {
           "date": "2023-08-14",
           "open": 3.639,
@@ -7570,6 +7560,16 @@
           "rawClose": 4.613,
           "volume": 6445874.0,
           "amount": 2987237086.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 4.62,
+          "high": 4.621,
+          "low": 4.586,
+          "close": 4.59,
+          "rawClose": 4.59,
+          "volume": 6364575.0,
+          "amount": 2928541597.0
         }
       ]
     },
@@ -7580,16 +7580,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 0.951,
-          "high": 0.953,
-          "low": 0.937,
-          "close": 0.94,
-          "rawClose": 0.94,
-          "volume": 946159.0,
-          "amount": 89262111.0
-        },
         {
           "date": "2023-08-14",
           "open": 0.932,
@@ -15139,26 +15129,26 @@
           "rawClose": 1.187,
           "volume": 6474758.0,
           "amount": 766245407.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 1.184,
+          "high": 1.187,
+          "low": 1.179,
+          "close": 1.182,
+          "rawClose": 1.182,
+          "volume": 4000856.0,
+          "amount": 472774300.0
         }
       ]
     },
     "513500": {
-      "source": "EASTMONEY_QFQ+TENCENT_RAW",
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
       "priceConvention": "前复权日线",
       "valuationPriceConvention": "未复权日收盘价，仅用于家庭份额估值",
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 1.521,
-          "high": 1.523,
-          "low": 1.519,
-          "close": 1.522,
-          "rawClose": 1.522,
-          "volume": 566344.0,
-          "amount": 86134817.0
-        },
         {
           "date": "2023-08-14",
           "open": 1.523,
@@ -22708,6 +22698,16 @@
           "rawClose": 2.727,
           "volume": 1939960.0,
           "amount": 530084452.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 2.725,
+          "high": 2.726,
+          "low": 2.714,
+          "close": 2.723,
+          "rawClose": 2.723,
+          "volume": 639451.0,
+          "amount": 173879782.0
         }
       ]
     },
@@ -22718,16 +22718,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 1.111,
-          "high": 1.112,
-          "low": 1.107,
-          "close": 1.11,
-          "rawClose": 1.11,
-          "volume": 3265620.0,
-          "amount": 362188540.0
-        },
         {
           "date": "2023-08-14",
           "open": 1.104,
@@ -30277,6 +30267,16 @@
           "rawClose": 2.316,
           "volume": 2991342.0,
           "amount": 694168595.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 2.325,
+          "high": 2.339,
+          "low": 2.317,
+          "close": 2.334,
+          "rawClose": 2.334,
+          "volume": 2326568.0,
+          "amount": 541360856.0
         }
       ]
     },
@@ -30287,16 +30287,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 1.004,
-          "high": 1.005,
-          "low": 0.982,
-          "close": 0.983,
-          "rawClose": 0.983,
-          "volume": 33112949.0,
-          "amount": 3286503167.0
-        },
         {
           "date": "2023-08-14",
           "open": 0.977,
@@ -37846,6 +37836,16 @@
           "rawClose": 1.758,
           "volume": 44495713.0,
           "amount": 7922340749.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 1.764,
+          "high": 1.77,
+          "low": 1.749,
+          "close": 1.755,
+          "rawClose": 1.755,
+          "volume": 24804248.0,
+          "amount": 4361901809.0
         }
       ]
     },
@@ -37856,16 +37856,6 @@
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 4.401,
-          "high": 4.416,
-          "low": 4.401,
-          "close": 4.415,
-          "rawClose": 4.415,
-          "volume": 835444.0,
-          "amount": 368288291.0
-        },
         {
           "date": "2023-08-14",
           "open": 4.415,
@@ -45415,26 +45405,26 @@
           "rawClose": 8.859,
           "volume": 5843502.0,
           "amount": 5196451929.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 8.91,
+          "high": 8.919,
+          "low": 8.886,
+          "close": 8.897,
+          "rawClose": 8.897,
+          "volume": 3212103.0,
+          "amount": 2860126761.0
         }
       ]
     },
     "511010": {
-      "source": "EASTMONEY_QFQ+TENCENT_RAW",
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
       "priceConvention": "前复权日线",
       "valuationPriceConvention": "未复权日收盘价，仅用于家庭份额估值",
       "volumeUnit": "手",
       "hasVolume": true,
       "bars": [
-        {
-          "date": "2023-08-11",
-          "open": 127.874,
-          "high": 127.931,
-          "low": 127.874,
-          "close": 127.912,
-          "rawClose": 132.022,
-          "volume": 32870.0,
-          "amount": 433937190.0
-        },
         {
           "date": "2023-08-14",
           "open": 127.927,
@@ -52984,6 +52974,16 @@
           "rawClose": 140.709,
           "volume": 378298.0,
           "amount": 5322308301.0
+        },
+        {
+          "date": "2026-09-23",
+          "open": 140.695,
+          "high": 140.718,
+          "low": 140.659,
+          "close": 140.664,
+          "rawClose": 140.664,
+          "volume": 431533.0,
+          "amount": 6071081573.0
         }
       ]
     }
