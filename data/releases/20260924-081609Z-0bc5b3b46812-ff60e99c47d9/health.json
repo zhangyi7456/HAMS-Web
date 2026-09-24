@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "20260924-081609Z-0bc5b3b46812-ff60e99c47d9",
+  "generatedAt": "2026-09-24T08:16:09+00:00",
+  "status": "WARNING",
+  "blocking": false,
+  "summary": "发现 3 项非阻断提示",
+  "issues": [
+    {
+      "type": "ADJUSTMENT_FACTOR_REVIEW",
+      "label": "复权因子待复核",
+      "severity": "WARNING",
+      "code": "512890",
+      "details": "2021-10-25 复权因子变化 99.88%，超过复核阈值 10.00%"
+    },
+    {
+      "type": "ADJUSTMENT_FACTOR_REVIEW",
+      "label": "复权因子待复核",
+      "severity": "WARNING",
+      "code": "513500",
+      "details": "2022-03-30 复权因子变化 99.93%，超过复核阈值 10.00%"
+    },
+    {
+      "type": "ADJUSTMENT_FACTOR_REVIEW",
+      "label": "复权因子待复核",
+      "severity": "WARNING",
+      "code": "513100",
+      "details": "2022-01-14 复权因子变化 400.19%，超过复核阈值 10.00%"
+    }
+  ]
+}
