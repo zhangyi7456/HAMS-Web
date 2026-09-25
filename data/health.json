@@ -1,16 +1,23 @@
 {
   "schemaVersion": "1.0",
-  "buildId": "20260925-150508Z-d4216b6042c7-ff60e99c47d9",
-  "generatedAt": "2026-09-25T15:05:08+00:00",
+  "buildId": "20260925-154856Z-a5a7e3e86e5f-ff60e99c47d9",
+  "generatedAt": "2026-09-25T15:48:56+00:00",
   "status": "WARNING",
   "blocking": false,
-  "summary": "发现 5 项非阻断提示",
+  "summary": "发现 10 项非阻断提示",
   "issues": [
     {
       "type": "RAW_CLOSE_SINGLE_SOURCE",
       "label": "估值价单源降级",
       "severity": "WARNING",
       "code": "510300",
+      "details": "未复权估值价仅由 TENCENT_RAW 提供"
+    },
+    {
+      "type": "RAW_CLOSE_SINGLE_SOURCE",
+      "label": "估值价单源降级",
+      "severity": "WARNING",
+      "code": "512890",
       "details": "未复权估值价仅由 TENCENT_RAW 提供"
     },
     {
@@ -21,11 +28,25 @@
       "details": "2021-10-25 复权因子变化 99.88%，超过复核阈值 10.00%"
     },
     {
+      "type": "RAW_CLOSE_SINGLE_SOURCE",
+      "label": "估值价单源降级",
+      "severity": "WARNING",
+      "code": "513500",
+      "details": "未复权估值价仅由 TENCENT_RAW 提供"
+    },
+    {
       "type": "ADJUSTMENT_FACTOR_REVIEW",
       "label": "复权因子待复核",
       "severity": "WARNING",
       "code": "513500",
       "details": "2022-03-30 复权因子变化 99.93%，超过复核阈值 10.00%"
+    },
+    {
+      "type": "RAW_CLOSE_SINGLE_SOURCE",
+      "label": "估值价单源降级",
+      "severity": "WARNING",
+      "code": "513100",
+      "details": "未复权估值价仅由 TENCENT_RAW 提供"
     },
     {
       "type": "ADJUSTMENT_FACTOR_REVIEW",
@@ -38,7 +59,21 @@
       "type": "RAW_CLOSE_SINGLE_SOURCE",
       "label": "估值价单源降级",
       "severity": "WARNING",
+      "code": "588000",
+      "details": "未复权估值价仅由 TENCENT_RAW 提供"
+    },
+    {
+      "type": "RAW_CLOSE_SINGLE_SOURCE",
+      "label": "估值价单源降级",
+      "severity": "WARNING",
       "code": "518880",
+      "details": "未复权估值价仅由 TENCENT_RAW 提供"
+    },
+    {
+      "type": "RAW_CLOSE_SINGLE_SOURCE",
+      "label": "估值价单源降级",
+      "severity": "WARNING",
+      "code": "511010",
       "details": "未复权估值价仅由 TENCENT_RAW 提供"
     }
   ]
