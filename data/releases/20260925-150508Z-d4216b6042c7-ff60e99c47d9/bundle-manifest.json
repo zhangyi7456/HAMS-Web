@@ -1,30 +1,30 @@
 {
   "schemaVersion": "1.0",
-  "buildId": "20260924-081609Z-0bc5b3b46812-ff60e99c47d9",
-  "productVersion": "5.8.0",
+  "buildId": "20260925-150508Z-d4216b6042c7-ff60e99c47d9",
+  "productVersion": "5.8.1",
   "strategyVersion": "1.2.0",
-  "sourceCommit": "0bc5b3b46812121e1ea40ffa75704d83eb801c4b",
-  "generatedAt": "2026-09-24T08:16:09+00:00",
+  "sourceCommit": "d4216b6042c769f02e4ec174ae7cbc790a94a73b",
+  "generatedAt": "2026-09-25T15:05:08+00:00",
   "files": [
     {
       "path": "snapshot.json",
-      "sha256": "d25ca53bc25962df82924f10ef199be973cc4c234874ba0408dc1bab033727fd",
-      "bytes": 270072
+      "sha256": "373dfd43d914482b0fbd64d36b3ee2d4a31f4101bcceee73a281dbc059488497",
+      "bytes": 271472
     },
     {
       "path": "health.json",
-      "sha256": "feaf0e434d75fec1ec49d1a124064021e5caed4b1401a4d520ea645d043c503d",
-      "bytes": 937
+      "sha256": "e0e3f290f30ee16dd359b64e130bbffa6e3860dabc97acb080109b8e93e89629",
+      "bytes": 1357
     },
     {
       "path": "decision-log.json",
-      "sha256": "a0510269abcc80c2130d298152e7d7a84b4b32a03b881b7a8b57ac2bc742b884",
+      "sha256": "a01543731697d122ea9c1c5343b3383f5d2009fc0fb033128c041d91db7537de",
       "bytes": 117391
     },
     {
       "path": "market-series.json",
-      "sha256": "95c70966df25234f3b15fc4531e5103195b18a7db5e68619fdd67451dbab6640",
-      "bytes": 1304721
+      "sha256": "dfd86cdb22761eb67fb9cb14c14f3bd3707caad27fb38f7e455c0ec6fe227c55",
+      "bytes": 1299253
     },
     {
       "path": "adjusted-prices.csv",
@@ -38,12 +38,12 @@
     },
     {
       "path": "manifest.json",
-      "sha256": "6492f9e8324d1d66fbb141689989be12cbbd0c69ac10b9610f95adf7e0239fa2",
+      "sha256": "3279ee85a875a333a96125e048e14485b32427c967ceb99b67508b374390b524",
       "bytes": 964
     },
     {
       "path": "risk-control-models.md",
-      "sha256": "f3ee8ec29034fad6a4e39f83e47472ce0c4545d6cbf8e13d044a7657636d0ed3",
+      "sha256": "ea04e498041c28295665145a7d7969d6c86a4cb1f8b45326a669d4415638bdbb",
       "bytes": 9663
     }
   ],
