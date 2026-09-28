@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "buildId": "20260928-183555Z-c5b9d1c093c8-ff60e99c47d9",
+  "productVersion": "5.9.0",
+  "strategyVersion": "1.2.0",
+  "sourceCommit": "c5b9d1c093c869e439ab1eda1cfecf856ef740f5",
+  "generatedAt": "2026-09-28T18:35:55+00:00",
+  "files": [
+    {
+      "path": "snapshot.json",
+      "sha256": "83a4622e0ab34fd39be4fc88330b8c25c706255c460228cef917c4a3d938e312",
+      "bytes": 274954
+    },
+    {
+      "path": "health.json",
+      "sha256": "fc65114e27e27fdc0a39383291e391d0305b2bc8b8eed976391e261984027e54",
+      "bytes": 2408
+    },
+    {
+      "path": "decision-log.json",
+      "sha256": "4e64fa5b031501ac73a52a54dd3303a7f88977b370599dfaab78c807c0746984",
+      "bytes": 117391
+    },
+    {
+      "path": "market-series.json",
+      "sha256": "a821f51d20aebbf7b0427ecf33a67f30b8a123d86f70465b044769d605bd7d38",
+      "bytes": 1265206
+    },
+    {
+      "path": "adjusted-prices.csv",
+      "sha256": "5d2671c06e31dc0bedaf281ddc8b22c686455ef223beaf4a45b9330e97e572c9",
+      "bytes": 108406
+    },
+    {
+      "path": "parameter-sensitivity.csv",
+      "sha256": "847c22a71872bda1284fca62166c0407bbdebb4091c91f8cc67c3cff4a655ad1",
+      "bytes": 18813
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "60d3733ef9846d58121e18b5d257d029d7fb6f6b23779d213113b23771ad1807",
+      "bytes": 964
+    },
+    {
+      "path": "risk-control-models.md",
+      "sha256": "110b94f05e92d0ffe37aba0ab620100af31586da7e9e7f042187e0dd1e540b17",
+      "bytes": 9663
+    }
+  ],
+  "containsPrivatePortfolioData": false
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-28T08:01:05+00:00",
+  "generatedAt": "2026-09-28T18:35:55+00:00",
   "status": "OK",
   "blocking": false,
   "summary": "发现 10 项非阻断提示",
@@ -76,6 +76,6 @@
       "details": "未复权估值价仅由 TENCENT_RAW 提供"
     }
   ],
-  "buildId": "20260928-080105Z-9ae2419382f0-ff60e99c47d9",
-  "lastCompleteBuildId": "20260928-080105Z-9ae2419382f0-ff60e99c47d9"
+  "buildId": "20260928-183555Z-c5b9d1c093c8-ff60e99c47d9",
+  "lastCompleteBuildId": "20260928-183555Z-c5b9d1c093c8-ff60e99c47d9"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
-  "buildId": "20260928-080105Z-9ae2419382f0-ff60e99c47d9",
-  "generatedAt": "2026-09-28T08:01:05+00:00",
+  "buildId": "20260928-183555Z-c5b9d1c093c8-ff60e99c47d9",
+  "generatedAt": "2026-09-28T18:35:55+00:00",
   "historyTradingDays": 756,
   "assets": {
     "510300": {
@@ -7563,10 +7563,10 @@
         },
         {
           "date": "2026-09-28",
-          "open": 4.5,
-          "high": 4.5,
-          "low": 4.4,
-          "close": 4.42,
+          "open": 4.499,
+          "high": 4.503,
+          "low": 4.397,
+          "close": 4.417,
           "rawClose": 4.417,
           "volume": 9864089.0,
           "amount": null
@@ -15132,9 +15132,9 @@
         },
         {
           "date": "2026-09-28",
-          "open": 1.18,
-          "high": 1.19,
-          "low": 1.18,
+          "open": 1.184,
+          "high": 1.188,
+          "low": 1.177,
           "close": 1.18,
           "rawClose": 1.18,
           "volume": 4399087.0,
@@ -22701,10 +22701,10 @@
         },
         {
           "date": "2026-09-28",
-          "open": 2.7,
-          "high": 2.7,
+          "open": 2.698,
+          "high": 2.704,
           "low": 2.68,
-          "close": 2.68,
+          "close": 2.684,
           "rawClose": 2.684,
           "volume": 881198.0,
           "amount": null
@@ -30270,10 +30270,10 @@
         },
         {
           "date": "2026-09-28",
-          "open": 2.31,
-          "high": 2.32,
+          "open": 2.312,
+          "high": 2.317,
           "low": 2.3,
-          "close": 2.3,
+          "close": 2.304,
           "rawClose": 2.304,
           "volume": 1378918.0,
           "amount": null
@@ -37839,10 +37839,10 @@
         },
         {
           "date": "2026-09-28",
-          "open": 1.7,
-          "high": 1.71,
-          "low": 1.64,
-          "close": 1.64,
+          "open": 1.702,
+          "high": 1.705,
+          "low": 1.636,
+          "close": 1.643,
           "rawClose": 1.643,
           "volume": 45675024.0,
           "amount": null
@@ -45408,10 +45408,10 @@
         },
         {
           "date": "2026-09-28",
-          "open": 8.67,
-          "high": 8.68,
-          "low": 8.57,
-          "close": 8.57,
+          "open": 8.671,
+          "high": 8.677,
+          "low": 8.566,
+          "close": 8.568,
           "rawClose": 8.568,
           "volume": 4746192.0,
           "amount": null
@@ -52977,10 +52977,10 @@
         },
         {
           "date": "2026-09-28",
-          "open": 140.72,
-          "high": 140.72,
-          "low": 140.67,
-          "close": 140.68,
+          "open": 140.715,
+          "high": 140.721,
+          "low": 140.669,
+          "close": 140.684,
           "rawClose": 140.684,
           "volume": 354468.0,
           "amount": null
