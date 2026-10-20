@@ -2,7 +2,7 @@
   "schemaVersion": "1.3",
   "algorithmVersion": "weekly-asof-v4",
   "stateModelVersion": "self-percentile-v1",
-  "generatedAt": "2026-09-30T05:45:44.595Z",
+  "generatedAt": "2026-10-20T07:41:54.872Z",
   "snapshotRule": "观察周后的周一08:00 Asia/Shanghai与供应商可得时间取较晚者；只发布已到可用时点的完整周观测；基金和LOF优先使用前复权序列并逐项披露复权状态",
   "assets": [
     {
@@ -18,22 +18,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 3382.68,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 3426.6,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 3408.96,
@@ -1737,6 +1721,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 4028.34,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 3998.45,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 3896.2,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -1753,22 +1761,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 2760.5,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 2737.31,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 2670.45,
@@ -3472,6 +3464,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 3135.28,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 3043.33,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 2772.38,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -3488,22 +3504,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W31",
-          "value": 20201.94,
-          "sourceObservationDate": "2022-08-05",
-          "providerAvailableAt": "2022-08-05T09:00:00Z",
-          "snapshotAvailableAt": "2022-08-08T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W32",
-          "value": 20175.62,
-          "sourceObservationDate": "2022-08-12",
-          "providerAvailableAt": "2022-08-12T09:00:00Z",
-          "snapshotAvailableAt": "2022-08-15T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W33",
           "value": 19773.03,
@@ -5223,6 +5223,30 @@
           "providerAvailableAt": "2026-09-25T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 23972.29,
+          "sourceObservationDate": "2026-10-02",
+          "providerAvailableAt": "2026-10-02T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 24211.35,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 24186.83,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -5239,30 +5263,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W35",
-          "value": 3924.26,
-          "sourceObservationDate": "2022-09-02",
-          "providerAvailableAt": "2022-09-02T23:00:00Z",
-          "snapshotAvailableAt": "2022-09-05T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W36",
-          "value": 4067.36,
-          "sourceObservationDate": "2022-09-09",
-          "providerAvailableAt": "2022-09-09T23:00:00Z",
-          "snapshotAvailableAt": "2022-09-12T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W37",
-          "value": 3873.33,
-          "sourceObservationDate": "2022-09-16",
-          "providerAvailableAt": "2022-09-16T23:00:00Z",
-          "snapshotAvailableAt": "2022-09-19T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W38",
           "value": 3693.23,
@@ -6942,6 +6942,30 @@
           "providerAvailableAt": "2026-09-25T23:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 7722.72,
+          "sourceObservationDate": "2026-10-02",
+          "providerAvailableAt": "2026-10-02T23:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 7811.54,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T23:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 7659.44,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T23:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -6958,22 +6982,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 22846.89,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 22624.48,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 22266.23,
@@ -8677,6 +8685,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 12295.96,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 12355,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 12489.65,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -8693,22 +8725,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 1723.29,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 1759.23,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 1745.99,
@@ -10412,6 +10428,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 3404.94,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 3293.9,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 3075.14,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -10428,22 +10468,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 4850.64,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 4911.64,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 4885.64,
@@ -12147,6 +12171,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 5695.28,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 5693.19,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 5699.44,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -12163,22 +12211,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 2307.61,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 2284.89,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 2245.98,
@@ -13882,6 +13914,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 2510.59,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 2558.66,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 2546.94,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -13898,22 +13954,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 264.65,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 264.8,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 265.02,
@@ -15617,6 +15657,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 310.17,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 310.37,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 310.62,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -15633,22 +15697,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 416.13,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 418.45,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 422.92,
@@ -17352,6 +17400,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 468.98,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 465.49,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 448.54,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -17370,22 +17442,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 3333.29,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 3357.18,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 3381.47,
@@ -19089,6 +19145,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 4757,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 4826.87,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 4629.08,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -19107,22 +19187,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W06",
-          "value": 1.015,
-          "sourceObservationDate": "2024-02-08",
-          "providerAvailableAt": "2024-02-08T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-12T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2024-W08",
-          "value": 1.053,
-          "sourceObservationDate": "2024-02-23",
-          "providerAvailableAt": "2024-02-23T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-26T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W09",
           "value": 1.06,
@@ -20194,6 +20258,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 1.127,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 1.132,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 1.108,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -20212,22 +20300,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 7086.08,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 7189.31,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 7225.11,
@@ -21931,6 +22003,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 9845.34,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 10003.88,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 9321.1,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -21949,22 +22045,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W06",
-          "value": 4.662,
-          "sourceObservationDate": "2024-02-08",
-          "providerAvailableAt": "2024-02-08T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-12T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2024-W08",
-          "value": 4.63,
-          "sourceObservationDate": "2024-02-23",
-          "providerAvailableAt": "2024-02-23T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-26T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W09",
           "value": 4.667,
@@ -23036,6 +23116,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 8.633,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 8.617,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 8.554,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -23054,22 +23158,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 7215.98,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 7081.89,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 7112.05,
@@ -24773,6 +24861,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 4967.15,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 4998.27,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 4848.74,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -24791,22 +24903,6 @@
       "adjustmentMethod": "NONE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 1.386,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 1.454,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 1.528,
@@ -26510,6 +26606,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 1.772,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 1.928,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 1.836,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -26528,22 +26648,6 @@
       "adjustmentMethod": "NONE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 0.873,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 0.871,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 0.881,
@@ -28247,6 +28351,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 0.913,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 0.911,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 0.926,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -28265,22 +28393,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W06",
-          "value": 109.037,
-          "sourceObservationDate": "2024-02-08",
-          "providerAvailableAt": "2024-02-08T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-12T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2024-W08",
-          "value": 109.129,
-          "sourceObservationDate": "2024-02-23",
-          "providerAvailableAt": "2024-02-23T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-26T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W09",
           "value": 109.198,
@@ -29352,6 +29464,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 114.009,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 114.021,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 114.066,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -29370,22 +29506,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W06",
-          "value": 106.732,
-          "sourceObservationDate": "2024-02-08",
-          "providerAvailableAt": "2024-02-08T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-12T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2024-W08",
-          "value": 107.082,
-          "sourceObservationDate": "2024-02-23",
-          "providerAvailableAt": "2024-02-23T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-26T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W09",
           "value": 107.383,
@@ -30457,6 +30577,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 121.548,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 121.588,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 121.965,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -30475,22 +30619,6 @@
       "adjustmentMethod": "QFQ",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2024-W06",
-          "value": 120.493,
-          "sourceObservationDate": "2024-02-08",
-          "providerAvailableAt": "2024-02-08T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-12T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2024-W08",
-          "value": 120.845,
-          "sourceObservationDate": "2024-02-23",
-          "providerAvailableAt": "2024-02-23T09:00:00Z",
-          "snapshotAvailableAt": "2024-02-26T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2024-W09",
           "value": 121.031,
@@ -31562,6 +31690,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 134.804,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 134.829,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 135.208,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -31580,22 +31732,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 4296.43,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 4315.52,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 4494.81,
@@ -33299,6 +33435,30 @@
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
           "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 2330.14,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 2294.05,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 2174.82,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
+          "status": "OK"
         }
       ]
     },
@@ -33317,22 +33477,6 @@
       "adjustmentMethod": "NOT_APPLICABLE",
       "interpretationMode": "PRICE_HIGHER_IS_STRONG",
       "observations": [
-        {
-          "weekId": "2022-W28",
-          "value": 8736.46,
-          "sourceObservationDate": "2022-07-15",
-          "providerAvailableAt": "2022-07-15T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-18T00:00:00.000Z",
-          "status": "OK"
-        },
-        {
-          "weekId": "2022-W29",
-          "value": 8620.16,
-          "sourceObservationDate": "2022-07-22",
-          "providerAvailableAt": "2022-07-22T09:00:00Z",
-          "snapshotAvailableAt": "2022-07-25T00:00:00.000Z",
-          "status": "OK"
-        },
         {
           "weekId": "2022-W30",
           "value": 8333.09,
@@ -35035,6 +35179,30 @@
           "sourceObservationDate": "2026-09-24",
           "providerAvailableAt": "2026-09-24T09:00:00Z",
           "snapshotAvailableAt": "2026-09-28T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W40",
+          "value": 3749.65,
+          "sourceObservationDate": "2026-09-30",
+          "providerAvailableAt": "2026-09-30T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-05T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W41",
+          "value": 3768.2,
+          "sourceObservationDate": "2026-10-09",
+          "providerAvailableAt": "2026-10-09T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-12T00:00:00.000Z",
+          "status": "OK"
+        },
+        {
+          "weekId": "2026-W42",
+          "value": 3793.06,
+          "sourceObservationDate": "2026-10-16",
+          "providerAvailableAt": "2026-10-16T09:00:00Z",
+          "snapshotAvailableAt": "2026-10-19T00:00:00.000Z",
           "status": "OK"
         }
       ]
