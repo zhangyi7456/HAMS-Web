@@ -1,16 +1,16 @@
 {
   "meta": {
     "schemaVersion": "4.0",
-    "webVersion": "6.0.0",
-    "buildId": "20261020-072921Z-6d4abb6c1a2f-ff60e99c47d9",
-    "sourceCommit": "6d4abb6c1a2f0716bc53a3cd548afac08ce323cf",
+    "webVersion": "6.1.0",
+    "buildId": "20261029-172503Z-6175352bd528-ff60e99c47d9",
+    "sourceCommit": "6175352bd52892d090aaf46b9d823189bfe3c540",
     "strategyVersion": "1.2.0",
-    "generatedAt": "2026-10-20T07:29:21+00:00",
+    "generatedAt": "2026-10-29T17:25:03+00:00",
     "configFingerprint": "ff60e99c47d94ae3",
     "priceConvention": "前复权日收盘价（QFQ adjusted close）",
     "valuationPriceConvention": "未复权日收盘价（raw close），仅用于家庭资产估值",
     "timingRule": "收盘T计算，最早T+1使用；正式建议仅采用最近已完成月末信号",
-    "signalDate": "2026-10-20",
+    "signalDate": "2026-10-29",
     "confirmedSignalDate": "2026-09-30",
     "confirmedEffectiveDate": "2026-10-08",
     "confirmedEffectiveRule": "确认月末后的下一交易日生效",
@@ -19,35 +19,14 @@
   "health": {
     "status": "WARNING",
     "blocking": false,
-    "summary": "发现 10 项非阻断提示",
+    "summary": "发现 3 项非阻断提示",
     "issues": [
-      {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "510300",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
-      },
-      {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "512890",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
-      },
       {
         "type": "ADJUSTMENT_FACTOR_REVIEW",
         "label": "复权因子待复核",
         "severity": "WARNING",
         "code": "512890",
         "details": "2021-10-25 复权因子变化 99.88%，超过复核阈值 10.00%"
-      },
-      {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "513500",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
       },
       {
         "type": "ADJUSTMENT_FACTOR_REVIEW",
@@ -57,39 +36,11 @@
         "details": "2022-03-30 复权因子变化 99.93%，超过复核阈值 10.00%"
       },
       {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "513100",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
-      },
-      {
         "type": "ADJUSTMENT_FACTOR_REVIEW",
         "label": "复权因子待复核",
         "severity": "WARNING",
         "code": "513100",
         "details": "2022-01-14 复权因子变化 400.19%，超过复核阈值 10.00%"
-      },
-      {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "588000",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
-      },
-      {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "518880",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
-      },
-      {
-        "type": "RAW_CLOSE_SINGLE_SOURCE",
-        "label": "估值价单源降级",
-        "severity": "WARNING",
-        "code": "511010",
-        "details": "未复权估值价仅由 TENCENT_RAW 提供"
       }
     ]
   },
@@ -104,192 +55,192 @@
   },
   "provenance": {
     "510300": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:15+00:00",
-      "durationMs": 12738,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:24:55+00:00",
+      "durationMs": 10949,
       "firstDate": "2012-05-28",
-      "lastDate": "2026-10-20",
-      "observations": "3497",
+      "lastDate": "2026-10-29",
+      "observations": "3504",
       "calendarFillCount": 0,
       "calendarFilledDates": [],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
       "adjustmentFactorMaxDailyChange": 0.0371762946602181,
       "adjustmentFactorMaxChangeDate": "2013-06-24",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": false,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.510300&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     },
     "512890": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:08+00:00",
-      "durationMs": 6432,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:24:52+00:00",
+      "durationMs": 7216,
       "firstDate": "2019-01-18",
-      "lastDate": "2026-10-20",
-      "observations": "1876",
+      "lastDate": "2026-10-29",
+      "observations": "1883",
       "calendarFillCount": 1,
       "calendarFilledDates": [
         "2021-10-22"
       ],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
       "adjustmentFactorMaxDailyChange": 0.998780487804878,
       "adjustmentFactorMaxChangeDate": "2021-10-25",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": true,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.512890&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     },
     "513500": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:13+00:00",
-      "durationMs": 11017,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:24:54+00:00",
+      "durationMs": 9617,
       "firstDate": "2014-01-15",
-      "lastDate": "2026-10-20",
-      "observations": "3099",
+      "lastDate": "2026-10-29",
+      "observations": "3106",
       "calendarFillCount": 1,
       "calendarFilledDates": [
         "2022-03-29"
       ],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
       "adjustmentFactorMaxDailyChange": 0.999269005847953,
       "adjustmentFactorMaxChangeDate": "2022-03-30",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": true,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.513500&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     },
     "513100": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:13+00:00",
-      "durationMs": 11388,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:24:55+00:00",
+      "durationMs": 10549,
       "firstDate": "2013-05-15",
-      "lastDate": "2026-10-20",
-      "observations": "3263",
+      "lastDate": "2026-10-29",
+      "observations": "3270",
       "calendarFillCount": 1,
       "calendarFilledDates": [
         "2022-01-13"
       ],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
       "adjustmentFactorMaxDailyChange": 4.001926782273603,
       "adjustmentFactorMaxChangeDate": "2022-01-14",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": true,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.513100&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     },
     "588000": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:08+00:00",
-      "durationMs": 6354,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:24:52+00:00",
+      "durationMs": 7744,
       "firstDate": "2020-11-16",
-      "lastDate": "2026-10-20",
-      "observations": "1436",
+      "lastDate": "2026-10-29",
+      "observations": "1443",
       "calendarFillCount": 0,
       "calendarFilledDates": [],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
-      "adjustmentFactorMaxDailyChange": 0.0021171489061395654,
-      "adjustmentFactorMaxChangeDate": "2026-10-20",
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
+      "adjustmentFactorMaxDailyChange": 0.0,
+      "adjustmentFactorMaxChangeDate": "2020-11-17",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": false,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.588000&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     },
     "518880": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:19+00:00",
-      "durationMs": 10723,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:25:02+00:00",
+      "durationMs": 10081,
       "firstDate": "2013-07-29",
-      "lastDate": "2026-10-20",
-      "observations": "3214",
+      "lastDate": "2026-10-29",
+      "observations": "3221",
       "calendarFillCount": 0,
       "calendarFilledDates": [],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
-      "adjustmentFactorMaxDailyChange": 0.0003547357218871561,
-      "adjustmentFactorMaxChangeDate": "2026-10-20",
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
+      "adjustmentFactorMaxDailyChange": 0.0,
+      "adjustmentFactorMaxChangeDate": "2013-07-30",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": false,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.518880&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     },
     "511010": {
-      "source": "TENCENT_QFQ+TENCENT_RAW",
-      "fetchedAt": "2026-10-20T07:29:21+00:00",
-      "durationMs": 12537,
+      "source": "EASTMONEY_QFQ+EASTMONEY_RAW",
+      "fetchedAt": "2026-10-29T17:25:03+00:00",
+      "durationMs": 11296,
       "firstDate": "2013-03-25",
-      "lastDate": "2026-10-20",
-      "observations": "3296",
+      "lastDate": "2026-10-29",
+      "observations": "3303",
       "calendarFillCount": 0,
       "calendarFilledDates": [],
       "rawSourcesAvailable": [
+        "EASTMONEY_RAW",
         "TENCENT_RAW"
       ],
       "rawSourceLastDates": {
-        "TENCENT_RAW": "2026-10-20"
+        "EASTMONEY_RAW": "2026-10-29",
+        "TENCENT_RAW": "2026-10-29"
       },
-      "rawCrossCheckStatus": "SINGLE_SOURCE",
-      "rawCrossCheckDate": null,
-      "rawCrossSourceRelativeDiff": null,
+      "rawCrossCheckStatus": "PASS",
+      "rawCrossCheckDate": "2026-10-29",
+      "rawCrossSourceRelativeDiff": 0.0,
       "adjustmentFactorMaxDailyChange": 0.010336191329644473,
       "adjustmentFactorMaxChangeDate": "2025-09-23",
       "adjustmentFactorReviewThreshold": 0.1,
       "adjustmentFactorReviewRequired": false,
-      "rawSourceFailures": [
-        "EASTMONEY_RAW=ProviderFailure:Command '['curl', '--http1.1', '--fail', '--silent', '--show-error', '--location', '--retry', '0', '--retry-all-errors', '--retry-delay', '1', '--connect-timeout', '8', '--max-time', '10', '--user-agent', 'Mozilla/5.0 (compatible; HAMS/4.0; household-asset-management)', 'https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.511010&klt=101&fqt=0&lmt=10000&beg=20000101&end=20500101&fields1=f1,f2,f3&fields2=f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61']' returned non-zero exit status 52."
-      ]
+      "rawSourceFailures": []
     }
   },
   "allocationModel": {
@@ -382,13 +333,13 @@
     "cashFlowFirst": true
   },
   "risk": {
-    "score": 0.7986244335363295,
+    "score": 0.7884251993206568,
     "regime": "GREEN",
     "trendBreadth": 0.65,
-    "forecastVol": 0.10768300868339034,
+    "forecastVol": 0.10218612416015749,
     "volScore": 1.0,
-    "drawdown": -0.04387556646367052,
-    "ddScore": 0.7806221676816474,
+    "drawdown": -0.05407480067934334,
+    "ddScore": 0.7296259966032833,
     "confirmedScore": 0.8546455920909346,
     "confirmedTrendBreadth": 0.73,
     "confirmedVolScore": 1.0,
@@ -396,7 +347,7 @@
     "confirmedForecastVol": 0.11089190473555649,
     "confirmedDrawdown": -0.023854407909065345,
     "confirmedEquityTarget": 0.7651149421018243,
-    "provisionalEquityTarget": 0.751669864048719
+    "provisionalEquityTarget": 0.7492220478369577
   },
   "assets": [
     {
@@ -406,21 +357,21 @@
       "role": "中国大盘宽基核心",
       "allocationGroup": "CORE",
       "qdii": false,
-      "latestPrice": 4.22,
-      "strategyAdjustedClose": 4.22,
-      "valuationClose": 4.22,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 4.111,
+      "strategyAdjustedClose": 4.111,
+      "valuationClose": 4.111,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.2,
-      "return63": -0.12773873501446886,
-      "return126": -0.09286328460877047,
-      "return252": -0.06802120141342749,
+      "return63": -0.12550521165709416,
+      "return126": -0.14549989607150282,
+      "return252": -0.10298930831333197,
       "trendScore": -1.0,
-      "vol20": 0.12567425442502964,
-      "vol60": 0.15929283680051015,
-      "forecastVol": 0.14584540385031797,
+      "vol20": 0.14779061854346137,
+      "vol60": 0.14289229361805733,
+      "forecastVol": 0.14485162358821896,
       "relativeStrength": -1.0,
-      "volPenalty": 0.0,
+      "volPenalty": 0.034279839740671836,
       "confirmedSignals": {
         "trendScore": -1.0,
         "relativeStrength": -1.0,
@@ -440,7 +391,7 @@
         "boundStatus": "FLOOR"
       },
       "confirmedTarget": 0.14345905164409206,
-      "provisionalTarget": 0.14093809950913483
+      "provisionalTarget": 0.14047913396942957
     },
     {
       "code": "512890",
@@ -449,21 +400,21 @@
       "role": "权益核心与低波动底仓",
       "allocationGroup": "CORE",
       "qdii": false,
-      "latestPrice": 1.22,
-      "strategyAdjustedClose": 1.22,
-      "valuationClose": 1.223,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 1.236,
+      "strategyAdjustedClose": 1.236,
+      "valuationClose": 1.236,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.2,
-      "return63": 0.0590277777777779,
-      "return126": 0.03741496598639449,
-      "return252": 0.061792863359442896,
+      "return63": 0.0636833046471601,
+      "return126": 0.03691275167785246,
+      "return252": 0.045685279187817285,
       "trendScore": 1.0,
-      "vol20": 0.14497435589338478,
-      "vol60": 0.13152450695882983,
-      "forecastVol": 0.13690444653265182,
-      "relativeStrength": -0.13382645882503208,
-      "volPenalty": 0.10226116216322367,
+      "vol20": 0.15336360615155814,
+      "vol60": 0.13166066774978863,
+      "forecastVol": 0.14034184311049644,
+      "relativeStrength": 0.30715998224491936,
+      "volPenalty": 0.16483995389583117,
       "confirmedSignals": {
         "trendScore": 1.0,
         "relativeStrength": -0.904641769437984,
@@ -483,7 +434,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.20084267230172856,
-      "provisionalTarget": 0.19970265952207464
+      "provisionalTarget": 0.20088971782355897
     },
     {
       "code": "513500",
@@ -492,20 +443,20 @@
       "role": "美国宽基核心",
       "allocationGroup": "CORE",
       "qdii": true,
-      "latestPrice": 2.65,
-      "strategyAdjustedClose": 2.65,
-      "valuationClose": 2.649,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 2.688,
+      "strategyAdjustedClose": 2.688,
+      "valuationClose": 2.688,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.2,
-      "return63": 0.03354134165366607,
-      "return126": 0.16177115300306877,
-      "return252": 0.16997792494481234,
+      "return63": 0.07262569832402255,
+      "return126": 0.1327433628318584,
+      "return252": 0.17431192660550465,
       "trendScore": 1.0,
-      "vol20": 0.15635657759951951,
-      "vol60": 0.17543865978588494,
-      "forecastVol": 0.16780582691133877,
-      "relativeStrength": 0.502863789761667,
+      "vol20": 0.17877410833434718,
+      "vol60": 0.1806238126992219,
+      "forecastVol": 0.179883930953272,
+      "relativeStrength": 0.7647056011379143,
       "volPenalty": 0.0,
       "confirmedSignals": {
         "trendScore": 1.0,
@@ -526,7 +477,7 @@
         "boundStatus": "CAP"
       },
       "confirmedTarget": 0.22953448263054732,
-      "provisionalTarget": 0.22311163900532677
+      "provisionalTarget": 0.22054768408472664
     },
     {
       "code": "513100",
@@ -535,21 +486,21 @@
       "role": "海外成长与科技卫星仓",
       "allocationGroup": "SATELLITE",
       "qdii": true,
-      "latestPrice": 2.33,
-      "strategyAdjustedClose": 2.33,
-      "valuationClose": 2.334,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 2.29,
+      "strategyAdjustedClose": 2.29,
+      "valuationClose": 2.29,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.12,
-      "return63": 0.06489945155393051,
-      "return126": 0.29588431590656294,
-      "return252": 0.3089887640449438,
+      "return63": 0.08840304182509495,
+      "return126": 0.20780590717299585,
+      "return252": 0.25479452054794516,
       "trendScore": 1.0,
-      "vol20": 0.19174712634520336,
-      "vol60": 0.20837505080040913,
-      "forecastVol": 0.2017238810183268,
+      "vol20": 0.22076157563413762,
+      "vol60": 0.21452663625307758,
+      "forecastVol": 0.2170206120055016,
       "relativeStrength": 1.0,
-      "volPenalty": 0.0,
+      "volPenalty": 0.029063707378997217,
       "confirmedSignals": {
         "trendScore": 1.0,
         "relativeStrength": 1.0,
@@ -569,7 +520,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.13043989615055743,
-      "provisionalTarget": 0.13154222620852582
+      "provisionalTarget": 0.13111385837146758
     },
     {
       "code": "588000",
@@ -578,20 +529,20 @@
       "role": "境内科技卫星仓",
       "allocationGroup": "SATELLITE",
       "qdii": false,
-      "latestPrice": 1.42,
-      "strategyAdjustedClose": 1.42,
-      "valuationClose": 1.417,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 1.293,
+      "strategyAdjustedClose": 1.293,
+      "valuationClose": 1.293,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.08,
-      "return63": -0.29980276134122297,
-      "return126": -0.01933701657458564,
-      "return252": -0.06824146981627299,
+      "return63": -0.3140583554376658,
+      "return126": -0.15434924787442772,
+      "return252": -0.13857428381079284,
       "trendScore": -1.0,
-      "vol20": 0.359511673079822,
-      "vol60": 0.4781194031611587,
-      "forecastVol": 0.43067631112862403,
-      "relativeStrength": -0.45826609517673567,
+      "vol20": 0.37206991976955955,
+      "vol60": 0.41988259699128794,
+      "forecastVol": 0.4007575261025966,
+      "relativeStrength": -0.3450691695807405,
       "volPenalty": 0.0,
       "confirmedSignals": {
         "trendScore": 0.6,
@@ -612,7 +563,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.06083883937489957,
-      "provisionalTarget": 0.05637523980365393
+      "provisionalTarget": 0.056191653587771825
     },
     {
       "code": "518880",
@@ -621,19 +572,19 @@
       "role": "危机与货币风险缓冲",
       "allocationGroup": "DEFENSE",
       "qdii": false,
-      "latestPrice": 8.46,
-      "strategyAdjustedClose": 8.46,
-      "valuationClose": 8.457,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 8.224,
+      "strategyAdjustedClose": 8.224,
+      "valuationClose": 8.224,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.07,
-      "return63": 0.01087346158441882,
-      "return126": -0.14752116082224898,
-      "return252": 0.03676470588235303,
-      "trendScore": 0.4,
-      "vol20": 0.18070806997726688,
-      "vol60": 0.21004369595251898,
-      "forecastVol": 0.19830944556241814,
+      "return63": -0.019200954084674926,
+      "return126": -0.17792882846861247,
+      "return252": -0.10482203113094579,
+      "trendScore": -1.0,
+      "vol20": 0.1703539175772175,
+      "vol60": 0.2028924929038222,
+      "forecastVol": 0.1898770627731803,
       "relativeStrength": null,
       "volPenalty": null,
       "confirmedSignals": {
@@ -655,7 +606,7 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.07939114956958339,
-      "provisionalTarget": 0.08393558595153296
+      "provisionalTarget": 0.05015559043260847
     },
     {
       "code": "511010",
@@ -664,19 +615,19 @@
       "role": "低波动防御与资金承接",
       "allocationGroup": "DEFENSE",
       "qdii": false,
-      "latestPrice": 141.18,
-      "strategyAdjustedClose": 141.18,
-      "valuationClose": 141.175,
-      "valuationPriceDate": "2026-10-20",
+      "latestPrice": 141.285,
+      "strategyAdjustedClose": 141.285,
+      "valuationClose": 141.285,
+      "valuationPriceDate": "2026-10-29",
       "lotSize": 100,
       "strategicWeight": 0.13,
-      "return63": 0.006997196841632247,
-      "return126": 0.015632306286733844,
-      "return252": 0.029038747485349514,
+      "return63": 0.007350948992542072,
+      "return126": 0.013507697163598786,
+      "return252": 0.027676752982251918,
       "trendScore": 1.0,
-      "vol20": 0.005672442121686104,
-      "vol60": 0.0051595383099677615,
-      "forecastVol": 0.005364699834655099,
+      "vol20": 0.0055666766940648815,
+      "vol60": 0.005024343658764255,
+      "forecastVol": 0.005241276872884506,
       "relativeStrength": null,
       "volPenalty": null,
       "confirmedSignals": {
@@ -698,921 +649,921 @@
         "boundStatus": "NONE"
       },
       "confirmedTarget": 0.15549390832859233,
-      "provisionalTarget": 0.164394549999748
+      "provisionalTarget": 0.20062236173043385
     }
   ],
   "history": [
     {
-      "date": "2023-08-31",
-      "riskScore": 0.8442728310653278,
-      "targetEquity": 0.7626254794556786,
-      "drawdown": -0.020727168934672302
+      "date": "2023-09-11",
+      "riskScore": 0.8188797957728273,
+      "targetEquity": 0.7565311509854786,
+      "drawdown": -0.023620204227172703
     },
     {
-      "date": "2023-09-07",
-      "riskScore": 0.8164622414692229,
-      "targetEquity": 0.7559509379526136,
-      "drawdown": -0.026037758530777166
+      "date": "2023-09-18",
+      "riskScore": 0.813841192000363,
+      "targetEquity": 0.7553218860800871,
+      "drawdown": -0.02865880799963716
     },
     {
-      "date": "2023-09-14",
-      "riskScore": 0.8172153029238294,
-      "targetEquity": 0.7561316727017191,
-      "drawdown": -0.025284697076170648
+      "date": "2023-09-25",
+      "riskScore": 0.8070121666168937,
+      "targetEquity": 0.7536829199880546,
+      "drawdown": -0.03548783338310635
     },
     {
-      "date": "2023-09-21",
-      "riskScore": 0.8059168334418372,
-      "targetEquity": 0.7534200400260409,
-      "drawdown": -0.03658316655816285
+      "date": "2023-10-10",
+      "riskScore": 0.7755618660264787,
+      "targetEquity": 0.746134847846355,
+      "drawdown": -0.044438133973521365
     },
     {
-      "date": "2023-09-28",
-      "riskScore": 0.7635533637048704,
-      "targetEquity": 0.7432528072891689,
-      "drawdown": -0.042946636295129736
+      "date": "2023-10-17",
+      "riskScore": 0.8057704162749098,
+      "targetEquity": 0.7533848999059783,
+      "drawdown": -0.036729583725090276
     },
     {
-      "date": "2023-10-13",
-      "riskScore": 0.8044137236489315,
-      "targetEquity": 0.7530592936757436,
-      "drawdown": -0.03808627635106865
+      "date": "2023-10-24",
+      "riskScore": 0.7198675509955144,
+      "targetEquity": 0.7327682122389234,
+      "drawdown": -0.06413244900448556
     },
     {
-      "date": "2023-10-20",
-      "riskScore": 0.7497810563920859,
-      "targetEquity": 0.7399474535341006,
-      "drawdown": -0.056718943607914185
+      "date": "2023-10-31",
+      "riskScore": 0.6886349316454352,
+      "targetEquity": 0.7252723835949045,
+      "drawdown": -0.06161506835456487
     },
     {
-      "date": "2023-10-27",
-      "riskScore": 0.7463705033728087,
-      "targetEquity": 0.7391289208094741,
-      "drawdown": -0.06012949662719125
+      "date": "2023-11-07",
+      "riskScore": 0.7615857304291256,
+      "targetEquity": 0.7427805753029901,
+      "drawdown": -0.04491426957087441
     },
     {
-      "date": "2023-11-03",
-      "riskScore": 0.7005225918432407,
-      "targetEquity": 0.7281254220423778,
-      "drawdown": -0.049727408156759245
+      "date": "2023-11-14",
+      "riskScore": 0.7807718680759208,
+      "targetEquity": 0.7473852483382211,
+      "drawdown": -0.039228131924079146
     },
     {
-      "date": "2023-11-10",
-      "riskScore": 0.7592419503087262,
-      "targetEquity": 0.7422180680740943,
-      "drawdown": -0.047258049691273896
+      "date": "2023-11-21",
+      "riskScore": 0.7500674244861085,
+      "targetEquity": 0.7400161818766661,
+      "drawdown": -0.03618257551389148
     },
     {
-      "date": "2023-11-17",
-      "riskScore": 0.7505902242468114,
-      "targetEquity": 0.7401416538192347,
-      "drawdown": -0.03565977575318857
+      "date": "2023-11-28",
+      "riskScore": 0.778541396048674,
+      "targetEquity": 0.7468499350516818,
+      "drawdown": -0.041458603951326056
     },
     {
-      "date": "2023-11-24",
-      "riskScore": 0.7687143707599757,
-      "targetEquity": 0.7444914489823943,
-      "drawdown": -0.04003562924002424
+      "date": "2023-12-05",
+      "riskScore": 0.709385838102013,
+      "targetEquity": 0.7302526011444832,
+      "drawdown": -0.054364161897986873
     },
     {
-      "date": "2023-12-01",
-      "riskScore": 0.7778616263910783,
-      "targetEquity": 0.7466867903338588,
-      "drawdown": -0.0421383736089217
+      "date": "2023-12-12",
+      "riskScore": 0.7459687163001525,
+      "targetEquity": 0.7390324919120367,
+      "drawdown": -0.0402812836998474
     },
     {
-      "date": "2023-12-08",
-      "riskScore": 0.7138681649645762,
-      "targetEquity": 0.7313283595914983,
-      "drawdown": -0.04988183503542387
+      "date": "2023-12-19",
+      "riskScore": 0.7434846288680557,
+      "targetEquity": 0.7384363109283334,
+      "drawdown": -0.04276537113194434
     },
     {
-      "date": "2023-12-15",
-      "riskScore": 0.7414744423853221,
-      "targetEquity": 0.7379538661724774,
-      "drawdown": -0.044775557614677886
+      "date": "2023-12-26",
+      "riskScore": 0.7421334949731258,
+      "targetEquity": 0.7381120387935503,
+      "drawdown": -0.04411650502687414
     },
     {
-      "date": "2023-12-22",
-      "riskScore": 0.7426514572014475,
-      "targetEquity": 0.7382363497283474,
-      "drawdown": -0.04359854279855235
+      "date": "2024-01-03",
+      "riskScore": 0.782703358678071,
+      "targetEquity": 0.7478488060827371,
+      "drawdown": -0.037296641321929114
     },
     {
-      "date": "2023-12-29",
-      "riskScore": 0.7866441859553637,
-      "targetEquity": 0.7487946046292873,
-      "drawdown": -0.03335581404463628
+      "date": "2024-01-10",
+      "riskScore": 0.7753378791071976,
+      "targetEquity": 0.7460810909857275,
+      "drawdown": -0.044662120892802304
     },
     {
-      "date": "2024-01-08",
-      "riskScore": 0.7814906133895325,
-      "targetEquity": 0.7475577472134879,
-      "drawdown": -0.049759386610467526
+      "date": "2024-01-17",
+      "riskScore": 0.7584422785899463,
+      "targetEquity": 0.7420261468615872,
+      "drawdown": -0.050307721410053574
     },
     {
-      "date": "2024-01-15",
-      "riskScore": 0.7796836689896482,
-      "targetEquity": 0.7471240805575157,
-      "drawdown": -0.040316331010351814
+      "date": "2024-01-24",
+      "riskScore": 0.7508050230567933,
+      "targetEquity": 0.7401932055336304,
+      "drawdown": -0.035444976943206696
     },
     {
-      "date": "2024-01-22",
-      "riskScore": 0.7370468294517234,
-      "targetEquity": 0.7368912390684136,
-      "drawdown": -0.04920317054827661
+      "date": "2024-01-31",
+      "riskScore": 0.769423236581886,
+      "targetEquity": 0.7446615767796527,
+      "drawdown": -0.03932676341811381
     },
     {
-      "date": "2024-01-29",
-      "riskScore": 0.8134692736078941,
-      "targetEquity": 0.7552326256658946,
-      "drawdown": -0.02903072639210602
+      "date": "2024-02-07",
+      "riskScore": 0.824406073284714,
+      "targetEquity": 0.7578574575883315,
+      "drawdown": -0.01809392671528609
     },
     {
-      "date": "2024-02-05",
-      "riskScore": 0.7705686220377193,
-      "targetEquity": 0.7449364692890527,
-      "drawdown": -0.038181377962280605
+      "date": "2024-02-22",
+      "riskScore": 0.8425,
+      "targetEquity": 0.7622,
+      "drawdown": 0.0
     },
     {
-      "date": "2024-02-20",
-      "riskScore": 0.8412210564303118,
-      "targetEquity": 0.7618930535432749,
-      "drawdown": -0.0012789435696883844
+      "date": "2024-02-29",
+      "riskScore": 0.8425,
+      "targetEquity": 0.7622,
+      "drawdown": 0.0
     },
     {
-      "date": "2024-02-27",
-      "riskScore": 0.840993205630397,
-      "targetEquity": 0.7618383693512953,
-      "drawdown": -0.0015067943696031039
+      "date": "2024-03-07",
+      "riskScore": 0.860238162496729,
+      "targetEquity": 0.7664571589992151,
+      "drawdown": -0.0047618375032709714
     },
     {
-      "date": "2024-03-05",
+      "date": "2024-03-14",
+      "riskScore": 0.8561679132706568,
+      "targetEquity": 0.7654802991849577,
+      "drawdown": -0.008832086729343325
+    },
+    {
+      "date": "2024-03-21",
       "riskScore": 0.865,
       "targetEquity": 0.7676000000000001,
       "drawdown": 0.0
     },
     {
-      "date": "2024-03-12",
-      "riskScore": 0.8596759196921129,
-      "targetEquity": 0.7663222207261071,
-      "drawdown": -0.0053240803078871135
+      "date": "2024-03-28",
+      "riskScore": 0.861165533505341,
+      "targetEquity": 0.7666797280412818,
+      "drawdown": -0.003834466494659128
     },
     {
-      "date": "2024-03-19",
-      "riskScore": 0.8554861709138992,
-      "targetEquity": 0.7653166810193359,
-      "drawdown": -0.009513829086100878
+      "date": "2024-04-08",
+      "riskScore": 0.8592188307274145,
+      "targetEquity": 0.7662125193745795,
+      "drawdown": -0.005781169272585651
     },
     {
-      "date": "2024-03-26",
-      "riskScore": 0.8596439784223964,
-      "targetEquity": 0.7663145548213752,
-      "drawdown": -0.005356021577603731
+      "date": "2024-04-15",
+      "riskScore": 0.8646272098381118,
+      "targetEquity": 0.7675105303611469,
+      "drawdown": -0.0003727901618882923
     },
     {
-      "date": "2024-04-02",
-      "riskScore": 0.8641637404327787,
-      "targetEquity": 0.767399297703867,
-      "drawdown": -0.0008362595672214423
+      "date": "2024-04-22",
+      "riskScore": 0.8470399275284526,
+      "targetEquity": 0.7632895826068287,
+      "drawdown": -0.017960072471547517
     },
     {
-      "date": "2024-04-11",
-      "riskScore": 0.8556372579859624,
-      "targetEquity": 0.765352941916631,
-      "drawdown": -0.00936274201403775
+      "date": "2024-04-29",
+      "riskScore": 0.9016528424922248,
+      "targetEquity": 0.7763966821981341,
+      "drawdown": -0.006097157507775175
     },
     {
-      "date": "2024-04-18",
-      "riskScore": 0.8598137903527792,
-      "targetEquity": 0.766355309684667,
-      "drawdown": -0.00518620964722083
-    },
-    {
-      "date": "2024-04-25",
-      "riskScore": 0.8481533267406747,
-      "targetEquity": 0.763556798417762,
-      "drawdown": -0.01684667325932543
-    },
-    {
-      "date": "2024-05-07",
+      "date": "2024-05-09",
       "riskScore": 0.9077500000000001,
       "targetEquity": 0.77786,
       "drawdown": 0.0
     },
     {
-      "date": "2024-05-14",
-      "riskScore": 0.9064239549404784,
-      "targetEquity": 0.7775417491857148,
-      "drawdown": -0.0013260450595214968
+      "date": "2024-05-16",
+      "riskScore": 0.9077500000000001,
+      "targetEquity": 0.77786,
+      "drawdown": 0.0
     },
     {
-      "date": "2024-05-21",
-      "riskScore": 0.9066072611164626,
-      "targetEquity": 0.777585742667951,
-      "drawdown": -0.001142738883537442
+      "date": "2024-05-23",
+      "riskScore": 0.893275207609342,
+      "targetEquity": 0.7743860498262422,
+      "drawdown": -0.0054747923906579565
     },
     {
-      "date": "2024-05-28",
-      "riskScore": 0.8914505633083298,
-      "targetEquity": 0.7739481351939992,
-      "drawdown": -0.0072994366916701026
+      "date": "2024-05-30",
+      "riskScore": 0.8848668574785439,
+      "targetEquity": 0.7723680457948506,
+      "drawdown": -0.013883142521456171
     },
     {
-      "date": "2024-06-04",
-      "riskScore": 0.8894312797536523,
-      "targetEquity": 0.7734635071408766,
-      "drawdown": -0.009318720246347612
+      "date": "2024-06-06",
+      "riskScore": 0.8935955057715255,
+      "targetEquity": 0.7744629213851661,
+      "drawdown": -0.005154494228474582
     },
     {
-      "date": "2024-06-12",
-      "riskScore": 0.8936547914118718,
-      "targetEquity": 0.7744771499388493,
-      "drawdown": -0.005095208588128286
+      "date": "2024-06-14",
+      "riskScore": 0.8734314100877218,
+      "targetEquity": 0.7696235384210532,
+      "drawdown": -0.0028185899122781244
     },
     {
-      "date": "2024-06-19",
-      "riskScore": 0.8740991438530825,
-      "targetEquity": 0.7697837945247399,
-      "drawdown": -0.002150856146917568
+      "date": "2024-06-21",
+      "riskScore": 0.8740291479635531,
+      "targetEquity": 0.7697669955112527,
+      "drawdown": -0.002220852036446952
     },
     {
-      "date": "2024-06-26",
-      "riskScore": 0.8706649429917033,
-      "targetEquity": 0.7689595863180089,
-      "drawdown": -0.005585057008296701
-    },
-    {
-      "date": "2024-07-03",
+      "date": "2024-06-28",
       "riskScore": 0.87625,
       "targetEquity": 0.7703,
       "drawdown": 0.0
     },
     {
-      "date": "2024-07-10",
-      "riskScore": 0.8698317612461526,
-      "targetEquity": 0.7687596226990767,
-      "drawdown": -0.006418238753847505
+      "date": "2024-07-05",
+      "riskScore": 0.8739159455249781,
+      "targetEquity": 0.7697398269259947,
+      "drawdown": -0.002334054475021996
     },
     {
-      "date": "2024-07-17",
-      "riskScore": 0.87625,
-      "targetEquity": 0.7703,
+      "date": "2024-07-12",
+      "riskScore": 0.8922789593768181,
+      "targetEquity": 0.7741469502504364,
+      "drawdown": -0.006471040623181934
+    },
+    {
+      "date": "2024-07-19",
+      "riskScore": 0.8672524174856489,
+      "targetEquity": 0.7681405801965557,
+      "drawdown": -0.008997582514351232
+    },
+    {
+      "date": "2024-07-26",
+      "riskScore": 0.818597798319586,
+      "targetEquity": 0.7564634715967007,
+      "drawdown": -0.035152201680414
+    },
+    {
+      "date": "2024-08-02",
+      "riskScore": 0.8194408109978537,
+      "targetEquity": 0.7566657946394849,
+      "drawdown": -0.0343091890021463
+    },
+    {
+      "date": "2024-08-09",
+      "riskScore": 0.791883501576657,
+      "targetEquity": 0.7500520403783977,
+      "drawdown": -0.05395483070768259
+    },
+    {
+      "date": "2024-08-16",
+      "riskScore": 0.7994143043354069,
+      "targetEquity": 0.7518594330404977,
+      "drawdown": -0.02506368274630144
+    },
+    {
+      "date": "2024-08-23",
+      "riskScore": 0.7781630427349047,
+      "targetEquity": 0.7467591302563772,
+      "drawdown": -0.029712377257173905
+    },
+    {
+      "date": "2024-08-30",
+      "riskScore": 0.7842915507025272,
+      "targetEquity": 0.7482299721686065,
+      "drawdown": -0.035708449297472744
+    },
+    {
+      "date": "2024-09-06",
+      "riskScore": 0.71552880810167,
+      "targetEquity": 0.7317269139444008,
+      "drawdown": -0.05722119189832997
+    },
+    {
+      "date": "2024-09-13",
+      "riskScore": 0.7113569675021347,
+      "targetEquity": 0.7307256722005123,
+      "drawdown": -0.06139303249786521
+    },
+    {
+      "date": "2024-09-24",
+      "riskScore": 0.7895337475545581,
+      "targetEquity": 0.749488099413094,
+      "drawdown": -0.030466252445441988
+    },
+    {
+      "date": "2024-10-08",
+      "riskScore": 0.8371740460390389,
+      "targetEquity": 0.7609217710493694,
       "drawdown": 0.0
     },
     {
-      "date": "2024-07-24",
-      "riskScore": 0.8291776137363036,
-      "targetEquity": 0.759002627296713,
-      "drawdown": -0.0245723862636964
+      "date": "2024-10-15",
+      "riskScore": 0.8106850435152573,
+      "targetEquity": 0.7545644104436617,
+      "drawdown": -0.022982406177257775
     },
     {
-      "date": "2024-07-31",
-      "riskScore": 0.8297759589663127,
-      "targetEquity": 0.7591462301519152,
-      "drawdown": -0.023974041033687388
+      "date": "2024-10-22",
+      "riskScore": 0.7999440422707589,
+      "targetEquity": 0.7519865701449822,
+      "drawdown": -0.011014940217932034
     },
     {
-      "date": "2024-08-07",
-      "riskScore": 0.7742630924050407,
-      "targetEquity": 0.7458231421772098,
-      "drawdown": -0.05802627370655422
+      "date": "2024-10-29",
+      "riskScore": 0.7843166816459035,
+      "targetEquity": 0.7482360035950169,
+      "drawdown": -0.015795945981226023
     },
     {
-      "date": "2024-08-14",
-      "riskScore": 0.8065877278559441,
-      "targetEquity": 0.7535810546854266,
-      "drawdown": -0.040592627030145656
+      "date": "2024-11-05",
+      "riskScore": 0.8555184137958536,
+      "targetEquity": 0.7653244193110048,
+      "drawdown": -0.010384127105269259
     },
     {
-      "date": "2024-08-21",
-      "riskScore": 0.7703118434805887,
-      "targetEquity": 0.7448748424353413,
-      "drawdown": -0.028557766865862533
+      "date": "2024-11-12",
+      "riskScore": 0.9338492155218288,
+      "targetEquity": 0.7841238117252389,
+      "drawdown": -0.0044275267790967465
     },
     {
-      "date": "2024-08-28",
-      "riskScore": 0.7852119176375023,
-      "targetEquity": 0.7484508602330006,
-      "drawdown": -0.03115191161499986
+      "date": "2024-11-19",
+      "riskScore": 0.9244677369446492,
+      "targetEquity": 0.7818722568667158,
+      "drawdown": -0.013159136457691512
     },
     {
-      "date": "2024-09-04",
-      "riskScore": 0.7177583138047177,
-      "targetEquity": 0.7322619953131323,
-      "drawdown": -0.054991686195282385
+      "date": "2024-11-26",
+      "riskScore": 0.8816636025210698,
+      "targetEquity": 0.7715992646050568,
+      "drawdown": -0.01842439952481567
     },
     {
-      "date": "2024-09-11",
-      "riskScore": 0.6255178953573237,
-      "targetEquity": 0.7101242948857577,
-      "drawdown": -0.06848210464267623
-    },
-    {
-      "date": "2024-09-20",
-      "riskScore": 0.7204715560129089,
-      "targetEquity": 0.7329131734430981,
-      "drawdown": -0.05227844398709114
-    },
-    {
-      "date": "2024-09-27",
-      "riskScore": 0.887852020401666,
-      "targetEquity": 0.7730844848963999,
+      "date": "2024-12-03",
+      "riskScore": 0.9356458478730141,
+      "targetEquity": 0.7845550034895235,
       "drawdown": 0.0
     },
     {
-      "date": "2024-10-11",
-      "riskScore": 0.7796034741344413,
-      "targetEquity": 0.747104833792266,
-      "drawdown": -0.03269425136767723
-    },
-    {
-      "date": "2024-10-18",
-      "riskScore": 0.8243241987451748,
-      "targetEquity": 0.757837807698842,
-      "drawdown": -0.009488211088540921
-    },
-    {
-      "date": "2024-10-25",
-      "riskScore": 0.8181729811482321,
-      "targetEquity": 0.7563615154755757,
-      "drawdown": -0.014139870119155074
-    },
-    {
-      "date": "2024-11-01",
-      "riskScore": 0.8250500445973785,
-      "targetEquity": 0.7580120107033709,
-      "drawdown": -0.02539308703501575
-    },
-    {
-      "date": "2024-11-08",
-      "riskScore": 0.930604140030487,
-      "targetEquity": 0.7833449936073169,
-      "drawdown": -0.0025126363985439326
-    },
-    {
-      "date": "2024-11-15",
-      "riskScore": 0.9169096825686478,
-      "targetEquity": 0.7800583238164756,
-      "drawdown": -0.021132342975876184
-    },
-    {
-      "date": "2024-11-22",
-      "riskScore": 0.8776250937741548,
-      "targetEquity": 0.7706300225057972,
-      "drawdown": -0.020428725755096244
-    },
-    {
-      "date": "2024-11-29",
-      "riskScore": 0.8904696697574521,
-      "targetEquity": 0.7737127207417885,
-      "drawdown": -0.006777120610176546
-    },
-    {
-      "date": "2024-12-06",
-      "riskScore": 0.955926404611021,
-      "targetEquity": 0.7894223371066451,
+      "date": "2024-12-10",
+      "riskScore": 0.9604077639031283,
+      "targetEquity": 0.7904978633367508,
       "drawdown": 0.0
     },
     {
-      "date": "2024-12-13",
-      "riskScore": 0.9621737378989084,
-      "targetEquity": 0.790921697095738,
-      "drawdown": -0.008086291984080174
+      "date": "2024-12-17",
+      "riskScore": 0.9635400494669435,
+      "targetEquity": 0.7912496118720664,
+      "drawdown": -0.006122494455372385
     },
     {
-      "date": "2024-12-20",
-      "riskScore": 0.9440598561166993,
-      "targetEquity": 0.7865743654680079,
-      "drawdown": -0.019002181191458578
+      "date": "2024-12-24",
+      "riskScore": 0.9564073488885874,
+      "targetEquity": 0.789537763733261,
+      "drawdown": -0.005741983584892862
     },
     {
-      "date": "2024-12-27",
-      "riskScore": 0.9762349345390253,
-      "targetEquity": 0.7942963842893662,
-      "drawdown": -0.002249280661922759
+      "date": "2024-12-31",
+      "riskScore": 0.9881916670733759,
+      "targetEquity": 0.7971660000976103,
+      "drawdown": -0.011808332926624088
     },
     {
-      "date": "2025-01-06",
-      "riskScore": 0.9231146092130691,
-      "targetEquity": 0.7815475062111367,
-      "drawdown": -0.02288539078693086
+      "date": "2025-01-08",
+      "riskScore": 0.9244154205661677,
+      "targetEquity": 0.7818597009358803,
+      "drawdown": -0.021584579433832407
     },
     {
-      "date": "2025-01-13",
-      "riskScore": 0.8809385268853214,
-      "targetEquity": 0.7714252464524771,
-      "drawdown": -0.04031147311467853
+      "date": "2025-01-15",
+      "riskScore": 0.9492768758236263,
+      "targetEquity": 0.7878264501976704,
+      "drawdown": -0.028223124176373737
     },
     {
-      "date": "2025-01-20",
-      "riskScore": 0.9274605733869712,
-      "targetEquity": 0.7825905376128731,
-      "drawdown": -0.018539426613028875
+      "date": "2025-01-22",
+      "riskScore": 0.9295184751338486,
+      "targetEquity": 0.7830844340321237,
+      "drawdown": -0.020981524866151458
     },
     {
-      "date": "2025-01-27",
-      "riskScore": 0.9491663461098652,
-      "targetEquity": 0.7877999230663677,
-      "drawdown": -0.01933365389013486
+      "date": "2025-02-06",
+      "riskScore": 0.963931967073715,
+      "targetEquity": 0.7913436720976916,
+      "drawdown": -0.013568032926284945
     },
     {
-      "date": "2025-02-11",
-      "riskScore": 0.9455838701325991,
-      "targetEquity": 0.7869401288318238,
-      "drawdown": -0.009416129867400924
+      "date": "2025-02-13",
+      "riskScore": 0.9381361245147886,
+      "targetEquity": 0.7851526698835493,
+      "drawdown": -0.007863875485211502
     },
     {
-      "date": "2025-02-18",
-      "riskScore": 0.9630809180576827,
-      "targetEquity": 0.791139420333844,
-      "drawdown": -0.0054190819423173275
+      "date": "2025-02-20",
+      "riskScore": 0.9716039470363709,
+      "targetEquity": 0.793184947288729,
+      "drawdown": -0.00589605296362905
     },
     {
-      "date": "2025-02-25",
-      "riskScore": 0.9159652652791483,
-      "targetEquity": 0.7798316636669956,
-      "drawdown": -0.016534734720851763
+      "date": "2025-02-27",
+      "riskScore": 0.9217198700871876,
+      "targetEquity": 0.781212768820925,
+      "drawdown": -0.010780129912812408
     },
     {
-      "date": "2025-03-04",
-      "riskScore": 0.9359106541333133,
-      "targetEquity": 0.7846185569919952,
-      "drawdown": -0.028089345866686655
+      "date": "2025-03-06",
+      "riskScore": 0.9576355483269421,
+      "targetEquity": 0.7898325315984661,
+      "drawdown": -0.019864451673057837
     },
     {
-      "date": "2025-03-11",
-      "riskScore": 0.8369316685929655,
-      "targetEquity": 0.7608636004623117,
-      "drawdown": -0.03931833140703456
+      "date": "2025-03-13",
+      "riskScore": 0.8427196347348285,
+      "targetEquity": 0.7622527123363588,
+      "drawdown": -0.04253036526517151
     },
     {
-      "date": "2025-03-18",
-      "riskScore": 0.8789221007395771,
-      "targetEquity": 0.7709413041774985,
-      "drawdown": -0.02882789926042284
+      "date": "2025-03-20",
+      "riskScore": 0.893348208076123,
+      "targetEquity": 0.7744035699382695,
+      "drawdown": -0.02565179192387701
     },
     {
-      "date": "2025-03-25",
-      "riskScore": 0.9414446871748885,
-      "targetEquity": 0.7859467249219733,
-      "drawdown": -0.022555312825111584
+      "date": "2025-03-27",
+      "riskScore": 0.9143696013057698,
+      "targetEquity": 0.7794487043133849,
+      "drawdown": -0.027130398694230173
     },
     {
-      "date": "2025-04-01",
-      "riskScore": 0.839992426266936,
-      "targetEquity": 0.7615981823040647,
-      "drawdown": -0.03625757373306393
+      "date": "2025-04-03",
+      "riskScore": 0.8373181274697954,
+      "targetEquity": 0.760956350592751,
+      "drawdown": -0.041181872530204555
     },
     {
-      "date": "2025-04-09",
-      "riskScore": 0.5336862883338831,
-      "targetEquity": 0.688084709200132,
-      "drawdown": -0.08769243446132091
+      "date": "2025-04-11",
+      "riskScore": 0.6163042097522641,
+      "targetEquity": 0.7079130103405434,
+      "drawdown": -0.056188242207145134
     },
     {
-      "date": "2025-04-16",
-      "riskScore": 0.5808304435260094,
-      "targetEquity": 0.6993993064462423,
-      "drawdown": -0.04983792422163558
+      "date": "2025-04-18",
+      "riskScore": 0.6045044039730332,
+      "targetEquity": 0.705081056953528,
+      "drawdown": -0.05004615633545628
     },
     {
-      "date": "2025-04-23",
-      "riskScore": 0.6776140416955276,
-      "targetEquity": 0.7226273700069267,
-      "drawdown": -0.045089244274030715
+      "date": "2025-04-25",
+      "riskScore": 0.650478188099163,
+      "targetEquity": 0.7161147651437991,
+      "drawdown": -0.037383241015328195
     },
     {
-      "date": "2025-04-30",
-      "riskScore": 0.649363038004994,
-      "targetEquity": 0.7158471291211986,
-      "drawdown": -0.039991866576638446
+      "date": "2025-05-07",
+      "riskScore": 0.6603372843242421,
+      "targetEquity": 0.7184809482378182,
+      "drawdown": -0.028662379579941777
     },
     {
-      "date": "2025-05-12",
-      "riskScore": 0.8057322404899214,
-      "targetEquity": 0.7533757377175812,
-      "drawdown": -0.01814013944787063
+      "date": "2025-05-14",
+      "riskScore": 0.90996787305698,
+      "targetEquity": 0.7783922895336752,
+      "drawdown": -0.004092741479196249
     },
     {
-      "date": "2025-05-19",
-      "riskScore": 0.78975298054014,
-      "targetEquity": 0.7495407153296336,
-      "drawdown": -0.013287561170549633
+      "date": "2025-05-21",
+      "riskScore": 0.7962630967218933,
+      "targetEquity": 0.7511031432132544,
+      "drawdown": -0.006476905774616126
     },
     {
-      "date": "2025-05-26",
-      "riskScore": 0.7872897893259863,
-      "targetEquity": 0.7489495494382368,
-      "drawdown": -0.01368601972029615
+      "date": "2025-05-28",
+      "riskScore": 0.8074322932320395,
+      "targetEquity": 0.7537837503756895,
+      "drawdown": -0.011236502899443557
     },
     {
-      "date": "2025-06-03",
-      "riskScore": 0.8010555135084896,
-      "targetEquity": 0.7522533232420375,
-      "drawdown": -0.0066721396869515726
+      "date": "2025-06-05",
+      "riskScore": 0.890794154870244,
+      "targetEquity": 0.7737905971688586,
+      "drawdown": -0.0022477479007683154
     },
     {
-      "date": "2025-06-10",
-      "riskScore": 0.8817515787348855,
-      "targetEquity": 0.7716203788963725,
-      "drawdown": -0.003110040158246119
+      "date": "2025-06-12",
+      "riskScore": 0.8618713692188538,
+      "targetEquity": 0.766849128612525,
+      "drawdown": -0.00011465016117528926
     },
     {
-      "date": "2025-06-17",
-      "riskScore": 0.8432474452911551,
-      "targetEquity": 0.7623793868698773,
-      "drawdown": -0.0026613707280319643
+      "date": "2025-06-19",
+      "riskScore": 0.8402578882534435,
+      "targetEquity": 0.7616618931808264,
+      "drawdown": -0.005924748925352108
     },
     {
-      "date": "2025-06-24",
-      "riskScore": 0.8413846528312106,
-      "targetEquity": 0.7619323166794905,
+      "date": "2025-06-26",
+      "riskScore": 0.9077659092204722,
+      "targetEquity": 0.7778638182129134,
       "drawdown": 0.0
     },
     {
-      "date": "2025-07-01",
-      "riskScore": 0.9159408558357562,
-      "targetEquity": 0.7798258054005816,
+      "date": "2025-07-03",
+      "riskScore": 0.9055656860383858,
+      "targetEquity": 0.7773357646492127,
       "drawdown": 0.0
     },
     {
-      "date": "2025-07-08",
-      "riskScore": 0.9235,
-      "targetEquity": 0.78164,
+      "date": "2025-07-10",
+      "riskScore": 0.942625,
+      "targetEquity": 0.7862300000000001,
       "drawdown": 0.0
     },
     {
-      "date": "2025-07-15",
-      "riskScore": 0.9572499999999999,
-      "targetEquity": 0.78974,
+      "date": "2025-07-17",
+      "riskScore": 0.946,
+      "targetEquity": 0.7870400000000001,
       "drawdown": 0.0
     },
     {
-      "date": "2025-07-22",
+      "date": "2025-07-24",
       "riskScore": 0.96625,
       "targetEquity": 0.7919,
       "drawdown": 0.0
     },
     {
-      "date": "2025-07-29",
+      "date": "2025-07-31",
+      "riskScore": 0.9961537640187514,
+      "targetEquity": 0.7990769033645004,
+      "drawdown": -0.003846235981248669
+    },
+    {
+      "date": "2025-08-07",
       "riskScore": 0.96625,
       "targetEquity": 0.7919,
       "drawdown": 0.0
     },
     {
-      "date": "2025-08-05",
-      "riskScore": 0.9656831467979194,
-      "targetEquity": 0.7917639552315007,
-      "drawdown": -0.0005668532020804973
-    },
-    {
-      "date": "2025-08-12",
-      "riskScore": 0.983125,
-      "targetEquity": 0.79595,
-      "drawdown": 0.0
-    },
-    {
-      "date": "2025-08-19",
-      "riskScore": 0.9966739322563176,
-      "targetEquity": 0.7992017437415163,
-      "drawdown": -0.0033260677436823816
-    },
-    {
-      "date": "2025-08-26",
-      "riskScore": 0.9960767488397582,
-      "targetEquity": 0.799058419721542,
-      "drawdown": -0.003923251160241836
-    },
-    {
-      "date": "2025-09-02",
-      "riskScore": 0.9988923885491883,
-      "targetEquity": 0.7997341732518053,
-      "drawdown": -0.0011076114508118406
-    },
-    {
-      "date": "2025-09-09",
-      "riskScore": 0.9951610244925486,
-      "targetEquity": 0.7988386458782117,
-      "drawdown": -0.004838975507451382
-    },
-    {
-      "date": "2025-09-16",
-      "riskScore": 0.9775,
-      "targetEquity": 0.7946,
-      "drawdown": 0.0
-    },
-    {
-      "date": "2025-09-23",
-      "riskScore": 0.9775,
-      "targetEquity": 0.7946,
-      "drawdown": 0.0
-    },
-    {
-      "date": "2025-09-30",
-      "riskScore": 0.9775,
-      "targetEquity": 0.7946,
-      "drawdown": 0.0
-    },
-    {
-      "date": "2025-10-15",
-      "riskScore": 0.9730776004038895,
-      "targetEquity": 0.7935386240969335,
-      "drawdown": -0.00442239959611046
-    },
-    {
-      "date": "2025-10-22",
-      "riskScore": 0.9775,
-      "targetEquity": 0.7946,
-      "drawdown": 0.0
-    },
-    {
-      "date": "2025-10-29",
-      "riskScore": 0.9775,
-      "targetEquity": 0.7946,
-      "drawdown": 0.0
-    },
-    {
-      "date": "2025-11-05",
-      "riskScore": 0.9825367064440029,
-      "targetEquity": 0.7958088095465607,
-      "drawdown": -0.017463293555997184
-    },
-    {
-      "date": "2025-11-12",
+      "date": "2025-08-14",
       "riskScore": 1.0,
       "targetEquity": 0.8,
       "drawdown": 0.0
     },
     {
-      "date": "2025-11-19",
-      "riskScore": 0.9682259280744432,
-      "targetEquity": 0.7923742227378665,
-      "drawdown": -0.03177407192555681
-    },
-    {
-      "date": "2025-11-26",
-      "riskScore": 0.951733073094527,
-      "targetEquity": 0.7884159375426866,
-      "drawdown": -0.025766926905472998
-    },
-    {
-      "date": "2025-12-03",
-      "riskScore": 0.9704581411719728,
-      "targetEquity": 0.7929099538812735,
-      "drawdown": -0.02054185882802717
-    },
-    {
-      "date": "2025-12-10",
-      "riskScore": 0.9539521363842263,
-      "targetEquity": 0.7889485127322143,
-      "drawdown": -0.023547863615773768
-    },
-    {
-      "date": "2025-12-17",
-      "riskScore": 0.9165617635401235,
-      "targetEquity": 0.7799748232496297,
-      "drawdown": -0.027188236459876447
-    },
-    {
-      "date": "2025-12-24",
-      "riskScore": 0.9414532471359092,
-      "targetEquity": 0.7859487793126183,
-      "drawdown": -0.01579675286409088
-    },
-    {
-      "date": "2025-12-31",
-      "riskScore": 0.9345942588897134,
-      "targetEquity": 0.7843026221335312,
-      "drawdown": -0.022655741110286565
-    },
-    {
-      "date": "2026-01-09",
-      "riskScore": 0.9583031396650867,
-      "targetEquity": 0.7899927535196208,
-      "drawdown": -0.00794686033491332
-    },
-    {
-      "date": "2026-01-16",
-      "riskScore": 0.9354157431547534,
-      "targetEquity": 0.7844997783571408,
-      "drawdown": -0.00833425684524658
-    },
-    {
-      "date": "2026-01-23",
-      "riskScore": 0.9264456804686638,
-      "targetEquity": 0.7823469633124793,
-      "drawdown": -0.0038043195313360867
-    },
-    {
-      "date": "2026-01-30",
-      "riskScore": 0.9003815985716406,
-      "targetEquity": 0.7760915836571938,
-      "drawdown": -0.007368401428359372
-    },
-    {
-      "date": "2026-02-06",
-      "riskScore": 0.8552751470015869,
-      "targetEquity": 0.7652660352803808,
-      "drawdown": -0.02997485299841307
-    },
-    {
-      "date": "2026-02-13",
-      "riskScore": 0.8868577143132141,
-      "targetEquity": 0.7728458514351715,
-      "drawdown": -0.020892285686785805
-    },
-    {
-      "date": "2026-03-02",
-      "riskScore": 0.9162696133288737,
-      "targetEquity": 0.7799047071989298,
-      "drawdown": -0.013980386671126332
-    },
-    {
-      "date": "2026-03-09",
-      "riskScore": 0.87413601936171,
-      "targetEquity": 0.7697926446468104,
-      "drawdown": -0.03361398063828991
-    },
-    {
-      "date": "2026-03-16",
-      "riskScore": 0.933707443458411,
-      "targetEquity": 0.7840897864300187,
-      "drawdown": -0.030292556541589022
-    },
-    {
-      "date": "2026-03-23",
-      "riskScore": 0.6631632162360395,
-      "targetEquity": 0.7191591718966495,
-      "drawdown": -0.08355014102399416
-    },
-    {
-      "date": "2026-03-30",
-      "riskScore": 0.6973509173896073,
-      "targetEquity": 0.7273642201735058,
-      "drawdown": -0.0660559002195018
-    },
-    {
-      "date": "2026-04-07",
-      "riskScore": 0.6832045937538185,
-      "targetEquity": 0.7239691025009165,
-      "drawdown": -0.0635490389180392
-    },
-    {
-      "date": "2026-04-14",
-      "riskScore": 0.7738033131563959,
-      "targetEquity": 0.7457127951575351,
-      "drawdown": -0.02852637082738385
-    },
-    {
-      "date": "2026-04-21",
-      "riskScore": 0.8586909104954434,
-      "targetEquity": 0.7660858185189064,
-      "drawdown": -0.012607478793050908
-    },
-    {
-      "date": "2026-04-28",
-      "riskScore": 0.8998255017143832,
-      "targetEquity": 0.7759581204114521,
-      "drawdown": -0.004646878892330841
-    },
-    {
-      "date": "2026-05-08",
-      "riskScore": 0.9060684095079599,
-      "targetEquity": 0.7774564182819104,
-      "drawdown": -0.0025348115046500697
-    },
-    {
-      "date": "2026-05-15",
-      "riskScore": 0.9503642252147462,
-      "targetEquity": 0.7880874140515391,
-      "drawdown": -0.012578822171917525
-    },
-    {
-      "date": "2026-05-22",
-      "riskScore": 0.931660697844424,
-      "targetEquity": 0.7835985674826618,
-      "drawdown": -0.008265825436789442
-    },
-    {
-      "date": "2026-05-29",
-      "riskScore": 0.9087446265270285,
-      "targetEquity": 0.7780987103664869,
-      "drawdown": -0.0015033139765512349
-    },
-    {
-      "date": "2026-06-05",
-      "riskScore": 0.8623126310570248,
-      "targetEquity": 0.766955031453686,
-      "drawdown": -0.019953513667267497
-    },
-    {
-      "date": "2026-06-12",
-      "riskScore": 0.8437203778456464,
-      "targetEquity": 0.7624928906829551,
-      "drawdown": -0.029936536284882465
-    },
-    {
-      "date": "2026-06-22",
-      "riskScore": 0.8257515978824987,
-      "targetEquity": 0.7581803834917997,
-      "drawdown": -0.006930361621342862
-    },
-    {
-      "date": "2026-06-29",
-      "riskScore": 0.8015720428048148,
-      "targetEquity": 0.7523772902731556,
-      "drawdown": -0.0216862940914625
-    },
-    {
-      "date": "2026-07-06",
-      "riskScore": 0.8078587663136652,
-      "targetEquity": 0.7538861039152797,
-      "drawdown": -0.021481017144926673
-    },
-    {
-      "date": "2026-07-13",
-      "riskScore": 0.8473921159339828,
-      "targetEquity": 0.7633741078241559,
-      "drawdown": -0.025396641498642958
-    },
-    {
-      "date": "2026-07-20",
-      "riskScore": 0.7870041100387506,
-      "targetEquity": 0.7488809864093002,
-      "drawdown": -0.03887872433223627
-    },
-    {
-      "date": "2026-07-27",
-      "riskScore": 0.8240765803254588,
-      "targetEquity": 0.7577783792781102,
-      "drawdown": -0.026524261142741756
-    },
-    {
-      "date": "2026-08-03",
-      "riskScore": 0.7775442059393449,
-      "targetEquity": 0.7466106094254429,
-      "drawdown": -0.037545061583045714
-    },
-    {
-      "date": "2026-08-10",
-      "riskScore": 0.7549244868499771,
-      "targetEquity": 0.7411818768439945,
-      "drawdown": -0.004078332565909726
-    },
-    {
-      "date": "2026-08-17",
-      "riskScore": 0.8159718902353505,
-      "targetEquity": 0.7558332536564842,
+      "date": "2025-08-21",
+      "riskScore": 1.0,
+      "targetEquity": 0.8,
       "drawdown": 0.0
     },
     {
-      "date": "2026-08-24",
-      "riskScore": 0.8041919751733657,
-      "targetEquity": 0.7530060740416078,
-      "drawdown": -0.017650808752623703
+      "date": "2025-08-28",
+      "riskScore": 1.0,
+      "targetEquity": 0.8,
+      "drawdown": 0.0
     },
     {
-      "date": "2026-08-31",
-      "riskScore": 0.8457585515041486,
-      "targetEquity": 0.7629820523609956,
-      "drawdown": -0.00792387345297385
+      "date": "2025-09-04",
+      "riskScore": 0.9862863638924109,
+      "targetEquity": 0.7967087273341786,
+      "drawdown": -0.013713636107589244
     },
     {
-      "date": "2026-09-07",
-      "riskScore": 0.8642938622808769,
-      "targetEquity": 0.7674305269474104,
-      "drawdown": -0.014206137719123046
+      "date": "2025-09-11",
+      "riskScore": 1.0,
+      "targetEquity": 0.8,
+      "drawdown": 0.0
     },
     {
-      "date": "2026-09-14",
-      "riskScore": 0.8951529090696266,
-      "targetEquity": 0.7748366981767104,
-      "drawdown": -0.026097090930373268
+      "date": "2025-09-18",
+      "riskScore": 0.9727501271683721,
+      "targetEquity": 0.7934600305204094,
+      "drawdown": -0.004749872831627977
     },
     {
-      "date": "2026-09-21",
-      "riskScore": 0.921651680563417,
-      "targetEquity": 0.7811964033352201,
-      "drawdown": -0.013098319436583017
+      "date": "2025-09-25",
+      "riskScore": 0.9767620673654305,
+      "targetEquity": 0.7944228961677033,
+      "drawdown": -0.0007379326345695603
     },
     {
-      "date": "2026-09-29",
-      "riskScore": 0.761066788196016,
-      "targetEquity": 0.7426560291670439,
-      "drawdown": -0.027433211803983837
+      "date": "2025-10-10",
+      "riskScore": 0.9704568776389197,
+      "targetEquity": 0.7929096506333408,
+      "drawdown": -0.0070431223610801785
     },
     {
-      "date": "2026-10-13",
-      "riskScore": 0.855786795261019,
-      "targetEquity": 0.7653888308626446,
-      "drawdown": -0.022713204738981085
+      "date": "2025-10-17",
+      "riskScore": 0.9659297759394336,
+      "targetEquity": 0.7918231462254641,
+      "drawdown": -0.011570224060566403
     },
     {
-      "date": "2026-10-20",
-      "riskScore": 0.7986244335363295,
-      "targetEquity": 0.751669864048719,
-      "drawdown": -0.04387556646367052
+      "date": "2025-10-24",
+      "riskScore": 0.9775,
+      "targetEquity": 0.7946,
+      "drawdown": 0.0
+    },
+    {
+      "date": "2025-10-31",
+      "riskScore": 0.9679381964547289,
+      "targetEquity": 0.7923051671491349,
+      "drawdown": -0.00956180354527103
+    },
+    {
+      "date": "2025-11-07",
+      "riskScore": 0.9876585012840047,
+      "targetEquity": 0.7970380403081612,
+      "drawdown": -0.012341498715995325
+    },
+    {
+      "date": "2025-11-14",
+      "riskScore": 0.9872628452076715,
+      "targetEquity": 0.7969430828498413,
+      "drawdown": -0.01273715479232862
+    },
+    {
+      "date": "2025-11-21",
+      "riskScore": 0.957167573642721,
+      "targetEquity": 0.789720217674253,
+      "drawdown": -0.04283242635727913
+    },
+    {
+      "date": "2025-11-28",
+      "riskScore": 0.9556272330810112,
+      "targetEquity": 0.7893505359394427,
+      "drawdown": -0.021872766918988762
+    },
+    {
+      "date": "2025-12-05",
+      "riskScore": 0.9708896660974384,
+      "targetEquity": 0.7930135198633853,
+      "drawdown": -0.02011033390256145
+    },
+    {
+      "date": "2025-12-12",
+      "riskScore": 0.9539106756964082,
+      "targetEquity": 0.7889385621671381,
+      "drawdown": -0.02358932430359184
+    },
+    {
+      "date": "2025-12-19",
+      "riskScore": 0.9666315012378901,
+      "targetEquity": 0.7919915602970937,
+      "drawdown": -0.02436849876210978
+    },
+    {
+      "date": "2025-12-26",
+      "riskScore": 0.9423830311089307,
+      "targetEquity": 0.7861719274661434,
+      "drawdown": -0.014866968891069199
+    },
+    {
+      "date": "2026-01-06",
+      "riskScore": 0.9519786270196569,
+      "targetEquity": 0.7884748704847176,
+      "drawdown": -0.005271372980343081
+    },
+    {
+      "date": "2026-01-13",
+      "riskScore": 0.9390595288786825,
+      "targetEquity": 0.7853742869308838,
+      "drawdown": -0.004690471121317374
+    },
+    {
+      "date": "2026-01-20",
+      "riskScore": 0.9342443262839333,
+      "targetEquity": 0.7842186383081441,
+      "drawdown": -0.009505673716066698
+    },
+    {
+      "date": "2026-01-27",
+      "riskScore": 0.9284197886080183,
+      "targetEquity": 0.7828207492659245,
+      "drawdown": -0.0018302113919815843
+    },
+    {
+      "date": "2026-02-03",
+      "riskScore": 0.8841858996386625,
+      "targetEquity": 0.7722046159132789,
+      "drawdown": -0.02356410036133738
+    },
+    {
+      "date": "2026-02-10",
+      "riskScore": 0.8950237856962471,
+      "targetEquity": 0.7748057085670994,
+      "drawdown": -0.01272621430375287
+    },
+    {
+      "date": "2026-02-25",
+      "riskScore": 0.8927782770939434,
+      "targetEquity": 0.7742667865025464,
+      "drawdown": -0.014971722906056528
+    },
+    {
+      "date": "2026-03-04",
+      "riskScore": 0.8767350692969482,
+      "targetEquity": 0.7704164166312677,
+      "drawdown": -0.031014930703051724
+    },
+    {
+      "date": "2026-03-11",
+      "riskScore": 0.8843165684475922,
+      "targetEquity": 0.7722359764274223,
+      "drawdown": -0.023433431552407735
+    },
+    {
+      "date": "2026-03-18",
+      "riskScore": 0.9333031762353439,
+      "targetEquity": 0.7839927622964826,
+      "drawdown": -0.03069682376465621
+    },
+    {
+      "date": "2026-03-25",
+      "riskScore": 0.8222489950573237,
+      "targetEquity": 0.7573397588137577,
+      "drawdown": -0.05703175527997806
+    },
+    {
+      "date": "2026-04-01",
+      "riskScore": 0.7829666294460842,
+      "targetEquity": 0.7479119910670602,
+      "drawdown": -0.05062980983732546
+    },
+    {
+      "date": "2026-04-09",
+      "riskScore": 0.7295425203843735,
+      "targetEquity": 0.7350902048922496,
+      "drawdown": -0.042703485963515475
+    },
+    {
+      "date": "2026-04-16",
+      "riskScore": 0.821664539620812,
+      "targetEquity": 0.757199489508995,
+      "drawdown": -0.014448158681851786
+    },
+    {
+      "date": "2026-04-23",
+      "riskScore": 0.8808630162118727,
+      "targetEquity": 0.7714071238908495,
+      "drawdown": -0.011111031813874184
+    },
+    {
+      "date": "2026-04-30",
+      "riskScore": 0.8832178386410838,
+      "targetEquity": 0.7719722812738601,
+      "drawdown": 0.0
+    },
+    {
+      "date": "2026-05-12",
+      "riskScore": 0.9635472846360271,
+      "targetEquity": 0.7912513483126467,
+      "drawdown": -0.0027027153639729296
+    },
+    {
+      "date": "2026-05-19",
+      "riskScore": 0.9264191197879612,
+      "targetEquity": 0.7823405887491108,
+      "drawdown": -0.015251336157140916
+    },
+    {
+      "date": "2026-05-26",
+      "riskScore": 0.9121080676599398,
+      "targetEquity": 0.7789059362383856,
+      "drawdown": -0.0032751400580943724
+    },
+    {
+      "date": "2026-06-02",
+      "riskScore": 0.9358805130143706,
+      "targetEquity": 0.784611323123449,
+      "drawdown": 0.0
+    },
+    {
+      "date": "2026-06-09",
+      "riskScore": 0.8560657584926348,
+      "targetEquity": 0.7654557820382324,
+      "drawdown": -0.02338293242476741
+    },
+    {
+      "date": "2026-06-16",
+      "riskScore": 0.7926150189109107,
+      "targetEquity": 0.7502276045386186,
+      "drawdown": -0.012211947893856379
+    },
+    {
+      "date": "2026-06-24",
+      "riskScore": 0.8118477465158558,
+      "targetEquity": 0.7548434591638054,
+      "drawdown": -0.021016809341492193
+    },
+    {
+      "date": "2026-07-01",
+      "riskScore": 0.8125321746542344,
+      "targetEquity": 0.7550077219170164,
+      "drawdown": -0.019298062121990922
+    },
+    {
+      "date": "2026-07-08",
+      "riskScore": 0.8493135752545571,
+      "targetEquity": 0.7638352580610936,
+      "drawdown": -0.024688972875333004
+    },
+    {
+      "date": "2026-07-15",
+      "riskScore": 0.8717671024078666,
+      "targetEquity": 0.769224104577888,
+      "drawdown": -0.015732897592133366
+    },
+    {
+      "date": "2026-07-22",
+      "riskScore": 0.8037419427755801,
+      "targetEquity": 0.7528980662661393,
+      "drawdown": -0.02276031972953596
+    },
+    {
+      "date": "2026-07-29",
+      "riskScore": 0.7660575061188739,
+      "targetEquity": 0.7438538014685299,
+      "drawdown": -0.03668606834093546
+    },
+    {
+      "date": "2026-08-05",
+      "riskScore": 0.8073118946591877,
+      "targetEquity": 0.753754854718205,
+      "drawdown": -0.012480684299215228
+    },
+    {
+      "date": "2026-08-12",
+      "riskScore": 0.8225407478499367,
+      "targetEquity": 0.7574097794839849,
+      "drawdown": -0.006057148532120693
+    },
+    {
+      "date": "2026-08-19",
+      "riskScore": 0.7751082585884121,
+      "targetEquity": 0.746025982061219,
+      "drawdown": -0.02056173090268587
+    },
+    {
+      "date": "2026-08-26",
+      "riskScore": 0.8257495923034626,
+      "targetEquity": 0.758179902152831,
+      "drawdown": -0.010614727230895071
+    },
+    {
+      "date": "2026-09-02",
+      "riskScore": 0.9007649264835624,
+      "targetEquity": 0.776183582356055,
+      "drawdown": -0.02048507351643747
+    },
+    {
+      "date": "2026-09-09",
+      "riskScore": 0.8647586363141253,
+      "targetEquity": 0.7675420727153901,
+      "drawdown": -0.013741363685874752
+    },
+    {
+      "date": "2026-09-16",
+      "riskScore": 0.8086985391133996,
+      "targetEquity": 0.754087649387216,
+      "drawdown": -0.022551460886600316
+    },
+    {
+      "date": "2026-09-23",
+      "riskScore": 0.9029293503436304,
+      "targetEquity": 0.7767030440824714,
+      "drawdown": -0.009320649656369584
+    },
+    {
+      "date": "2026-10-08",
+      "riskScore": 0.8524451947302403,
+      "targetEquity": 0.7645868467352577,
+      "drawdown": -0.026054805269759784
+    },
+    {
+      "date": "2026-10-15",
+      "riskScore": 0.8128131095488289,
+      "targetEquity": 0.7550751462917189,
+      "drawdown": -0.04318689045117108
+    },
+    {
+      "date": "2026-10-22",
+      "riskScore": 0.7830293400687895,
+      "targetEquity": 0.7479270416165096,
+      "drawdown": -0.05947065993121048
+    },
+    {
+      "date": "2026-10-29",
+      "riskScore": 0.7884251993206568,
+      "targetEquity": 0.7492220478369577,
+      "drawdown": -0.05407480067934334
     }
   ],
   "diagnostics": {
@@ -5291,7 +5242,7 @@
     "status": "OK",
     "period": {
       "start": "2021-11-29",
-      "end": "2026-10-20"
+      "end": "2026-10-29"
     },
     "costRate": 0.0005,
     "riskFreeRate": 0.0,
@@ -5315,19 +5266,19 @@
         "key": "A_FIXED_ANNUAL",
         "label": "A 固定配置·年度再平衡",
         "metrics": {
-          "cagr": 0.09009603313078873,
-          "annualVolatility": 0.11558188892793339,
+          "cagr": 0.08748165320820678,
+          "annualVolatility": 0.11551942905332108,
           "maxDrawdown": -0.1298513365530095,
-          "sharpe": 0.8348715602830703,
-          "sortino": 1.1592965570098543,
-          "calmar": 0.6938398596614261,
+          "sharpe": 0.812963096362609,
+          "sortino": 1.1282823080338704,
+          "calmar": 0.6737062207480162,
           "worstMonth": -0.0633587963110851,
           "worstYear": -0.10961446207635761,
           "rolling3YCagrMin": 0.06276974308042638,
-          "turnover": 0.04958694420852307,
+          "turnover": 0.049338318861516545,
           "tradeCount": 5.0,
           "recoveryDays": 350.0,
-          "timeUnderWater": 0.9003378378378378
+          "timeUnderWater": 0.9009235936188077
         },
         "nav": [
           {
@@ -6277,6 +6228,14 @@
           {
             "date": "2026-10-15",
             "value": 1.5255620144903286
+          },
+          {
+            "date": "2026-10-22",
+            "value": 1.5000944844378197
+          },
+          {
+            "date": "2026-10-29",
+            "value": 1.5100703730006775
           }
         ]
       },
@@ -6284,19 +6243,19 @@
         "key": "B_FIXED_5_25",
         "label": "B 固定配置·5/25阈值",
         "metrics": {
-          "cagr": 0.09679115764438317,
-          "annualVolatility": 0.11575975663556642,
+          "cagr": 0.09417066800728491,
+          "annualVolatility": 0.11568401130994116,
           "maxDrawdown": -0.1297722918212848,
-          "sharpe": 0.888810343170572,
-          "sortino": 1.2455706283324721,
-          "calmar": 0.7458538050455222,
+          "sharpe": 0.8670843823288992,
+          "sortino": 1.2144329334777757,
+          "calmar": 0.7256608223962903,
           "worstMonth": -0.06284026085076777,
           "worstYear": -0.10808786749648025,
           "rolling3YCagrMin": 0.063709154923564,
-          "turnover": 0.07856731325712657,
+          "turnover": 0.07817338243856717,
           "tradeCount": 8.0,
           "recoveryDays": 350.0,
-          "timeUnderWater": 0.8969594594594594
+          "timeUnderWater": 0.8975650713685979
         },
         "nav": [
           {
@@ -7246,6 +7205,14 @@
           {
             "date": "2026-10-15",
             "value": 1.5719691092020391
+          },
+          {
+            "date": "2026-10-22",
+            "value": 1.5459458277764564
+          },
+          {
+            "date": "2026-10-29",
+            "value": 1.5562710960737305
           }
         ]
       },
@@ -7253,19 +7220,19 @@
         "key": "C_MA200",
         "label": "C 200日均线过滤",
         "metrics": {
-          "cagr": 0.06731595339719276,
-          "annualVolatility": 0.08311776008395216,
+          "cagr": 0.06735634670469448,
+          "annualVolatility": 0.08306663409390906,
           "maxDrawdown": -0.08433450537841791,
-          "sharpe": 0.8574908378990327,
-          "sortino": 1.1747958417018172,
-          "calmar": 0.7982017929095441,
+          "sharpe": 0.8577321810788296,
+          "sortino": 1.1757077269726657,
+          "calmar": 0.7986807582787067,
           "worstMonth": -0.05833406565694377,
           "worstYear": -0.036533210664523086,
           "rolling3YCagrMin": 0.04436827312549574,
-          "turnover": 1.544294474693017,
+          "turnover": 1.53655149403996,
           "tradeCount": 59.0,
-          "recoveryDays": 171.0,
-          "timeUnderWater": 0.8893581081081081
+          "recoveryDays": 178.0,
+          "timeUnderWater": 0.8900083963056256
         },
         "nav": [
           {
@@ -8215,6 +8182,14 @@
           {
             "date": "2026-10-15",
             "value": 1.3726540482074443
+          },
+          {
+            "date": "2026-10-22",
+            "value": 1.3634125376777342
+          },
+          {
+            "date": "2026-10-29",
+            "value": 1.3776152661288148
           }
         ]
       },
@@ -8222,19 +8197,19 @@
         "key": "D_FRAIS_V1",
         "label": "D FRAIS 1.2",
         "metrics": {
-          "cagr": 0.0928828982461094,
-          "annualVolatility": 0.1101400555781521,
+          "cagr": 0.0904060831167226,
+          "annualVolatility": 0.11007053306057726,
           "maxDrawdown": -0.11623118824206236,
-          "sharpe": 0.8947109989937444,
-          "sortino": 1.2267875299857847,
-          "calmar": 0.7991219882624967,
+          "sharpe": 0.8730342083336046,
+          "sortino": 1.1965848155788634,
+          "calmar": 0.7778126033474204,
           "worstMonth": -0.060921594901541365,
           "worstYear": -0.09755799245378949,
           "rolling3YCagrMin": 0.06491027202906308,
-          "turnover": 0.09023361865776279,
+          "turnover": 0.08978119382883808,
           "tradeCount": 23.0,
           "recoveryDays": 347.0,
-          "timeUnderWater": 0.8910472972972973
+          "timeUnderWater": 0.8916876574307305
         },
         "nav": [
           {
@@ -9184,6 +9159,14 @@
           {
             "date": "2026-10-15",
             "value": 1.544652760920188
+          },
+          {
+            "date": "2026-10-22",
+            "value": 1.5203840532388628
+          },
+          {
+            "date": "2026-10-29",
+            "value": 1.5301328915518835
           }
         ]
       }
@@ -9197,7 +9180,7 @@
       "rule": "默认成本下，最大回撤不差于固定年度再平衡的参数组合占比",
       "comparisonPeriod": {
         "start": "2022-01-28",
-        "end": "2026-10-20"
+        "end": "2026-10-29"
       },
       "fixedComparatorMaxDrawdown": -0.10408857659319137,
       "walkForwardTestFolds": 2,
@@ -9211,23 +9194,23 @@
         {
           "costBp": 5,
           "cases": 27,
-          "medianCagr": 0.10650948850752351,
+          "medianCagr": 0.10392171775739678,
           "medianMaxDrawdown": -0.09640856382531782,
-          "medianTurnover": 0.09364404960438526
+          "medianTurnover": 0.09315828796378615
         },
         {
           "costBp": 10,
           "cases": 27,
-          "medianCagr": 0.10639971927279324,
+          "medianCagr": 0.10381277328613381,
           "medianMaxDrawdown": -0.09643906206424624,
-          "medianTurnover": 0.09364404960438526
+          "medianTurnover": 0.09315828796378615
         },
         {
           "costBp": 20,
           "cases": 27,
-          "medianCagr": 0.10618020575938925,
+          "medianCagr": 0.10359490894397583,
           "medianMaxDrawdown": -0.09650005660484329,
-          "medianTurnover": 0.09364404960438526
+          "medianTurnover": 0.09315828796378615
         }
       ],
       "evidenceLevel": "LIMITED"

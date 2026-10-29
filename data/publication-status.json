@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-29T15:15:27+00:00",
+  "generatedAt": "2026-10-29T17:25:03+00:00",
   "status": "OK",
   "blocking": false,
   "summary": "发现 3 项非阻断提示",
@@ -27,6 +27,6 @@
       "details": "2022-01-14 复权因子变化 400.19%，超过复核阈值 10.00%"
     }
   ],
-  "buildId": "20261029-151527Z-6175352bd528-ff60e99c47d9",
-  "lastCompleteBuildId": "20261029-151527Z-6175352bd528-ff60e99c47d9"
+  "buildId": "20261029-172503Z-6175352bd528-ff60e99c47d9",
+  "lastCompleteBuildId": "20261029-172503Z-6175352bd528-ff60e99c47d9"
 }
