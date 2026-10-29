@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-20T07:41:54.872Z",
-  "status": "OK",
+  "generatedAt": "2026-10-29T14:50:00.242Z",
+  "status": "DATA ERROR",
   "blockingCoreAdvice": false,
-  "researchUnavailable": false,
-  "summary": "22项资产周期序列已完成周频时点校验",
+  "researchUnavailable": true,
+  "summary": "资产周期研究数据更新失败，继续显示上一份有效数据；正式风险评分与目标仓位不受影响",
   "lastSuccessfulGeneratedAt": "2026-10-20T07:41:54.872Z",
   "dataGeneratedAt": "2026-10-20T07:41:54.872Z",
   "coverage": {
@@ -14,5 +14,11 @@
     "proxy": 12,
     "pending": 12
   },
-  "issues": []
+  "issues": [
+    {
+      "type": "PROVIDER_ERROR",
+      "label": "资产周期数据源错误",
+      "details": "sh515210: HTTP 501"
+    }
+  ]
 }

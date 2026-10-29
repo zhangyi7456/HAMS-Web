@@ -1,6 +1,6 @@
 {
   "schemaVersion": "4.0",
-  "generatedAt": "2026-10-20T07:29:21+00:00",
+  "generatedAt": "2026-10-29T14:42:20+00:00",
   "files": [
     "snapshot.json",
     "health.json",
@@ -14,7 +14,7 @@
   "containsPrivatePortfolioData": false,
   "researchArtifacts": {
     "assetCycle": {
-      "status": "OK",
+      "status": "DATA ERROR",
       "blocksCoreAdvice": false,
       "data": {
         "path": "asset-cycle.json",
@@ -26,9 +26,9 @@
       "health": {
         "path": "asset-cycle-health.json",
         "schemaVersion": "1.0",
-        "generatedAt": "2026-10-20T07:41:54.872Z",
-        "bytes": 458,
-        "sha256": "1d6a95bf178b9bf526241be4dbfdcff12efbf03469a81a52874e6e86019504cd"
+        "generatedAt": "2026-10-29T14:50:00.242Z",
+        "bytes": 666,
+        "sha256": "5ed1b6caded8eb01902f52d146914e0babbf93cb5a36a272fa9d3e41e0805a94"
       }
     }
   }
